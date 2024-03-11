@@ -61,6 +61,9 @@ struct ContentView: View {
                             NavigationLink("ModifierView"){
                                 ModifierView()
                             }
+                            NavigationLink("ToggleView"){
+                                ToggleView()
+                            }
                         }
                         
                         Section("Color"){
@@ -87,6 +90,12 @@ struct ContentView: View {
                             }
                             NavigationLink("CustomContainersView"){
                                 CustomContainersView()
+                            }
+                            NavigationLink("ForEachView"){
+                                ForEachView()
+                            }
+                            NavigationLink("CustomBindingView"){
+                                CustomBindingView()
                             }
                         }
                     }

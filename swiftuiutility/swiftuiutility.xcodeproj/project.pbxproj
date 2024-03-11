@@ -18,6 +18,9 @@
 		8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08612B9E86280039A3FE /* CustomView.swift */; };
 		8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */; };
 		8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08652B9E89040039A3FE /* CustomContainersView.swift */; };
+		8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */; };
+		8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08692B9F0CEC0039A3FE /* CustomBindingView.swift */; };
+		8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
 		8ACEF4D12B9935C30028AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D02B9935C30028AA58 /* Assets.xcassets */; };
@@ -48,6 +51,9 @@
 		8AAB08612B9E86280039A3FE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
 		8AAB08652B9E89040039A3FE /* CustomContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainersView.swift; sourceTree = "<group>"; };
+		8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
+		8AAB08692B9F0CEC0039A3FE /* CustomBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingView.swift; sourceTree = "<group>"; };
+		8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
 		8ACEF4CE2B9935C20028AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 				8AAB08612B9E86280039A3FE /* CustomView.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
 				8AAB08652B9E89040039A3FE /* CustomContainersView.swift */,
+				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
+				8AAB08692B9F0CEC0039A3FE /* CustomBindingView.swift */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8A37BE242B9D41130006E1D1 /* AlertView.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
+				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -258,11 +267,14 @@
 				8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */,
 				8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */,
 				8ACEF4E92B9994510028AA58 /* FormView.swift in Sources */,
+				8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */,
 				8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */,
+				8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */,
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesView.swift in Sources */,
+				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

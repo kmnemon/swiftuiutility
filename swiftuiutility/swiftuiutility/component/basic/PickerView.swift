@@ -48,20 +48,6 @@ struct PickerView: View {
                 .navigationTitle("WeSplit")
             }
         }
-        
-//        Section("2") {
-//            Form {
-//                ForEach(0..<10) { number in
-//                    Text("Row \(number)")
-//                }
-//            }
-//            Form {
-//                ForEach(10..<20) {
-//                    Text("Row \($0)")
-//                }
-//            }
-//   
-//        }
     }
 }
 
