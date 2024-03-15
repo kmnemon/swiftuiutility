@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RandomView: View {
+struct RandomStruct: View {
     //random
     var r = Int.random(in: 0...2)
     
@@ -32,5 +32,5 @@ struct RandomView: View {
 }
 
 #Preview {
-    RandomView()
+    RandomStruct()
 }

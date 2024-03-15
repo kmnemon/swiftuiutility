@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PropertiesView: View {
+struct PropertiesStruct: View {
     let motto1  = Text("Draco dormiens")
     let motto2 = Text("nunquam titillandus")
     
@@ -50,5 +50,5 @@ struct PropertiesView: View {
 }
 
 #Preview {
-    PropertiesView()
+    PropertiesStruct()
 }

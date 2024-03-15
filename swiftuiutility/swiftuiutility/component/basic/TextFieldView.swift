@@ -15,6 +15,7 @@ struct TextFieldView: View {
         Form {
             Section{
                 TextField("Enter your name", text: $name)
+                    .textInputAutocapitalization(.never)
                 Text("Your name is \(name)")
             }
             

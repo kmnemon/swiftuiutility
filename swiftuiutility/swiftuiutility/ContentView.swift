@@ -64,23 +64,42 @@ struct ContentView: View {
                             NavigationLink("ToggleView"){
                                 ToggleView()
                             }
+                            NavigationLink("StepperView"){
+                                StepperView()
+                            }
+                            NavigationLink("DatePickerView"){
+                                DatePickerView()
+                            }
+                            
                         }
                         
-                        Section("Color"){
+                        Section("Color Animation"){
                             NavigationLink("ColorView"){
                                 ColorView()
                             }
                             NavigationLink("GradientView"){
                                 GradientView()
                             }
+                            NavigationLink("ImplicitAnimationView"){
+                                ImplicitAnimationView()
+                            }
+                            NavigationLink("ExplicitAnimationView"){
+                                ExplicitAnimationView()
+                            }
+                            NavigationLink("GestureView"){
+                                GestureView()
+                            }
+                            NavigationLink("ShowHideView"){
+                                ShowHideView()
+                            }
                         }
                         
-                        Section("Other"){
-                            NavigationLink("RandomView"){
-                                RandomView()
+                        Section("Datastruct"){
+                            NavigationLink("RandomStruct"){
+                                RandomStruct()
                             }
-                            NavigationLink("PropertiesView"){
-                                PropertiesView()
+                            NavigationLink("PropertiesStruct"){
+                                PropertiesStruct()
                             }
                             NavigationLink("CustomView"){
                                 CustomView()
@@ -97,6 +116,28 @@ struct ContentView: View {
                             NavigationLink("CustomBindingView"){
                                 CustomBindingView()
                             }
+                            NavigationLink("DateComponentsStruct"){
+                                DateComponentsStruct()
+                            }
+                            NavigationLink("BundleStruct"){
+                                BundleStruct()
+                            }
+                            NavigationLink("StringStruct"){
+                                StringStruct()
+                            }
+                            NavigationLink("ErrorStruct"){
+                                ErrorStruct()
+                            }
+                        }
+                        
+                        Section("ML"){
+                            NavigationLink("MLView"){
+                                MLView()
+                            }
+                            //Image recognition
+                            //Sentiment analysis
+                            //Regression analysis
+                            
                         }
                     }
                     .navigationTitle("Choose Component")
