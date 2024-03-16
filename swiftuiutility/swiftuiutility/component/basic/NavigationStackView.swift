@@ -37,7 +37,7 @@ struct NavigationStackView: View {
             .navigationTitle(platform)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar{
-                Button("Calculate", action: { () ->Void in })
+                Button("Calculate", systemImage: "plus", action: { () ->Void in })
             }
             .onSubmit {
                 addNewWord()

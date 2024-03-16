@@ -36,6 +36,10 @@
 		8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088A2BA43DC80039A3FE /* GestureView.swift */; };
 		8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088C2BA444030039A3FE /* ShowHideView.swift */; };
 		8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */; };
+		8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08902BA48E3D0039A3FE /* ClassView.swift */; };
+		8AAB08932BA49F220039A3FE /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08922BA49F220039A3FE /* SheetView.swift */; };
+		8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08942BA4A96E0039A3FE /* DeleteView.swift */; };
+		8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
 		8ACEF4D12B9935C30028AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D02B9935C30028AA58 /* Assets.xcassets */; };
@@ -84,6 +88,10 @@
 		8AAB088A2BA43DC80039A3FE /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 		8AAB088C2BA444030039A3FE /* ShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideView.swift; sourceTree = "<group>"; };
 		8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
+		8AAB08902BA48E3D0039A3FE /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		8AAB08922BA49F220039A3FE /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		8AAB08942BA4A96E0039A3FE /* DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteView.swift; sourceTree = "<group>"; };
+		8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStruct.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
 		8ACEF4CE2B9935C20028AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +136,9 @@
 				8AAB087C2BA3D4530039A3FE /* BundleStruct.swift */,
 				8AAB087E2BA3D5AD0039A3FE /* StringStruct.swift */,
 				8AAB08802BA3E4E10039A3FE /* ErrorStruct.swift */,
+				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
+				8ACEF4E42B9972150028AA58 /* JsonView.swift */,
+				8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */,
 			);
 			path = datastruct;
 			sourceTree = "<group>";
@@ -211,7 +222,6 @@
 				8ACEF4DE2B993D460028AA58 /* ImageView.swift */,
 				8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */,
 				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
-				8ACEF4E42B9972150028AA58 /* JsonView.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
 				8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */,
@@ -226,6 +236,8 @@
 				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
 				8AAB086F2B9F13EC0039A3FE /* DatePickerView.swift */,
+				8AAB08922BA49F220039A3FE /* SheetView.swift */,
+				8AAB08942BA4A96E0039A3FE /* DeleteView.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -337,12 +349,16 @@
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
+				8AAB08932BA49F220039A3FE /* SheetView.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
+				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
+				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
+				8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

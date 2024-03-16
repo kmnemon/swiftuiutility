@@ -43,9 +43,6 @@ struct ContentView: View {
                             NavigationLink("NavagationLink"){
                                 NavigationLinkView()
                             }
-                            NavigationLink("JSON"){
-                                JsonView()
-                            }
                             NavigationLink("ScrollingGridView"){
                                 ScrollingGridView()
                             }
@@ -70,6 +67,12 @@ struct ContentView: View {
                             NavigationLink("DatePickerView"){
                                 DatePickerView()
                             }
+                            NavigationLink("SheetView"){
+                                SheetView()
+                            }
+                            NavigationLink("DeleteView"){
+                                DeleteView()
+                            }
                             
                         }
                         
@@ -91,6 +94,9 @@ struct ContentView: View {
                             }
                             NavigationLink("ShowHideView"){
                                 ShowHideView()
+                            }
+                            NavigationLink("CustomTransitionView"){
+                                    CustomTransitionView()
                             }
                         }
                         
@@ -127,6 +133,12 @@ struct ContentView: View {
                             }
                             NavigationLink("ErrorStruct"){
                                 ErrorStruct()
+                            }
+                            NavigationLink("JSON"){
+                                JsonView()
+                            }
+                            NavigationLink("UserDefaultsStruct"){
+                                UserDefaultsStruct()
                             }
                         }
                         

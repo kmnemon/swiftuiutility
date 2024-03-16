@@ -7,8 +7,35 @@
 
 import SwiftUI
 
+struct ExpenseItem{
+    let id = UUID()
+    let name: String
+    let type: String
+    let amount: Double
+}
+
+struct ExpenseItemB: Identifiable{
+    let id = UUID()
+    let name: String
+    let type: String
+    let amount: Double
+}
+
+@Observable
+class Expenses{
+    var items = [ExpenseItem]()
+}
+
+@Observable
+class ExpensesB{
+    var items = [ExpenseItemB]()
+}
+
 struct ForEachView: View {
     let agents = ["cyril", "lana", "pam", "sterling"]
+    
+    @State private var expenses = Expenses()
+    @State private var expensesB = ExpensesB()
     
     var body: some View {
         VStack{
@@ -27,6 +54,16 @@ struct ForEachView: View {
             HStack{
                 ForEach(agents, id:\.self){
                     Text($0)
+                }
+            }
+            HStack{
+                ForEach(expenses.items, id: \.id){ item in
+                    Text(item.name)
+                }
+            }
+            HStack{
+                ForEach(expensesB.items){ item in
+                    Text(item.name)
                 }
             }
         }
