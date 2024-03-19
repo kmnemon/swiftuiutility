@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */; };
+		8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812B2BA8381800B049A0 /* RectangleView.swift */; };
+		8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */; };
+		8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */; };
+		8A0C81322BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81312BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift */; };
 		8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE242B9D41130006E1D1 /* AlertView.swift */; };
 		8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */; };
 		8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE292B9DE8540006E1D1 /* ModifierView.swift */; };
@@ -59,6 +64,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeView.swift; sourceTree = "<group>"; };
+		8A0C812B2BA8381800B049A0 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
+		8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
+		8A0C81312BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackReturnSaveView.swift; sourceTree = "<group>"; };
 		8A37BE242B9D41130006E1D1 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStruct.swift; sourceTree = "<group>"; };
 		8A37BE292B9DE8540006E1D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
@@ -155,6 +165,7 @@
 				8AAB088A2BA43DC80039A3FE /* GestureView.swift */,
 				8AAB088C2BA444030039A3FE /* ShowHideView.swift */,
 				8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */,
+				8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */,
 			);
 			path = color_animation;
 			sourceTree = "<group>";
@@ -221,10 +232,13 @@
 				8ACEF4DC2B9938140028AA58 /* ListView.swift */,
 				8ACEF4DE2B993D460028AA58 /* ImageView.swift */,
 				8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */,
-				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
+				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
 				8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */,
+				8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */,
+				8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */,
+				8A0C81312BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift */,
 				8ACEF4EE2B999A110028AA58 /* ButtonView.swift */,
 				8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */,
 				8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */,
@@ -238,6 +252,7 @@
 				8AAB086F2B9F13EC0039A3FE /* DatePickerView.swift */,
 				8AAB08922BA49F220039A3FE /* SheetView.swift */,
 				8AAB08942BA4A96E0039A3FE /* DeleteView.swift */,
+				8A0C812B2BA8381800B049A0 /* RectangleView.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -315,18 +330,22 @@
 				8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
+				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
+				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
+				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */,
+				8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */,
 				8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */,
 				8AAB08792BA020440039A3FE /* SleepCalculator.mlmodel in Sources */,
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
@@ -356,6 +375,7 @@
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
+				8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */,
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
 				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
 				8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */,
