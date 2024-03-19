@@ -40,6 +40,9 @@ struct ContentView: View {
                         NavigationLink("NavigationStack"){
                             NavigationStackView()
                         }
+                        NavigationLink("NavigationStackCustomizeView"){
+                            NavigationStackCustomizeView()
+                        }
                         NavigationLink("NavigationLink"){
                             NavigationLinkView()
                         }

@@ -16,6 +16,7 @@
 		8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE242B9D41130006E1D1 /* AlertView.swift */; };
 		8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */; };
 		8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE292B9DE8540006E1D1 /* ModifierView.swift */; };
+		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
 		8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70E2B9C686400772A31 /* ColorView.swift */; };
@@ -74,6 +75,7 @@
 		8A37BE242B9D41130006E1D1 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStruct.swift; sourceTree = "<group>"; };
 		8A37BE292B9DE8540006E1D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		8A71E70E2B9C686400772A31 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
 				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
+				8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */,
 				8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */,
 				8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */,
 				8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */,
@@ -375,6 +378,7 @@
 				8A0C81342BA9A6C000B049A0 /* NavigationStackSaveView.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
+				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,

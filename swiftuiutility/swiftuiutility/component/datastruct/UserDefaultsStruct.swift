@@ -14,7 +14,7 @@ struct UserB: Codable{
 }
 
 struct UserDefaultsStruct: View {
-    //1. userDefaults
+    //1. userDefaults-support strings, numbers, dates, URLs, binary data, arrays and dictionaries
     @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
     
     //2. appstorage
