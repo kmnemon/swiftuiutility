@@ -11,7 +11,8 @@
 		8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812B2BA8381800B049A0 /* RectangleView.swift */; };
 		8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */; };
 		8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */; };
-		8A0C81322BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81312BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift */; };
+		8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */; };
+		8A0C81342BA9A6C000B049A0 /* NavigationStackSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81332BA9A6C000B049A0 /* NavigationStackSaveView.swift */; };
 		8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE242B9D41130006E1D1 /* AlertView.swift */; };
 		8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */; };
 		8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE292B9DE8540006E1D1 /* ModifierView.swift */; };
@@ -68,7 +69,8 @@
 		8A0C812B2BA8381800B049A0 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
 		8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
-		8A0C81312BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackReturnSaveView.swift; sourceTree = "<group>"; };
+		8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackReturnView.swift; sourceTree = "<group>"; };
+		8A0C81332BA9A6C000B049A0 /* NavigationStackSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSaveView.swift; sourceTree = "<group>"; };
 		8A37BE242B9D41130006E1D1 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStruct.swift; sourceTree = "<group>"; };
 		8A37BE292B9DE8540006E1D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
@@ -238,7 +240,8 @@
 				8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */,
 				8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */,
 				8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */,
-				8A0C81312BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift */,
+				8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */,
+				8A0C81332BA9A6C000B049A0 /* NavigationStackSaveView.swift */,
 				8ACEF4EE2B999A110028AA58 /* ButtonView.swift */,
 				8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */,
 				8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */,
@@ -330,7 +333,7 @@
 				8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
-				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnSaveView.swift in Sources */,
+				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
@@ -369,6 +372,7 @@
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
 				8AAB08932BA49F220039A3FE /* SheetView.swift in Sources */,
+				8A0C81342BA9A6C000B049A0 /* NavigationStackSaveView.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,

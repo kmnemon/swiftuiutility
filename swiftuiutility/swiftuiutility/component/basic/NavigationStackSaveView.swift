@@ -1,5 +1,5 @@
 //
-//  NavigationStackReturnView.swift
+//  NavigationStackSaveView.swift
 //  swiftuiutility
 //
 //  Created by ke on 3/19/24.
@@ -40,34 +40,28 @@ class PathStore {
     }
 }
 
-struct DetailView: View {
+struct DetailViewB: View {
     var number: Int
-    @Binding var path: NavigationPath
     
     var body: some View {
         NavigationLink("Go to random number", value: Int.random(in: 1...1000))
             .navigationTitle("Number: \(number)")
-            .toolbar{
-                Button("Home"){
-                    path = NavigationPath()
-                }
-            }
     }
 }
 
-struct NavigationStackReturnSaveView: View {
+struct NavigationStackSaveView: View {
     @State private var pathStore = PathStore()
     
     var body: some View {
         NavigationStack(path: $pathStore.path){
-            DetailView(number: 0, path: $pathStore.path)
+            DetailViewB(number: 0)
                 .navigationDestination(for: Int.self){ i in
-                        DetailView(number: i, path: $pathStore.path)
+                        DetailViewB(number: i)
                 }
         }
     }
 }
 
 #Preview {
-    NavigationStackReturnSaveView()
+    NavigationStackSaveView()
 }

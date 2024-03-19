@@ -49,8 +49,11 @@ struct ContentView: View {
                         NavigationLink("ProgrammaticNavigationView"){
                             ProgrammaticNavigationView()
                         }
-                        NavigationLink("NavigationStackReturnSaveView"){
-                            NavigationStackReturnSaveView()
+                        NavigationLink("NavigationStackReturnView"){
+                            NavigationStackReturnView()
+                        }
+                        NavigationLink("NavigationStackSaveView"){
+                            NavigationStackSaveView()
                         }
                         NavigationLink("ScrollingGridView"){
                             ScrollingGridView()
