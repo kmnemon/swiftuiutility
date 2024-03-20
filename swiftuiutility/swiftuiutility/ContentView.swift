@@ -160,6 +160,12 @@ struct ContentView: View {
                         }
                     }
                     
+                    Section("data"){
+                        NavigationLink("SendingReceivingDataStruct"){
+                            SendingReceivingDataStruct()
+                        }
+                    }
+                    
                     Section("ML"){
                         NavigationLink("MLView"){
                             MLView()
