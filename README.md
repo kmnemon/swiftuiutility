@@ -1,8 +1,8 @@
 # swiftui-utility
 This repository contains code examples of small SwiftUI components. Its purpose is to assist SwiftUI developers in searching for specific components and understanding how to use them effectively.
 
-For example:
-###AlertView
+For example:  
+### AlertView
 ```
 struct AlertView: View {
     @State private var showingAlert = false
