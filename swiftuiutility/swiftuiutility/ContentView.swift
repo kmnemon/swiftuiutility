@@ -13,29 +13,33 @@ struct ContentView: View {
             NavigationStack{
                 List{
                     Section("Basic"){
-                        NavigationLink("Text"){
-                            TextView()
-                        }
-                        NavigationLink("Form"){
-                            FormView()
+                        NavigationLink("AlertView"){
+                            AlertView()
                         }
                         NavigationLink("Button"){
                             ButtonView()
                         }
-                        NavigationLink("TextField"){
-                            TextFieldView()
+                        NavigationLink("DatePickerView"){
+                            DatePickerView()
                         }
-                        NavigationLink("PickerView"){
-                            PickerView()
+                        NavigationLink("DeleteView"){
+                            DeleteView()
                         }
-                        NavigationLink("List"){
-                            ListView()
+        
+                        NavigationLink("Form"){
+                            FormView()
                         }
-                        NavigationLink("Image"){
+                        NavigationLink("ImageView"){
                             ImageView()
                         }
-                        NavigationLink("ScrollView"){
-                            ScrollViewC()
+                        NavigationLink("KeyboardView"){
+                            KeyBoardView()
+                        }
+                        NavigationLink("ListView"){
+                            ListView()
+                        }
+                        NavigationLink("ModifierView"){
+                            ModifierView()
                         }
                         NavigationLink("NavigationStack"){
                             NavigationStackView()
@@ -49,54 +53,59 @@ struct ContentView: View {
                         NavigationLink("NavigationDestinationView"){
                             NavigationDestinationView()
                         }
-                        NavigationLink("ProgrammaticNavigationView"){
-                            ProgrammaticNavigationView()
-                        }
                         NavigationLink("NavigationStackReturnView"){
                             NavigationStackReturnView()
                         }
                         NavigationLink("NavigationStackSaveView"){
                             NavigationStackSaveView()
                         }
-                        NavigationLink("ScrollingGridView"){
-                            ScrollingGridView()
+                        NavigationLink("PickerView"){
+                            PickerView()
                         }
-                        NavigationLink("KeyboardView"){
-                            KeyBoardView()
-                        }
-                        NavigationLink("StackView"){
-                            StackView()
-                        }
-                        NavigationLink("AlertView"){
-                            AlertView()
-                        }
-                        NavigationLink("ModifierView"){
-                            ModifierView()
-                        }
-                        NavigationLink("ToggleView"){
-                            ToggleView()
-                        }
-                        NavigationLink("StepperView"){
-                            StepperView()
-                        }
-                        NavigationLink("DatePickerView"){
-                            DatePickerView()
-                        }
-                        NavigationLink("SheetView"){
-                            SheetView()
-                        }
-                        NavigationLink("DeleteView"){
-                            DeleteView()
+                        NavigationLink("ProgrammaticNavigationView"){
+                            ProgrammaticNavigationView()
                         }
                         NavigationLink("RectangleView"){
                             RectangleView()
                         }
-                        
+                        NavigationLink("ScrollView"){
+                            ScrollViewC()
+                        }
+                        NavigationLink("ScrollingGridView"){
+                            ScrollingGridView()
+                        }
+                        NavigationLink("SheetView"){
+                            SheetView()
+                        }
+                        NavigationLink("StackView"){
+                            StackView()
+                        }
+                        NavigationLink("StepperView"){
+                            StepperView()
+                        }
+                        NavigationLink("Text"){
+                            TextView()
+                        }
+                        NavigationLink("TextField"){
+                            TextFieldView()
+                        }
+                        NavigationLink("ToggleView"){
+                            ToggleView()
+                        }  
                     }
                     
                     Section("Color Animation"){
+                        NavigationLink("AnimationBindingView"){
+                            AnimationBindingView()
+                        }
                         NavigationLink("ColorView"){
                             ColorView()
+                        }
+                        NavigationLink("CustomTransitionView"){
+                            CustomTransitionView()
+                        }
+                        NavigationLink("ExplicitAnimationView"){
+                            ExplicitAnimationView()
                         }
                         NavigationLink("GradientView"){
                             GradientView()
@@ -104,8 +113,8 @@ struct ContentView: View {
                         NavigationLink("ImplicitAnimationView"){
                             ImplicitAnimationView()
                         }
-                        NavigationLink("ExplicitAnimationView"){
-                            ExplicitAnimationView()
+                        NavigationLink("ImplicitAnimationView2"){
+                            ImplicitAnimationView2()
                         }
                         NavigationLink("GestureView"){
                             GestureView()
@@ -113,17 +122,14 @@ struct ContentView: View {
                         NavigationLink("ShowHideView"){
                             ShowHideView()
                         }
-                        NavigationLink("CustomTransitionView"){
-                            CustomTransitionView()
-                        }
                     }
                     
                     Section("Datastruct"){
-                        NavigationLink("RandomStruct"){
-                            RandomStruct()
+                        NavigationLink("BundleStruct"){
+                            BundleStruct()
                         }
-                        NavigationLink("PropertiesStruct"){
-                            PropertiesStruct()
+                        NavigationLink("ClassView"){
+                            ClassView()
                         }
                         NavigationLink("CustomView"){
                             CustomView()
@@ -134,26 +140,26 @@ struct ContentView: View {
                         NavigationLink("CustomContainersView"){
                             CustomContainersView()
                         }
-                        NavigationLink("ForEachView"){
-                            ForEachView()
-                        }
                         NavigationLink("CustomBindingView"){
                             CustomBindingView()
                         }
                         NavigationLink("DateComponentsStruct"){
                             DateComponentsStruct()
                         }
-                        NavigationLink("BundleStruct"){
-                            BundleStruct()
-                        }
-                        NavigationLink("StringStruct"){
-                            StringStruct()
-                        }
                         NavigationLink("ErrorStruct"){
                             ErrorStruct()
                         }
-                        NavigationLink("JSON"){
-                            JsonView()
+                        NavigationLink("ForEachView"){
+                            ForEachView()
+                        }
+                        NavigationLink("PropertiesStruct"){
+                            PropertiesStruct()
+                        }
+                        NavigationLink("RandomStruct"){
+                            RandomStruct()
+                        }
+                        NavigationLink("StringStruct"){
+                            StringStruct()
                         }
                         NavigationLink("UserDefaultsStruct"){
                             UserDefaultsStruct()
@@ -161,6 +167,12 @@ struct ContentView: View {
                     }
                     
                     Section("data"){
+                        NavigationLink("AsyncImageView"){
+                            AsyncImageView()
+                        }
+                        NavigationLink("JSON"){
+                            JsonView()
+                        }
                         NavigationLink("SendingReceivingDataStruct"){
                             SendingReceivingDataStruct()
                         }
