@@ -25,7 +25,6 @@ struct ContentView: View {
                         NavigationLink("DeleteView"){
                             DeleteView()
                         }
-        
                         NavigationLink("Form"){
                             FormView()
                         }
@@ -91,7 +90,7 @@ struct ContentView: View {
                         }
                         NavigationLink("ToggleView"){
                             ToggleView()
-                        }  
+                        }
                     }
                     
                     Section("Color Animation"){
