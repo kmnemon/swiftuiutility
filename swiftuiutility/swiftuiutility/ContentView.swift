@@ -106,6 +106,9 @@ struct ContentView: View {
                         NavigationLink("ExplicitAnimationView"){
                             ExplicitAnimationView()
                         }
+                        NavigationLink("HapticEffects"){
+                            HapticEffects()
+                        }
                         NavigationLink("GradientView"){
                             GradientView()
                         }
