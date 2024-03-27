@@ -74,6 +74,8 @@
 		8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */; };
 		8AD26C792BB410C500A5FAD5 /* AtStateAtBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */; };
 		8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */; };
+		8AD26C7E2BB42E1800A5FAD5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7D2BB42E1800A5FAD5 /* Student.swift */; };
+		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +147,8 @@
 		8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDatatStruct2.swift; sourceTree = "<group>"; };
 		8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtStateAtBinding.swift; sourceTree = "<group>"; };
 		8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		8AD26C7D2BB42E1800A5FAD5 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +268,7 @@
 				8A3E6F3F2BAACBC0009BCEEB /* network */,
 				8AD26C712BB3CFC900A5FAD5 /* modifier */,
 				8AAB08732B9FF1D70039A3FE /* ml */,
+				8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -318,6 +323,15 @@
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
 			);
 			path = modifier;
+			sourceTree = "<group>";
+		};
+		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
+			isa = PBXGroup;
+			children = (
+				8AD26C7D2BB42E1800A5FAD5 /* Student.swift */,
+				8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */,
+			);
+			path = swiftdata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,10 +425,12 @@
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
+				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
 				8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */,
 				8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */,
 				8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */,
 				8AAB08792BA020440039A3FE /* SleepCalculator.mlmodel in Sources */,
+				8AD26C7E2BB42E1800A5FAD5 /* Student.swift in Sources */,
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
