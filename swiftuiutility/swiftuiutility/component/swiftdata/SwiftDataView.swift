@@ -29,9 +29,7 @@ struct SwiftDataView: View {
                     let chosenLastName = lastNames.randomElement()!
                     
                     let student = StudentData(id: UUID(), name: "\(chosenFirstName) \(chosenLastName)")
-                    modelContext.insert(student)
-                    
-                    
+                    modelContext.insert(student)     
                 }
             }
         }
