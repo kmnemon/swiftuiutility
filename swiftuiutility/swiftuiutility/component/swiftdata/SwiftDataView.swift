@@ -9,7 +9,9 @@ import SwiftUI
 import SwiftData
 
 struct SwiftDataView: View {
+    //model context - main context,writing data to disk
     @Environment(\.modelContext) var modelContext
+    
     @Query var students: [StudentData]
     
     var body: some View {
@@ -28,6 +30,7 @@ struct SwiftDataView: View {
                     
                     let student = StudentData(id: UUID(), name: "\(chosenFirstName) \(chosenLastName)")
                     modelContext.insert(student)
+                    
                     
                 }
             }

@@ -14,6 +14,7 @@ struct swiftuiutilityApp: App {
         WindowGroup {
             ContentView()
         }
+        //a model container is swiftdata's name for where it stores its data
         .modelContainer(for: StudentData.self)
     }
 }
