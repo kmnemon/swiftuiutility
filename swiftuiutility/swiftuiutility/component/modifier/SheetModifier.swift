@@ -20,7 +20,7 @@ struct SecondView: View {
     }
 }
 
-struct SheetView: View {
+struct SheetModifier: View {
     @State private var showingSheet = false
     
     
@@ -43,5 +43,5 @@ struct SheetView: View {
 }
 
 #Preview {
-    SheetView()
+    SheetModifier()
 }

@@ -73,9 +73,6 @@ struct ContentView: View {
                         NavigationLink("ScrollingGridView"){
                             ScrollingGridView()
                         }
-                        NavigationLink("SheetView"){
-                            SheetView()
-                        }
                         NavigationLink("StackView"){
                             StackView()
                         }
@@ -194,6 +191,12 @@ struct ContentView: View {
                     Section("Modifier") {
                         NavigationLink("DisabledModifier"){
                             DisabledModifier()
+                        }
+                        NavigationLink("SheetModifier"){
+                            SheetModifier()
+                        }
+                        NavigationLink("ToolbarModifier"){
+                            ToolbarModifier()
                         }
                     }
                     Section("ML"){
