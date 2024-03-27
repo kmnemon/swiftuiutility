@@ -66,6 +66,12 @@
 		8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */; };
 		8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F52B9AC2320028AA58 /* TextView.swift */; };
 		8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */; };
+		8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */; };
+		8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */; };
+		8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6F2BB3CC5F00A5FAD5 /* BindableView2.swift */; };
+		8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */; };
+		8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */; };
+		8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +135,12 @@
 		8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		8ACEF4F52B9AC2320028AA58 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
+		8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableView1.swift; sourceTree = "<group>"; };
+		8AD26C6F2BB3CC5F00A5FAD5 /* BindableView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableView2.swift; sourceTree = "<group>"; };
+		8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledModifier.swift; sourceTree = "<group>"; };
+		8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalView.swift; sourceTree = "<group>"; };
+		8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDatatStruct2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +157,7 @@
 		8A37BE282B9D513B0006E1D1 /* datastruct */ = {
 			isa = PBXGroup;
 			children = (
+				8AD26C6A2BB3CB8A00A5FAD5 /* bindable */,
 				8AAB087C2BA3D4530039A3FE /* BundleStruct.swift */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
 				8AAB08612B9E86280039A3FE /* CustomView.swift */,
@@ -152,6 +165,7 @@
 				8AAB08652B9E89040039A3FE /* CustomContainersView.swift */,
 				8AAB08692B9F0CEC0039A3FE /* CustomBindingView.swift */,
 				8AAB08712B9FF04D0039A3FE /* DateComponentsStruct.swift */,
+				8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */,
 				8AAB08802BA3E4E10039A3FE /* ErrorStruct.swift */,
 				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
 				8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */,
@@ -162,17 +176,18 @@
 			path = datastruct;
 			sourceTree = "<group>";
 		};
-		8A3E6F3F2BAACBC0009BCEEB /* data */ = {
+		8A3E6F3F2BAACBC0009BCEEB /* network */ = {
 			isa = PBXGroup;
 			children = (
 				8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */,
 				8ACEF4E42B9972150028AA58 /* JsonView.swift */,
 				8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */,
+				8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */,
 			);
-			path = data;
+			path = network;
 			sourceTree = "<group>";
 		};
-		8A71E70B2B9B033100772A31 /* color_animation */ = {
+		8A71E70B2B9B033100772A31 /* color_animation_haptic */ = {
 			isa = PBXGroup;
 			children = (
 				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
@@ -187,16 +202,16 @@
 				8AAB08882BA4333C0039A3FE /* ImplicitAnimationView2.swift */,
 				8AAB088C2BA444030039A3FE /* ShowHideView.swift */,
 			);
-			path = color_animation;
+			path = color_animation_haptic;
 			sourceTree = "<group>";
 		};
-		8AAB08732B9FF1D70039A3FE /* ML */ = {
+		8AAB08732B9FF1D70039A3FE /* ml */ = {
 			isa = PBXGroup;
 			children = (
 				8AAB087A2BA2F8D80039A3FE /* MLView.swift */,
 				8AAB08782BA020440039A3FE /* SleepCalculator.mlmodel */,
 			);
-			path = ML;
+			path = ml;
 			sourceTree = "<group>";
 		};
 		8ACEF4C02B9935C20028AA58 = {
@@ -239,10 +254,11 @@
 			isa = PBXGroup;
 			children = (
 				8ACEF4F42B9A9E2E0028AA58 /* basic */,
-				8A71E70B2B9B033100772A31 /* color_animation */,
+				8A71E70B2B9B033100772A31 /* color_animation_haptic */,
 				8A37BE282B9D513B0006E1D1 /* datastruct */,
-				8A3E6F3F2BAACBC0009BCEEB /* data */,
-				8AAB08732B9FF1D70039A3FE /* ML */,
+				8A3E6F3F2BAACBC0009BCEEB /* network */,
+				8AD26C712BB3CFC900A5FAD5 /* modifier */,
+				8AAB08732B9FF1D70039A3FE /* ml */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -278,6 +294,24 @@
 				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
 			);
 			path = basic;
+			sourceTree = "<group>";
+		};
+		8AD26C6A2BB3CB8A00A5FAD5 /* bindable */ = {
+			isa = PBXGroup;
+			children = (
+				8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */,
+				8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */,
+				8AD26C6F2BB3CC5F00A5FAD5 /* BindableView2.swift */,
+			);
+			path = bindable;
+			sourceTree = "<group>";
+		};
+		8AD26C712BB3CFC900A5FAD5 /* modifier */ = {
+			isa = PBXGroup;
+			children = (
+				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
+			);
+			path = modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +388,8 @@
 				8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
+				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
+				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
 				8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */,
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
@@ -378,6 +414,7 @@
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
+				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */,
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,
 				8AAB087F2BA3D5AD0039A3FE /* StringStruct.swift in Sources */,
@@ -398,8 +435,11 @@
 				8A0C81342BA9A6C000B049A0 /* NavigationStackSaveView.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
+				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
+				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
+				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,

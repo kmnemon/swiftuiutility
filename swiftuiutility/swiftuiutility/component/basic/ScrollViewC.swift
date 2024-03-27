@@ -62,6 +62,14 @@ struct ScrollViewC: View {
                 .frame(maxWidth: .infinity)
             }
         }
+        
+        Section("4") {
+            ScrollView {
+                Text("fixed")
+                Text("fixed")
+            }
+            .scrollBounceBehavior(.basedOnSize)
+        }
     }
     
 }

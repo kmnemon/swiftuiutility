@@ -93,7 +93,7 @@ struct ContentView: View {
                         }
                     }
                     
-                    Section("Color Animation"){
+                    Section("Color Animation Haptic"){
                         NavigationLink("AnimationBindingView"){
                             AnimationBindingView()
                         }
@@ -127,6 +127,9 @@ struct ContentView: View {
                     }
                     
                     Section("Datastruct"){
+                        NavigationLink("BindableView"){
+                            BindableView1()
+                        }
                         NavigationLink("BundleStruct"){
                             BundleStruct()
                         }
@@ -168,7 +171,7 @@ struct ContentView: View {
                         }
                     }
                     
-                    Section("data"){
+                    Section("Network"){
                         NavigationLink("AsyncImageView"){
                             AsyncImageView()
                         }
@@ -178,10 +181,17 @@ struct ContentView: View {
                         NavigationLink("SendingReceivingDataStruct"){
                             SendingReceivingDataStruct()
                         }
+                        NavigationLink("SendingReceivingDataStruct2"){
+                            SendingReceivingDataStruct2()
+                        }
                     }
-                    
+                    Section("Modifier") {
+                        NavigationLink("DisabledModifier"){
+                            DisabledModifier()
+                        }
+                    }
                     Section("ML"){
-                        NavigationLink("MLView"){
+                        NavigationLink("MLView") {
                             MLView()
                         }
                         //Image recognition
