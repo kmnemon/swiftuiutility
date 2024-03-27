@@ -72,6 +72,8 @@
 		8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */; };
 		8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */; };
 		8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */; };
+		8AD26C792BB410C500A5FAD5 /* AtStateAtBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */; };
+		8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +143,8 @@
 		8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledModifier.swift; sourceTree = "<group>"; };
 		8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalView.swift; sourceTree = "<group>"; };
 		8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDatatStruct2.swift; sourceTree = "<group>"; };
+		8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtStateAtBinding.swift; sourceTree = "<group>"; };
+		8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 		8A37BE282B9D513B0006E1D1 /* datastruct */ = {
 			isa = PBXGroup;
 			children = (
+				8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */,
 				8AD26C6A2BB3CB8A00A5FAD5 /* bindable */,
 				8AAB087C2BA3D4530039A3FE /* BundleStruct.swift */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
@@ -290,6 +295,7 @@
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
 				8AAB08922BA49F220039A3FE /* SheetView.swift */,
 				8ACEF4F52B9AC2320028AA58 /* TextView.swift */,
+				8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */,
 				8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */,
 				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
 			);
@@ -397,6 +403,7 @@
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
+				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
@@ -414,6 +421,7 @@
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
+				8AD26C792BB410C500A5FAD5 /* AtStateAtBinding.swift in Sources */,
 				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */,
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,

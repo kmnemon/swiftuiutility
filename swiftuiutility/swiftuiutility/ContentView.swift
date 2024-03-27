@@ -88,6 +88,9 @@ struct ContentView: View {
                         NavigationLink("TextField"){
                             TextFieldView()
                         }
+                        NavigationLink("TextEditorView"){
+                            TextEditorView()
+                        }
                         NavigationLink("ToggleView"){
                             ToggleView()
                         }
@@ -127,6 +130,9 @@ struct ContentView: View {
                     }
                     
                     Section("Datastruct"){
+                        NavigationLink("AtStateAtBinding"){
+                            AtStateAtBinding()
+                        }
                         NavigationLink("BindableView"){
                             BindableView1()
                         }
