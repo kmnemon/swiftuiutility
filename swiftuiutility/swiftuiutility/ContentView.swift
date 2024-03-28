@@ -208,6 +208,15 @@ struct ContentView: View {
                         //Regression analysis
                         
                     }
+                    
+                    Section("Custom") {
+                        NavigationLink("UsingRating") {
+                            UsingRating()
+                        }
+                        NavigationLink("EmojiRatingView") {
+                            EmojiRatingView(rating: 5)
+                        }
+                    }
                 }
                 .navigationTitle("Choose Component")
             }

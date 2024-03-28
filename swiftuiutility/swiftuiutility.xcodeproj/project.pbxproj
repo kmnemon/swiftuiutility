@@ -48,6 +48,9 @@
 		8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08902BA48E3D0039A3FE /* ClassView.swift */; };
 		8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08922BA49F220039A3FE /* SheetModifier.swift */; };
 		8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08942BA4A96E0039A3FE /* DeleteView.swift */; };
+		8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81512BB4EF9B0047FD0C /* RatingView.swift */; };
+		8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81532BB4FC290047FD0C /* UsingRating.swift */; };
+		8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */; };
 		8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
@@ -121,6 +124,9 @@
 		8AAB08902BA48E3D0039A3FE /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		8AAB08922BA49F220039A3FE /* SheetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModifier.swift; sourceTree = "<group>"; };
 		8AAB08942BA4A96E0039A3FE /* DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteView.swift; sourceTree = "<group>"; };
+		8AAB81512BB4EF9B0047FD0C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		8AAB81532BB4FC290047FD0C /* UsingRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRating.swift; sourceTree = "<group>"; };
+		8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStruct.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +231,16 @@
 			path = ml;
 			sourceTree = "<group>";
 		};
+		8AAB81502BB4EF770047FD0C /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB81512BB4EF9B0047FD0C /* RatingView.swift */,
+				8AAB81532BB4FC290047FD0C /* UsingRating.swift */,
+				8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
 		8ACEF4C02B9935C20028AA58 = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +287,7 @@
 				8AD26C712BB3CFC900A5FAD5 /* modifier */,
 				8AAB08732B9FF1D70039A3FE /* ml */,
 				8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */,
+				8AAB81502BB4EF770047FD0C /* custom */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -418,6 +435,8 @@
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
+				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
+				8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */,
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
@@ -437,6 +456,7 @@
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
+				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
