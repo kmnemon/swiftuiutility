@@ -15,6 +15,6 @@ struct swiftuiutilityApp: App {
             ContentView()
         }
         //a model container is swiftdata's name for where it stores its data
-        .modelContainer(for: StudentData.self)
+        .modelContainer(for: Book.self)
     }
 }

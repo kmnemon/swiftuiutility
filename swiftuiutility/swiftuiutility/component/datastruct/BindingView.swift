@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct BindingView: View {
+struct ChildBindingView: View {
+    //a property warpper allows you to create a two-way connection between a property that stores data and a view changes the data.
     @Binding var isOn: Bool
     
     var body: some View {
@@ -15,7 +16,7 @@ struct BindingView: View {
     }
 }
 
-struct AtStateAtBinding: View {
+struct BindingView: View {
     @State private var rememberMe = false
     
     @State private var rememberMe2 = false
@@ -27,12 +28,12 @@ struct AtStateAtBinding: View {
         }
         
         VStack {
-            BindingView(isOn: $rememberMe2)
+            ChildBindingView(isOn: $rememberMe2)
             Text(rememberMe2 ? "On" : "Off")
         }
     }
 }
 
 #Preview {
-    AtStateAtBinding()
+    BindingView()
 }

@@ -9,12 +9,14 @@ import Foundation
 import SwiftData
 
 @Model
-class StudentData {
+class Book {
     var id: UUID
     var name: String
+    var genre: String
     
-    init(id: UUID, name: String) {
+    init(id: UUID, name: String, genre: String) {
         self.id = id
         self.name = name
+        self.genre = genre
     }
 }

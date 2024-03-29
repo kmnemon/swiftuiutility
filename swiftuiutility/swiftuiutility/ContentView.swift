@@ -127,8 +127,8 @@ struct ContentView: View {
                     }
                     
                     Section("Datastruct"){
-                        NavigationLink("AtStateAtBinding"){
-                            AtStateAtBinding()
+                        NavigationLink("BindingView"){
+                            BindingView()
                         }
                         NavigationLink("BindableView"){
                             BindableView1()

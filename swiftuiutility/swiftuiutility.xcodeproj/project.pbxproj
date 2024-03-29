@@ -76,9 +76,9 @@
 		8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */; };
 		8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */; };
 		8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */; };
-		8AD26C792BB410C500A5FAD5 /* AtStateAtBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */; };
+		8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C782BB410C500A5FAD5 /* BindingView.swift */; };
 		8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */; };
-		8AD26C7E2BB42E1800A5FAD5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7D2BB42E1800A5FAD5 /* Student.swift */; };
+		8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7D2BB42E1800A5FAD5 /* Book.swift */; };
 		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
 /* End PBXBuildFile section */
 
@@ -153,9 +153,9 @@
 		8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledModifier.swift; sourceTree = "<group>"; };
 		8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalView.swift; sourceTree = "<group>"; };
 		8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDatatStruct2.swift; sourceTree = "<group>"; };
-		8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtStateAtBinding.swift; sourceTree = "<group>"; };
+		8AD26C782BB410C500A5FAD5 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
-		8AD26C7D2BB42E1800A5FAD5 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		8AD26C7D2BB42E1800A5FAD5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,7 +173,7 @@
 		8A37BE282B9D513B0006E1D1 /* datastruct */ = {
 			isa = PBXGroup;
 			children = (
-				8AD26C782BB410C500A5FAD5 /* AtStateAtBinding.swift */,
+				8AD26C782BB410C500A5FAD5 /* BindingView.swift */,
 				8AD26C6A2BB3CB8A00A5FAD5 /* bindable */,
 				8AAB087C2BA3D4530039A3FE /* BundleStruct.swift */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
@@ -348,7 +348,7 @@
 		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
 			isa = PBXGroup;
 			children = (
-				8AD26C7D2BB42E1800A5FAD5 /* Student.swift */,
+				8AD26C7D2BB42E1800A5FAD5 /* Book.swift */,
 				8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */,
 			);
 			path = swiftdata;
@@ -452,7 +452,7 @@
 				8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */,
 				8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */,
 				8AAB08792BA020440039A3FE /* SleepCalculator.mlmodel in Sources */,
-				8AD26C7E2BB42E1800A5FAD5 /* Student.swift in Sources */,
+				8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */,
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
@@ -460,7 +460,7 @@
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
-				8AD26C792BB410C500A5FAD5 /* AtStateAtBinding.swift in Sources */,
+				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
 				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */,
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,

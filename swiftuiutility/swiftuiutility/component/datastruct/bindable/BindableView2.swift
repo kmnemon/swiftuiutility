@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BindableView2: View {
+    //using bindable to transfer obervable object
     @Bindable var order: Order
     
     var body: some View {

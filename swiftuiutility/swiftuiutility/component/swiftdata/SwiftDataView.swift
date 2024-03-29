@@ -11,31 +11,60 @@ import SwiftData
 struct SwiftDataView: View {
     //model context - main context,writing data to disk
     @Environment(\.modelContext) var modelContext
+     
+    @Query var books: [Book]
+
+    @Query(sort: \Book.name, order: .reverse) var books2: [Book]
     
-    @Query var students: [StudentData]
+    @Query(sort: [
+        SortDescriptor(\Book.name),
+        SortDescriptor(\Book.genre)
+    ]) var books3: [Book]
+    
+    let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
+    let name = ["Harry Potter", "Ring", "Hermione", "Luna"]
     
     var body: some View {
         NavigationStack {
-            List(students) { student in
-                Text(student.name)
+            List {
+                ForEach(books) { book in
+                    NavigationLink(value: book){
+                        Text(book.name)
+                    }
+                }
+                .onDelete(perform: deleteBooks)
             }
-            .navigationTitle("Classroom")
+            .navigationTitle("Library")
             .toolbar {
                 Button("Add") {
-                    let firstNames = ["Ginny", "Harry", "Hermione", "Luna"]
-                    let lastNames = ["Granger", "Lovegood", "Potter", "Weasley"]
+                    let bookName = name.randomElement()!
+                    let genre = genres.randomElement()!
                     
-                    let chosenFirstName = firstNames.randomElement()!
-                    let chosenLastName = lastNames.randomElement()!
-                    
-                    let student = StudentData(id: UUID(), name: "\(chosenFirstName) \(chosenLastName)")
-                    modelContext.insert(student)     
+                    let book = Book(id: UUID(), name: "\(bookName)", genre: genre)
+                    modelContext.insert(book)
                 }
             }
+        }
+    }
+    
+    func deleteBooks(at offsets: IndexSet) {
+        for offset in offsets {
+            let book = books[offset]
+            modelContext.delete(book)
         }
     }
 }
 
 #Preview {
-    SwiftDataView()
+    do {
+        let config = ModelConfiguration(isStoredInMemoryOnly: true)
+        let container = try ModelContainer(for: Book.self, configurations: config)
+        
+        return SwiftDataView()
+            .modelContainer(container)
+    } catch {
+        return Text("Failed to create preview: \(error.localizedDescription)")
+    }
+    
+   
 }
