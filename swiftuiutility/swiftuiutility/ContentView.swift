@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
     var body: some View {
@@ -206,6 +207,14 @@ struct ContentView: View {
                         //Image recognition
                         //Sentiment analysis
                         //Regression analysis
+                        
+                    }
+                    Section("SwiftData") {
+                        NavigationLink("SwiftDataView") {
+                        }
+                        
+                        NavigationLink("EditBookView") {
+                        }
                         
                     }
                     

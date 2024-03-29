@@ -52,6 +52,9 @@
 		8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81532BB4FC290047FD0C /* UsingRating.swift */; };
 		8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */; };
 		8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */; };
+		8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907B2BB6914E00D41B7A /* EditBookView.swift */; };
+		8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */; };
+		8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907F2BB6A90E00D41B7A /* EditBookPredicateContentView.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
@@ -128,6 +131,9 @@
 		8AAB81532BB4FC290047FD0C /* UsingRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRating.swift; sourceTree = "<group>"; };
 		8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStruct.swift; sourceTree = "<group>"; };
+		8ABA907B2BB6914E00D41B7A /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
+		8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookContentView.swift; sourceTree = "<group>"; };
+		8ABA907F2BB6A90E00D41B7A /* EditBookPredicateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookPredicateContentView.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
@@ -350,6 +356,9 @@
 			children = (
 				8AD26C7D2BB42E1800A5FAD5 /* Book.swift */,
 				8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */,
+				8ABA907B2BB6914E00D41B7A /* EditBookView.swift */,
+				8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */,
+				8ABA907F2BB6A90E00D41B7A /* EditBookPredicateContentView.swift */,
 			);
 			path = swiftdata;
 			sourceTree = "<group>";
@@ -433,6 +442,7 @@
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
 				8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */,
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
+				8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
@@ -442,12 +452,14 @@
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
+				8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
+				8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */,
 				8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */,
 				8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */,
 				8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */,
