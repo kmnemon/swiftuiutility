@@ -13,10 +13,12 @@ class Book {
     var id: UUID
     var name: String
     var genre: String
+    var joinDate: Date
     
-    init(id: UUID, name: String, genre: String) {
+    init(id: UUID, name: String, genre: String, joinDate: Date) {
         self.id = id
         self.name = name
         self.genre = genre
+        self.joinDate = joinDate
     }
 }

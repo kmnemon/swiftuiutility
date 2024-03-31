@@ -38,6 +38,9 @@ struct ContentView: View {
                         NavigationLink("ListView"){
                             ListView()
                         }
+                        NavigationLink("MenuView"){
+                            MenuView()
+                        }
                         NavigationLink("ModifierView"){
                             ModifierView()
                         }
@@ -196,6 +199,9 @@ struct ContentView: View {
                         NavigationLink("SheetModifier"){
                             SheetModifier()
                         }
+                        NavigationLink("TagModifier"){
+                            TagModifier()
+                        }
                         NavigationLink("ToolbarModifier"){
                             ToolbarModifier()
                         }
@@ -212,10 +218,10 @@ struct ContentView: View {
                     Section("SwiftData") {
                         NavigationLink("SwiftDataView") {
                         }
-                        
                         NavigationLink("EditBookView") {
                         }
-                        
+                        NavigationLink("BooksViewContentView") {
+                        }
                     }
                     
                     Section("Custom") {

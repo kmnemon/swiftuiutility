@@ -25,8 +25,9 @@ struct EditBookContentView: View {
                     EditBookView(book: book)
             }
             .toolbar {
-                Button("Add User", systemImage: "plus") {
-                    let book = Book(id: UUID(), name: "", genre: "")
+                Button("Add Books", systemImage: "plus") {
+                    let book = Book(id: UUID(), name: "", genre: "", joinDate: .now
+                    )
                     modelContext.insert(book)
                     path = [book]
                 }

@@ -40,7 +40,7 @@ struct SwiftDataView: View {
                     let bookName = name.randomElement()!
                     let genre = genres.randomElement()!
                     
-                    let book = Book(id: UUID(), name: "\(bookName)", genre: genre)
+                    let book = Book(id: UUID(), name: "\(bookName)", genre: genre, joinDate: .now.addingTimeInterval(86400 * 10))
                     modelContext.insert(book)
                 }
             }

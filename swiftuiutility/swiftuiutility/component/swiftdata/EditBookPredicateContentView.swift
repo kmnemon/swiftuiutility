@@ -32,9 +32,9 @@ struct EditBookPredicateContentView: View {
                 Button("Add Samples", systemImage: "plus") {
                     try? modelContext.delete(model: Book.self)
                     
-                    let first = Book(id: UUID(), name: "Harry Potter", genre: "Magic")
-                    let second = Book(id: UUID(), name: "Shalock Homes", genre: "Detective")
-                    let third = Book(id: UUID(), name: "Janes", genre: "Drama")
+                    let first = Book(id: UUID(), name: "Harry Potter", genre: "Magic", joinDate: .now.addingTimeInterval(86400 * -10))
+                    let second = Book(id: UUID(), name: "Shalock Homes", genre: "Detective", joinDate: .now.addingTimeInterval(86400 * -5))
+                    let third = Book(id: UUID(), name: "Janes", genre: "Drama", joinDate: .now.addingTimeInterval(86400 * 10))
                     
                     modelContext.insert(first)
                     modelContext.insert(second)
