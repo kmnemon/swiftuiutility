@@ -8,23 +8,23 @@
 import SwiftUI
 import SwiftData
 
-struct BooksView: View {
-    @Query var books: [Book]
+struct CarsView: View {
+    @Query var cars: [Car]
     
     var body: some View {
-        List(books) { book in
-            Text(book.name)
+        List(cars) { car in
+            Text(car.name)
         }
     }
     
-    init(minimumJoinDate: Date, sortOrder: [SortDescriptor<Book>]) {
-        _books = Query(filter: #Predicate<Book> { book in
-            book.joinDate >= minimumJoinDate
+    init(minimumJoinDate: Date, sortOrder: [SortDescriptor<Car>]) {
+        _cars = Query(filter: #Predicate<Car> { car in
+            car.joinDate >= minimumJoinDate
         }, sort: sortOrder)
     }
 }
 
 #Preview {
-    BooksView(minimumJoinDate: .now, sortOrder: [SortDescriptor(\Book.name)])
-        .modelContainer(for: Book.self)
+    BooksView(minimumJoinDate: .now, sortOrder: [SortDescriptor(\Car.name)])
+        .modelContainer(for: Car.self)
 }

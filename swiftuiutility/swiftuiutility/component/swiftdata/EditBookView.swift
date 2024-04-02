@@ -24,7 +24,7 @@ struct EditBookView: View {
 #Preview {
     do {
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
-        let container = try ModelContainer(for: Book.self, configurations: config)
+        let container = try ModelContainer(for: Car.self, configurations: config)
         let book = Book(id: UUID(), name: "Harry Potter", genre: "Magic", joinDate: .now.addingTimeInterval(86400 * -10))
         
         return EditBookView(book: book)

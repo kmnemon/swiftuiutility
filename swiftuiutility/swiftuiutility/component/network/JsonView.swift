@@ -30,6 +30,11 @@ class Juice: Codable{
     var name = "lemonade"
 }
 
+struct Custom: Codable{
+    var firstName: String
+    var lastName: String
+}
+
 
 struct JsonView: View {
     var body: some View {

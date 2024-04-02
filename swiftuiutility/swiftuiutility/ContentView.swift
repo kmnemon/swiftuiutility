@@ -185,6 +185,9 @@ struct ContentView: View {
                         NavigationLink("JSON"){
                             JsonView()
                         }
+                        NavigationLink("JSON Advanced"){
+                            JsonAdvancedView()
+                        }
                         NavigationLink("SendingReceivingDataStruct"){
                             SendingReceivingDataStruct()
                         }
@@ -220,7 +223,7 @@ struct ContentView: View {
                         }
                         NavigationLink("EditBookView") {
                         }
-                        NavigationLink("BooksViewContentView") {
+                        NavigationLink("CarsViewContentView") {
                         }
                     }
                     

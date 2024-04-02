@@ -8,26 +8,26 @@
 import SwiftUI
 import SwiftData
 
-struct BooksViewContentView: View {
+struct CarsViewContentView: View {
     @Environment(\.modelContext) var modelContext
     
     @State private var showingUpcomingOnly = false
     @State private var sortOrder = [
-        SortDescriptor(\Book.name),
-        SortDescriptor(\Book.joinDate)
+        SortDescriptor(\Car.name),
+        SortDescriptor(\Car.joinDate)
     ]
     
     var body: some View {
         NavigationStack {
-            BooksView(minimumJoinDate: showingUpcomingOnly ? .now : .distantPast, sortOrder: sortOrder)
-            .navigationTitle("Books")
+            CarsView(minimumJoinDate: showingUpcomingOnly ? .now : .distantPast, sortOrder: sortOrder)
+            .navigationTitle("Cars")
             .toolbar {
                 Button("Add Samples", systemImage: "plus") {
-                    try? modelContext.delete(model: Book.self)
+                    try? modelContext.delete(model: Car.self)
                     
-                    let first = Book(id: UUID(), name: "Harry Potter", genre: "Magic", joinDate: .now.addingTimeInterval(86400 * -10))
-                    let second = Book(id: UUID(), name: "Shalock Homes", genre: "Detective", joinDate: .now.addingTimeInterval(86400 * -5))
-                    let third = Book(id: UUID(), name: "Janes", genre: "Drama", joinDate: .now.addingTimeInterval(86400 * 10))
+                    let first = Car(id: UUID(), name: "Ford", type: "van", joinDate: .now.addingTimeInterval(86400 * -10))
+                    let second = Car(id: UUID(), name: "Marzda", type: "Sport Car", joinDate: .now.addingTimeInterval(86400 * -5))
+                    let third = Car(id: UUID(), name: "Benz", type: "van", joinDate: .now.addingTimeInterval(86400 * 10))
                     
                     modelContext.insert(first)
                     modelContext.insert(second)
@@ -42,11 +42,11 @@ struct BooksViewContentView: View {
                     Picker("Sort", selection: $sortOrder) {
                         Text("Sort by Name")
                             .tag([
-                                SortDescriptor(\Book.name),
+                                SortDescriptor(\Car.name),
                             ])
                         Text("Sort by Join Date")
                             .tag([
-                                SortDescriptor(\Book.joinDate)
+                                SortDescriptor(\Car.joinDate)
                             ])
                     }
                 }
@@ -56,5 +56,5 @@ struct BooksViewContentView: View {
 }
 
 #Preview {
-    BooksViewContentView()
+    CarsViewContentView()
 }
