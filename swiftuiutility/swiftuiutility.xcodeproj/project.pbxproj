@@ -20,6 +20,8 @@
 		8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */; };
 		8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683542BBE87A400A88B07 /* CoreImageView.swift */; };
 		8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683562BBE8F2700A88B07 /* UnavailableView.swift */; };
+		8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */; };
+		8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -111,6 +113,8 @@
 		8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		8A5683542BBE87A400A88B07 /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
 		8A5683562BBE8F2700A88B07 /* UnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
+		8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
+		8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				8A5683542BBE87A400A88B07 /* CoreImageView.swift */,
+				8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				8A0C812B2BA8381800B049A0 /* RectangleView.swift */,
 				8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
+				8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */,
 				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
@@ -519,6 +525,7 @@
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
+				8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */,
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8ABBE4442BB8EF5500D53F43 /* CarsView.swift in Sources */,
 				8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */,
@@ -555,6 +562,7 @@
 				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
+				8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,

@@ -74,6 +74,9 @@ struct ContentView: View {
                         NavigationLink("ScrollingGridView"){
                             ScrollingGridView()
                         }
+                        NavigationLink("ShareLinkView"){
+                            ShareLinkView()
+                        }
                         NavigationLink("SliderView"){
                             SliderView()
                         }
@@ -199,6 +202,10 @@ struct ContentView: View {
                         NavigationLink("CoreImageView"){
                             CoreImageView()
                         }
+                        NavigationLink("PhotosPickerView"){
+                            PhotosPickerView()
+                        }
+                        
                     }
                     Section("Modifier") {
                         NavigationLink("AlertModifier"){
