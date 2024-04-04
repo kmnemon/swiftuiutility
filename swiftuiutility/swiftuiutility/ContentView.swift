@@ -152,6 +152,9 @@ struct ContentView: View {
                         NavigationLink("ClassView"){
                             ClassView()
                         }
+                        NavigationLink("ComparableStruct"){
+                            ComparableStruct()
+                        }
                         NavigationLink("CustomView"){
                             CustomView()
                         }
