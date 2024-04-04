@@ -95,6 +95,9 @@ struct ContentView: View {
                         NavigationLink("ToggleView"){
                             ToggleView()
                         }
+                        NavigationLink("UnavailableView"){
+                            UnavailableView()
+                        }
                     }
                     
                     Section("Color Animation Haptic"){
@@ -146,9 +149,6 @@ struct ContentView: View {
                         NavigationLink("CustomView"){
                             CustomView()
                         }
-                        NavigationLink("CustomModifierView"){
-                            CustomModifierView()
-                        }
                         NavigationLink("CustomContainersView"){
                             CustomContainersView()
                         }
@@ -195,12 +195,20 @@ struct ContentView: View {
                             SendingReceivingDataStruct2()
                         }
                     }
+                    Section("image") {
+                        NavigationLink("CoreImageView"){
+                            CoreImageView()
+                        }
+                    }
                     Section("Modifier") {
                         NavigationLink("AlertModifier"){
                             AlertModifier()
                         }
                         NavigationLink("ConfirmationModifier"){
                             ConfirmationModifier()
+                        }
+                        NavigationLink("CustomModifierView"){
+                            CustomModifierView()
                         }
                         NavigationLink("DisabledModifier"){
                             DisabledModifier()
@@ -236,7 +244,7 @@ struct ContentView: View {
                         }
                     }
                     
-                    Section("Custom") {
+                    Section("Custom Component") {
                         NavigationLink("UsingRating") {
                             UsingRating()
                         }
