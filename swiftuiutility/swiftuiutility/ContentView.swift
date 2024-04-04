@@ -68,6 +68,9 @@ struct ContentView: View {
                         NavigationLink("RectangleView"){
                             RectangleView()
                         }
+                        NavigationLink("RequestReviewView"){
+                            RequestReviewView()
+                        }
                         NavigationLink("ScrollView"){
                             ScrollViewC()
                         }
