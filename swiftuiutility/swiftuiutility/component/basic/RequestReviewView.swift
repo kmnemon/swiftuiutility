@@ -13,7 +13,7 @@ struct RequestReviewView: View {
     
     var body: some View {
         Button("Leave a review") {
-            requestReview
+            requestReview()
         }
     }
 }
