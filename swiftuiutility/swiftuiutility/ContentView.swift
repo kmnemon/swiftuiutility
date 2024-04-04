@@ -14,9 +14,6 @@ struct ContentView: View {
             NavigationStack{
                 List{
                     Section("Basic"){
-                        NavigationLink("AlertView"){
-                            AlertView()
-                        }
                         NavigationLink("Button"){
                             ButtonView()
                         }
@@ -76,6 +73,9 @@ struct ContentView: View {
                         }
                         NavigationLink("ScrollingGridView"){
                             ScrollingGridView()
+                        }
+                        NavigationLink("SliderView"){
+                            SliderView()
                         }
                         NavigationLink("StackView"){
                             StackView()
@@ -196,8 +196,17 @@ struct ContentView: View {
                         }
                     }
                     Section("Modifier") {
+                        NavigationLink("AlertModifier"){
+                            AlertModifier()
+                        }
+                        NavigationLink("ConfirmationModifier"){
+                            ConfirmationModifier()
+                        }
                         NavigationLink("DisabledModifier"){
                             DisabledModifier()
+                        }
+                        NavigationLink("OnChangeModifier"){
+                            OnChangeModifier()
                         }
                         NavigationLink("SheetModifier"){
                             SheetModifier()

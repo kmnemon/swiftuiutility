@@ -13,7 +13,7 @@
 		8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */; };
 		8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */; };
 		8A0C81342BA9A6C000B049A0 /* NavigationStackSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81332BA9A6C000B049A0 /* NavigationStackSaveView.swift */; };
-		8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE242B9D41130006E1D1 /* AlertView.swift */; };
+		8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE242B9D41130006E1D1 /* AlertModifier.swift */; };
 		8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */; };
 		8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE292B9DE8540006E1D1 /* ModifierView.swift */; };
 		8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */; };
@@ -62,6 +62,9 @@
 		8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE44B2BB9477700D53F43 /* Car.swift */; };
 		8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE44D2BB9764000D53F43 /* Tire.swift */; };
 		8ABBE4502BBAEFBF00D53F43 /* JsonAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE44F2BBAEFBF00D53F43 /* JsonAdvancedView.swift */; };
+		8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4512BBE1B0000D53F43 /* SliderView.swift */; };
+		8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */; };
+		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
@@ -99,7 +102,7 @@
 		8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
 		8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackReturnView.swift; sourceTree = "<group>"; };
 		8A0C81332BA9A6C000B049A0 /* NavigationStackSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSaveView.swift; sourceTree = "<group>"; };
-		8A37BE242B9D41130006E1D1 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		8A37BE242B9D41130006E1D1 /* AlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModifier.swift; sourceTree = "<group>"; };
 		8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStruct.swift; sourceTree = "<group>"; };
 		8A37BE292B9DE8540006E1D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
 		8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDataStruct.swift; sourceTree = "<group>"; };
@@ -148,6 +151,9 @@
 		8ABBE44B2BB9477700D53F43 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		8ABBE44D2BB9764000D53F43 /* Tire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tire.swift; sourceTree = "<group>"; };
 		8ABBE44F2BBAEFBF00D53F43 /* JsonAdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonAdvancedView.swift; sourceTree = "<group>"; };
+		8ABBE4512BBE1B0000D53F43 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
+		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
@@ -316,7 +322,6 @@
 		8ACEF4F42B9A9E2E0028AA58 /* basic */ = {
 			isa = PBXGroup;
 			children = (
-				8A37BE242B9D41130006E1D1 /* AlertView.swift */,
 				8ACEF4EE2B999A110028AA58 /* ButtonView.swift */,
 				8AAB086F2B9F13EC0039A3FE /* DatePickerView.swift */,
 				8AAB08942BA4A96E0039A3FE /* DeleteView.swift */,
@@ -337,6 +342,7 @@
 				8A0C812B2BA8381800B049A0 /* RectangleView.swift */,
 				8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
+				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
 				8ACEF4F52B9AC2320028AA58 /* TextView.swift */,
@@ -360,7 +366,10 @@
 		8AD26C712BB3CFC900A5FAD5 /* modifier */ = {
 			isa = PBXGroup;
 			children = (
+				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
+				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
+				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
 				8ABBE4472BB9116200D53F43 /* TagModifier.swift */,
 				8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */,
@@ -455,7 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */,
-				8A37BE252B9D41130006E1D1 /* AlertView.swift in Sources */,
+				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
@@ -479,6 +488,7 @@
 				8ABBE4482BB9116200D53F43 /* TagModifier.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
+				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
@@ -497,6 +507,7 @@
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8ABBE4442BB8EF5500D53F43 /* CarsView.swift in Sources */,
 				8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */,
+				8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
 				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
@@ -525,6 +536,7 @@
 				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
+				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
