@@ -173,6 +173,9 @@ struct ContentView: View {
                         NavigationLink("ErrorStruct"){
                             ErrorStruct()
                         }
+                        NavigationLink("EnumsView"){
+                            EnumsView()
+                        }
                         NavigationLink("ForEachView"){
                             ForEachView()
                         }
