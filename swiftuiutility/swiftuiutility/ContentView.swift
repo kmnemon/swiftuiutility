@@ -214,6 +214,14 @@ struct ContentView: View {
                         NavigationLink("CoreImageView"){
                             CoreImageView()
                         }
+                        NavigationLink("PhotosPickerView"){
+                            PhotosPickerView()
+                        }
+                    }
+                    Section("Map") {
+                        NavigationLink("MapKitView"){
+                            MapKitView()
+                        }
                         NavigationLink("MapKitPositionView"){
                             MapKitPositionView()
                         }
@@ -223,16 +231,11 @@ struct ContentView: View {
                         NavigationLink("MapKitTapView"){
                             MapKitTapView()
                         }
-                        
                     }
-                    Section("Map") {
-                        NavigationLink("MapKitView"){
-                            MapKitView()
+                    Section("Biometric") {
+                        NavigationLink("FaceIDTouchIDView"){
+                            FaceIDTouchIDView()
                         }
-                        NavigationLink("PhotosPickerView"){
-                            PhotosPickerView()
-                        }
-                        
                     }
                     Section("Modifier") {
                         NavigationLink("AlertModifier"){
