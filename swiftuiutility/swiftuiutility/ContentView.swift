@@ -210,9 +210,24 @@ struct ContentView: View {
                             SendingReceivingDataStruct2()
                         }
                     }
-                    Section("image") {
+                    Section("Image") {
                         NavigationLink("CoreImageView"){
                             CoreImageView()
+                        }
+                        NavigationLink("MapKitPositionView"){
+                            MapKitPositionView()
+                        }
+                        NavigationLink("MapKitAnnotationView"){
+                            MapKitAnnotationView()
+                        }
+                        NavigationLink("MapKitTapView"){
+                            MapKitTapView()
+                        }
+                        
+                    }
+                    Section("Map") {
+                        NavigationLink("MapKitView"){
+                            MapKitView()
                         }
                         NavigationLink("PhotosPickerView"){
                             PhotosPickerView()
