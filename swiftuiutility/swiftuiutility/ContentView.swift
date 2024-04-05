@@ -167,6 +167,9 @@ struct ContentView: View {
                         NavigationLink("DateComponentsStruct"){
                             DateComponentsStruct()
                         }
+                        NavigationLink("DocumentsDirectoryView"){
+                            DocumentsDirectoryView()
+                        }
                         NavigationLink("ErrorStruct"){
                             ErrorStruct()
                         }
