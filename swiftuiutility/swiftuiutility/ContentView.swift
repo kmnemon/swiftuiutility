@@ -176,8 +176,14 @@ struct ContentView: View {
                         NavigationLink("ForEachView"){
                             ForEachView()
                         }
+                        NavigationLink("OperatorOverloadStruct"){
+                            OperatorOverloadStruct()
+                        }
                         NavigationLink("PropertiesStruct"){
                             PropertiesStruct()
+                        }
+                        NavigationLink("PropertyWrapperStruct"){
+                            PropertyWrapperStruct()
                         }
                         NavigationLink("RandomStruct"){
                             RandomStruct()

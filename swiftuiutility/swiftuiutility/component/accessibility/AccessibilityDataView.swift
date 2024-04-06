@@ -38,6 +38,7 @@ struct AccessibilityDataView: View {
             //default is .ignore
             .accessibilityElement(children: .ignore)
             .accessibilityLabel("Your score is 1000")
+            .accessibilityHint("1000")
        
         }
     }
