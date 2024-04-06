@@ -20,13 +20,20 @@ struct SecondView: View {
     }
 }
 
+struct PersonName: Identifiable{
+    var id: UUID
+    var firstName: String
+    var lastName: String
+}
+
 struct SheetModifier: View {
     @State private var showingSheet = false
+    @State private var personName: PersonName?
     
     
     var body: some View {
         NavigationStack{
-            Button("Show Sheet"){
+            Button("Show Sheet") {
                 showingSheet.toggle()
             }
             .toolbar{
@@ -37,6 +44,15 @@ struct SheetModifier: View {
             .sheet(isPresented: $showingSheet){
                 SecondView(name: "peter")
             }
+            .padding()
+            
+            Button("Show Sheet with item") {
+                personName = PersonName(id: UUID(), firstName: "eden", lastName: "z")
+            }
+            .sheet(item: $personName) { p in
+                SecondView(name: p.firstName)
+            }
+            .padding()
    
         }
     }
