@@ -71,6 +71,9 @@
 		8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81512BB4EF9B0047FD0C /* RatingView.swift */; };
 		8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81532BB4FC290047FD0C /* UsingRating.swift */; };
 		8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */; };
+		8AAE14862BC20D1E009FA593 /* ListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14852BC20D1E009FA593 /* ListView2.swift */; };
+		8AAE14882BC20E87009FA593 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14872BC20E87009FA593 /* TabsView.swift */; };
+		8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14892BC2113A009FA593 /* ResultTypeStruct.swift */; };
 		8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */; };
 		8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907B2BB6914E00D41B7A /* EditBookView.swift */; };
 		8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */; };
@@ -92,7 +95,7 @@
 		8ACEF4D42B9935C30028AA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D32B9935C30028AA58 /* Preview Assets.xcassets */; };
 		8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4DC2B9938140028AA58 /* ListView.swift */; };
 		8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4DE2B993D460028AA58 /* ImageView.swift */; };
-		8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */; };
+		8ACEF4E12B9941C10028AA58 /* ScrollListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */; };
 		8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */; };
 		8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E42B9972150028AA58 /* JsonView.swift */; };
 		8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */; };
@@ -180,6 +183,9 @@
 		8AAB81512BB4EF9B0047FD0C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		8AAB81532BB4FC290047FD0C /* UsingRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRating.swift; sourceTree = "<group>"; };
 		8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		8AAE14852BC20D1E009FA593 /* ListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView2.swift; sourceTree = "<group>"; };
+		8AAE14872BC20E87009FA593 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		8AAE14892BC2113A009FA593 /* ResultTypeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeStruct.swift; sourceTree = "<group>"; };
 		8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStruct.swift; sourceTree = "<group>"; };
 		8ABA907B2BB6914E00D41B7A /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 		8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookContentView.swift; sourceTree = "<group>"; };
@@ -202,7 +208,7 @@
 		8ACEF4D32B9935C30028AA58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ACEF4DC2B9938140028AA58 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8ACEF4DE2B993D460028AA58 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewC.swift; sourceTree = "<group>"; };
+		8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollListView.swift; sourceTree = "<group>"; };
 		8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		8ACEF4E42B9972150028AA58 /* JsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonView.swift; sourceTree = "<group>"; };
 		8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGridView.swift; sourceTree = "<group>"; };
@@ -256,6 +262,7 @@
 				8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */,
 				8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */,
 				8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */,
+				8AAE14892BC2113A009FA593 /* ResultTypeStruct.swift */,
 				8AAB087E2BA3D5AD0039A3FE /* StringStruct.swift */,
 				8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */,
 				8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */,
@@ -417,6 +424,7 @@
 				8ACEF4DE2B993D460028AA58 /* ImageView.swift */,
 				8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */,
 				8ACEF4DC2B9938140028AA58 /* ListView.swift */,
+				8AAE14852BC20D1E009FA593 /* ListView2.swift */,
 				8ABBE4492BB9209800D53F43 /* MenuView.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
@@ -429,12 +437,13 @@
 				8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */,
 				8A0C812B2BA8381800B049A0 /* RectangleView.swift */,
 				8A56835C2BBEA1B600A88B07 /* RequestReviewView.swift */,
-				8ACEF4E02B9941C10028AA58 /* ScrollViewC.swift */,
+				8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */,
 				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
+				8AAE14872BC20E87009FA593 /* TabsView.swift */,
 				8ACEF4F52B9AC2320028AA58 /* TextView.swift */,
 				8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */,
 				8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */,
@@ -555,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AAE14862BC20D1E009FA593 /* ListView2.swift in Sources */,
 				8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
@@ -600,6 +610,7 @@
 				8AAB08792BA020440039A3FE /* SleepCalculator.mlmodel in Sources */,
 				8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */,
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
+				8AAE14882BC20E87009FA593 /* TabsView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
@@ -609,7 +620,7 @@
 				8ABBE4442BB8EF5500D53F43 /* CarsView.swift in Sources */,
 				8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */,
 				8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */,
-				8ACEF4E12B9941C10028AA58 /* ScrollViewC.swift in Sources */,
+				8ACEF4E12B9941C10028AA58 /* ScrollListView.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
 				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
 				8A56836C2BBF94B800A88B07 /* MapKitMarkerView.swift in Sources */,
@@ -632,6 +643,7 @@
 				8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
+				8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */,
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
 				8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */,

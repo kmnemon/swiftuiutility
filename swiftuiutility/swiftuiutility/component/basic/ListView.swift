@@ -52,7 +52,6 @@ struct ListView: View {
                     }
                 }
             }
-
         }
     }
 }

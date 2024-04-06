@@ -35,6 +35,9 @@ struct ContentView: View {
                         NavigationLink("ListView"){
                             ListView()
                         }
+                        NavigationLink("ListView2"){
+                            ListView2()
+                        }
                         NavigationLink("MenuView"){
                             MenuView()
                         }
@@ -88,6 +91,9 @@ struct ContentView: View {
                         }
                         NavigationLink("StepperView"){
                             StepperView()
+                        }
+                        NavigationLink("TabsView"){
+                            TabsView()
                         }
                         NavigationLink("Text"){
                             TextView()
@@ -187,6 +193,9 @@ struct ContentView: View {
                         }
                         NavigationLink("RandomStruct"){
                             RandomStruct()
+                        }
+                        NavigationLink("ResultTypeStruct"){
+                            ResultTypeStruct()
                         }
                         NavigationLink("StringStruct"){
                             StringStruct()
