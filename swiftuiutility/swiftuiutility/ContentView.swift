@@ -289,6 +289,20 @@ struct ContentView: View {
                             EmojiRatingView(rating: 5)
                         }
                     }
+                    Section("Accessibility") {
+                        NavigationLink("AccessibilityDataView") {
+                            AccessibilityDataView()
+                        }
+                        NavigationLink("AccessibilityControlView") {
+                            AccessibilityControlView()
+                        }
+                        NavigationLink("VoiceOverView") {
+                            VoiceOverView()
+                        }
+                        NavigationLink("VoiceInputView") {
+                            VoiceInputView()
+                        }
+                    }
                 }
                 .navigationTitle("Choose Component")
             }
