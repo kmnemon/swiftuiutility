@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BindableView2: View {
     //using bindable to transfer obervable object
-    @Bindable var order: Order
+    @Bindable var order: NamespaceBindable.Order
     
     var body: some View {
         TextField("Order Name", text: $order.name)
@@ -17,5 +17,5 @@ struct BindableView2: View {
 }
 
 #Preview {
-    BindableView2(order: Order())
+    BindableView2(order: NamespaceBindable.Order())
 }

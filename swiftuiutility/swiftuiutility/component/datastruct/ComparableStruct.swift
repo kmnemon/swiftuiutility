@@ -7,19 +7,21 @@
 
 import SwiftUI
 
-struct UserForCompare: Identifiable {
-    let id = UUID()
-    var firstName: String
-    var lastName: String
-}
-
-struct UserForCompare2: Comparable, Identifiable {
-    let id = UUID()
-    var firstName: String
-    var lastName: String
+extension ComparableStruct {
+    struct UserForCompare: Identifiable {
+        let id = UUID()
+        var firstName: String
+        var lastName: String
+    }
     
-    static func <(lhs: UserForCompare2, rhs: UserForCompare2) -> Bool {
-        lhs.lastName < rhs.lastName
+    struct UserForCompare2: Comparable, Identifiable {
+        let id = UUID()
+        var firstName: String
+        var lastName: String
+        
+        static func <(lhs: UserForCompare2, rhs: UserForCompare2) -> Bool {
+            lhs.lastName < rhs.lastName
+        }
     }
 }
 

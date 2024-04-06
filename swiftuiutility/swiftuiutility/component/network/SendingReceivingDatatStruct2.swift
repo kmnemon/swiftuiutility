@@ -7,24 +7,26 @@
 
 import SwiftUI
 
-@Observable
-class OrderEntity: Codable {
-    enum CodingKeys: String, CodingKey {
-        case _type = "type"
-        case _name = "name"
-    }
-    
-    var type: String = ""
-    var name: String = ""
-    
-    init(type: String, name: String){
-        self.type = type
-        self.name = name
+extension SendingReceivingDataStruct2 {
+    @Observable
+    class Order: Codable {
+        enum CodingKeys: String, CodingKey {
+            case _type = "type"
+            case _name = "name"
+        }
+        
+        var type: String = ""
+        var name: String = ""
+        
+        init(type: String, name: String){
+            self.type = type
+            self.name = name
+        }
     }
 }
 
 struct SendingReceivingDataStruct2: View {
-    var order = OrderEntity(type: "ninedo", name: "switch")
+    var order = Order(type: "ninedo", name: "switch")
     
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
@@ -61,7 +63,7 @@ struct SendingReceivingDataStruct2: View {
             let(data, _) = try await URLSession.shared.upload(for: request, from: encode)
             
             //receive data
-            let decodeOrder = try JSONDecoder().decode(OrderEntity.self, from: data)
+            let decodeOrder = try JSONDecoder().decode(Order.self, from: data)
             confirmationMessage = "Your order for \(decodeOrder.name)x \(decodeOrder.type.lowercased()) games is on the way!"
             showingConfirmation = true
         } catch {

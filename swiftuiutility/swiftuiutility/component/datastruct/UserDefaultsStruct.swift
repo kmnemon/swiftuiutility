@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-//3. codable
-struct UserB: Codable{
-    let firstName: String
-    let lastName: String
+extension UserDefaultsStruct {
+    //3. codable
+    struct User: Codable{
+        let firstName: String
+        let lastName: String
+    }
 }
 
 struct UserDefaultsStruct: View {
@@ -21,7 +23,7 @@ struct UserDefaultsStruct: View {
     @AppStorage("tapCount2") private var tapCount2 = 0
     
     //3. Json
-    @State private var user = UserB(firstName: "ui", lastName: "swift")
+    @State private var user = User(firstName: "ui", lastName: "swift")
     
     var body: some View {
         Button("Tap Count: \(tapCount)"){

@@ -7,30 +7,31 @@
 
 import SwiftUI
 
-struct ExpenseItem{
-    let id = UUID()
-    let name: String
-    let type: String
-    let amount: Double
+extension ForEachView {
+    struct ExpenseItem{
+        let id = UUID()
+        let name: String
+        let type: String
+        let amount: Double
+    }
+    
+    struct ExpenseItemB: Identifiable{
+        let id = UUID()
+        let name: String
+        let type: String
+        let amount: Double
+    }
+    
+    @Observable
+    class Expenses{
+        var items = [ExpenseItem]()
+    }
+    
+    @Observable
+    class ExpensesB{
+        var items = [ExpenseItemB]()
+    }
 }
-
-struct ExpenseItemB: Identifiable{
-    let id = UUID()
-    let name: String
-    let type: String
-    let amount: Double
-}
-
-@Observable
-class Expenses{
-    var items = [ExpenseItem]()
-}
-
-@Observable
-class ExpensesB{
-    var items = [ExpenseItemB]()
-}
-
 struct ForEachView: View {
     let agents = ["cyril", "lana", "pam", "sterling"]
     

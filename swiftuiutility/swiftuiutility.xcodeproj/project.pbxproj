@@ -24,7 +24,7 @@
 		8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */; };
 		8A56835D2BBEA1B600A88B07 /* RequestReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835C2BBEA1B600A88B07 /* RequestReviewView.swift */; };
 		8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */; };
-		8A5683612BBF778F00A88B07 /* DocumentsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683602BBF778F00A88B07 /* DocumentsDirectoryView.swift */; };
+		8A5683612BBF778F00A88B07 /* URLReadWriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */; };
 		8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683622BBF7A5F00A88B07 /* EnumsView.swift */; };
 		8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683652BBF7C9300A88B07 /* MapKitView.swift */; };
 		8A5683682BBF7E5100A88B07 /* MapKitPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683672BBF7E5100A88B07 /* MapKitPositionView.swift */; };
@@ -127,7 +127,7 @@
 		8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
 		8A56835C2BBEA1B600A88B07 /* RequestReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewView.swift; sourceTree = "<group>"; };
 		8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableStruct.swift; sourceTree = "<group>"; };
-		8A5683602BBF778F00A88B07 /* DocumentsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDirectoryView.swift; sourceTree = "<group>"; };
+		8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLReadWriteView.swift; sourceTree = "<group>"; };
 		8A5683622BBF7A5F00A88B07 /* EnumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsView.swift; sourceTree = "<group>"; };
 		8A5683652BBF7C9300A88B07 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 		8A5683672BBF7E5100A88B07 /* MapKitPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitPositionView.swift; sourceTree = "<group>"; };
@@ -237,7 +237,6 @@
 				8AAB08692B9F0CEC0039A3FE /* CustomBindingView.swift */,
 				8AAB08712B9FF04D0039A3FE /* DateComponentsStruct.swift */,
 				8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */,
-				8A5683602BBF778F00A88B07 /* DocumentsDirectoryView.swift */,
 				8AAB08802BA3E4E10039A3FE /* ErrorStruct.swift */,
 				8A5683622BBF7A5F00A88B07 /* EnumsView.swift */,
 				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
@@ -245,6 +244,7 @@
 				8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */,
 				8AAB087E2BA3D5AD0039A3FE /* StringStruct.swift */,
 				8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */,
+				8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */,
 			);
 			path = datastruct;
 			sourceTree = "<group>";
@@ -588,7 +588,7 @@
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,
 				8A5683682BBF7E5100A88B07 /* MapKitPositionView.swift in Sources */,
 				8AAB087F2BA3D5AD0039A3FE /* StringStruct.swift in Sources */,
-				8A5683612BBF778F00A88B07 /* DocumentsDirectoryView.swift in Sources */,
+				8A5683612BBF778F00A88B07 /* URLReadWriteView.swift in Sources */,
 				8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */,
 				8A56836E2BBF957D00A88B07 /* MapKitTapView.swift in Sources */,
 				8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */,

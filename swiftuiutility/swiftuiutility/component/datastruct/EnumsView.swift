@@ -7,21 +7,23 @@
 
 import SwiftUI
 
-struct LoadingView: View {
-    var body: some View {
-        Text("Loading...")
+extension EnumsView {
+    struct LoadingView: View {
+        var body: some View {
+            Text("Loading...")
+        }
     }
-}
-
-struct SuccessView: View {
-    var body: some View {
-        Text("Success!...")
+    
+    struct SuccessView: View {
+        var body: some View {
+            Text("Success!...")
+        }
     }
-}
-
-struct FailedView: View {
-    var body: some View {
-        Text("Failed.")
+    
+    struct FailedView: View {
+        var body: some View {
+            Text("Failed.")
+        }
     }
 }
 

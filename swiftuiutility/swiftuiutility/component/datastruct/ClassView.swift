@@ -10,14 +10,16 @@
 
 import SwiftUI
 
-@Observable
-class UserA{
-    var firstName = "bright"
-    var lastName = "bob"
+extension ClassView {
+    @Observable
+    class User{
+        var firstName = "bright"
+        var lastName = "bob"
+    }
 }
 
 struct ClassView: View {
-    @State private var user = UserA()
+    @State private var user = User()
     
     var body: some View {
         VStack{

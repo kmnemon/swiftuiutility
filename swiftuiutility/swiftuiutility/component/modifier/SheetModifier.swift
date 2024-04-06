@@ -20,15 +20,17 @@ struct SecondView: View {
     }
 }
 
-struct PersonName: Identifiable{
-    var id: UUID
-    var firstName: String
-    var lastName: String
+extension SheetModifier {
+    struct Person: Identifiable{
+        var id: UUID
+        var firstName: String
+        var lastName: String
+    }
 }
 
 struct SheetModifier: View {
     @State private var showingSheet = false
-    @State private var personName: PersonName?
+    @State private var person: SheetModifier.Person?
     
     
     var body: some View {
@@ -47,9 +49,9 @@ struct SheetModifier: View {
             .padding()
             
             Button("Show Sheet with item") {
-                personName = PersonName(id: UUID(), firstName: "eden", lastName: "z")
+                person = SheetModifier.Person(id: UUID(), firstName: "eden", lastName: "z")
             }
-            .sheet(item: $personName) { p in
+            .sheet(item: $person) { p in
                 SecondView(name: p.firstName)
             }
             .padding()

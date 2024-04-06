@@ -7,17 +7,22 @@
 
 import Foundation
 
-@Observable
-class Order {
-    var type = ""
-    var quantity = 3
-    var name = ""
+struct NamespaceBindable {}
+
+extension NamespaceBindable {
     
-    var hasValidOrder: Bool {
-        if name.isEmpty || type.isEmpty {
-            return false
-        }
+    @Observable
+    class Order {
+        var type = ""
+        var quantity = 3
+        var name = ""
         
-        return true
+        var hasValidOrder: Bool {
+            if name.isEmpty || type.isEmpty {
+                return false
+            }
+            
+            return true
+        }
     }
 }

@@ -71,8 +71,8 @@ struct ContentView: View {
                         NavigationLink("RequestReviewView"){
                             RequestReviewView()
                         }
-                        NavigationLink("ScrollView"){
-                            ScrollViewC()
+                        NavigationLink("ScrollListView"){
+                            ScrollListView()
                         }
                         NavigationLink("ScrollingGridView"){
                             ScrollingGridView()
@@ -167,9 +167,6 @@ struct ContentView: View {
                         NavigationLink("DateComponentsStruct"){
                             DateComponentsStruct()
                         }
-                        NavigationLink("DocumentsDirectoryView"){
-                            DocumentsDirectoryView()
-                        }
                         NavigationLink("ErrorStruct"){
                             ErrorStruct()
                         }
@@ -190,6 +187,9 @@ struct ContentView: View {
                         }
                         NavigationLink("UserDefaultsStruct"){
                             UserDefaultsStruct()
+                        }
+                        NavigationLink("URLReadWriteView"){
+                            URLReadWriteView()
                         }
                     }
                     

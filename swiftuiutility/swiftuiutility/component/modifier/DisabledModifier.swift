@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct DisabledModifier: View {
-    @State private var order = Order()
+    @State private var order = NamespaceBindable.Order()
     
     var body: some View {
         Section {

@@ -7,32 +7,35 @@
 
 import SwiftUI
 
-struct User: Codable {
-    let name: String
-    let address: Address
-}
 
-struct Address: Codable {
-    let street: String
-    let city: String
-}
-
-class Zoo: Codable {
-    var animal = "ape"
-}
-
-@Observable
-class Juice: Codable{
-    enum CodingKeys: String, CodingKey {
-        case _name = "name"
+extension JsonView {
+    struct User: Codable {
+        let name: String
+        let address: Address
     }
     
-    var name = "lemonade"
-}
-
-struct Custom: Codable{
-    var firstName: String
-    var lastName: String
+    struct Address: Codable {
+        let street: String
+        let city: String
+    }
+    
+    class Zoo: Codable {
+        var animal = "ape"
+    }
+    
+    @Observable
+    class Juice: Codable{
+        enum CodingKeys: String, CodingKey {
+            case _name = "name"
+        }
+        
+        var name = "lemonade"
+    }
+    
+    struct Custom: Codable{
+        var firstName: String
+        var lastName: String
+    }
 }
 
 

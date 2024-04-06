@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BindableView1: View {
-    @State private var order = Order()
+    @State private var order = NamespaceBindable.Order()
     
     var body: some View {
         NavigationStack {

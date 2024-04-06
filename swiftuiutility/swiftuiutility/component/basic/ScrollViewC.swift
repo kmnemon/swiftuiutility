@@ -21,7 +21,7 @@ struct CustomTextInScrollViewC: View {
 }
 
 
-struct ScrollViewC: View {
+struct ScrollListView: View {
     var body: some View {
         Section("1"){
             ScrollView {
@@ -75,5 +75,5 @@ struct ScrollViewC: View {
 }
 
 #Preview {
-    ScrollViewC()
+    ScrollListView()
 }
