@@ -68,6 +68,9 @@ struct ContentView: View {
                         NavigationLink("RequestReviewView"){
                             RequestReviewView()
                         }
+                        NavigationLink("ScenePhaseView"){
+                            ScenePhaseView()
+                        }
                         NavigationLink("ScrollListView"){
                             ScrollListView()
                         }
@@ -139,6 +142,141 @@ struct ContentView: View {
                         }
                     }
                     
+                    Section("Network"){
+                        NavigationLink("AsyncImageView"){
+                            AsyncImageView()
+                        }
+                        NavigationLink("JSON"){
+                            JsonView()
+                        }
+                        NavigationLink("JSON Advanced"){
+                            JsonAdvancedView()
+                        }
+                        NavigationLink("SendingReceivingDataStruct"){
+                            SendingReceivingDataStruct()
+                        }
+                        NavigationLink("SendingReceivingDataStruct2"){
+                            SendingReceivingDataStruct2()
+                        }
+                    }
+                    
+                    Section("Image") {
+                        NavigationLink("ImageView"){
+                            ImageView()
+                        }
+                        NavigationLink("ImageInterpolationView"){
+                            ImageInterpolationView()
+                        }
+                        NavigationLink("CoreImageView"){
+                            CoreImageView()
+                        }
+                        NavigationLink("PhotosPickerView"){
+                            PhotosPickerView()
+                        }
+                    }
+                    
+                    Section("Map") {
+                        NavigationLink("MapKitView"){
+                            MapKitView()
+                        }
+                        NavigationLink("MapKitPositionView"){
+                            MapKitPositionView()
+                        }
+                        NavigationLink("MapKitAnnotationView"){
+                            MapKitAnnotationView()
+                        }
+                        NavigationLink("MapKitTapView"){
+                            MapKitTapView()
+                        }
+                    }
+                    
+                    Section("Biometric") {
+                        NavigationLink("FaceIDTouchIDView"){
+                            FaceIDTouchIDView()
+                        }
+                    }
+                    
+                    Section("Gesture") {
+                        NavigationLink("DragGestureView"){
+                            DragGestureView()
+                        }
+                        NavigationLink("GesturesView"){
+                            GesturesView()
+                        }
+                        NavigationLink("HitTestingView"){
+                            HitTestingView()
+                        }
+                    }
+                    
+                    Section("Modifier") {
+                        NavigationLink("AlertModifier"){
+                            AlertModifier()
+                        }
+                        NavigationLink("ConfirmationModifier"){
+                            ConfirmationModifier()
+                        }
+                        NavigationLink("ContextMenuModifier"){
+                            ContextMenuModifier()
+                        }
+                        NavigationLink("CustomModifierView"){
+                            CustomModifierView()
+                        }
+                        NavigationLink("DisabledModifier"){
+                            DisabledModifier()
+                        }
+                        NavigationLink("ModifierView"){
+                            ModifierView()
+                        }
+                        NavigationLink("OnChangeModifier"){
+                            OnChangeModifier()
+                        }
+                        NavigationLink("SheetModifier"){
+                            SheetModifier()
+                        }
+                        NavigationLink("SwipeActionsModifier"){
+                            SwipeActionsModifier()
+                        }
+                        NavigationLink("TagModifier"){
+                            TagModifier()
+                        }
+                        NavigationLink("ToolbarModifier"){
+                            ToolbarModifier()
+                        }
+                    }
+                    
+                    Section("Notification") {
+                        NavigationLink("UserNotificationsView") {
+                            UserNotificationsView()
+                        }
+                    }
+                    
+                    Section("Accessibility") {
+                        NavigationLink("AccessibilityDataView") {
+                            AccessibilityDataView()
+                        }
+                        NavigationLink("AccessibilityControlView") {
+                            AccessibilityControlView()
+                        }
+                        NavigationLink("SpecificAccessibilityView") {
+                            SpecificAccessibilityView()
+                        }
+                        NavigationLink("VoiceOverView") {
+                            VoiceOverView()
+                        }
+                        NavigationLink("VoiceInputView") {
+                            VoiceInputView()
+                        }
+                    }
+                    
+                    Section("SwiftData") {
+                        NavigationLink("SwiftDataView") {
+                        }
+                        NavigationLink("EditBookView") {
+                        }
+                        NavigationLink("CarsViewContentView") {
+                        }
+                    }
+                    
                     Section("Datastruct"){
                         NavigationLink("BindingView"){
                             BindingView()
@@ -194,125 +332,14 @@ struct ContentView: View {
                         NavigationLink("StringStruct"){
                             StringStruct()
                         }
+                        NavigationLink("TimerView"){
+                            TimerView()
+                        }
                         NavigationLink("UserDefaultsStruct"){
                             UserDefaultsStruct()
                         }
                         NavigationLink("URLReadWriteView"){
                             URLReadWriteView()
-                        }
-                    }
-                    
-                    Section("Network"){
-                        NavigationLink("AsyncImageView"){
-                            AsyncImageView()
-                        }
-                        NavigationLink("JSON"){
-                            JsonView()
-                        }
-                        NavigationLink("JSON Advanced"){
-                            JsonAdvancedView()
-                        }
-                        NavigationLink("SendingReceivingDataStruct"){
-                            SendingReceivingDataStruct()
-                        }
-                        NavigationLink("SendingReceivingDataStruct2"){
-                            SendingReceivingDataStruct2()
-                        }
-                    }
-                    Section("Image") {
-                        NavigationLink("ImageView"){
-                            ImageView()
-                        }
-                        NavigationLink("ImageInterpolationView"){
-                            ImageInterpolationView()
-                        }
-                        NavigationLink("CoreImageView"){
-                            CoreImageView()
-                        }
-                        NavigationLink("PhotosPickerView"){
-                            PhotosPickerView()
-                        }
-                    }
-                    Section("Map") {
-                        NavigationLink("MapKitView"){
-                            MapKitView()
-                        }
-                        NavigationLink("MapKitPositionView"){
-                            MapKitPositionView()
-                        }
-                        NavigationLink("MapKitAnnotationView"){
-                            MapKitAnnotationView()
-                        }
-                        NavigationLink("MapKitTapView"){
-                            MapKitTapView()
-                        }
-                    }
-                    Section("Biometric") {
-                        NavigationLink("FaceIDTouchIDView"){
-                            FaceIDTouchIDView()
-                        }
-                    }
-                    Section("Gesture") {
-                        NavigationLink("DragGestureView"){
-                            DragGestureView()
-                        }
-                        NavigationLink("GesturesView"){
-                            GesturesView()
-                        }
-                        NavigationLink("HitTestingView"){
-                            HitTestingView()
-                        }
-                    }
-                    Section("Modifier") {
-                        NavigationLink("AlertModifier"){
-                            AlertModifier()
-                        }
-                        NavigationLink("ConfirmationModifier"){
-                            ConfirmationModifier()
-                        }
-                        NavigationLink("ContextMenuModifier"){
-                            ContextMenuModifier()
-                        }
-                        NavigationLink("CustomModifierView"){
-                            CustomModifierView()
-                        }
-                        NavigationLink("DisabledModifier"){
-                            DisabledModifier()
-                        }
-                        NavigationLink("ModifierView"){
-                            ModifierView()
-                        }
-                        NavigationLink("OnChangeModifier"){
-                            OnChangeModifier()
-                        }
-                        NavigationLink("SheetModifier"){
-                            SheetModifier()
-                        }
-                        NavigationLink("SwipeActionsModifier"){
-                            SwipeActionsModifier()
-                        }
-                        NavigationLink("TagModifier"){
-                            TagModifier()
-                        }
-                        NavigationLink("ToolbarModifier"){
-                            ToolbarModifier()
-                        }
-                    }
-                    Section("ML"){
-                        NavigationLink("MLView") {
-                            MLView()
-                        }
-                        //Image recognition
-                        //Sentiment analysis
-                        //Regression analysis
-                        
-                    }
-                    Section("SwiftData") {
-                        NavigationLink("SwiftDataView") {
-                        }
-                        NavigationLink("EditBookView") {
-                        }
-                        NavigationLink("CarsViewContentView") {
                         }
                     }
                     
@@ -324,24 +351,15 @@ struct ContentView: View {
                             EmojiRatingView(rating: 5)
                         }
                     }
-                    Section("Notification") {
-                        NavigationLink("UserNotificationsView") {
-                            UserNotificationsView()
+                    
+                    Section("ML"){
+                        NavigationLink("MLView") {
+                            MLView()
                         }
-                    }
-                    Section("Accessibility") {
-                        NavigationLink("AccessibilityDataView") {
-                            AccessibilityDataView()
-                        }
-                        NavigationLink("AccessibilityControlView") {
-                            AccessibilityControlView()
-                        }
-                        NavigationLink("VoiceOverView") {
-                            VoiceOverView()
-                        }
-                        NavigationLink("VoiceInputView") {
-                            VoiceInputView()
-                        }
+                        //Image recognition
+                        //Sentiment analysis
+                        //Regression analysis
+                        
                     }
                 }
                 .navigationTitle("Choose Component")
