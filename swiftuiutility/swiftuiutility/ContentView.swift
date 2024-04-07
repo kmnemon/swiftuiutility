@@ -259,6 +259,9 @@ struct ContentView: View {
                         NavigationLink("GesturesView"){
                             GesturesView()
                         }
+                        NavigationLink("HitTestingView"){
+                            HitTestingView()
+                        }
                     }
                     Section("Modifier") {
                         NavigationLink("AlertModifier"){
