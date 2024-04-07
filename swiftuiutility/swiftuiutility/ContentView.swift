@@ -26,9 +26,6 @@ struct ContentView: View {
                         NavigationLink("Form"){
                             FormView()
                         }
-                        NavigationLink("ImageView"){
-                            ImageView()
-                        }
                         NavigationLink("KeyboardView"){
                             KeyBoardView()
                         }
@@ -40,9 +37,6 @@ struct ContentView: View {
                         }
                         NavigationLink("MenuView"){
                             MenuView()
-                        }
-                        NavigationLink("ModifierView"){
-                            ModifierView()
                         }
                         NavigationLink("NavigationStack"){
                             NavigationStackView()
@@ -106,6 +100,9 @@ struct ContentView: View {
                         }
                         NavigationLink("ToggleView"){
                             ToggleView()
+                        }
+                        NavigationLink("ToolbarItemView"){
+                            ToolbarItemView()
                         }
                         NavigationLink("UnavailableView"){
                             UnavailableView()
@@ -226,6 +223,12 @@ struct ContentView: View {
                         }
                     }
                     Section("Image") {
+                        NavigationLink("ImageView"){
+                            ImageView()
+                        }
+                        NavigationLink("ImageInterpolationView"){
+                            ImageInterpolationView()
+                        }
                         NavigationLink("CoreImageView"){
                             CoreImageView()
                         }
@@ -259,17 +262,26 @@ struct ContentView: View {
                         NavigationLink("ConfirmationModifier"){
                             ConfirmationModifier()
                         }
+                        NavigationLink("ContextMenuModifier"){
+                            ContextMenuModifier()
+                        }
                         NavigationLink("CustomModifierView"){
                             CustomModifierView()
                         }
                         NavigationLink("DisabledModifier"){
                             DisabledModifier()
                         }
+                        NavigationLink("ModifierView"){
+                            ModifierView()
+                        }
                         NavigationLink("OnChangeModifier"){
                             OnChangeModifier()
                         }
                         NavigationLink("SheetModifier"){
                             SheetModifier()
+                        }
+                        NavigationLink("SwipeActionsModifier"){
+                            SwipeActionsModifier()
                         }
                         NavigationLink("TagModifier"){
                             TagModifier()
@@ -302,6 +314,11 @@ struct ContentView: View {
                         }
                         NavigationLink("EmojiRatingView") {
                             EmojiRatingView(rating: 5)
+                        }
+                    }
+                    Section("Notification") {
+                        NavigationLink("UserNotificationsView") {
+                            UserNotificationsView()
                         }
                     }
                     Section("Accessibility") {

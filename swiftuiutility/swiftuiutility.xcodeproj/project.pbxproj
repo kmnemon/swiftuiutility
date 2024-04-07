@@ -74,6 +74,11 @@
 		8AAE14862BC20D1E009FA593 /* ListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14852BC20D1E009FA593 /* ListView2.swift */; };
 		8AAE14882BC20E87009FA593 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14872BC20E87009FA593 /* TabsView.swift */; };
 		8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14892BC2113A009FA593 /* ResultTypeStruct.swift */; };
+		8AAE148C2BC21672009FA593 /* ImageInterpolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE148B2BC21672009FA593 /* ImageInterpolationView.swift */; };
+		8AAE148E2BC21CFE009FA593 /* ContextMenuModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */; };
+		8AAE14902BC21F57009FA593 /* SwipeActionsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE148F2BC21F57009FA593 /* SwipeActionsModifier.swift */; };
+		8AAE14932BC22106009FA593 /* UserNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14922BC22106009FA593 /* UserNotificationsView.swift */; };
+		8AAE14952BC28DCA009FA593 /* ToolbarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE14942BC28DCA009FA593 /* ToolbarItemView.swift */; };
 		8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */; };
 		8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907B2BB6914E00D41B7A /* EditBookView.swift */; };
 		8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */; };
@@ -186,6 +191,11 @@
 		8AAE14852BC20D1E009FA593 /* ListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView2.swift; sourceTree = "<group>"; };
 		8AAE14872BC20E87009FA593 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		8AAE14892BC2113A009FA593 /* ResultTypeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeStruct.swift; sourceTree = "<group>"; };
+		8AAE148B2BC21672009FA593 /* ImageInterpolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolationView.swift; sourceTree = "<group>"; };
+		8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuModifier.swift; sourceTree = "<group>"; };
+		8AAE148F2BC21F57009FA593 /* SwipeActionsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsModifier.swift; sourceTree = "<group>"; };
+		8AAE14922BC22106009FA593 /* UserNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationsView.swift; sourceTree = "<group>"; };
+		8AAE14942BC28DCA009FA593 /* ToolbarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemView.swift; sourceTree = "<group>"; };
 		8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStruct.swift; sourceTree = "<group>"; };
 		8ABA907B2BB6914E00D41B7A /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 		8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookContentView.swift; sourceTree = "<group>"; };
@@ -285,6 +295,8 @@
 		8A5683532BBE876B00A88B07 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				8ACEF4DE2B993D460028AA58 /* ImageView.swift */,
+				8AAE148B2BC21672009FA593 /* ImageInterpolationView.swift */,
 				8A5683542BBE87A400A88B07 /* CoreImageView.swift */,
 				8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */,
 			);
@@ -359,6 +371,14 @@
 			path = custom;
 			sourceTree = "<group>";
 		};
+		8AAE14912BC220D4009FA593 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				8AAE14922BC22106009FA593 /* UserNotificationsView.swift */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
 		8ACEF4C02B9935C20028AA58 = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +429,7 @@
 				8AAB08732B9FF1D70039A3FE /* ml */,
 				8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */,
 				8AAB81502BB4EF770047FD0C /* custom */,
+				8AAE14912BC220D4009FA593 /* notification */,
 				8A5683722BC1487100A88B07 /* accessibility */,
 			);
 			path = component;
@@ -421,12 +442,10 @@
 				8AAB086F2B9F13EC0039A3FE /* DatePickerView.swift */,
 				8AAB08942BA4A96E0039A3FE /* DeleteView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
-				8ACEF4DE2B993D460028AA58 /* ImageView.swift */,
 				8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */,
 				8ACEF4DC2B9938140028AA58 /* ListView.swift */,
 				8AAE14852BC20D1E009FA593 /* ListView2.swift */,
 				8ABBE4492BB9209800D53F43 /* MenuView.swift */,
-				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
 				8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */,
 				8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */,
@@ -448,6 +467,7 @@
 				8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */,
 				8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */,
 				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
+				8AAE14942BC28DCA009FA593 /* ToolbarItemView.swift */,
 				8A5683562BBE8F2700A88B07 /* UnavailableView.swift */,
 			);
 			path = basic;
@@ -468,10 +488,13 @@
 			children = (
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
+				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
+				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
+				8AAE148F2BC21F57009FA593 /* SwipeActionsModifier.swift */,
 				8ABBE4472BB9116200D53F43 /* TagModifier.swift */,
 				8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */,
 			);
@@ -621,9 +644,11 @@
 				8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */,
 				8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollListView.swift in Sources */,
+				8AAE148C2BC21672009FA593 /* ImageInterpolationView.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
 				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
 				8A56836C2BBF94B800A88B07 /* MapKitMarkerView.swift in Sources */,
+				8AAE14952BC28DCA009FA593 /* ToolbarItemView.swift in Sources */,
 				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */,
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,
@@ -640,6 +665,7 @@
 				8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */,
 				8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */,
 				8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */,
+				8AAE148E2BC21CFE009FA593 /* ContextMenuModifier.swift in Sources */,
 				8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
@@ -664,6 +690,7 @@
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
 				8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
+				8AAE14932BC22106009FA593 /* UserNotificationsView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
@@ -671,6 +698,7 @@
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
 				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
 				8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */,
+				8AAE14902BC21F57009FA593 /* SwipeActionsModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

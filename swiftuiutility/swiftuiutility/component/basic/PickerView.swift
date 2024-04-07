@@ -23,6 +23,8 @@ struct PickerView: View {
                         Text($0)
                     }
                 }
+                
+                Text("Your selection is: \(selectedStudent)")
             }
             
             NavigationStack {
