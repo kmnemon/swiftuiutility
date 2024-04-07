@@ -29,6 +29,11 @@ struct UserNotificationsView: View {
                 content.subtitle = "It looks hungry"
                 content.sound = UNNotificationSound.default
                 
+//                var dateComponents = DateComponents()
+//                dateComponents.hour = 9
+//                
+//                let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+                
                 let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
                 
                 let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
