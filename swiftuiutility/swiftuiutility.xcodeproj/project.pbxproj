@@ -18,6 +18,7 @@
 		8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE292B9DE8540006E1D1 /* ModifierView.swift */; };
 		8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */; };
 		8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */; };
+		8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFB32BC2D5E500DCBD3E /* GesturesView.swift */; };
 		8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683542BBE87A400A88B07 /* CoreImageView.swift */; };
 		8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683562BBE8F2700A88B07 /* UnavailableView.swift */; };
 		8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */; };
@@ -62,7 +63,7 @@
 		8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */; };
 		8AAB08872BA4118E0039A3FE /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08862BA4118D0039A3FE /* ExplicitAnimationView.swift */; };
 		8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08882BA4333C0039A3FE /* ImplicitAnimationView2.swift */; };
-		8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088A2BA43DC80039A3FE /* GestureView.swift */; };
+		8AAB088B2BA43DC80039A3FE /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088A2BA43DC80039A3FE /* DragGestureView.swift */; };
 		8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088C2BA444030039A3FE /* ShowHideView.swift */; };
 		8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */; };
 		8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08902BA48E3D0039A3FE /* ClassView.swift */; };
@@ -135,6 +136,7 @@
 		8A37BE292B9DE8540006E1D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
 		8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDataStruct.swift; sourceTree = "<group>"; };
 		8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		8A48FFB32BC2D5E500DCBD3E /* GesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesView.swift; sourceTree = "<group>"; };
 		8A5683542BBE87A400A88B07 /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
 		8A5683562BBE8F2700A88B07 /* UnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
 		8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
@@ -179,7 +181,7 @@
 		8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindingView.swift; sourceTree = "<group>"; };
 		8AAB08862BA4118D0039A3FE /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 		8AAB08882BA4333C0039A3FE /* ImplicitAnimationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationView2.swift; sourceTree = "<group>"; };
-		8AAB088A2BA43DC80039A3FE /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		8AAB088A2BA43DC80039A3FE /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		8AAB088C2BA444030039A3FE /* ShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideView.swift; sourceTree = "<group>"; };
 		8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
 		8AAB08902BA48E3D0039A3FE /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
@@ -342,7 +344,6 @@
 				8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */,
 				8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */,
 				8AAB08862BA4118D0039A3FE /* ExplicitAnimationView.swift */,
-				8AAB088A2BA43DC80039A3FE /* GestureView.swift */,
 				8A71E7102B9C6D4500772A31 /* GradientView.swift */,
 				8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */,
 				8AAB08822BA3EA070039A3FE /* ImplicitAnimationView.swift */,
@@ -377,6 +378,15 @@
 				8AAE14922BC22106009FA593 /* UserNotificationsView.swift */,
 			);
 			path = notification;
+			sourceTree = "<group>";
+		};
+		8AAE14962BC2C83F009FA593 /* gesture */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB088A2BA43DC80039A3FE /* DragGestureView.swift */,
+				8A48FFB32BC2D5E500DCBD3E /* GesturesView.swift */,
+			);
+			path = gesture;
 			sourceTree = "<group>";
 		};
 		8ACEF4C02B9935C20028AA58 = {
@@ -425,6 +435,7 @@
 				8A5683532BBE876B00A88B07 /* image */,
 				8A5683642BBF7C1800A88B07 /* map */,
 				8A56836F2BBF980B00A88B07 /* biometric */,
+				8AAE14962BC2C83F009FA593 /* gesture */,
 				8AD26C712BB3CFC900A5FAD5 /* modifier */,
 				8AAB08732B9FF1D70039A3FE /* ml */,
 				8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */,
@@ -681,6 +692,7 @@
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
 				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
+				8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */,
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
 				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
@@ -691,7 +703,7 @@
 				8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAE14932BC22106009FA593 /* UserNotificationsView.swift in Sources */,
-				8AAB088B2BA43DC80039A3FE /* GestureView.swift in Sources */,
+				8AAB088B2BA43DC80039A3FE /* DragGestureView.swift in Sources */,
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
 				8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */,

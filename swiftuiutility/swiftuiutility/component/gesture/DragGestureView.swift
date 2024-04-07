@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GestureView: View {
+struct DragGestureView: View {
     @State private var dragAmount = CGSize.zero
     @State private var dragAmount2 = CGSize.zero
     
@@ -66,5 +66,5 @@ struct GestureView: View {
 }
 
 #Preview {
-    GestureView()
+    DragGestureView()
 }

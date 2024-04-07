@@ -134,9 +134,6 @@ struct ContentView: View {
                         NavigationLink("ImplicitAnimationView2"){
                             ImplicitAnimationView2()
                         }
-                        NavigationLink("GestureView"){
-                            GestureView()
-                        }
                         NavigationLink("ShowHideView"){
                             ShowHideView()
                         }
@@ -253,6 +250,14 @@ struct ContentView: View {
                     Section("Biometric") {
                         NavigationLink("FaceIDTouchIDView"){
                             FaceIDTouchIDView()
+                        }
+                    }
+                    Section("Gesture") {
+                        NavigationLink("DragGestureView"){
+                            DragGestureView()
+                        }
+                        NavigationLink("GesturesView"){
+                            GesturesView()
                         }
                     }
                     Section("Modifier") {
