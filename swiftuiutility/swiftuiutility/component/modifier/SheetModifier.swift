@@ -10,7 +10,7 @@ import SwiftUI
 struct SecondView: View {
     @Environment(\.dismiss) var dismiss
     
-    let name: String
+    var name: String = ""
     
     var body: some View {
         Text("Hello, \(name)!")
@@ -30,10 +30,12 @@ extension SheetModifier {
 
 struct SheetModifier: View {
     @State private var showingSheet = false
+    @State private var showingSheet2 = false
     @State private var person: SheetModifier.Person?
     
     
     var body: some View {
+        
         NavigationStack{
             Button("Show Sheet") {
                 showingSheet.toggle()
@@ -48,6 +50,7 @@ struct SheetModifier: View {
             }
             .padding()
             
+            
             Button("Show Sheet with item") {
                 person = SheetModifier.Person(id: UUID(), firstName: "eden", lastName: "z")
             }
@@ -55,8 +58,19 @@ struct SheetModifier: View {
                 SecondView(name: p.firstName)
             }
             .padding()
-   
+            
+            Button("action on dismiss") {
+                showingSheet2 = true
+            }
+            .sheet(isPresented: $showingSheet2, onDismiss: dis, content: SecondView.init)
+            .padding()
         }
+        
+    }
+    
+    
+    func dis(){
+        print("call dismiss")
     }
 }
 

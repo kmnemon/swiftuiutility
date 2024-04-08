@@ -66,6 +66,12 @@ struct SpecificAccessibilityView: View {
                 .foregroundStyle(.white)
                 .clipShape(.capsule)
         }
+        
+        Section("4.accessibility hidden") {
+            Text("Hello")
+                .accessibilityHidden(true)
+        }
+        
     }
 }
 
