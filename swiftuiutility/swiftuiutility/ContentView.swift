@@ -137,6 +137,9 @@ struct ContentView: View {
                         NavigationLink("StackView"){
                             StackView()
                         }
+                        NavigationLink("VisualEffectView"){
+                            VisualEffectView()
+                        }
                     }
                     Section("Color Animation Haptic"){
                         NavigationLink("AnimationBindingView"){
