@@ -116,6 +116,21 @@ struct ContentView: View {
                         NavigationLink("CustomAlignmentView"){
                             CustomAlignmentView()
                         }
+                        NavigationLink("GeometryReaderView"){
+                            GeometryReaderView()
+                        }
+                        NavigationLink("GeometryReaderView2"){
+                            GeometryReaderView2()
+                        }
+                        NavigationLink("GeometryReaderView3"){
+                            GeometryReaderView3()
+                        }
+                        NavigationLink("GeometryReaderView4"){
+                            GeometryReaderView4()
+                        }
+                        NavigationLink("GeometryReaderView5"){
+                            GeometryReaderView5()
+                        }
                         NavigationLink("PositionView"){
                             PositionView()
                         }
