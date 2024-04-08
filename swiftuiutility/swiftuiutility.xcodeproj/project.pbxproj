@@ -23,6 +23,9 @@
 		8A48FFB82BC3410D00DCBD3E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFB72BC3410D00DCBD3E /* TimerView.swift */; };
 		8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFB92BC3459C00DCBD3E /* ScenePhaseView.swift */; };
 		8A48FFBC2BC3487C00DCBD3E /* SpecificAccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFBB2BC3487C00DCBD3E /* SpecificAccessibilityView.swift */; };
+		8A48FFBF2BC3924000DCBD3E /* AlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */; };
+		8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */; };
+		8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */; };
 		8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683542BBE87A400A88B07 /* CoreImageView.swift */; };
 		8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683562BBE8F2700A88B07 /* UnavailableView.swift */; };
 		8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */; };
@@ -145,6 +148,9 @@
 		8A48FFB72BC3410D00DCBD3E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		8A48FFB92BC3459C00DCBD3E /* ScenePhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePhaseView.swift; sourceTree = "<group>"; };
 		8A48FFBB2BC3487C00DCBD3E /* SpecificAccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificAccessibilityView.swift; sourceTree = "<group>"; };
+		8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentView.swift; sourceTree = "<group>"; };
+		8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentView.swift; sourceTree = "<group>"; };
+		8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionView.swift; sourceTree = "<group>"; };
 		8A5683542BBE87A400A88B07 /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
 		8A5683562BBE8F2700A88B07 /* UnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
 		8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
@@ -303,6 +309,17 @@
 			path = network;
 			sourceTree = "<group>";
 		};
+		8A48FFBD2BC3921D00DCBD3E /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
+				8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */,
+				8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */,
+				8A71E70C2B9B055E00772A31 /* StackView.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
 		8A5683532BBE876B00A88B07 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				8ACEF4F42B9A9E2E0028AA58 /* basic */,
+				8A48FFBD2BC3921D00DCBD3E /* layout */,
 				8A71E70B2B9B033100772A31 /* color_animation_haptic */,
 				8A3E6F3F2BAACBC0009BCEEB /* network */,
 				8A5683532BBE876B00A88B07 /* image */,
@@ -483,7 +501,6 @@
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */,
 				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
-				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
 				8AAE14872BC20E87009FA593 /* TabsView.swift */,
 				8ACEF4F52B9AC2320028AA58 /* TextView.swift */,
@@ -612,14 +629,17 @@
 			files = (
 				8AAE14862BC20D1E009FA593 /* ListView2.swift in Sources */,
 				8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */,
+				8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
+				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */,
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
 				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
 				8A48FFBC2BC3487C00DCBD3E /* SpecificAccessibilityView.swift in Sources */,
+				8A48FFBF2BC3924000DCBD3E /* AlignmentView.swift in Sources */,
 				8ABBE44A2BB9209800D53F43 /* MenuView.swift in Sources */,
 				8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */,
 				8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */,

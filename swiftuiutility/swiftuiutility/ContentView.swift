@@ -83,9 +83,6 @@ struct ContentView: View {
                         NavigationLink("SliderView"){
                             SliderView()
                         }
-                        NavigationLink("StackView"){
-                            StackView()
-                        }
                         NavigationLink("StepperView"){
                             StepperView()
                         }
@@ -112,6 +109,20 @@ struct ContentView: View {
                         }
                     }
                     
+                    Section("Layout") {
+                        NavigationLink("AlignmentView"){
+                            AlignmentView()
+                        }
+                        NavigationLink("CustomAlignmentView"){
+                            CustomAlignmentView()
+                        }
+                        NavigationLink("PositionView"){
+                            PositionView()
+                        }
+                        NavigationLink("StackView"){
+                            StackView()
+                        }
+                    }
                     Section("Color Animation Haptic"){
                         NavigationLink("AnimationBindingView"){
                             AnimationBindingView()
