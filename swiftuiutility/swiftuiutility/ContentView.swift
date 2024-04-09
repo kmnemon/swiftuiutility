@@ -241,6 +241,9 @@ struct ContentView: View {
                         NavigationLink("AlertModifier"){
                             AlertModifier()
                         }
+                        NavigationLink("AlertOptionalModifier"){
+                            AlertOptionalModifier()
+                        }
                         NavigationLink("ConfirmationModifier"){
                             ConfirmationModifier()
                         }
@@ -261,6 +264,9 @@ struct ContentView: View {
                         }
                         NavigationLink("SheetModifier"){
                             SheetModifier()
+                        }
+                        NavigationLink("SheetOptionalModifier"){
+                            SheetOptionalModifier()
                         }
                         NavigationLink("SwipeActionsModifier"){
                             SwipeActionsModifier()
