@@ -131,6 +131,9 @@ struct ContentView: View {
                         NavigationLink("GeometryReaderView5"){
                             GeometryReaderView5()
                         }
+                        NavigationLink("GroupView"){
+                            GroupView()
+                        }
                         NavigationLink("PositionView"){
                             PositionView()
                         }
@@ -262,6 +265,9 @@ struct ContentView: View {
                         NavigationLink("OnChangeModifier"){
                             OnChangeModifier()
                         }
+                        NavigationLink("SearchableModifier"){
+                            SearchableModifier()
+                        }
                         NavigationLink("SheetModifier"){
                             SheetModifier()
                         }
@@ -348,6 +354,9 @@ struct ContentView: View {
                         }
                         NavigationLink("ForEachView"){
                             ForEachView()
+                        }
+                        NavigationLink("ObservableObject"){
+                            ObservableObject()
                         }
                         NavigationLink("OperatorOverloadStruct"){
                             OperatorOverloadStruct()
