@@ -178,11 +178,17 @@ struct ContentView: View {
                         NavigationLink("AsyncImageView"){
                             AsyncImageView()
                         }
+                        NavigationLink("BundleStruct"){
+                            BundleStruct()
+                        }
                         NavigationLink("JSON"){
                             JsonView()
                         }
                         NavigationLink("JSON Advanced"){
                             JsonAdvancedView()
+                        }
+                        NavigationLink("GenericJsonView"){
+                            GenericJsonView()
                         }
                         NavigationLink("SendingReceivingDataStruct"){
                             SendingReceivingDataStruct()
@@ -324,9 +330,6 @@ struct ContentView: View {
                         }
                         NavigationLink("BindableView"){
                             BindableView1()
-                        }
-                        NavigationLink("BundleStruct"){
-                            BundleStruct()
                         }
                         NavigationLink("ClassView"){
                             ClassView()
