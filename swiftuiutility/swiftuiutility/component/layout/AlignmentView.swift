@@ -11,6 +11,7 @@ struct AlignmentView: View {
     var body: some View {
         Text("Live long and prosper")
             .frame(width: 200, height: 100, alignment: .topLeading)
+            .background(.blue)
         
         HStack(alignment: .lastTextBaseline) {
             Text("Live")
@@ -33,7 +34,7 @@ struct AlignmentView: View {
             Text("This is a longer line of text")
         }
         .background(.red)
-        .frame(width: 300, height: 200)
+        .frame(width: 400, height: 200)
         .background(.blue)
         
         VStack(alignment: .leading) {
