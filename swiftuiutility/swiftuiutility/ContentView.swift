@@ -265,6 +265,9 @@ struct ContentView: View {
                         NavigationLink("DisabledModifier"){
                             DisabledModifier()
                         }
+                        NavigationLink("FileImporterModifier"){
+                            FileImporterModifier()
+                        }
                         NavigationLink("ModifierView"){
                             ModifierView()
                         }
