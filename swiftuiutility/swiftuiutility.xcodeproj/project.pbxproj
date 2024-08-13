@@ -143,6 +143,7 @@
 		8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */; };
 		8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7D2BB42E1800A5FAD5 /* Book.swift */; };
 		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
+		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -283,6 +284,7 @@
 		8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		8AD26C7D2BB42E1800A5FAD5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
+		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +343,7 @@
 				8ACEF4E42B9972150028AA58 /* JsonView.swift */,
 				8ABBE44F2BBAEFBF00D53F43 /* JsonAdvancedView.swift */,
 				8A4F98042BE5C669006DF411 /* GenericJsonView.swift */,
+				8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */,
 				8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */,
 				8AD26C762BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift */,
 			);
@@ -701,6 +704,7 @@
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationView.swift in Sources */,
 				8A48FFC72BC3F32700DCBD3E /* GeometryReaderView2.swift in Sources */,
+				8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */,
 				8A48FFC92BC3F7DF00DCBD3E /* GeometryReaderView3.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
 				8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */,

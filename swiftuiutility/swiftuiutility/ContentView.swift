@@ -190,6 +190,9 @@ struct ContentView: View {
                         NavigationLink("GenericJsonView"){
                             GenericJsonView()
                         }
+                        NavigationLink("LongLiveStreamView"){
+                            LongLiveStreamView()
+                        }
                         NavigationLink("SendingReceivingDataStruct"){
                             SendingReceivingDataStruct()
                         }
