@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListView2: View {
+struct ListViewWithSelection: View {
     let people = ["finn", "leia", "link", "rey"]
     @State private var selection: String?
     @State private var selections = Set<String>()
@@ -38,5 +38,5 @@ struct ListView2: View {
 }
 
 #Preview {
-    ListView2()
+    ListViewWithSelection()
 }

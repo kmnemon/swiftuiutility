@@ -23,6 +23,9 @@ struct ContentView: View {
                         NavigationLink("DeleteView"){
                             DeleteView()
                         }
+                        NavigationLink("DividerView"){
+                            DividerView()
+                        }
                         NavigationLink("Form"){
                             FormView()
                         }
@@ -33,7 +36,7 @@ struct ContentView: View {
                             ListView()
                         }
                         NavigationLink("ListView2"){
-                            ListView2()
+                            ListViewWithSelection()
                         }
                         NavigationLink("MenuView"){
                             MenuView()
@@ -139,6 +142,9 @@ struct ContentView: View {
                         }
                         NavigationLink("StackView"){
                             StackView()
+                        }
+                        NavigationLink("StackView"){
+                            SpacerView()
                         }
                         NavigationLink("VisualEffectView"){
                             VisualEffectView()

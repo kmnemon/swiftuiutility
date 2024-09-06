@@ -40,7 +40,6 @@ struct FormView: View {
             }
 //            .disabled(username.isEmpty || email.isEmpty)
             .disabled(disableForm)
-            
         }
     }
 }
