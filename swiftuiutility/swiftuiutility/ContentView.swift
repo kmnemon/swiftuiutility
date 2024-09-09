@@ -277,6 +277,9 @@ struct ContentView: View {
                         NavigationLink("FileImporterModifier"){
                             FileImporterModifier()
                         }
+                        NavigationLink("KeyboardModifier"){
+                            KeyboardModifier()
+                        }
                         NavigationLink("ModifierView"){
                             ModifierView()
                         }
