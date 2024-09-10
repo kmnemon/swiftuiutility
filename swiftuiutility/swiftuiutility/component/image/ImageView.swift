@@ -44,7 +44,7 @@ struct ImageView: View {
                 }
                 
                 Section("voice over do not read") {
-                    Image(decorative: "zelda-botw-logo_2x")
+                    Image(decorative: "ze lda-botw-logo_2x")
                 }
                 
                 Section("SSF") {
