@@ -110,6 +110,9 @@ struct ContentView: View {
                         NavigationLink("UnavailableView"){
                             UnavailableView()
                         }
+                        NavigationLink("ViewBuilderView"){
+                            ViewBuilderView()
+                        }
                     }
                     
                     Section("Layout") {

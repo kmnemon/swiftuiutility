@@ -135,6 +135,7 @@
 		8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */; };
 		8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F52B9AC2320028AA58 /* TextView.swift */; };
 		8AD11F872C909AC5002B5D41 /* UnitStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F862C909AC5002B5D41 /* UnitStruct.swift */; };
+		8AD11F892C911C35002B5D41 /* ViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F882C911C35002B5D41 /* ViewBuilderView.swift */; };
 		8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */; };
 		8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */; };
 		8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */; };
@@ -280,6 +281,7 @@
 		8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		8ACEF4F52B9AC2320028AA58 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		8AD11F862C909AC5002B5D41 /* UnitStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitStruct.swift; sourceTree = "<group>"; };
+		8AD11F882C911C35002B5D41 /* ViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderView.swift; sourceTree = "<group>"; };
 		8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
 		8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableView1.swift; sourceTree = "<group>"; };
@@ -569,6 +571,7 @@
 				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
 				8AAE14942BC28DCA009FA593 /* ToolbarItemView.swift */,
 				8A5683562BBE8F2700A88B07 /* UnavailableView.swift */,
+				8AD11F882C911C35002B5D41 /* ViewBuilderView.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -713,6 +716,7 @@
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
+				8AD11F892C911C35002B5D41 /* ViewBuilderView.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationView.swift in Sources */,
 				8A48FFC72BC3F32700DCBD3E /* GeometryReaderView2.swift in Sources */,
