@@ -403,6 +403,9 @@ struct ContentView: View {
                         NavigationLink("TimerView"){
                             TimerView()
                         }
+                        NavigationLink("TwoWayBinding"){
+                            TwoWayBinding()
+                        }
                         NavigationLink("UserDefaultsStruct"){
                             UserDefaultsStruct()
                         }

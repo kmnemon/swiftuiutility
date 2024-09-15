@@ -37,3 +37,5 @@ struct BindingView: View {
 #Preview {
     BindingView()
 }
+
+
