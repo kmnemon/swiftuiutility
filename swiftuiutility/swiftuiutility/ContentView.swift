@@ -113,6 +113,9 @@ struct ContentView: View {
                         NavigationLink("ViewBuilderView"){
                             ViewBuilderView()
                         }
+                        NavigationLink("ViewComposition"){
+                            ViewComposition()
+                        }
                     }
                     
                     Section("Layout") {
