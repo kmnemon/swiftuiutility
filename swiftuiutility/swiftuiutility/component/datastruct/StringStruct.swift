@@ -21,9 +21,9 @@ struct StringStruct: View {
         b
         c
         """
-        let letters2 = input.components(separatedBy: "\n")
+        let letters2 = intput2.components(separatedBy: "\n")
         
-        let letter = letters2.randomElement()
+        let letter = letters.randomElement()
         let trimmed = letter?.trimmingCharacters(in: .whitespacesAndNewlines)
         
         //UI kit

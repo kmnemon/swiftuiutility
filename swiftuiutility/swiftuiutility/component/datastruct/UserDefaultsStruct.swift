@@ -22,7 +22,7 @@ struct UserDefaultsStruct: View {
     //2. appstorage
     @AppStorage("tapCount2") private var tapCount2 = 0
     
-    //3. Json
+    //3. Store Complex Object - using Json and userdefaults
     @State private var user = User(firstName: "ui", lastName: "swift")
     
     var body: some View {
