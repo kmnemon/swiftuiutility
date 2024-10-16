@@ -49,7 +49,7 @@ struct DetailViewB: View {
     }
 }
 
-struct NavigationStackSaveView: View {
+struct NavigationStackPathStoreView: View {
     @State private var pathStore = PathStore()
     
     var body: some View {
@@ -63,5 +63,5 @@ struct NavigationStackSaveView: View {
 }
 
 #Preview {
-    NavigationStackSaveView()
+    NavigationStackPathStoreView()
 }

@@ -56,8 +56,8 @@ struct ContentView: View {
                         NavigationLink("NavigationStackReturnView"){
                             NavigationStackReturnView()
                         }
-                        NavigationLink("NavigationStackSaveView"){
-                            NavigationStackSaveView()
+                        NavigationLink("NavigationStackPathStoreView"){
+                            NavigationStackPathStoreView()
                         }
                         NavigationLink("PickerView"){
                             PickerView()
