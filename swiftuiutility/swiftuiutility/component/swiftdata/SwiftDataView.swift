@@ -7,6 +7,11 @@
 
 import SwiftUI
 import SwiftData
+//Step 1: Define Data @Model
+//Step 2: In swiftuittilityApp define .modelContainer(automate produce modelContext)
+//Step 3: Using @Query and modelContext
+
+
 
 struct SwiftDataView: View {
     //model context - main context,writing data to disk

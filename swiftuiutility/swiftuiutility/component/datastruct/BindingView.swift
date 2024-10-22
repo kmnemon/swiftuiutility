@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+// a property warpper allows you to create a two-way connection between a property that stores data and a view changes the data.
+// It used in simple data like bool, string, array, share the @State value to another View
+
 struct ChildBindingView: View {
-    //a property warpper allows you to create a two-way connection between a property that stores data and a view changes the data.
     @Binding var isOn: Bool
     
     var body: some View {

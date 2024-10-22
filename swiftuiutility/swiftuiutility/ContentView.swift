@@ -415,12 +415,16 @@ struct ContentView: View {
                     }
                     
                     Section("Custom Component") {
-                        NavigationLink("UsingRating") {
-                            UsingRating()
-                        }
                         NavigationLink("EmojiRatingView") {
                             EmojiRatingView(rating: 5)
                         }
+                        NavigationLink("PushButton") {
+                            UsingPushButton ()
+                        }
+                        NavigationLink("UsingRating") {
+                            UsingRating()
+                        }
+                   
                     }
                     
                     Section("ML"){

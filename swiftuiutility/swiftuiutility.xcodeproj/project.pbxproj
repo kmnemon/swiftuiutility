@@ -66,6 +66,8 @@
 		8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88DED42BC6066800C792C5 /* GroupView.swift */; };
 		8A88DED72BC60C5100C792C5 /* SearchableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */; };
 		8A88DED92BC60EED00C792C5 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88DED82BC60EED00C792C5 /* ObservableObject.swift */; };
+		8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */; };
+		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
 		8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D36FC2C8B595D00D56018 /* DividerView.swift */; };
 		8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */; };
 		8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08612B9E86280039A3FE /* CustomView.swift */; };
@@ -213,6 +215,8 @@
 		8A88DED42BC6066800C792C5 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableModifier.swift; sourceTree = "<group>"; };
 		8A88DED82BC60EED00C792C5 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
 		8A9D36FC2C8B595D00D56018 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesStruct.swift; sourceTree = "<group>"; };
 		8AAB08612B9E86280039A3FE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
@@ -457,9 +461,11 @@
 		8AAB81502BB4EF770047FD0C /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */,
+				8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */,
+				8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */,
 				8AAB81512BB4EF9B0047FD0C /* RatingView.swift */,
 				8AAB81532BB4FC290047FD0C /* UsingRating.swift */,
-				8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 			isa = PBXGroup;
 			children = (
 				8ACEF4F42B9A9E2E0028AA58 /* basic */,
+				8AD26C712BB3CFC900A5FAD5 /* modifier */,
 				8A48FFBD2BC3921D00DCBD3E /* layout */,
 				8A71E70B2B9B033100772A31 /* color_animation_haptic */,
 				8A3E6F3F2BAACBC0009BCEEB /* network */,
@@ -529,7 +536,6 @@
 				8A5683642BBF7C1800A88B07 /* map */,
 				8A56836F2BBF980B00A88B07 /* biometric */,
 				8AAE14962BC2C83F009FA593 /* gesture */,
-				8AD26C712BB3CFC900A5FAD5 /* modifier */,
 				8AAE14912BC220D4009FA593 /* notification */,
 				8A5683722BC1487100A88B07 /* accessibility */,
 				8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */,
@@ -767,6 +773,7 @@
 				8AAE14882BC20E87009FA593 /* TabsView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
+				8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
 				8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */,
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
@@ -813,6 +820,7 @@
 				8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */,
 				8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */,
 				8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */,
+				8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */,
 				8A0C81342BA9A6C000B049A0 /* NavigationStackPathStoreView.swift in Sources */,
 				8A56835D2BBEA1B600A88B07 /* RequestReviewView.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,

@@ -7,19 +7,22 @@
 
 import SwiftUI
 
+//Input multiple line of text
+//Using TextEditor or TextField
+
 struct TextEditorView: View {
     @AppStorage("notes") private var notes = ""
     
     var body: some View {
         NavigationStack {
             VStack {
-                Section("1"){
+                Section("TextEditor Example1"){
                     TextEditor(text: $notes)
                         .navigationTitle("Notes")
                         .padding()
                 }
                 
-                Section("2"){
+                Section("TextEditor Example2"){
                     Form{
                         TextEditor(text: $notes)
                             .navigationTitle("Notes")
@@ -27,12 +30,12 @@ struct TextEditorView: View {
                     }
                 }
                 
-                Section("3") {
+                Section("TextField Example3") {
                     TextField("Enter you text", text: $notes, axis:  .vertical)
                         .textFieldStyle(.roundedBorder)
                 }
                 
-                Section("4"){
+                Section("TextField Example4"){
                     Form{
                         TextField("Enter you text", text: $notes, axis:  .vertical)
                             .textFieldStyle(.roundedBorder)

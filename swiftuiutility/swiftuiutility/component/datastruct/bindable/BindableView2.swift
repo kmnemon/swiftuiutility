@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+// Bindable is used when you want to share observable classes between different Views
 
 struct BindableView2: View {
     //using bindable to transfer obervable object
