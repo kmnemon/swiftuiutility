@@ -19,7 +19,7 @@ struct PushButtonView: View {
             isOn.toggle()
         }
         .padding()
-        .background(LinearGradient(colors: isOn ? onColors : offColors, startPoint: .top, endPoint: .bottom)
+        .background(LinearGradient(colors: isOn ? onColors : offColors, startPoint: .top, endPoint: .bottom))
             .foregroundStyle(.white)
             .clipShape(.capsule)
             .shadow(radius: isOn ? 0 : 5)

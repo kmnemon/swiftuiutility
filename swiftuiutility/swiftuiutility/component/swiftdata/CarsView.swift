@@ -36,6 +36,7 @@ struct CarsView: View {
         }, sort: sortOrder)
     }
     
+    //add links between car and tire, swift data links two object automatically two way bind
     func addSample() {
         let car1 = Car(id: UUID(), name: "Ford", type: "Van", joinDate: .now)
         let tire1 = Tire(name: "Michelin", brand: 0)
