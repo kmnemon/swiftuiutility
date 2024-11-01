@@ -63,6 +63,7 @@ struct ScrollListView: View {
             }
         }
         
+        //In ScrollView When you have fit size, do not let screen scroll
         Section("4") {
             ScrollView {
                 Text("fixed")
