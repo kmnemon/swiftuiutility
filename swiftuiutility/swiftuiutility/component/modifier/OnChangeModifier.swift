@@ -19,6 +19,10 @@ struct OnChangeModifier: View {
                 .onChange(of: blurAmount) { oldValue, newValue in
                         print("New value is \(newValue)")
                 }
+            
+            Button("Random Blur") {
+                blurAmount = Double.random(in: 0...20)
+            }
         }
     }
 }

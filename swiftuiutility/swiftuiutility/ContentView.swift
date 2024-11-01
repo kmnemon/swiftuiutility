@@ -400,6 +400,9 @@ struct ContentView: View {
                         NavigationLink("StringStruct"){
                             StringStruct()
                         }
+                        NavigationLink("StateWrapperView"){
+                            StateWrapperView()
+                        }
                         NavigationLink("TimerView"){
                             TimerView()
                         }
