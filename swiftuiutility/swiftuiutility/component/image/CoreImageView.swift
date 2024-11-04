@@ -51,9 +51,9 @@ struct CoreImageView: View {
         currentFilter.inputImage = beginImage
         currentFilter.intensity = 1
         
-        //get a CI image from filter
+        //get a CIImage from filter
         guard let outputImage = currentFilter.outputImage else { return }
-        //using context covert to the CG image from CI image
+        //using context covert the CIImage to the CGImage
         guard let cgImage = context.createCGImage(outputImage, from: outputImage.extent) else { return }
         //ui image
         let uiImage = UIImage(cgImage: cgImage)
