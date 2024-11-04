@@ -8,6 +8,12 @@
 import SwiftUI
 import LocalAuthentication
 
+/*
+ pass the rouch ID request text in code
+ pass the face ID request text in Project options
+ the reason only A pple knows -_- (69)
+ */
+ 
 struct FaceIDTouchIDView: View {
     @State private var isUnlocked = false
     

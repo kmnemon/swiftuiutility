@@ -35,7 +35,7 @@ struct PhotosPickerView: View {
             }
             .onChange(of: pickerItem) {
                 Task {
-                    selectedImage = try await  ?.loadTransferable(type: Image.self)
+                    selectedImage = try await pickerItem?.loadTransferable(type: Image.self)
                 }
             }
             

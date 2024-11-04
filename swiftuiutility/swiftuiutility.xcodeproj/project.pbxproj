@@ -45,7 +45,7 @@
 		8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */; };
 		8A56835D2BBEA1B600A88B07 /* RequestReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835C2BBEA1B600A88B07 /* RequestReviewView.swift */; };
 		8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */; };
-		8A5683612BBF778F00A88B07 /* URLReadWriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */; };
+		8A5683612BBF778F00A88B07 /* FileReadWriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683602BBF778F00A88B07 /* FileReadWriteView.swift */; };
 		8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683622BBF7A5F00A88B07 /* EnumsView.swift */; };
 		8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683652BBF7C9300A88B07 /* MapKitView.swift */; };
 		8A5683682BBF7E5100A88B07 /* MapKitPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683672BBF7E5100A88B07 /* MapKitPositionView.swift */; };
@@ -69,6 +69,7 @@
 		8A88DED92BC60EED00C792C5 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88DED82BC60EED00C792C5 /* ObservableObject.swift */; };
 		8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */; };
 		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
+		8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */; };
 		8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D36FC2C8B595D00D56018 /* DividerView.swift */; };
 		8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */; };
 		8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08612B9E86280039A3FE /* CustomView.swift */; };
@@ -196,7 +197,7 @@
 		8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
 		8A56835C2BBEA1B600A88B07 /* RequestReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewView.swift; sourceTree = "<group>"; };
 		8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableStruct.swift; sourceTree = "<group>"; };
-		8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLReadWriteView.swift; sourceTree = "<group>"; };
+		8A5683602BBF778F00A88B07 /* FileReadWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReadWriteView.swift; sourceTree = "<group>"; };
 		8A5683622BBF7A5F00A88B07 /* EnumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsView.swift; sourceTree = "<group>"; };
 		8A5683652BBF7C9300A88B07 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 		8A5683672BBF7E5100A88B07 /* MapKitPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitPositionView.swift; sourceTree = "<group>"; };
@@ -220,6 +221,7 @@
 		8A88DED82BC60EED00C792C5 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
+		8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFileReadWrite.swift; sourceTree = "<group>"; };
 		8A9D36FC2C8B595D00D56018 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesStruct.swift; sourceTree = "<group>"; };
 		8AAB08612B9E86280039A3FE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 		8A37BE282B9D513B0006E1D1 /* datastruct */ = {
 			isa = PBXGroup;
 			children = (
+				8A9C5FA72CD89B54000E8566 /* file */,
 				8AD26C782BB410C500A5FAD5 /* BindingView.swift */,
 				8AD26C6A2BB3CB8A00A5FAD5 /* bindable */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
@@ -346,7 +349,6 @@
 				8A48FFB72BC3410D00DCBD3E /* TimerView.swift */,
 				8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */,
 				8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */,
-				8A5683602BBF778F00A88B07 /* URLReadWriteView.swift */,
 				8AD11F862C909AC5002B5D41 /* UnitStruct.swift */,
 			);
 			path = datastruct;
@@ -452,6 +454,15 @@
 				8AAB088C2BA444030039A3FE /* ShowHideView.swift */,
 			);
 			path = color_animation_haptic;
+			sourceTree = "<group>";
+		};
+		8A9C5FA72CD89B54000E8566 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				8A5683602BBF778F00A88B07 /* FileReadWriteView.swift */,
+				8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */,
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 		8AAB08732B9FF1D70039A3FE /* ml */ = {
@@ -801,7 +812,7 @@
 				8A3930082BC4C423002E4819 /* AlertOptionalModifier.swift in Sources */,
 				8A5683682BBF7E5100A88B07 /* MapKitPositionView.swift in Sources */,
 				8AAB087F2BA3D5AD0039A3FE /* StringStruct.swift in Sources */,
-				8A5683612BBF778F00A88B07 /* URLReadWriteView.swift in Sources */,
+				8A5683612BBF778F00A88B07 /* FileReadWriteView.swift in Sources */,
 				8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */,
 				8A56836E2BBF957D00A88B07 /* MapKitTapView.swift in Sources */,
 				8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */,
@@ -848,6 +859,7 @@
 				8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAE14932BC22106009FA593 /* UserNotificationsView.swift in Sources */,
+				8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* DragGestureView.swift in Sources */,
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,

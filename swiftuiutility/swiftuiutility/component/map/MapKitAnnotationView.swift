@@ -8,10 +8,12 @@
 import SwiftUI
 import MapKit
 
-struct Location: Identifiable {
-    let id = UUID()
-    var name: String
-    var coordinate: CLLocationCoordinate2D
+extension MapKitAnnotationView {
+    struct Location: Identifiable {
+        let id = UUID()
+        var name: String
+        var coordinate: CLLocationCoordinate2D
+    }
 }
 
 

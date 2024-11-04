@@ -412,8 +412,8 @@ struct ContentView: View {
                         NavigationLink("UserDefaultsStruct"){
                             UserDefaultsStruct()
                         }
-                        NavigationLink("URLReadWriteView"){
-                            URLReadWriteView()
+                        NavigationLink("FileReadWriteView"){
+                            FileReadWriteView()
                         }
                     }
                     

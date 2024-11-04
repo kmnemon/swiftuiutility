@@ -11,7 +11,7 @@ import SwiftUI
  2. Asking for complete file protection means iOS automatically (and transparently) encrypts the file, and only allows our app to read it while the device is unlocked. iOS does a great job of keeping user data secure, but there's no harm being extra safe!
  */
 
-struct URLReadWriteView: View {
+struct FileReadWriteView: View {
     var body: some View {
         Button("Read and Write") {
             let data = Data("Test Message".utf8)
@@ -29,5 +29,5 @@ struct URLReadWriteView: View {
 }
 
 #Preview {
-    URLReadWriteView()
+    FileReadWriteView()
 }

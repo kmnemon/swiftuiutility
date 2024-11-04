@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension GenericJsonView {
+extension Bundle {
     enum DataError: Error {
         case urlWrong
         case jsonDecodeError
@@ -30,6 +30,8 @@ extension GenericJsonView {
 
 
 struct GenericJsonView: View {
+    let astronauts: [String: String] = Bundle.main.decode("astronauts.json")
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

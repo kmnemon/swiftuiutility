@@ -15,6 +15,9 @@ struct MapKitView: View {
          Map(interactionModes: [])
          Map()
              .mapStyle(.imagery)
+         Map()
+             .mapStyle(.hybrid)
+         Map(interactionModes: [])
          */
         Map(interactionModes: [.rotate, .zoom])
             .mapStyle(.hybrid(elevation: .realistic))

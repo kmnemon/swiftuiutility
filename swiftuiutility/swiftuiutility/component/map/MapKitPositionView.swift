@@ -7,7 +7,7 @@
 
 import SwiftUI
 import MapKit
-
+//CLLocationCoordinate2D is not conform to codable
 struct MapKitPositionView: View {
     @State private var position = MapCameraPosition.region(
         MKCoordinateRegion(
@@ -24,7 +24,9 @@ struct MapKitPositionView: View {
     var body: some View {
         Map(position: $position)
             .mapStyle(.hybrid(elevation: .realistic))
-        //.onMapCameraChange(frequency: .continuous)
+        //.onMapCameraChange(frequency: .continuous) { context in
+        //      print(context.region)
+        //  }
             .onMapCameraChange { context in
                 print(context.region)
             }

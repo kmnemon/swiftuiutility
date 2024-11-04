@@ -7,19 +7,6 @@
 
 import SwiftUI
 
-struct SecondView: View {
-    @Environment(\.dismiss) var dismiss
-    
-    var name: String = ""
-    
-    var body: some View {
-        Text("Hello, \(name)!")
-        Button("Dismiss"){
-            dismiss()
-        }
-    }
-}
-
 extension SheetModifier {
     struct Person: Identifiable{
         var id: UUID
@@ -28,6 +15,23 @@ extension SheetModifier {
     }
 }
 
+extension SheetModifier {
+    struct SecondView: View {
+        @Environment(\.dismiss) var dismiss
+        
+        var name: String = ""
+        
+        var body: some View {
+            Text("Hello, \(name)!")
+            Button("Dismiss"){
+                dismiss()
+            }
+        }
+    }
+}
+
+
+
 struct SheetModifier: View {
     @State private var showingSheet = false
     @State private var showingSheet2 = false
@@ -35,7 +39,6 @@ struct SheetModifier: View {
     
     
     var body: some View {
-        
         NavigationStack{
             Button("Show Sheet") {
                 showingSheet.toggle()

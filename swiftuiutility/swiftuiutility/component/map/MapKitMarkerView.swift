@@ -8,6 +8,14 @@
 import SwiftUI
 import MapKit
 
+extension MapKitMarkerView {
+    struct Location: Identifiable {
+        let id = UUID()
+        var name: String
+        var coordinate: CLLocationCoordinate2D
+    }  
+}
+
 struct MapKitMarkerView: View {
     let locations = [
         Location(name: "Buckingham Palace", coordinate: CLLocationCoordinate2D(latitude: 51.501, longitude: -0.141)),
