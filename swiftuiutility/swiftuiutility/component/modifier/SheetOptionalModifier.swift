@@ -13,17 +13,22 @@ extension SheetOptionalModifier {
         var firstName: String
         var lastName: String
     }
+    
+    static func ==(lhs:Person, rhs: Person) -> Bool {
+        lhs.id == rhs.id
+    }
 }
 
 
 
 extension SheetOptionalModifier {
-    struct DetailView: View {
+    struct EditView: View {
         @Environment(\.dismiss) var dismiss
         var person: Person
         
         @State private var firstName: String
         @State private var lastName: String
+        var onSave: (Person) -> Void
         
         var body: some View {
             NavigationStack {
@@ -36,14 +41,21 @@ extension SheetOptionalModifier {
                 .navigationTitle("Person details")
                 .toolbar {
                     Button("save"){
+                        var newPerson = person
+                        newPerson.id = UUID()
+                        newPerson.firstName = firstName
+                        newPerson.lastName = lastName
+                        onSave(newPerson)
+                        
                         dismiss()
                     }
                 }
             }
         }
         
-        init(person: Person) {
+        init(person: Person, onSave: @escaping (Person) -> Void) {
             self.person = person
+            self.onSave = onSave
             
             _firstName = State(initialValue: person.firstName)
             _lastName = State(initialValue: person.lastName)
@@ -52,6 +64,7 @@ extension SheetOptionalModifier {
 }
 
 struct SheetOptionalModifier: View {
+    @State private var persons = [Person][]
     @State private var selectedUser: Person?
     
     var body: some View {
@@ -60,8 +73,13 @@ struct SheetOptionalModifier: View {
             selectedUser = newPerson
         }
         .sheet(item: $selectedUser) { user in
-            Text(user.firstName)
-                .presentationDetents([.medium, .large])
+//            Text(user.firstName)
+//                .presentationDetents([.medium, .large])
+            EditView(person: user) { newPerson in
+                if let index = persons.firstIndex(of: user) {
+                    persons[index] = newPerson
+                }
+            }
         }
     }
 }

@@ -30,7 +30,7 @@ extension Bundle {
 
 
 struct GenericJsonView: View {
-    let astronauts: [String: String] = Bundle.main.decode("astronauts.json")
+//    let astronauts: [String: String] = Bundle.main.decode("astronauts.json")
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
