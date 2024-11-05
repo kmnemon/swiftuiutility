@@ -59,6 +59,7 @@
 		8A56837A2BC1630C00A88B07 /* VoiceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683792BC1630C00A88B07 /* VoiceInputView.swift */; };
 		8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */; };
 		8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */; };
+		8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -211,6 +212,7 @@
 		8A5683792BC1630C00A88B07 /* VoiceInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputView.swift; sourceTree = "<group>"; };
 		8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorOverloadStruct.swift; sourceTree = "<group>"; };
 		8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperStruct.swift; sourceTree = "<group>"; };
+		8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperAndUnderScoreName.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 				8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */,
 				8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */,
 				8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */,
+				8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */,
 				8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */,
 				8AAE14892BC2113A009FA593 /* ResultTypeStruct.swift */,
 				8AAB087E2BA3D5AD0039A3FE /* StringStruct.swift */,
@@ -765,6 +768,7 @@
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
+				8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
 				8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */,
 				8ABBE4482BB9116200D53F43 /* TagModifier.swift in Sources */,
