@@ -8,15 +8,17 @@
 import SwiftUI
 
 extension SheetOptionalModifier {
-    struct Person: Identifiable {
+    struct Person: Identifiable, Equatable {
         var id: UUID
         var firstName: String
         var lastName: String
+        
+        static func ==(lhs:Person, rhs: Person) -> Bool {
+            lhs.id == rhs.id
+        }
     }
     
-    static func ==(lhs:Person, rhs: Person) -> Bool {
-        lhs.id == rhs.id
-    }
+
 }
 
 
@@ -64,7 +66,7 @@ extension SheetOptionalModifier {
 }
 
 struct SheetOptionalModifier: View {
-    @State private var persons = [Person][]
+    @State private var persons = [Person]()
     @State private var selectedUser: Person?
     
     var body: some View {
