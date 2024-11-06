@@ -18,7 +18,7 @@ struct AccessibilityDataView: View {
                 .resizable()
                 .scaledToFit()
                 .accessibilityHidden(true)
-            
+             
             //group
             VStack {
                 Text("Your score is")
