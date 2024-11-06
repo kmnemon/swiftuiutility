@@ -241,6 +241,9 @@ struct ContentView: View {
                         NavigationLink("MapKitTapView"){
                             MapKitTapView()
                         }
+                        NavigationLink("LocationFetcherView"){
+                            LocationFetcherView()
+                        }
                     }
                     
                     Section("Biometric") {
