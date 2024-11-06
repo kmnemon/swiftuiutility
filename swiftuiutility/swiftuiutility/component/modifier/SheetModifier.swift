@@ -35,7 +35,7 @@ extension SheetModifier {
 struct SheetModifier: View {
     @State private var showingSheet = false
     @State private var showingSheet2 = false
-    @State private var person: SheetModifier.Person?
+    @State private var person: Person?
     
     
     var body: some View {
@@ -55,7 +55,7 @@ struct SheetModifier: View {
             
             
             Button("Show Sheet with item") {
-                person = SheetModifier.Person(id: UUID(), firstName: "eden", lastName: "z")
+                person = Person(id: UUID(), firstName: "eden", lastName: "z")
             }
             .sheet(item: $person) { p in
                 SecondView(name: p.firstName)
