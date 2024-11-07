@@ -226,6 +226,9 @@ struct ContentView: View {
                         NavigationLink("PhotosPickerView"){
                             PhotosPickerView()
                         }
+                        NavigationLink("QRCodeView"){
+                            QRCodeView()
+                        }
                     }
                     
                     Section("Map") {

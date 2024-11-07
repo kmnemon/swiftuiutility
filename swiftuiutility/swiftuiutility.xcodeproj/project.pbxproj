@@ -60,6 +60,7 @@
 		8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */; };
 		8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */; };
 		8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */; };
+		8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ABFE22CDC6A5A003CBC1A /* QRCodeView.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -214,6 +215,7 @@
 		8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorOverloadStruct.swift; sourceTree = "<group>"; };
 		8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperStruct.swift; sourceTree = "<group>"; };
 		8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperAndUnderScoreName.swift; sourceTree = "<group>"; };
+		8A5ABFE22CDC6A5A003CBC1A /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -408,6 +410,7 @@
 				8AAE148B2BC21672009FA593 /* ImageInterpolationView.swift */,
 				8A5683542BBE87A400A88B07 /* CoreImageView.swift */,
 				8A5683582BBE995B00A88B07 /* PhotosPickerView.swift */,
+				8A5ABFE22CDC6A5A003CBC1A /* QRCodeView.swift */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -738,6 +741,7 @@
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
+				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
 				8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */,
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
 				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
