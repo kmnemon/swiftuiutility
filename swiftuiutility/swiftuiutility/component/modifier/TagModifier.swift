@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TagModifier: View {
-    @State private var sortOrder: [String] = [""]
+    @State private var sortOrder: String = ""
     @State private var users = [ToolbarItemView.User]()
     @State private var selectedUsers = Set<ToolbarItemView.User>()
     
@@ -16,16 +16,12 @@ struct TagModifier: View {
         Section("1.With Picker:") {
             Picker("Sort", selection: $sortOrder) {
                 Text("Sort by Name")
-                    .tag([
-                        "Name"
-                    ])
+                    .tag("Name")
                 Text("Sort by Join Date")
-                    .tag([
-                        "Date"
-                    ])
+                    .tag("Date")
             }
             
-            Text("Your choose is: \(sortOrder[0])")
+            Text("Your choose is: \(sortOrder)")
         }
         
         Spacer()

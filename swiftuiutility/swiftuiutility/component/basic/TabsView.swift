@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
-
+/*
+ TabView are naturly the parent view, inside that you can use the NavigationStack
+ */
 struct TabsView: View {
     @State private var selectedTab = "One"
     
@@ -20,7 +22,7 @@ struct TabsView: View {
                 
                 Text("Tab 2")
                     .tabItem {
-                        Label("One", systemImage: "circle")
+                        Label("Two", systemImage: "circle")
                     }
             }
         }
@@ -37,7 +39,7 @@ struct TabsView: View {
                 
                 Text("Tab 2")
                     .tabItem {
-                        Label("One", systemImage: "circle")
+                        Label("Two", systemImage: "circle")
                     }
                     .tag("Two")
             }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     let people = ["finn", "leia", "link", "rey"]
-    
+        
     var body: some View {
         VStack {
             Section("1") {

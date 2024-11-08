@@ -292,6 +292,9 @@ struct ContentView: View {
                         NavigationLink("ModifierView"){
                             ModifierView()
                         }
+                        NavigationLink("OnAppearModifier"){
+                            OnAppearModifier()
+                        }
                         NavigationLink("OnChangeModifier"){
                             OnChangeModifier()
                         }
