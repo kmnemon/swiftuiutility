@@ -65,6 +65,14 @@ struct SheetModifier: View {
             Button("action on dismiss") {
                 showingSheet2 = true
             }
+            .sheet(isPresented: $showingSheet2, onDismiss: dis) {
+                SecondView.init()
+            }
+            .padding()
+            
+            Button("action on dismiss") {
+                showingSheet2 = true
+            }
             .sheet(isPresented: $showingSheet2, onDismiss: dis, content: SecondView.init)
             .padding()
         }

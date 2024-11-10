@@ -83,6 +83,9 @@ struct ContentView: View {
                         NavigationLink("ShareLinkView"){
                             ShareLinkView()
                         }
+                        NavigationLink("ShapeView"){
+                            ShapeView()
+                        }
                         NavigationLink("SliderView"){
                             SliderView()
                         }

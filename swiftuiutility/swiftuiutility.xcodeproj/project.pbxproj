@@ -125,6 +125,9 @@
 		8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */; };
 		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
+		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
+		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
+		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
 		8ACEF4D12B9935C30028AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D02B9935C30028AA58 /* Assets.xcassets */; };
@@ -280,6 +283,9 @@
 		8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
 		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
+		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
+		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
 		8ACEF4CE2B9935C20028AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -598,6 +604,7 @@
 				8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */,
+				8AC80AF92CDED50C000317A3 /* ShapeView.swift */,
 				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
 				8AAE14872BC20E87009FA593 /* TabsView.swift */,
@@ -631,10 +638,12 @@
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
+				8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
+				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
@@ -747,6 +756,7 @@
 				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
 				8A48FFBC2BC3487C00DCBD3E /* SpecificAccessibilityView.swift in Sources */,
+				8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */,
 				8A48FFBF2BC3924000DCBD3E /* AlignmentView.swift in Sources */,
 				8ABBE44A2BB9209800D53F43 /* MenuView.swift in Sources */,
 				8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */,
@@ -830,6 +840,7 @@
 				8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */,
 				8A437C992CD51720000D5BB2 /* StateWrapperView.swift in Sources */,
 				8A41CADA2BEA600D00115EF6 /* FileImporterModifier.swift in Sources */,
+				8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */,
 				8A5683742BC1489700A88B07 /* VoiceOverView.swift in Sources */,
 				8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */,
 				8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */,
@@ -848,6 +859,7 @@
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
 				8A48FFCB2BC3FFC200DCBD3E /* GeometryReaderView4.swift in Sources */,
+				8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */,
 				8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */,
 				8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */,
 				8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */,

@@ -37,6 +37,7 @@ struct TextView: View {
                 .background(.yellow)
         }
         .padding()
+        .multilineTextAlignment(.center)
     }
 }
 
