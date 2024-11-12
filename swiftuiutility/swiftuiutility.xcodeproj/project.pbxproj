@@ -61,6 +61,7 @@
 		8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */; };
 		8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */; };
 		8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ABFE22CDC6A5A003CBC1A /* QRCodeView.swift */; };
+		8A5AC0522CE30437003CBC1A /* OpacityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0512CE30431003CBC1A /* OpacityView.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -219,6 +220,7 @@
 		8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperStruct.swift; sourceTree = "<group>"; };
 		8A5ABFB22CDA2BB7003CBC1A /* PropertyWrapperAndUnderScoreName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperAndUnderScoreName.swift; sourceTree = "<group>"; };
 		8A5ABFE22CDC6A5A003CBC1A /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		8A5AC0512CE30431003CBC1A /* OpacityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityView.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -466,6 +468,7 @@
 				8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */,
 				8AAB08822BA3EA070039A3FE /* ImplicitAnimationView.swift */,
 				8AAB08882BA4333C0039A3FE /* ImplicitAnimationView2.swift */,
+				8A5AC0512CE30431003CBC1A /* OpacityView.swift */,
 				8AAB088C2BA444030039A3FE /* ShowHideView.swift */,
 			);
 			path = color_animation_haptic;
@@ -762,6 +765,7 @@
 				8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */,
 				8A39300A2BC4C579002E4819 /* SheetOptionalModifier.swift in Sources */,
 				8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */,
+				8A5AC0522CE30437003CBC1A /* OpacityView.swift in Sources */,
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,

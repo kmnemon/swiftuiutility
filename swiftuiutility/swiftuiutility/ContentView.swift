@@ -184,6 +184,9 @@ struct ContentView: View {
                         NavigationLink("ImplicitAnimationView2"){
                             ImplicitAnimationView2()
                         }
+                        NavigationLink("OpacityView"){
+                            OpacityView()
+                        }
                         NavigationLink("ShowHideView"){
                             ShowHideView()
                         }
