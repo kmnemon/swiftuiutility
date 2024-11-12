@@ -7,10 +7,18 @@
 
 import SwiftUI
 
-struct NavigationView: View {
+struct NavigationSplitViewWithiPad: View {
     
     var body: some View {
-        Section("1") {
+        Section("basic") {
+            NavigationSplitView {
+                Text("Primary")
+            } detail: {
+                Text("Content")
+            }
+        }
+        
+        Section("2") { //.constant is a binding value, you can use @State value change it
             NavigationSplitView(columnVisibility: .constant(.all)) {
                 NavigationLink("Primary") {
                     Text("New view")
@@ -22,7 +30,7 @@ struct NavigationView: View {
         }
         
         
-        Section("2") {
+        Section("3") {
             NavigationSplitView(preferredCompactColumn: .constant(.detail)) {
                 NavigationLink("Primary") {
                     Text("New view")
@@ -32,9 +40,21 @@ struct NavigationView: View {
             }
             .navigationSplitViewStyle(.balanced)
         }
+        
+        Section("toolbar hidden") {
+            NavigationSplitView {
+                NavigationLink("Primary") {
+                    Text("New view")
+                }
+            } detail: {
+                Text("Content")
+                    .toolbar(.hidden, for: .navigationBar)
+            }
+            .navigationSplitViewStyle(.balanced)
+        }
     }
 }
 
 #Preview {
-    NavigationView()
+    NavigationSplitViewWithiPad()
 }

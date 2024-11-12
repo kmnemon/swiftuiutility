@@ -155,9 +155,13 @@ struct ContentView: View {
                         NavigationLink("StackView"){
                             SpacerView()
                         }
+                        NavigationLink("ViewThatFitsView"){
+                            ViewThatFitsView()
+                        }
                         NavigationLink("VisualEffectView"){
                             VisualEffectView()
                         }
+                        
                     }
                     Section("Color Animation Haptic"){
                         NavigationLink("AnimationBindingView"){
@@ -307,6 +311,9 @@ struct ContentView: View {
                         NavigationLink("OnChangeModifier"){
                             OnChangeModifier()
                         }
+                        NavigationLink("PresentationDetentsModifier"){
+                            PresentationDetentsModifier()
+                        }
                         NavigationLink("SearchableModifier"){
                             SearchableModifier()
                         }
@@ -361,11 +368,17 @@ struct ContentView: View {
                     }
                     
                     Section("Datastruct"){
+                        NavigationLink("ShareObjectView"){
+                            ShareObjectView()
+                        }
                         NavigationLink("BindingView"){
                             BindingView()
                         }
                         NavigationLink("BindableView"){
                             BindableView1()
+                        }
+                        NavigationLink("EnvironmentView"){
+                            EnvironmentView()
                         }
                         NavigationLink("ClassView"){
                             ClassView()
@@ -393,9 +406,6 @@ struct ContentView: View {
                         }
                         NavigationLink("ForEachView"){
                             ForEachView()
-                        }
-                        NavigationLink("ObservableObject"){
-                            ObservableObject()
                         }
                         NavigationLink("OperatorOverloadStruct"){
                             OperatorOverloadStruct()
@@ -443,6 +453,13 @@ struct ContentView: View {
                             UsingRating()
                         }
                    
+                    }
+                    
+                    Section("iPad") {
+                        NavigationLink("NavigationSplitViewWithiPad") {
+                            NavigationSplitViewWithiPad()
+                        }
+                        
                     }
                     
                     Section("ML"){

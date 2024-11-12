@@ -62,6 +62,36 @@ struct ResultTypeStruct: View {
                 output = "Error: \(error.localizedDescription)"
         }
     }
+    
+    //4.using result.get
+    enum NetworkError: Error {
+        case badURL
+    }
+
+    func createResult() -> Result<String, NetworkError> {
+        return .failure(.badURL)
+    }
+
+    func usingResultGet() {
+        let result = createResult()
+        
+        do {
+            let successString = try result.get()
+            print(successString)
+        } catch {
+            print("Oops! There was an error.")
+        }
+    }
+    
+    //5.create Result
+    /*
+     to create a Result value from throwing code – you’ll find that Result has an initializer that accepts a throwing closure. If the closure returns a value successfully that gets used for the success case, otherwise the thrown error is placed into the failure case.
+     */
+    func createresult() -> Result<String, Error> {
+        let result = Result { try String(contentsOf: URL(string: "http://localhost:8080/stock-stream")!) }
+        return result
+    }
+    
 }
 
 #Preview {

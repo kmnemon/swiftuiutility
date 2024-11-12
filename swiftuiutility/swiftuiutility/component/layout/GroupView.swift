@@ -39,21 +39,13 @@ struct GroupView: View {
             }
         }
         
-        //2.
+        //2. compact or regular
         if horizontalSizeClass == .compact {
             VStack(content: UserView.init)
         } else {
             HStack(content: UserView.init)
         }
         
-        //3.
-        ViewThatFits {
-            Rectangle()
-                .frame(width: 500, height: 200)
-            
-            Circle()
-                .frame(width: 200, height: 200)
-        }
     }
 }
 
