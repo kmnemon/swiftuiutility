@@ -26,9 +26,9 @@ struct VisualEffectView: View {
                         }
                 }
             }
-            .scrollTargetLayout()
+            .scrollTargetLayout() // tell swiftui we want to make each view inside the HStack be a scroll target
         }
-        .scrollTargetBehavior(.viewAligned)
+        .scrollTargetBehavior(.viewAligned) //tell swiftui i should make the scroll view move smoothly between all the scroll targets it contains
     }
 }
 
