@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DeleteView: View {
+struct OnDeleteModifier: View {
     @State private var numbers = [Int]()
     @State private var currentNumber = 1
     
@@ -38,5 +38,5 @@ struct DeleteView: View {
 }
 
 #Preview {
-    DeleteView()
+    OnDeleteModifier()
 }
