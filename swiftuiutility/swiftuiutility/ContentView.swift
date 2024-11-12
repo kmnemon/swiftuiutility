@@ -20,9 +20,6 @@ struct ContentView: View {
                         NavigationLink("DatePickerView"){
                             DatePickerView()
                         }
-                        NavigationLink("DeleteView"){
-                            DeleteView()
-                        }
                         NavigationLink("DividerView"){
                             DividerView()
                         }

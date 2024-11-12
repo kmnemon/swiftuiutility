@@ -101,7 +101,6 @@
 		8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */; };
 		8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08902BA48E3D0039A3FE /* ClassView.swift */; };
 		8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08922BA49F220039A3FE /* SheetModifier.swift */; };
-		8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08942BA4A96E0039A3FE /* DeleteView.swift */; };
 		8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81512BB4EF9B0047FD0C /* RatingView.swift */; };
 		8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81532BB4FC290047FD0C /* UsingRating.swift */; };
 		8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */; };
@@ -132,6 +131,7 @@
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
+		8AC80B132CE37CE1000317A3 /* OnDeleteModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
 		8ACEF4D12B9935C30028AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D02B9935C30028AA58 /* Assets.xcassets */; };
@@ -263,7 +263,6 @@
 		8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
 		8AAB08902BA48E3D0039A3FE /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		8AAB08922BA49F220039A3FE /* SheetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModifier.swift; sourceTree = "<group>"; };
-		8AAB08942BA4A96E0039A3FE /* DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteView.swift; sourceTree = "<group>"; };
 		8AAB81512BB4EF9B0047FD0C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		8AAB81532BB4FC290047FD0C /* UsingRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRating.swift; sourceTree = "<group>"; };
 		8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
@@ -294,6 +293,7 @@
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
+		8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeleteModifier.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
 		8ACEF4CE2B9935C20028AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -602,7 +602,6 @@
 			children = (
 				8ACEF4EE2B999A110028AA58 /* ButtonView.swift */,
 				8AAB086F2B9F13EC0039A3FE /* DatePickerView.swift */,
-				8AAB08942BA4A96E0039A3FE /* DeleteView.swift */,
 				8A9D36FC2C8B595D00D56018 /* DividerView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
 				8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */,
@@ -664,6 +663,7 @@
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
+				8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */,
 				8A5AC0582CE352EA003CBC1A /* PresentationDetentsModifier.swift */,
 				8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
@@ -852,6 +852,7 @@
 				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8A48FFC52BC3EF3300DCBD3E /* GeometryReaderView.swift in Sources */,
 				8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */,
+				8AC80B132CE37CE1000317A3 /* OnDeleteModifier.swift in Sources */,
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,
 				8A3930082BC4C423002E4819 /* AlertOptionalModifier.swift in Sources */,
 				8A5683682BBF7E5100A88B07 /* MapKitPositionView.swift in Sources */,
@@ -917,7 +918,6 @@
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
 				8A4F98052BE5C669006DF411 /* GenericJsonView.swift in Sources */,
 				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
-				8AAB08952BA4A96E0039A3FE /* DeleteView.swift in Sources */,
 				8AAE14902BC21F57009FA593 /* SwipeActionsModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
