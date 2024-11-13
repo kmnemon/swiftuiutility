@@ -15,8 +15,11 @@ public struct ShapeView: View {
         
         
         Circle()
-            .fill(.red)
-            .frame(width: 300, height: 300)
+            .stroke(.blue, lineWidth: 40)
+        
+        Circle()
+            .strokeBorder(.blue, lineWidth: 40)
+            
         
         
         RoundedRectangle(cornerRadius: 25)

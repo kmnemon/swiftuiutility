@@ -66,6 +66,9 @@
 		8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC05A2CE356F8003CBC1A /* ViewThatFitsView.swift */; };
 		8A5AC05E2CE3643F003CBC1A /* ShareObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC05D2CE36438003CBC1A /* ShareObjectView.swift */; };
 		8A5AC0642CE3686E003CBC1A /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0632CE36866003CBC1A /* EnvironmentView.swift */; };
+		8A5AC0822CE447E0003CBC1A /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0812CE447DA003CBC1A /* PathView.swift */; };
+		8A5AC0842CE44C42003CBC1A /* ShapeProtocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0832CE44C3E003CBC1A /* ShapeProtocalView.swift */; };
+		8A5AC0862CE45715003CBC1A /* InsettableShapeProtocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0852CE4570A003CBC1A /* InsettableShapeProtocalView.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -229,6 +232,9 @@
 		8A5AC05A2CE356F8003CBC1A /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
 		8A5AC05D2CE36438003CBC1A /* ShareObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareObjectView.swift; sourceTree = "<group>"; };
 		8A5AC0632CE36866003CBC1A /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
+		8A5AC0812CE447DA003CBC1A /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		8A5AC0832CE44C3E003CBC1A /* ShapeProtocalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeProtocalView.swift; sourceTree = "<group>"; };
+		8A5AC0852CE4570A003CBC1A /* InsettableShapeProtocalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeProtocalView.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -475,6 +481,17 @@
 			path = shareobject;
 			sourceTree = "<group>";
 		};
+		8A5AC0802CE4474E003CBC1A /* shape */ = {
+			isa = PBXGroup;
+			children = (
+				8AC80AF92CDED50C000317A3 /* ShapeView.swift */,
+				8A5AC0812CE447DA003CBC1A /* PathView.swift */,
+				8A5AC0832CE44C3E003CBC1A /* ShapeProtocalView.swift */,
+				8A5AC0852CE4570A003CBC1A /* InsettableShapeProtocalView.swift */,
+			);
+			path = shape;
+			sourceTree = "<group>";
+		};
 		8A71E70B2B9B033100772A31 /* color_animation_haptic */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +613,7 @@
 				8AAB81502BB4EF770047FD0C /* custom */,
 				8AAB08732B9FF1D70039A3FE /* ml */,
 				8A3930042BC4BE16002E4819 /* ipad */,
+				8A5AC0802CE4474E003CBC1A /* shape */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -625,7 +643,6 @@
 				8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */,
 				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */,
-				8AC80AF92CDED50C000317A3 /* ShapeView.swift */,
 				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
 				8AAE14872BC20E87009FA593 /* TabsView.swift */,
@@ -820,6 +837,7 @@
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
+				8A5AC0822CE447E0003CBC1A /* PathView.swift in Sources */,
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
 				8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
@@ -885,6 +903,7 @@
 				8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */,
 				8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */,
 				8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */,
+				8A5AC0862CE45715003CBC1A /* InsettableShapeProtocalView.swift in Sources */,
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
 				8A48FFCB2BC3FFC200DCBD3E /* GeometryReaderView4.swift in Sources */,
@@ -914,6 +933,7 @@
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
 				8AAE14932BC22106009FA593 /* UserNotificationsView.swift in Sources */,
 				8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */,
+				8A5AC0842CE44C42003CBC1A /* ShapeProtocalView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* DragGestureView.swift in Sources */,
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,

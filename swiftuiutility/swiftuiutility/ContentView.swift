@@ -80,9 +80,6 @@ struct ContentView: View {
                         NavigationLink("ShareLinkView"){
                             ShareLinkView()
                         }
-                        NavigationLink("ShapeView"){
-                            ShapeView()
-                        }
                         NavigationLink("SliderView"){
                             SliderView()
                         }
@@ -470,6 +467,18 @@ struct ContentView: View {
                         //Sentiment analysis
                         //Regression analysis
                         
+                    }
+                    
+                    Section("Shape") {
+                        NavigationLink("ShapeView"){
+                            ShapeView()
+                        }
+                        NavigationLink("PathView"){
+                            PathView()
+                        }
+                        NavigationLink("ShapeProtocalView"){
+                            ShapeProtocalView()
+                        }
                     }
                 }
                 .navigationTitle("Choose Component")
