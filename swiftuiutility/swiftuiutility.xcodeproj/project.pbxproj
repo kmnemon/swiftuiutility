@@ -140,6 +140,8 @@
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
 		8AC80B132CE37CE1000317A3 /* OnDeleteModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */; };
 		8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */; };
+		8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B192CE4CB44000317A3 /* AnimatableDataView.swift */; };
+		8AC80B1C2CE4D91C000317A3 /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B1B2CE4D912000317A3 /* AnimatablePairView.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
 		8ACEF4D12B9935C30028AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D02B9935C30028AA58 /* Assets.xcassets */; };
@@ -310,6 +312,8 @@
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
 		8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeleteModifier.swift; sourceTree = "<group>"; };
 		8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSizeDynamicTypeView.swift; sourceTree = "<group>"; };
+		8AC80B192CE4CB44000317A3 /* AnimatableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataView.swift; sourceTree = "<group>"; };
+		8AC80B1B2CE4D912000317A3 /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
 		8ACEF4CE2B9935C20028AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -500,6 +504,8 @@
 				8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */,
 				8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */,
 				8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */,
+				8AC80B192CE4CB44000317A3 /* AnimatableDataView.swift */,
+				8AC80B1B2CE4D912000317A3 /* AnimatablePairView.swift */,
 			);
 			path = shape;
 			sourceTree = "<group>";
@@ -912,6 +918,7 @@
 				8AAE148E2BC21CFE009FA593 /* ContextMenuModifier.swift in Sources */,
 				8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */,
 				8A48FFB82BC3410D00DCBD3E /* TimerView.swift in Sources */,
+				8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
 				8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */,
@@ -933,6 +940,7 @@
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
 				8A48FFCD2BC402BD00DCBD3E /* GeometryReaderView5.swift in Sources */,
 				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
+				8AC80B1C2CE4D91C000317A3 /* AnimatablePairView.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */,
 				8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */,
