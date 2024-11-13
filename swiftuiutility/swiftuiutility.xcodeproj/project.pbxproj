@@ -69,6 +69,9 @@
 		8A5AC0822CE447E0003CBC1A /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0812CE447DA003CBC1A /* PathView.swift */; };
 		8A5AC0842CE44C42003CBC1A /* ShapeProtocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0832CE44C3E003CBC1A /* ShapeProtocalView.swift */; };
 		8A5AC0862CE45715003CBC1A /* InsettableShapeProtocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0852CE4570A003CBC1A /* InsettableShapeProtocalView.swift */; };
+		8A5AC0882CE47166003CBC1A /* FLowerShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0872CE47160003CBC1A /* FLowerShapeView.swift */; };
+		8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */; };
+		8A5AC08C2CE480C2003CBC1A /* DrawGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -235,6 +238,9 @@
 		8A5AC0812CE447DA003CBC1A /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		8A5AC0832CE44C3E003CBC1A /* ShapeProtocalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeProtocalView.swift; sourceTree = "<group>"; };
 		8A5AC0852CE4570A003CBC1A /* InsettableShapeProtocalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeProtocalView.swift; sourceTree = "<group>"; };
+		8A5AC0872CE47160003CBC1A /* FLowerShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLowerShapeView.swift; sourceTree = "<group>"; };
+		8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
+		8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGroupView.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -488,6 +494,9 @@
 				8A5AC0812CE447DA003CBC1A /* PathView.swift */,
 				8A5AC0832CE44C3E003CBC1A /* ShapeProtocalView.swift */,
 				8A5AC0852CE4570A003CBC1A /* InsettableShapeProtocalView.swift */,
+				8A5AC0872CE47160003CBC1A /* FLowerShapeView.swift */,
+				8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */,
+				8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */,
 			);
 			path = shape;
 			sourceTree = "<group>";
@@ -817,6 +826,7 @@
 				8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */,
 				8ABBE4502BBAEFBF00D53F43 /* JsonAdvancedView.swift in Sources */,
 				8A4821C02C8EAC5E003A1832 /* KeyboardModifier.swift in Sources */,
+				8A5AC0882CE47166003CBC1A /* FLowerShapeView.swift in Sources */,
 				8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */,
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
 				8AD11F8B2C914576002B5D41 /* ViewComposition.swift in Sources */,
@@ -837,6 +847,7 @@
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
+				8A5AC08C2CE480C2003CBC1A /* DrawGroupView.swift in Sources */,
 				8A5AC0822CE447E0003CBC1A /* PathView.swift in Sources */,
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
 				8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */,
@@ -926,6 +937,7 @@
 				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
+				8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */,
 				8A5683782BC14E4000A88B07 /* AccessibilityControlView.swift in Sources */,
 				8A56836A2BBF936600A88B07 /* MapKitAnnotationView.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
