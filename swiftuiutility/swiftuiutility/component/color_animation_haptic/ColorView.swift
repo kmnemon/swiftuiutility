@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+/*Color.red is not pure red, because apple change the way they look base on the environment they are in
+to use pure Color you need to use Color(red:green:blue) instead
+*/
+
+
 struct ColorView: View {
     var body: some View {
         Section("1") {

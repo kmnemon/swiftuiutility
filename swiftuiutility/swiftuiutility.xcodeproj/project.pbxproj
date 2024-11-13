@@ -72,6 +72,7 @@
 		8A5AC0882CE47166003CBC1A /* FLowerShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0872CE47160003CBC1A /* FLowerShapeView.swift */; };
 		8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */; };
 		8A5AC08C2CE480C2003CBC1A /* DrawGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */; };
+		8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -241,6 +242,7 @@
 		8A5AC0872CE47160003CBC1A /* FLowerShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLowerShapeView.swift; sourceTree = "<group>"; };
 		8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
 		8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGroupView.swift; sourceTree = "<group>"; };
+		8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectsBlurBlend.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -497,6 +499,7 @@
 				8A5AC0872CE47160003CBC1A /* FLowerShapeView.swift */,
 				8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */,
 				8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */,
+				8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */,
 			);
 			path = shape;
 			sourceTree = "<group>";
@@ -931,6 +934,7 @@
 				8A48FFCD2BC402BD00DCBD3E /* GeometryReaderView5.swift in Sources */,
 				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
+				8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */,
 				8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */,
 				8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */,
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
