@@ -10,6 +10,8 @@ import SwiftUI
 struct TextView: View {
     @State private var checkAmount = 0.0
     
+    let texts = ["hello", "world", "SwiftUI"]
+    
     var body: some View {
         VStack {
             Text(checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
@@ -35,6 +37,8 @@ struct TextView: View {
                 .background(.green)
                 .padding()
                 .background(.yellow)
+            
+            Text(texts, format: .list(type: .and))
         }
         .padding()
         .multilineTextAlignment(.center)

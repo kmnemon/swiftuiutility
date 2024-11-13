@@ -132,6 +132,7 @@
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
 		8AC80B132CE37CE1000317A3 /* OnDeleteModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */; };
+		8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */; };
 		8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */; };
 		8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4CE2B9935C20028AA58 /* ContentView.swift */; };
 		8ACEF4D12B9935C30028AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF4D02B9935C30028AA58 /* Assets.xcassets */; };
@@ -294,6 +295,7 @@
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
 		8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeleteModifier.swift; sourceTree = "<group>"; };
+		8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSizeDynamicTypeView.swift; sourceTree = "<group>"; };
 		8ACEF4C92B9935C20028AA58 /* swiftuiutility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiutility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiutilityApp.swift; sourceTree = "<group>"; };
 		8ACEF4CE2B9935C20028AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 				8A48FFCA2BC3FFC200DCBD3E /* GeometryReaderView4.swift */,
 				8A48FFCC2BC402BD00DCBD3E /* GeometryReaderView5.swift */,
 				8A88DED42BC6066800C792C5 /* GroupView.swift */,
+				8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */,
 				8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8AF4B5952C6B66FE0087956A /* SpacerView.swift */,
@@ -800,6 +803,7 @@
 				8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */,
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
 				8AD11F8B2C914576002B5D41 /* ViewComposition.swift in Sources */,
+				8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */,
 				8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */,
 				8A5AC0592CE352F0003CBC1A /* PresentationDetentsModifier.swift in Sources */,
 				8A5683762BC14B8E00A88B07 /* AccessibilityDataView.swift in Sources */,

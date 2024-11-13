@@ -143,6 +143,9 @@ struct ContentView: View {
                         NavigationLink("GroupView"){
                             GroupView()
                         }
+                        NavigationLink("HorizontalSizeClassDynamicTypeSizeView"){
+                            HorizontalSizeClassDynamicTypeSizeView()
+                        }
                         NavigationLink("PositionView"){
                             PositionView()
                         }

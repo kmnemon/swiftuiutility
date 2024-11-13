@@ -7,22 +7,22 @@
 
 import SwiftUI
 
-struct UserView: View {
-    var body: some View {
-        Group {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension GroupView {
+    struct UserView: View {
+        var body: some View {
+            Group {
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            }
+            .font(.title)
         }
-        .font(.title)
     }
 }
 
 struct GroupView: View {
     @State private var layoutVertically = false
-    
-    @Environment(\.horizontalSizeClass) var horizontalSizeClass
-    
+        
     var body: some View {
         //1.
         Button {
@@ -37,13 +37,6 @@ struct GroupView: View {
                     UserView()
                 }
             }
-        }
-        
-        //2. compact or regular
-        if horizontalSizeClass == .compact {
-            VStack(content: UserView.init)
-        } else {
-            HStack(content: UserView.init)
         }
         
     }
