@@ -52,7 +52,7 @@ struct ForEachView: View {
                 }
             }
             
-            HStack{
+            HStack{  // using id:\.self the swiftUI caculate the object's hash value to compare each other
                 ForEach(agents, id:\.self){
                     Text($0)
                 }
