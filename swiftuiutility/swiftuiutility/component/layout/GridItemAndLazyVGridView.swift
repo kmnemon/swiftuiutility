@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScrollingGridView: View {
+struct GridItemAndLazyVGridView: View {
     let layout1 = [
         GridItem(.fixed(80)),
         GridItem(.fixed(80)),
@@ -53,5 +53,5 @@ struct ScrollingGridView: View {
 }
 
 #Preview {
-    ScrollingGridView()
+    GridItemAndLazyVGridView()
 }

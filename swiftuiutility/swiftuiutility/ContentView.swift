@@ -74,9 +74,6 @@ struct ContentView: View {
                         NavigationLink("ScrollListView"){
                             ScrollListView()
                         }
-                        NavigationLink("ScrollingGridView"){
-                            ScrollingGridView()
-                        }
                         NavigationLink("ShareLinkView"){
                             ShareLinkView()
                         }
@@ -115,7 +112,67 @@ struct ContentView: View {
                         }
                     }
                     
+                    Section("Modifier") {
+                        NavigationLink("AlertModifier"){
+                            AlertModifier()
+                        }
+                        NavigationLink("AlertOptionalModifier"){
+                            AlertOptionalModifier()
+                        }
+                        NavigationLink("ConfirmationModifier"){
+                            ConfirmationModifier()
+                        }
+                        NavigationLink("ContextMenuModifier"){
+                            ContextMenuModifier()
+                        }
+                        NavigationLink("CustomModifierView"){
+                            CustomModifierView()
+                        }
+                        NavigationLink("DisabledModifier"){
+                            DisabledModifier()
+                        }
+                        NavigationLink("FileImporterModifier"){
+                            FileImporterModifier()
+                        }
+                        NavigationLink("KeyboardModifier"){
+                            KeyboardModifier()
+                        }
+                        NavigationLink("ModifierView"){
+                            ModifierView()
+                        }
+                        NavigationLink("OnAppearModifier"){
+                            OnAppearModifier()
+                        }
+                        NavigationLink("OnChangeModifier"){
+                            OnChangeModifier()
+                        }
+                        NavigationLink("PresentationDetentsModifier"){
+                            PresentationDetentsModifier()
+                        }
+                        NavigationLink("SearchableModifier"){
+                            SearchableModifier()
+                        }
+                        NavigationLink("SheetModifier"){
+                            SheetModifier()
+                        }
+                        NavigationLink("SheetOptionalModifier"){
+                            SheetOptionalModifier()
+                        }
+                        NavigationLink("SwipeActionsModifier"){
+                            SwipeActionsModifier()
+                        }
+                        NavigationLink("TagModifier"){
+                            TagModifier()
+                        }
+                        NavigationLink("ToolbarModifier"){
+                            ToolbarModifier()
+                        }
+                    }
+                    
                     Section("Layout") {
+                        NavigationLink("GridItemAndLazyVGridView"){
+                            GridItemAndLazyVGridView()
+                        }
                         NavigationLink("AlignmentView"){
                             AlignmentView()
                         }
@@ -274,63 +331,6 @@ struct ContentView: View {
                         }
                     }
                     
-                    Section("Modifier") {
-                        NavigationLink("AlertModifier"){
-                            AlertModifier()
-                        }
-                        NavigationLink("AlertOptionalModifier"){
-                            AlertOptionalModifier()
-                        }
-                        NavigationLink("ConfirmationModifier"){
-                            ConfirmationModifier()
-                        }
-                        NavigationLink("ContextMenuModifier"){
-                            ContextMenuModifier()
-                        }
-                        NavigationLink("CustomModifierView"){
-                            CustomModifierView()
-                        }
-                        NavigationLink("DisabledModifier"){
-                            DisabledModifier()
-                        }
-                        NavigationLink("FileImporterModifier"){
-                            FileImporterModifier()
-                        }
-                        NavigationLink("KeyboardModifier"){
-                            KeyboardModifier()
-                        }
-                        NavigationLink("ModifierView"){
-                            ModifierView()
-                        }
-                        NavigationLink("OnAppearModifier"){
-                            OnAppearModifier()
-                        }
-                        NavigationLink("OnChangeModifier"){
-                            OnChangeModifier()
-                        }
-                        NavigationLink("PresentationDetentsModifier"){
-                            PresentationDetentsModifier()
-                        }
-                        NavigationLink("SearchableModifier"){
-                            SearchableModifier()
-                        }
-                        NavigationLink("SheetModifier"){
-                            SheetModifier()
-                        }
-                        NavigationLink("SheetOptionalModifier"){
-                            SheetOptionalModifier()
-                        }
-                        NavigationLink("SwipeActionsModifier"){
-                            SwipeActionsModifier()
-                        }
-                        NavigationLink("TagModifier"){
-                            TagModifier()
-                        }
-                        NavigationLink("ToolbarModifier"){
-                            ToolbarModifier()
-                        }
-                    }
-                    
                     Section("Notification") {
                         NavigationLink("UserNotificationsView") {
                             UserNotificationsView()
@@ -361,6 +361,15 @@ struct ContentView: View {
                         NavigationLink("EditBookView") {
                         }
                         NavigationLink("CarsViewContentView") {
+                        }
+                    }
+                    
+                    Section("Persistence") {
+                        NavigationLink("UserDefaultsStruct"){
+                            UserDefaultsStruct()
+                        }
+                        NavigationLink("FileReadWriteView"){
+                            FileReadWriteView()
                         }
                     }
                     
@@ -431,12 +440,6 @@ struct ContentView: View {
                         NavigationLink("TwoWayBinding"){
                             TwoWayBinding()
                         }
-                        NavigationLink("UserDefaultsStruct"){
-                            UserDefaultsStruct()
-                        }
-                        NavigationLink("FileReadWriteView"){
-                            FileReadWriteView()
-                        }
                     }
                     
                     Section("Custom Component") {
@@ -452,13 +455,6 @@ struct ContentView: View {
                    
                     }
                     
-                    Section("iPad") {
-                        NavigationLink("NavigationSplitViewWithiPad") {
-                            NavigationSplitViewWithiPad()
-                        }
-                        
-                    }
-                    
                     Section("ML"){
                         NavigationLink("MLView") {
                             MLView()
@@ -466,6 +462,13 @@ struct ContentView: View {
                         //Image recognition
                         //Sentiment analysis
                         //Regression analysis
+                        
+                    }
+                    
+                    Section("iPad") {
+                        NavigationLink("NavigationSplitViewWithiPad") {
+                            NavigationSplitViewWithiPad()
+                        }
                         
                     }
                     

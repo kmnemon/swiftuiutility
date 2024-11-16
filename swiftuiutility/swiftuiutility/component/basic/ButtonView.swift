@@ -73,6 +73,10 @@ struct ButtonView: View {
                 useRedText.toggle()
             }
             .foregroundStyle(useRedText ? .red : .blue)
+            
+            Button("Roll"){}
+                .buttonStyle(.borderedProminent)
+                .padding()
         }
     }
     

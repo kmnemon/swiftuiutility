@@ -152,7 +152,7 @@
 		8ACEF4E12B9941C10028AA58 /* ScrollListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */; };
 		8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */; };
 		8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E42B9972150028AA58 /* JsonView.swift */; };
-		8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */; };
+		8ACEF4E72B997EEF0028AA58 /* GridItemAndLazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */; };
 		8ACEF4E92B9994510028AA58 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4E82B9994510028AA58 /* FormView.swift */; };
 		8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */; };
 		8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4EE2B999A110028AA58 /* ButtonView.swift */; };
@@ -326,7 +326,7 @@
 		8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollListView.swift; sourceTree = "<group>"; };
 		8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		8ACEF4E42B9972150028AA58 /* JsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonView.swift; sourceTree = "<group>"; };
-		8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGridView.swift; sourceTree = "<group>"; };
+		8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemAndLazyVGridView.swift; sourceTree = "<group>"; };
 		8ACEF4E82B9994510028AA58 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		8ACEF4EC2B9996050028AA58 /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		8ACEF4EE2B999A110028AA58 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -368,7 +368,6 @@
 			isa = PBXGroup;
 			children = (
 				8A5AC05C2CE363F5003CBC1A /* shareobject */,
-				8A9C5FA72CD89B54000E8566 /* file */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
 				8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */,
 				8AAB08612B9E86280039A3FE /* CustomView.swift */,
@@ -389,7 +388,6 @@
 				8A437C982CD51706000D5BB2 /* StateWrapperView.swift */,
 				8A48FFB72BC3410D00DCBD3E /* TimerView.swift */,
 				8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */,
-				8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */,
 				8AD11F862C909AC5002B5D41 /* UnitStruct.swift */,
 			);
 			path = datastruct;
@@ -421,6 +419,7 @@
 		8A48FFBD2BC3921D00DCBD3E /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */,
 				8A48FFC42BC3EF3300DCBD3E /* GeometryReaderView.swift */,
@@ -630,6 +629,7 @@
 				8AAE14912BC220D4009FA593 /* notification */,
 				8A5683722BC1487100A88B07 /* accessibility */,
 				8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */,
+				8AE0020E2CE811E20065C01F /* persistence */,
 				8A37BE282B9D513B0006E1D1 /* datastruct */,
 				8AAB81502BB4EF770047FD0C /* custom */,
 				8AAB08732B9FF1D70039A3FE /* ml */,
@@ -662,7 +662,6 @@
 				8A56835C2BBEA1B600A88B07 /* RequestReviewView.swift */,
 				8A48FFB92BC3459C00DCBD3E /* ScenePhaseView.swift */,
 				8ACEF4E02B9941C10028AA58 /* ScrollListView.swift */,
-				8ACEF4E62B997EEF0028AA58 /* ScrollingGridView.swift */,
 				8A56835A2BBE9EF200A88B07 /* ShareLinkView.swift */,
 				8ABBE4512BBE1B0000D53F43 /* SliderView.swift */,
 				8AAB086D2B9F12C30039A3FE /* StepperView.swift */,
@@ -731,6 +730,15 @@
 				8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */,
 			);
 			path = swiftdata;
+			sourceTree = "<group>";
+		};
+		8AE0020E2CE811E20065C01F /* persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */,
+				8A9C5FA72CD89B54000E8566 /* file */,
+			);
+			path = persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -804,7 +812,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AAE14862BC20D1E009FA593 /* ListViewWithSelection.swift in Sources */,
-				8ACEF4E72B997EEF0028AA58 /* ScrollingGridView.swift in Sources */,
+				8ACEF4E72B997EEF0028AA58 /* GridItemAndLazyVGridView.swift in Sources */,
 				8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */,
 				8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
