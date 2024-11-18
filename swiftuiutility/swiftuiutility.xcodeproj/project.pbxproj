@@ -73,6 +73,7 @@
 		8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */; };
 		8A5AC08C2CE480C2003CBC1A /* DrawGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */; };
 		8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */; };
+		8A5AC0E82CEAEC5B003CBC1A /* PrintTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -246,6 +247,7 @@
 		8A5AC0892CE47CA1003CBC1A /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
 		8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGroupView.swift; sourceTree = "<group>"; };
 		8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectsBlurBlend.swift; sourceTree = "<group>"; };
+		8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTypeView.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 		8A37BE282B9D513B0006E1D1 /* datastruct */ = {
 			isa = PBXGroup;
 			children = (
+				8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */,
 				8A5AC05C2CE363F5003CBC1A /* shareobject */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
 				8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */,
@@ -863,6 +866,7 @@
 				8AC80B1E2CE4E241000317A3 /* SpirographView.swift in Sources */,
 				8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */,
 				8ABBE4482BB9116200D53F43 /* TagModifier.swift in Sources */,
+				8A5AC0E82CEAEC5B003CBC1A /* PrintTypeView.swift in Sources */,
 				8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */,
 				8A5AC0642CE3686E003CBC1A /* EnvironmentView.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,

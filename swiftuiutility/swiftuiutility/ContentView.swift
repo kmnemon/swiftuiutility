@@ -374,6 +374,9 @@ struct ContentView: View {
                     }
                     
                     Section("Datastruct"){
+                        NavigationLink("PrintTypeView"){
+                            PrintTypeView()
+                        }
                         NavigationLink("ShareObjectView"){
                             ShareObjectView()
                         }
