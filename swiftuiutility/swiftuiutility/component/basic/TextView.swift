@@ -52,6 +52,17 @@ struct TextView: View {
                 .frame(width: 300, height: 300)
 //                .border(Image(.mashroom)) This won't work
             
+            Section("Parent and Child Size") {
+                //the frame will change the child text view ideal size
+                Text("hello, world!")
+                    .frame(width: 30, height: 100)
+                
+                //using fixed size(), do not let the parent frame change the ideal size
+                Text("hello, world!")
+                    .fixedSize()
+                    .frame(width: 30, height: 100)
+            }
+            
             
         }
         .padding()

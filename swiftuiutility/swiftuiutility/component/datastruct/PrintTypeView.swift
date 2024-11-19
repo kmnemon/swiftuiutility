@@ -9,11 +9,12 @@ import SwiftUI
 
 struct PrintTypeView: View {
     var body: some View {
-        Text("Hello World")
-            .frame(width: 300, height: 100)
-            .onTapGesture {
-                print(type(of: self.body))
-            }
-        
+        Button("Tap me") {
+            print(type(of: Text("Hello, SwiftUI!")))
+            print(type(of:
+                        Button("Tap me"){}
+                            .frame(width: 200)
+                      ))
+        }
     }
 }
