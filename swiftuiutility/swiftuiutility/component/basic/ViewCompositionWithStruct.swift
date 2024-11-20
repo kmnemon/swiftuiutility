@@ -19,7 +19,7 @@ struct CapsuleText: View {
 }
 
 
-struct ViewComposition: View {
+struct ViewCompositionWithStruct: View {
     var body: some View {
         CapsuleText(text: "First")
             .foregroundStyle(.white)
@@ -31,5 +31,5 @@ struct ViewComposition: View {
 
 
 #Preview {
-    ViewComposition()
+    ViewCompositionWithStruct()
 }

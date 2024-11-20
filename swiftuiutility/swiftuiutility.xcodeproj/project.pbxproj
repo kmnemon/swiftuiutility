@@ -74,6 +74,8 @@
 		8A5AC08C2CE480C2003CBC1A /* DrawGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */; };
 		8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */; };
 		8A5AC0E82CEAEC5B003CBC1A /* PrintTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */; };
+		8A5AC0EF2CED771D003CBC1A /* ViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0EE2CED7713003CBC1A /* ViewBuilderView.swift */; };
+		8A5AC0F12CED827D003CBC1A /* GroupViewWithException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0F02CED8274003CBC1A /* GroupViewWithException.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -161,8 +163,8 @@
 		8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */; };
 		8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F52B9AC2320028AA58 /* TextView.swift */; };
 		8AD11F872C909AC5002B5D41 /* UnitStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F862C909AC5002B5D41 /* UnitStruct.swift */; };
-		8AD11F892C911C35002B5D41 /* ViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F882C911C35002B5D41 /* ViewBuilderView.swift */; };
-		8AD11F8B2C914576002B5D41 /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F8A2C914576002B5D41 /* ViewComposition.swift */; };
+		8AD11F892C911C35002B5D41 /* ViewCompositionWithProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F882C911C35002B5D41 /* ViewCompositionWithProperty.swift */; };
+		8AD11F8B2C914576002B5D41 /* ViewCompositionWithStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F8A2C914576002B5D41 /* ViewCompositionWithStruct.swift */; };
 		8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */; };
 		8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */; };
 		8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */; };
@@ -248,6 +250,8 @@
 		8A5AC08B2CE480BB003CBC1A /* DrawGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGroupView.swift; sourceTree = "<group>"; };
 		8A5AC08D2CE4A7AC003CBC1A /* SpecialEffectsBlurBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectsBlurBlend.swift; sourceTree = "<group>"; };
 		8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTypeView.swift; sourceTree = "<group>"; };
+		8A5AC0EE2CED7713003CBC1A /* ViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderView.swift; sourceTree = "<group>"; };
+		8A5AC0F02CED8274003CBC1A /* GroupViewWithException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewWithException.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -336,8 +340,8 @@
 		8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		8ACEF4F52B9AC2320028AA58 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		8AD11F862C909AC5002B5D41 /* UnitStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitStruct.swift; sourceTree = "<group>"; };
-		8AD11F882C911C35002B5D41 /* ViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderView.swift; sourceTree = "<group>"; };
-		8AD11F8A2C914576002B5D41 /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
+		8AD11F882C911C35002B5D41 /* ViewCompositionWithProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompositionWithProperty.swift; sourceTree = "<group>"; };
+		8AD11F8A2C914576002B5D41 /* ViewCompositionWithStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompositionWithStruct.swift; sourceTree = "<group>"; };
 		8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
 		8AD26C6B2BB3CBAB00A5FAD5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		8AD26C6D2BB3CC3300A5FAD5 /* BindableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableView1.swift; sourceTree = "<group>"; };
@@ -431,6 +435,7 @@
 				8A48FFCA2BC3FFC200DCBD3E /* GeometryReaderView4.swift */,
 				8A48FFCC2BC402BD00DCBD3E /* GeometryReaderView5.swift */,
 				8A88DED42BC6066800C792C5 /* GroupView.swift */,
+				8A5AC0F02CED8274003CBC1A /* GroupViewWithException.swift */,
 				8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */,
 				8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
@@ -675,8 +680,9 @@
 				8AAB086B2B9F0EAE0039A3FE /* ToggleView.swift */,
 				8AAE14942BC28DCA009FA593 /* ToolbarItemView.swift */,
 				8A5683562BBE8F2700A88B07 /* UnavailableView.swift */,
-				8AD11F882C911C35002B5D41 /* ViewBuilderView.swift */,
-				8AD11F8A2C914576002B5D41 /* ViewComposition.swift */,
+				8A5AC0EE2CED7713003CBC1A /* ViewBuilderView.swift */,
+				8AD11F882C911C35002B5D41 /* ViewCompositionWithProperty.swift */,
+				8AD11F8A2C914576002B5D41 /* ViewCompositionWithStruct.swift */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -838,7 +844,7 @@
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
-				8AD11F892C911C35002B5D41 /* ViewBuilderView.swift in Sources */,
+				8AD11F892C911C35002B5D41 /* ViewCompositionWithProperty.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationSplitViewWithiPad.swift in Sources */,
 				8A48FFC72BC3F32700DCBD3E /* GeometryReaderView2.swift in Sources */,
@@ -852,7 +858,7 @@
 				8A5AC0882CE47166003CBC1A /* FLowerShapeView.swift in Sources */,
 				8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */,
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
-				8AD11F8B2C914576002B5D41 /* ViewComposition.swift in Sources */,
+				8AD11F8B2C914576002B5D41 /* ViewCompositionWithStruct.swift in Sources */,
 				8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */,
 				8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */,
 				8A5AC0592CE352F0003CBC1A /* PresentationDetentsModifier.swift in Sources */,
@@ -895,6 +901,7 @@
 				8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
 				8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */,
+				8A5AC0EF2CED771D003CBC1A /* ViewBuilderView.swift in Sources */,
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8A56837A2BC1630C00A88B07 /* VoiceInputView.swift in Sources */,
 				8ABBE4442BB8EF5500D53F43 /* CarsView.swift in Sources */,
@@ -920,6 +927,7 @@
 				8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */,
 				8A56836E2BBF957D00A88B07 /* MapKitTapView.swift in Sources */,
 				8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */,
+				8A5AC0F12CED827D003CBC1A /* GroupViewWithException.swift in Sources */,
 				8A437C992CD51720000D5BB2 /* StateWrapperView.swift in Sources */,
 				8A41CADA2BEA600D00115EF6 /* FileImporterModifier.swift in Sources */,
 				8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */,

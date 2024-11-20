@@ -107,8 +107,11 @@ struct ContentView: View {
                         NavigationLink("ViewBuilderView"){
                             ViewBuilderView()
                         }
-                        NavigationLink("ViewComposition"){
-                            ViewComposition()
+                        NavigationLink("ViewCompositionWithProperty"){
+                            ViewCompositionWithProperty()
+                        }
+                        NavigationLink("ViewCompositionWithStruct"){
+                            ViewCompositionWithStruct()
                         }
                     }
                     

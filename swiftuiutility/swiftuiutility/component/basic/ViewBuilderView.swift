@@ -2,40 +2,27 @@
 //  ViewBuilderView.swift
 //  swiftuiutility
 //
-//  Created by ke on 2024/9/11.
+//  Created by ke on 2024/11/20.
 //
 
 import SwiftUI
 
 struct ViewBuilderView: View {
-    
-    var motto1: some View {
-        Text("Draco dormiens")
-    }
-    let motto2 = Text("nunquam titillandus")
-    
-    //2.Group
-    var spells: some View {
-        Group {
-            Text("Lumos")
-            Text("Obliviate")
-        }
+    @ViewBuilder var hello: some View {
+        Image(systemName: "hand.wave")
+        Text("Hello")
     }
     
-    //3.@ViewBuilder
-    @ViewBuilder var spells1: some View {
-        Text("Lumos")
-        Text("Obliviate")
+    @ViewBuilder var bye: some View {
+        Text("And GoodBye!")
+        Image(systemName: "hand.wave")
     }
     
     var body: some View {
-        VStack {
-            motto1
-            motto2
+        HStack(spacing: 20) {
+            hello
+            Spacer()
+            bye
         }
     }
-}
-
-#Preview {
-    ViewBuilderView()
 }
