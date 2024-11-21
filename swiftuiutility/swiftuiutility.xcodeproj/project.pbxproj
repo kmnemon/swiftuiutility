@@ -13,6 +13,7 @@
 		8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */; };
 		8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */; };
 		8A0C81342BA9A6C000B049A0 /* NavigationStackPathStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81332BA9A6C000B049A0 /* NavigationStackPathStoreView.swift */; };
+		8A21FF282CEECDEB00E23806 /* OnDisappearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */; };
 		8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE242B9D41130006E1D1 /* AlertModifier.swift */; };
 		8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */; };
 		8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37BE292B9DE8540006E1D1 /* ModifierView.swift */; };
@@ -189,6 +190,7 @@
 		8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
 		8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackReturnView.swift; sourceTree = "<group>"; };
 		8A0C81332BA9A6C000B049A0 /* NavigationStackPathStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackPathStoreView.swift; sourceTree = "<group>"; };
+		8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDisappearModifier.swift; sourceTree = "<group>"; };
 		8A37BE242B9D41130006E1D1 /* AlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModifier.swift; sourceTree = "<group>"; };
 		8A37BE262B9D4D180006E1D1 /* RandomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStruct.swift; sourceTree = "<group>"; };
 		8A37BE292B9DE8540006E1D1 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
@@ -711,6 +713,7 @@
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
+				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */,
 				8A5AC0582CE352EA003CBC1A /* PresentationDetentsModifier.swift */,
@@ -929,6 +932,7 @@
 				8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */,
 				8A5AC0F12CED827D003CBC1A /* GroupViewWithException.swift in Sources */,
 				8A437C992CD51720000D5BB2 /* StateWrapperView.swift in Sources */,
+				8A21FF282CEECDEB00E23806 /* OnDisappearModifier.swift in Sources */,
 				8A41CADA2BEA600D00115EF6 /* FileImporterModifier.swift in Sources */,
 				8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */,
 				8A5683742BC1489700A88B07 /* VoiceOverView.swift in Sources */,

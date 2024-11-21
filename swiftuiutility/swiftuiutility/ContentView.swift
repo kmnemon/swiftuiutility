@@ -146,6 +146,9 @@ struct ContentView: View {
                         NavigationLink("OnAppearModifier"){
                             OnAppearModifier()
                         }
+                        NavigationLink("OnDisappearModifier"){
+                            OnDisappearModifier()
+                        }
                         NavigationLink("OnChangeModifier"){
                             OnChangeModifier()
                         }
