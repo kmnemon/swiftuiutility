@@ -182,6 +182,9 @@ struct ContentView: View {
                         NavigationLink("AlignmentView"){
                             AlignmentView()
                         }
+                        NavigationLink("AlignmentGuideExample"){
+                            AlignmentGuideExample()
+                        }
                         NavigationLink("CustomAlignmentView"){
                             CustomAlignmentView()
                         }
