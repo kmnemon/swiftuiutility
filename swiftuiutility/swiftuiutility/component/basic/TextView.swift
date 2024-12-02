@@ -52,6 +52,18 @@ struct TextView: View {
                 .frame(width: 300, height: 300)
 //                .border(Image(.mashroom)) This won't work
             
+            //linelimit
+            Text("hello world, nice to meet you, you are so beautiful")
+                .lineLimit(3)
+                .truncationMode(.head)
+                .minimumScaleFactor(40)//lets us specify how much Text is allowed to scale the font size down to make the text fit into the proposed size.
+                .frame(width: 40, height: 600)
+
+            
+            Text("hello world, nice to meet you, you are so beautiful")
+                .lineLimit(3, reservesSpace: true)
+                .border(Color.red)
+            
             Section("Parent and Child Size") {
                 //the frame will change the child text view ideal size
                 Text("hello, world!")
