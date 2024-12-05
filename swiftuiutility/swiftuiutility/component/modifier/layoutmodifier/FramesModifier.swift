@@ -30,6 +30,12 @@ struct FramesModifier: View {
         //Pattern 1:
         /*
          makes sure the flexible frame becomes at least as wide as proposed, or the width of tis subview if that's wider than proposed.This is commonly used to create views that span the entire available width.
+         
+         The flexible frames API is the only one in SwiftUI to explicitly specify an ideal size,
+         i.e. the size that will be adopted if nil is proposed for one or both dimensions. If the
+         idealWidth or idealHeight parameters are specified, this size will be proposed to the
+         frame’s subview, and it’ll also be reported as the frame’s own size, regardless of the
+         size of its subview.
          */
         Text("Hello, Flexible Frames")
             .frame(maxWidth: .infinity)

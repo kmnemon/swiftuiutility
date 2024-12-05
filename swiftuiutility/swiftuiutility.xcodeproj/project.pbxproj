@@ -87,6 +87,7 @@
 		8A88DED72BC60C5100C792C5 /* SearchableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */; };
 		8A8A82CC2D005E5500D88043 /* PaddingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */; };
 		8A8A82CE2D0061C700D88043 /* FramesModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */; };
+		8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */; };
 		8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */; };
 		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
 		8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */; };
@@ -269,6 +270,7 @@
 		8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableModifier.swift; sourceTree = "<group>"; };
 		8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModifier.swift; sourceTree = "<group>"; };
 		8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesModifier.swift; sourceTree = "<group>"; };
+		8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatioModifier.swift; sourceTree = "<group>"; };
 		8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
 		8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFileReadWrite.swift; sourceTree = "<group>"; };
@@ -551,6 +553,16 @@
 			path = color_animation_haptic;
 			sourceTree = "<group>";
 		};
+		8A8A82CF2D01438700D88043 /* layoutmodifier */ = {
+			isa = PBXGroup;
+			children = (
+				8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */,
+				8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */,
+				8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */,
+			);
+			path = layoutmodifier;
+			sourceTree = "<group>";
+		};
 		8A9C5FA72CD89B54000E8566 /* file */ = {
 			isa = PBXGroup;
 			children = (
@@ -723,6 +735,7 @@
 		8AD26C712BB3CFC900A5FAD5 /* modifier */ = {
 			isa = PBXGroup;
 			children = (
+				8A8A82CF2D01438700D88043 /* layoutmodifier */,
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8A3930072BC4C423002E4819 /* AlertOptionalModifier.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
@@ -730,7 +743,6 @@
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
 				8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
-				8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */,
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
@@ -738,7 +750,6 @@
 				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */,
-				8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */,
 				8A5AC0582CE352EA003CBC1A /* PresentationDetentsModifier.swift */,
 				8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
@@ -996,6 +1007,7 @@
 				8A48FFCD2BC402BD00DCBD3E /* GeometryReaderView5.swift in Sources */,
 				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
 				8AC80B1C2CE4D91C000317A3 /* AnimatablePairView.swift in Sources */,
+				8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A8A82CC2D005E5500D88043 /* PaddingModifier.swift in Sources */,
 				8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */,
