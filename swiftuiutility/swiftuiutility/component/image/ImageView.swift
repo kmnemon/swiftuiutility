@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+//Image views report a static value: the size of the underlying image.
 struct ImageView: View {
     var body: some View {
         ScrollView{

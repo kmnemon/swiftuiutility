@@ -40,10 +40,45 @@ extension ShapeProtocalView {
     }
 }
 
+//Section 3
+extension CGRect {
+    subscript(_ point: UnitPoint) -> CGPoint {
+        CGPoint(x: minX + width*point.x, y: minY + height*point.y)
+    }
+}
+
+struct Bookmark: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { p in
+            p.move(to: rect[.topLeading])
+            p.addLines([
+                rect[.bottomLeading],
+                rect[.init(x: 0.5, y: 0.8)],
+                rect[.bottomTrailing],
+                rect[.topTrailing],
+                rect[.topLeading]
+            ])
+            p.closeSubpath()
+        }
+    }
+    
+    func sizeThatFits(_ proposal: ProposedViewSize) -> CGSize {
+        var result = proposal.replacingUnspecifiedDimensions()
+        let ratio: CGFloat = 2/3
+        let newWidth = ratio * result.height
+        if newWidth <= result.width {
+            result.width = newWidth
+        } else {
+            result.height = result.width / ratio
+        }
+        return result
+    }
+}
+
 struct ShapeProtocalView: View {
     var body: some View {
         Triangle()
-//            .fill(.red)
+        //            .fill(.red)
             .stroke(.red, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
             .frame(width: 300, height: 300)
         

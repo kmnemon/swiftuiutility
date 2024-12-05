@@ -48,6 +48,16 @@ struct AlignmentView: View {
         .background(.red)
         .frame(width: 300, height: 200)
         .background(.blue)
+        
+        //right-aligned text option1
+        HStack {
+            Spacer()
+            Text("Some right-aligned text")
+        }
+        
+        //right-aligned text option2 is prefered, because the Space has a default minimum length(equal to the default spacing). As a result, the ttext might start wrapping or truncating sooner than necessary,because the Spacer also occupies some of the proposed width of the HStack.
+        Text("Some right-aligned text")
+            .frame(maxWidth:.infinity, alignment: .trailing)
     }
 }
 
