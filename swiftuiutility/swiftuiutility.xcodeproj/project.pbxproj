@@ -130,6 +130,9 @@
 		8AB081A52CDBB6AB0050C43E /* LocationFetcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB081A42CDBB69A0050C43E /* LocationFetcherView.swift */; };
 		8AB631E32CFAB387007E8541 /* PerformanceDiagnose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB631E12CFAB387007E8541 /* PerformanceDiagnose.swift */; };
 		8AB631F62CFC1B28007E8541 /* LayoutDiagnose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB631F52CFC1B22007E8541 /* LayoutDiagnose.swift */; };
+		8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB631F72D01E64D007E8541 /* OverlayModifier.swift */; };
+		8AB631FA2D01E684007E8541 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB631F92D01E677007E8541 /* BackgroundModifier.swift */; };
+		8AB631FC2D032BFC007E8541 /* HighLightModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB631FB2D032BE3007E8541 /* HighLightModifier.swift */; };
 		8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */; };
 		8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907B2BB6914E00D41B7A /* EditBookView.swift */; };
 		8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */; };
@@ -313,6 +316,9 @@
 		8AB081A42CDBB69A0050C43E /* LocationFetcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcherView.swift; sourceTree = "<group>"; };
 		8AB631E12CFAB387007E8541 /* PerformanceDiagnose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceDiagnose.swift; sourceTree = "<group>"; };
 		8AB631F52CFC1B22007E8541 /* LayoutDiagnose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDiagnose.swift; sourceTree = "<group>"; };
+		8AB631F72D01E64D007E8541 /* OverlayModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayModifier.swift; sourceTree = "<group>"; };
+		8AB631F92D01E677007E8541 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		8AB631FB2D032BE3007E8541 /* HighLightModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLightModifier.swift; sourceTree = "<group>"; };
 		8AB7DC922BA5AB3800F97CE8 /* UserDefaultsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStruct.swift; sourceTree = "<group>"; };
 		8ABA907B2BB6914E00D41B7A /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 		8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookContentView.swift; sourceTree = "<group>"; };
@@ -387,7 +393,6 @@
 		8A37BE282B9D513B0006E1D1 /* datastruct */ = {
 			isa = PBXGroup;
 			children = (
-				8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */,
 				8A5AC05C2CE363F5003CBC1A /* shareobject */,
 				8AAB08902BA48E3D0039A3FE /* ClassView.swift */,
 				8A56835E2BBF6EDD00A88B07 /* ComparableStruct.swift */,
@@ -558,6 +563,9 @@
 			children = (
 				8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */,
 				8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */,
+				8AB631F72D01E64D007E8541 /* OverlayModifier.swift */,
+				8AB631F92D01E677007E8541 /* BackgroundModifier.swift */,
+				8AB631FB2D032BE3007E8541 /* HighLightModifier.swift */,
 				8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */,
 			);
 			path = layoutmodifier;
@@ -614,6 +622,7 @@
 		8AB631E22CFAB387007E8541 /* Diagnose */ = {
 			isa = PBXGroup;
 			children = (
+				8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */,
 				8AB631F52CFC1B22007E8541 /* LayoutDiagnose.swift */,
 				8AB631E12CFAB387007E8541 /* PerformanceDiagnose.swift */,
 			);
@@ -864,6 +873,7 @@
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
+				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
 				8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */,
@@ -890,6 +900,7 @@
 				8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */,
 				8A48FFC92BC3F7DF00DCBD3E /* GeometryReaderView3.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
+				8AB631FC2D032BFC007E8541 /* HighLightModifier.swift in Sources */,
 				8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */,
 				8ABBE4502BBAEFBF00D53F43 /* JsonAdvancedView.swift in Sources */,
 				8A4821C02C8EAC5E003A1832 /* KeyboardModifier.swift in Sources */,
@@ -1034,6 +1045,7 @@
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
 				8A4F98052BE5C669006DF411 /* GenericJsonView.swift in Sources */,
 				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
+				8AB631FA2D01E684007E8541 /* BackgroundModifier.swift in Sources */,
 				8AAE14902BC21F57009FA593 /* SwipeActionsModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
