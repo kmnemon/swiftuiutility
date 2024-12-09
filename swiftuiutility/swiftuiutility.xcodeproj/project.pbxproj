@@ -88,6 +88,10 @@
 		8A8A82CC2D005E5500D88043 /* PaddingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */; };
 		8A8A82CE2D0061C700D88043 /* FramesModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */; };
 		8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */; };
+		8A8A82D32D06BD9600D88043 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D22D06BD8E00D88043 /* BadgeView.swift */; };
+		8A8A82D52D06BE3400D88043 /* FixedSizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D42D06BE2B00D88043 /* FixedSizeModifier.swift */; };
+		8A8A82D72D06BF6500D88043 /* StackDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */; };
+		8A8A82D92D06C09000D88043 /* LayoutPriorityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D82D06C08400D88043 /* LayoutPriorityModifier.swift */; };
 		8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */; };
 		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
 		8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */; };
@@ -274,6 +278,10 @@
 		8A8A82CB2D005E4C00D88043 /* PaddingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModifier.swift; sourceTree = "<group>"; };
 		8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesModifier.swift; sourceTree = "<group>"; };
 		8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatioModifier.swift; sourceTree = "<group>"; };
+		8A8A82D22D06BD8E00D88043 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		8A8A82D42D06BE2B00D88043 /* FixedSizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeModifier.swift; sourceTree = "<group>"; };
+		8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDetailsView.swift; sourceTree = "<group>"; };
+		8A8A82D82D06C08400D88043 /* LayoutPriorityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriorityModifier.swift; sourceTree = "<group>"; };
 		8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
 		8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFileReadWrite.swift; sourceTree = "<group>"; };
@@ -459,6 +467,7 @@
 				8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */,
 				8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
+				8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */,
 				8AF4B5952C6B66FE0087956A /* SpacerView.swift */,
 				8A5AC05A2CE356F8003CBC1A /* ViewThatFitsView.swift */,
 				8A48FFCE2BC406A100DCBD3E /* VisualEffectView.swift */,
@@ -562,7 +571,9 @@
 			isa = PBXGroup;
 			children = (
 				8A8A82D02D0143D200D88043 /* AspectRatioModifier.swift */,
+				8A8A82D42D06BE2B00D88043 /* FixedSizeModifier.swift */,
 				8A8A82CD2D0061BF00D88043 /* FramesModifier.swift */,
+				8A8A82D82D06C08400D88043 /* LayoutPriorityModifier.swift */,
 				8AB631F72D01E64D007E8541 /* OverlayModifier.swift */,
 				8AB631F92D01E677007E8541 /* BackgroundModifier.swift */,
 				8AB631FB2D032BE3007E8541 /* HighLightModifier.swift */,
@@ -592,6 +603,7 @@
 		8AAB81502BB4EF770047FD0C /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				8A8A82D22D06BD8E00D88043 /* BadgeView.swift */,
 				8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */,
 				8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */,
 				8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */,
@@ -866,8 +878,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8A82D72D06BF6500D88043 /* StackDetailsView.swift in Sources */,
 				8AAE14862BC20D1E009FA593 /* ListViewWithSelection.swift in Sources */,
 				8ACEF4E72B997EEF0028AA58 /* GridItemAndLazyVGridView.swift in Sources */,
+				8A8A82D92D06C09000D88043 /* LayoutPriorityModifier.swift in Sources */,
 				8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */,
 				8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
@@ -916,6 +930,7 @@
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
+				8A8A82D32D06BD9600D88043 /* BadgeView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
 				8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
@@ -974,6 +989,7 @@
 				8A5683682BBF7E5100A88B07 /* MapKitPositionView.swift in Sources */,
 				8AB081A52CDBB6AB0050C43E /* LocationFetcherView.swift in Sources */,
 				8AAB087F2BA3D5AD0039A3FE /* StringStruct.swift in Sources */,
+				8A8A82D52D06BE3400D88043 /* FixedSizeModifier.swift in Sources */,
 				8A5683612BBF778F00A88B07 /* FileReadWriteView.swift in Sources */,
 				8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */,
 				8A56836E2BBF957D00A88B07 /* MapKitTapView.swift in Sources */,
