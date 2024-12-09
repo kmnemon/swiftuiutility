@@ -12,7 +12,9 @@ extension View {
         self.overlay(alignment: .topTrailing) {
             contents()
                 .padding(3)
-                .background(RoundedRectangle(cornerRadius: 5))
+                .background {
+                    RoundedRectangle(cornerRadius: 5).fill(.teal)
+                }
                 .fixedSize()
         }
     }

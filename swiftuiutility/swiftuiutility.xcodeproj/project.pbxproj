@@ -92,6 +92,7 @@
 		8A8A82D52D06BE3400D88043 /* FixedSizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D42D06BE2B00D88043 /* FixedSizeModifier.swift */; };
 		8A8A82D72D06BF6500D88043 /* StackDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */; };
 		8A8A82D92D06C09000D88043 /* LayoutPriorityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82D82D06C08400D88043 /* LayoutPriorityModifier.swift */; };
+		8A8A82DB2D06F31000D88043 /* ZStackDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82DA2D06F30A00D88043 /* ZStackDetailsView.swift */; };
 		8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */; };
 		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
 		8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */; };
@@ -282,6 +283,7 @@
 		8A8A82D42D06BE2B00D88043 /* FixedSizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeModifier.swift; sourceTree = "<group>"; };
 		8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDetailsView.swift; sourceTree = "<group>"; };
 		8A8A82D82D06C08400D88043 /* LayoutPriorityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriorityModifier.swift; sourceTree = "<group>"; };
+		8A8A82DA2D06F30A00D88043 /* ZStackDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackDetailsView.swift; sourceTree = "<group>"; };
 		8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
 		8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFileReadWrite.swift; sourceTree = "<group>"; };
@@ -468,6 +470,7 @@
 				8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */,
+				8A8A82DA2D06F30A00D88043 /* ZStackDetailsView.swift */,
 				8AF4B5952C6B66FE0087956A /* SpacerView.swift */,
 				8A5AC05A2CE356F8003CBC1A /* ViewThatFitsView.swift */,
 				8A48FFCE2BC406A100DCBD3E /* VisualEffectView.swift */,
@@ -977,6 +980,7 @@
 				8AAE148C2BC21672009FA593 /* ImageInterpolationView.swift in Sources */,
 				8A48FFCF2BC406A100DCBD3E /* VisualEffectView.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
+				8A8A82DB2D06F31000D88043 /* ZStackDetailsView.swift in Sources */,
 				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
 				8A56836C2BBF94B800A88B07 /* MapKitMarkerView.swift in Sources */,
 				8AAE14952BC28DCA009FA593 /* ToolbarItemView.swift in Sources */,
