@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+/*
+ proposed size width * nil
+ */
 
 struct CustomTextInScrollViewC: View {
     let text: String

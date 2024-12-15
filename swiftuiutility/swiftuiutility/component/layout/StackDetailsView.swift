@@ -16,6 +16,8 @@ import SwiftUI
  remaining width.
  → While there are remaining subviews, the stack proposes the remaining width,
  divided by the number of remaining subviews.
+ 
+ proposed size width * height
  */
 
 struct StackDetailsView: View {

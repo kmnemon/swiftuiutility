@@ -6,9 +6,28 @@
 //
 
 import SwiftUI
+/*
+ Geometry readers are used to get access to the proposed size
+ A geometry reader always accepts the proposed size and
+ reports that size to its view builder closure via a GeometryProxy, giving us access to
+ the geometry reader’s size. The geometry proxy also lets us access the current safe
+ area insets and the frame of the view in a specific coordinate space, and it allows us to
+ resolve anchors.
+ 
+ Geometry readers are special among other SwiftUI container views, in that they don’t
+ provide an alignment parameter, and they place their subviews top-leading by
+ default — whereas all other container views, with the exception of ScrollView, use
+ center alignment by default.
+ */
 
 struct GeometryReaderView: View {
     var body: some View {
+        //0.show proposed size
+        GeometryReader { proxy in
+            Text("Proposed Size: \(proxy.size)")
+        }
+        
+        
         //1.Geometry Reader
         GeometryReader { proxy in
             Image(.zeldaBotwLogo2X)

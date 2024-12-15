@@ -152,6 +152,7 @@
 		8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4512BBE1B0000D53F43 /* SliderView.swift */; };
 		8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */; };
 		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
+		8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
@@ -343,6 +344,7 @@
 		8ABBE4512BBE1B0000D53F43 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
 		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
+		8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
@@ -470,6 +472,7 @@
 				8A48FFC22BC3D45A00DCBD3E /* PositionView.swift */,
 				8A71E70C2B9B055E00772A31 /* StackView.swift */,
 				8A8A82D62D06BF5E00D88043 /* StackDetailsView.swift */,
+				8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */,
 				8A8A82DA2D06F30A00D88043 /* ZStackDetailsView.swift */,
 				8AF4B5952C6B66FE0087956A /* SpacerView.swift */,
 				8A5AC05A2CE356F8003CBC1A /* ViewThatFitsView.swift */,
@@ -953,6 +956,7 @@
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8A5683712BBF99B700A88B07 /* FaceIDTouchIDView.swift in Sources */,
+				8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */,
 				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
 				8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */,
 				8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */,
