@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */; };
 		8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */; };
 		8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812B2BA8381800B049A0 /* RectangleView.swift */; };
 		8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */; };
@@ -199,6 +200,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewExample.swift; sourceTree = "<group>"; };
 		8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeView.swift; sourceTree = "<group>"; };
 		8A0C812B2BA8381800B049A0 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
+				8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */,
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8A21FF292CF5CFEF00E23806 /* AlignmentGuideExample.swift */,
 				8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */,
@@ -1053,6 +1056,7 @@
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */,
+				8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */,
 				8A5683782BC14E4000A88B07 /* AccessibilityControlView.swift in Sources */,
 				8A56836A2BBF936600A88B07 /* MapKitAnnotationView.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
