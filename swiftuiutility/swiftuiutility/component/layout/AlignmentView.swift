@@ -6,6 +6,12 @@
 //
 
 import SwiftUI
+/*
+ 1.Alignment works in two directions. eg. .frame .overlay .background .ZStack
+ 2.Alignment works in horizontal. eg. .VStack
+ 3.Alignment works in vertical. eg. .HStack
+ Note that the Alignment type isn’t the alignment guide. Instead, it’s what determines which alignment guide to use.
+ */
 
 struct AlignmentView: View {
     var body: some View {
