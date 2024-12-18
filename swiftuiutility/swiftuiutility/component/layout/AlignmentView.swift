@@ -11,6 +11,15 @@ import SwiftUI
  2.Alignment works in horizontal. eg. .VStack
  3.Alignment works in vertical. eg. .HStack
  Note that the Alignment type isn’t the alignment guide. Instead, it’s what determines which alignment guide to use.
+ The HorizontalAlignment and VerticalAlignment structs have static constants for the built-in alignment guides:
+ 1.horizontal direction - .leading, .center, .trailing
+ 2.vertical direction - .top, .center, .bottom, .firstTextBaseline, .lastTextBaseline
+ compositeAlignment - .topLeading, .bottomTrailing
+ 
+ some phrases:
+ 1.alignment guides - the point which the subview use it to aligment in the container, also called alignment point. eg. the container has size (100 * 50), the center alignment guides is (50 * 25)
+ 2.subview's origin - subview2 substract subview1's alignment point. eg. subview1 size(50 * 50), alignment point is (25 * 25), subview2 size(100 * 20), alignment point is (50 * 10), the subview2's origin relative to the subview1 is (25,25) - (50,10) = (-25,15).
+ 3.frames of each subview - the frame is the combination of the subview's origin and size
  */
 
 struct AlignmentView: View {
