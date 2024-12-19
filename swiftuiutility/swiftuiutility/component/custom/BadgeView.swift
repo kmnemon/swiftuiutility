@@ -20,6 +20,16 @@ extension View {
     }
 }
 
+extension View {
+    func badge2<Badge: View>(@ViewBuilder _ badge: () -> Badge) -> some View {
+        overlay(alignment: .topTrailing) {
+            badge()
+                .alignmentGuide(.top) { $0.height/2 }
+                .alignmentGuide(.trailing) { $0.width/2 }
+        }
+    }
+}
+
 struct BadgeView: View {
     var body: some View {
         Text("Hello World!")
