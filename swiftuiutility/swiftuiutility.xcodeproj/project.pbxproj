@@ -27,6 +27,7 @@
 		8A41CADA2BEA600D00115EF6 /* FileImporterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */; };
 		8A437C992CD51720000D5BB2 /* StateWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A437C982CD51706000D5BB2 /* StateWrapperView.swift */; };
 		8A4821C02C8EAC5E003A1832 /* KeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */; };
+		8A486A402D15713500A50037 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A486A3F2D15712D00A50037 /* CustomAlignmentGuide.swift */; };
 		8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFB32BC2D5E500DCBD3E /* GesturesView.swift */; };
 		8A48FFB62BC2EF6A00DCBD3E /* HitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFB52BC2EF6A00DCBD3E /* HitTestingView.swift */; };
 		8A48FFB82BC3410D00DCBD3E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48FFB72BC3410D00DCBD3E /* TimerView.swift */; };
@@ -220,6 +221,7 @@
 		8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporterModifier.swift; sourceTree = "<group>"; };
 		8A437C982CD51706000D5BB2 /* StateWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWrapperView.swift; sourceTree = "<group>"; };
 		8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardModifier.swift; sourceTree = "<group>"; };
+		8A486A3F2D15712D00A50037 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
 		8A48FFB32BC2D5E500DCBD3E /* GesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesView.swift; sourceTree = "<group>"; };
 		8A48FFB52BC2EF6A00DCBD3E /* HitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestingView.swift; sourceTree = "<group>"; };
 		8A48FFB72BC3410D00DCBD3E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
@@ -463,6 +465,7 @@
 				8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */,
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8A21FF292CF5CFEF00E23806 /* AlignmentGuideExample.swift */,
+				8A486A3F2D15712D00A50037 /* CustomAlignmentGuide.swift */,
 				8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */,
 				8A48FFC42BC3EF3300DCBD3E /* GeometryReaderView.swift */,
 				8A48FFC62BC3F32700DCBD3E /* GeometryReaderView2.swift */,
@@ -924,6 +927,7 @@
 				8A48FFC92BC3F7DF00DCBD3E /* GeometryReaderView3.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
 				8AB631FC2D032BFC007E8541 /* HighLightModifier.swift in Sources */,
+				8A486A402D15713500A50037 /* CustomAlignmentGuide.swift in Sources */,
 				8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */,
 				8ABBE4502BBAEFBF00D53F43 /* JsonAdvancedView.swift in Sources */,
 				8A4821C02C8EAC5E003A1832 /* KeyboardModifier.swift in Sources */,
