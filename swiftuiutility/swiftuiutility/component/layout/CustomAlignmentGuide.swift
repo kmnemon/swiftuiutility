@@ -33,7 +33,7 @@ extension HorizontalAlignment {
     static let menu = HorizontalAlignment(MenuAlignment.self)
 }
 
-struct ContentView: View {
+struct CustomAlignmentGuide: View {
     var body: some View {
         VStack(alignment: .menu) {
             HStack {

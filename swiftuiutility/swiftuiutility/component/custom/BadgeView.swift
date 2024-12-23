@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//Badge 1
 extension View {
     func badge<Badge: View>(@ViewBuilder contents: () -> Badge) -> some View {
         self.overlay(alignment: .topTrailing) {
@@ -20,6 +21,7 @@ extension View {
     }
 }
 
+//Badge 2
 extension View {
     func badge2<Badge: View>(@ViewBuilder _ badge: () -> Badge) -> some View {
         overlay(alignment: .topTrailing) {
@@ -30,11 +32,30 @@ extension View {
     }
 }
 
+//Badge 3
+struct Badge3: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.caption)
+            .foregroundStyle(.white)
+            .padding(.horizontal, 5)
+            .padding(.vertical, 2)
+            .background {
+                Capsule(style: .continuous)
+                    .fill(.tint)
+            }
+    }
+}
+
 struct BadgeView: View {
     var body: some View {
         Text("Hello World!")
             .badge {
                 Text("2024").font(.caption)
             }
+        
+        Text(3000, format: .number)
+            .modifier(Badge3())
+            .tint(.red)
     }
 }

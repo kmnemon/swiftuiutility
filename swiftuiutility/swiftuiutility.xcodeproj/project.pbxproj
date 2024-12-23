@@ -25,6 +25,7 @@
 		8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */; };
 		8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */; };
 		8A41CADA2BEA600D00115EF6 /* FileImporterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */; };
+		8A42FF202D18FD08004353D1 /* EnvironmentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FF1F2D18FCE9004353D1 /* EnvironmentValue.swift */; };
 		8A437C992CD51720000D5BB2 /* StateWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A437C982CD51706000D5BB2 /* StateWrapperView.swift */; };
 		8A4821C02C8EAC5E003A1832 /* KeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */; };
 		8A486A402D15713500A50037 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A486A3F2D15712D00A50037 /* CustomAlignmentGuide.swift */; };
@@ -155,6 +156,7 @@
 		8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */; };
 		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
 		8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */; };
+		8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
@@ -219,6 +221,7 @@
 		8A3E6F3D2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingReceivingDataStruct.swift; sourceTree = "<group>"; };
 		8A3E6F402BAACC0F009BCEEB /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporterModifier.swift; sourceTree = "<group>"; };
+		8A42FF1F2D18FCE9004353D1 /* EnvironmentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValue.swift; sourceTree = "<group>"; };
 		8A437C982CD51706000D5BB2 /* StateWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWrapperView.swift; sourceTree = "<group>"; };
 		8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardModifier.swift; sourceTree = "<group>"; };
 		8A486A3F2D15712D00A50037 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
@@ -349,6 +352,7 @@
 		8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
 		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
 		8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
+		8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeys.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
@@ -418,6 +422,9 @@
 				8AAB08712B9FF04D0039A3FE /* DateComponentsStruct.swift */,
 				8AD26C742BB3D4C100A5FAD5 /* DecimalView.swift */,
 				8AAB08802BA3E4E10039A3FE /* ErrorStruct.swift */,
+				8A5AC0632CE36866003CBC1A /* EnvironmentView.swift */,
+				8A42FF1F2D18FCE9004353D1 /* EnvironmentValue.swift */,
+				8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */,
 				8A5683622BBF7A5F00A88B07 /* EnumsView.swift */,
 				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
 				8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */,
@@ -538,7 +545,6 @@
 				8A5AC05D2CE36438003CBC1A /* ShareObjectView.swift */,
 				8AD26C782BB410C500A5FAD5 /* BindingView.swift */,
 				8AD26C6A2BB3CB8A00A5FAD5 /* bindable */,
-				8A5AC0632CE36866003CBC1A /* EnvironmentView.swift */,
 			);
 			path = shareobject;
 			sourceTree = "<group>";
@@ -897,6 +903,7 @@
 				8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */,
 				8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
+				8A42FF202D18FD08004353D1 /* EnvironmentValue.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
@@ -948,6 +955,7 @@
 				8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
 				8AC80B1E2CE4E241000317A3 /* SpirographView.swift in Sources */,
+				8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */,
 				8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */,
 				8ABBE4482BB9116200D53F43 /* TagModifier.swift in Sources */,
 				8A5AC0E82CEAEC5B003CBC1A /* PrintTypeView.swift in Sources */,
@@ -1213,7 +1221,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuiutility/Preview Content\"";
-				DEVELOPMENT_TEAM = 62DH2Z26V5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
@@ -1251,7 +1259,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuiutility/Preview Content\"";
-				DEVELOPMENT_TEAM = 62DH2Z26V5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
