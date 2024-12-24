@@ -8,14 +8,14 @@
 import SwiftUI
 
 /*
- → We need to implement a custom EnvironmentKey as the key for the badge color
+1. We need to implement a custom EnvironmentKey as the key for the badge color
  and associate the Color type with the key.
- → We need an extension on EnvironmentValues with a property that lets us get
+2. We need an extension on EnvironmentValues with a property that lets us get
  and set the value.
- → Optionally, we can provide a helper method on View to easily set the badge
+3. Optionally, we can provide a helper method on View to easily set the badge
  color for an entire subtree. This lets us hide the custom key and extension, and
  it provides a discoverable API for users.
- */
+*/
 
 enum BadgeColorKey: EnvironmentKey {
     static var defaultValue: Color = .blue
@@ -60,14 +60,15 @@ extension View{
 //usage
 struct CustomEnvironmentKeys: View {
     var body: some View {
+        //1. if we not set the badgeColor it will use the default value .blue
         VStack {
             Text(3000, format: .number)
                 .badge()
             Text("Test")
                 .badge()
         }
-        //if we not set the badgeColor it will use the default value .blue
         
+        //2. we use the specific value .orange
         VStack {
             Text(3000, format: .number)
                 .badge()
