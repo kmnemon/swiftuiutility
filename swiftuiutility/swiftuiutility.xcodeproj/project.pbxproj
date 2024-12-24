@@ -157,6 +157,8 @@
 		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
 		8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */; };
 		8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */; };
+		8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */; };
+		8ABE515F2D1ABD71006362FE /* ButtonStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515E2D1ABD61006362FE /* ButtonStyleModifier.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
@@ -353,6 +355,8 @@
 		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
 		8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
 		8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeys.swift; sourceTree = "<group>"; };
+		8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentStyles.swift; sourceTree = "<group>"; };
+		8ABE515E2D1ABD61006362FE /* ButtonStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleModifier.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
@@ -425,6 +429,7 @@
 				8A5AC0632CE36866003CBC1A /* EnvironmentView.swift */,
 				8A42FF1F2D18FCE9004353D1 /* EnvironmentValue.swift */,
 				8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */,
+				8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */,
 				8A5683622BBF7A5F00A88B07 /* EnumsView.swift */,
 				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
 				8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */,
@@ -777,6 +782,7 @@
 				8A8A82CF2D01438700D88043 /* layoutmodifier */,
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8A3930072BC4C423002E4819 /* AlertOptionalModifier.swift */,
+				8ABE515E2D1ABD61006362FE /* ButtonStyleModifier.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
@@ -1037,6 +1043,7 @@
 				8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
+				8ABE515F2D1ABD71006362FE /* ButtonStyleModifier.swift in Sources */,
 				8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */,
 				8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */,
 				8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */,
@@ -1081,6 +1088,7 @@
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
 				8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */,
+				8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */,
 				8A48FFB62BC2EF6A00DCBD3E /* HitTestingView.swift in Sources */,
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
 				8A4F98052BE5C669006DF411 /* GenericJsonView.swift in Sources */,
