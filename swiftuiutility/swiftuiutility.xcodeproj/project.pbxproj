@@ -158,7 +158,10 @@
 		8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */; };
 		8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */; };
 		8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */; };
-		8ABE515F2D1ABD71006362FE /* ButtonStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515E2D1ABD61006362FE /* ButtonStyleModifier.swift */; };
+		8ABE515F2D1ABD71006362FE /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515E2D1ABD61006362FE /* CustomButtonStyle.swift */; };
+		8ABE51652D1BA2B9006362FE /* SomeButtonStylesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE51642D1BA2B2006362FE /* SomeButtonStylesExample.swift */; };
+		8ABE51672D1BA529006362FE /* CustomButtonStyle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE51662D1BA51F006362FE /* CustomButtonStyle2.swift */; };
+		8ABE51692D1BD5D0006362FE /* StyleCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
@@ -356,7 +359,10 @@
 		8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
 		8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeys.swift; sourceTree = "<group>"; };
 		8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentStyles.swift; sourceTree = "<group>"; };
-		8ABE515E2D1ABD61006362FE /* ButtonStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleModifier.swift; sourceTree = "<group>"; };
+		8ABE515E2D1ABD61006362FE /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		8ABE51642D1BA2B2006362FE /* SomeButtonStylesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeButtonStylesExample.swift; sourceTree = "<group>"; };
+		8ABE51662D1BA51F006362FE /* CustomButtonStyle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle2.swift; sourceTree = "<group>"; };
+		8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCustomView.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
@@ -664,6 +670,17 @@
 			path = Diagnose;
 			sourceTree = "<group>";
 		};
+		8ABE51632D1BA29E006362FE /* style */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE51642D1BA2B2006362FE /* SomeButtonStylesExample.swift */,
+				8ABE515E2D1ABD61006362FE /* CustomButtonStyle.swift */,
+				8ABE51662D1BA51F006362FE /* CustomButtonStyle2.swift */,
+				8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */,
+			);
+			path = style;
+			sourceTree = "<group>";
+		};
 		8ACEF4C02B9935C20028AA58 = {
 			isa = PBXGroup;
 			children = (
@@ -705,6 +722,7 @@
 			children = (
 				8ACEF4F42B9A9E2E0028AA58 /* basic */,
 				8AD26C712BB3CFC900A5FAD5 /* modifier */,
+				8ABE51632D1BA29E006362FE /* style */,
 				8A48FFBD2BC3921D00DCBD3E /* layout */,
 				8A71E70B2B9B033100772A31 /* color_animation_haptic */,
 				8A3E6F3F2BAACBC0009BCEEB /* network */,
@@ -782,7 +800,6 @@
 				8A8A82CF2D01438700D88043 /* layoutmodifier */,
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8A3930072BC4C423002E4819 /* AlertOptionalModifier.swift */,
-				8ABE515E2D1ABD61006362FE /* ButtonStyleModifier.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
@@ -949,9 +966,11 @@
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
 				8AD11F8B2C914576002B5D41 /* ViewCompositionWithStruct.swift in Sources */,
 				8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */,
+				8ABE51652D1BA2B9006362FE /* SomeButtonStylesExample.swift in Sources */,
 				8A8A82CE2D0061C700D88043 /* FramesModifier.swift in Sources */,
 				8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */,
 				8A5AC0592CE352F0003CBC1A /* PresentationDetentsModifier.swift in Sources */,
+				8ABE51692D1BD5D0006362FE /* StyleCustomView.swift in Sources */,
 				8A5683762BC14B8E00A88B07 /* AccessibilityDataView.swift in Sources */,
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
@@ -1033,6 +1052,7 @@
 				8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */,
 				8AAB08872BA4118E0039A3FE /* ExplicitAnimationView.swift in Sources */,
 				8ACEF4E92B9994510028AA58 /* FormView.swift in Sources */,
+				8ABE51672D1BA529006362FE /* CustomButtonStyle2.swift in Sources */,
 				8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */,
 				8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */,
 				8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */,
@@ -1043,7 +1063,7 @@
 				8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
-				8ABE515F2D1ABD71006362FE /* ButtonStyleModifier.swift in Sources */,
+				8ABE515F2D1ABD71006362FE /* CustomButtonStyle.swift in Sources */,
 				8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */,
 				8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */,
 				8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */,
