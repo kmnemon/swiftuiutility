@@ -203,6 +203,7 @@
 		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
 		8AE4C4E92D1C07F500896872 /* AnimationAndTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */; };
 		8AE4C4EB2D1C127000896872 /* ImplicitAndExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */; };
+		8AE4C4ED2D1C186000896872 /* AnimationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4EC2D1C185300896872 /* AnimationException.swift */; };
 		8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */; };
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
@@ -407,6 +408,7 @@
 		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 		8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAndTransition.swift; sourceTree = "<group>"; };
 		8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAndExplicitAnimation.swift; sourceTree = "<group>"; };
+		8AE4C4EC2D1C185300896872 /* AnimationException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationException.swift; sourceTree = "<group>"; };
 		8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWithCloudKit.swift; sourceTree = "<group>"; };
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
@@ -587,6 +589,7 @@
 			children = (
 				8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */,
 				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
+				8AE4C4EC2D1C185300896872 /* AnimationException.swift */,
 				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
 				8A71E70E2B9C686400772A31 /* ColorView.swift */,
 				8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */,
@@ -1070,6 +1073,7 @@
 				8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
+				8AE4C4ED2D1C186000896872 /* AnimationException.swift in Sources */,
 				8ABE515F2D1ABD71006362FE /* CustomButtonStyle.swift in Sources */,
 				8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */,
 				8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */,
