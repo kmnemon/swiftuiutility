@@ -201,6 +201,8 @@
 		8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */; };
 		8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7D2BB42E1800A5FAD5 /* Book.swift */; };
 		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
+		8AE4C4E92D1C07F500896872 /* AnimationAndTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */; };
+		8AE4C4EB2D1C127000896872 /* ImplicitAndExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */; };
 		8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */; };
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
@@ -403,6 +405,8 @@
 		8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		8AD26C7D2BB42E1800A5FAD5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
+		8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAndTransition.swift; sourceTree = "<group>"; };
+		8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAndExplicitAnimation.swift; sourceTree = "<group>"; };
 		8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWithCloudKit.swift; sourceTree = "<group>"; };
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
@@ -581,6 +585,8 @@
 		8A71E70B2B9B033100772A31 /* color_animation_haptic */ = {
 			isa = PBXGroup;
 			children = (
+				8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */,
+				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
 				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
 				8A71E70E2B9C686400772A31 /* ColorView.swift */,
 				8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */,
@@ -928,6 +934,7 @@
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8A42FF202D18FD08004353D1 /* EnvironmentValue.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
+				8AE4C4E92D1C07F500896872 /* AnimationAndTransition.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
@@ -1111,6 +1118,7 @@
 				8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */,
 				8A48FFB62BC2EF6A00DCBD3E /* HitTestingView.swift in Sources */,
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
+				8AE4C4EB2D1C127000896872 /* ImplicitAndExplicitAnimation.swift in Sources */,
 				8A4F98052BE5C669006DF411 /* GenericJsonView.swift in Sources */,
 				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
 				8AB631FA2D01E684007E8541 /* BackgroundModifier.swift in Sources */,
