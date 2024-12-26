@@ -60,6 +60,7 @@ struct AnimationException: View {
             .animation(.default, value: flag) // inner
             .scaleEffect(flag ? 1.5 : 1)
             .animation(nil, value: flag) //disable the animation
+        //.transaction { $0.animation = nil } also can disable animation
             .rotationEffect(flag ? .zero : .degrees(45))
             .animation(.default.speed(0.3), value: flag) // outer
         

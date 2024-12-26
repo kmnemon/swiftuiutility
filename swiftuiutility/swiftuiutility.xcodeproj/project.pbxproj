@@ -155,6 +155,8 @@
 		8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4512BBE1B0000D53F43 /* SliderView.swift */; };
 		8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */; };
 		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
+		8ABC07892D1D832F00EA8AA2 /* TimeCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */; };
+		8ABC078B2D1D83B900EA8AA2 /* AnimationAndTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */; };
 		8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */; };
 		8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */; };
 		8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */; };
@@ -359,6 +361,8 @@
 		8ABBE4512BBE1B0000D53F43 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
 		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
+		8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCurve.swift; sourceTree = "<group>"; };
+		8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAndTransaction.swift; sourceTree = "<group>"; };
 		8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
 		8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeys.swift; sourceTree = "<group>"; };
 		8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentStyles.swift; sourceTree = "<group>"; };
@@ -589,6 +593,8 @@
 			children = (
 				8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */,
 				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
+				8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */,
+				8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */,
 				8AE4C4EC2D1C185300896872 /* AnimationException.swift */,
 				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
 				8A71E70E2B9C686400772A31 /* ColorView.swift */,
@@ -1006,6 +1012,7 @@
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8A5683712BBF99B700A88B07 /* FaceIDTouchIDView.swift in Sources */,
+				8ABC07892D1D832F00EA8AA2 /* TimeCurve.swift in Sources */,
 				8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */,
 				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
 				8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */,
@@ -1077,6 +1084,7 @@
 				8ABE515F2D1ABD71006362FE /* CustomButtonStyle.swift in Sources */,
 				8A5AC05B2CE35700003CBC1A /* ViewThatFitsView.swift in Sources */,
 				8AAE148A2BC2113A009FA593 /* ResultTypeStruct.swift in Sources */,
+				8ABC078B2D1D83B900EA8AA2 /* AnimationAndTransaction.swift in Sources */,
 				8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */,
 				8A5AC0862CE45715003CBC1A /* InsettableShapeProtocalView.swift in Sources */,
 				8ACEF4E52B9972150028AA58 /* JsonView.swift in Sources */,

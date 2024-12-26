@@ -10,8 +10,11 @@ import SwiftUI
  1. Implicit animations occur when a particular value changes.
  2. Explicit animations occur when a particular event takes place.
  
- diferent -
+ different -
  For example, consider the case where a change in the model layer (perhaps by new data being pushed from the server) results in a particular value changing. When using an implicit animation that’s scoped to that value, the change to the render tree will be animated, regardless of the source, but the scope within the view is well-defined. With explicit animations, we can easily distinguish between updates from the model layer and user interactions, but we can’t directly restrict the animation to certain parts of the view tree.
+ 
+ precedence -
+ Since both types of animation just set the animation property of the current transaction under the hood, implicit animations take precedence over explicit animations. The modifier setting the implicit animation will be executed later while evaluating the view tree, therefore overriding any explicit animation that might have been set at the start of the state change.
  */
 
 struct ImplicitAndExplicitAnimation: View {
