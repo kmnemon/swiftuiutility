@@ -9,6 +9,9 @@ import SwiftUI
 /*
  1. Implicit animations occur when a particular value changes.
  2. Explicit animations occur when a particular event takes place.
+ 
+ diferent -
+ For example, consider the case where a change in the model layer (perhaps by new data being pushed from the server) results in a particular value changing. When using an implicit animation that’s scoped to that value, the change to the render tree will be animated, regardless of the source, but the scope within the view is well-defined. With explicit animations, we can easily distinguish between updates from the model layer and user interactions, but we can’t directly restrict the animation to certain parts of the view tree.
  */
 
 struct ImplicitAndExplicitAnimation: View {
@@ -38,12 +41,27 @@ struct ImplicitAndExplicitAnimation: View {
         
         
         //2. explicit animation
+        //scope an animation to particular state changes
         Rectangle()
             .frame(width: tag ? 100 : 50, height: 50)
             .onTapGesture {
                 withAnimation(.linear) { tag.toggle() }
             }
         
+        //Binding animations
+        ToggleRectangle(flag: $flag.animation(.default))
         
+        
+    }
+}
+
+//Binding animations
+struct ToggleRectangle: View {
+    @Binding var flag: Bool
+    
+    var body: some View {
+        Rectangle()
+            .frame(width: flag ? 100 : 50, height: 50)
+            .onTapGesture {flag.toggle() }
     }
 }
