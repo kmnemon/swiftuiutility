@@ -23,6 +23,19 @@ struct ImplicitAndExplicitAnimation: View {
             .onTapGesture {
                 flag.toggle()
             }
+        //This will only animate the rotation eﬀect, and not the opacity, when the flag value changes.
+        Text("Hello World")
+            .opacity(flag ? 1 : 0)
+            .animation(.default) {
+                $0.rotationEffect(flag ? .zero : .degrees(90))
+            }
+        //The same as above
+        Text("Hello World")
+            .opacity(flag ? 1 : 0)
+            .animation(nil, value: flag)
+            .rotationEffect(flag ? .zero : .degrees(90))
+            .animation(.default, value: flag)
+        
         
         //2. explicit animation
         Rectangle()
@@ -31,6 +44,6 @@ struct ImplicitAndExplicitAnimation: View {
                 withAnimation(.linear) { tag.toggle() }
             }
         
-
+        
     }
 }
