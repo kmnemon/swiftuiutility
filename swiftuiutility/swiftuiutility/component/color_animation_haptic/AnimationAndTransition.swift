@@ -11,8 +11,11 @@ import SwiftUI
  tree before and after the state change, the views is the same only property change
  
  2. transitions are animations that are applied to views being removed from
- or inserted into the render tree, there are two sparate views,there’s no frame that’s part of the render tree before and after the state
- change!
+ or inserted into the render tree, there are two sparate views,there’s no frame that’s part of the render tree before and after the state change!
+ 
+ Transitions have two states: the active state, and the identity state.
+ when a view is inserted: active -> identity .opacity(0)
+ when a view is removed: identity -> active .opacity(1)
  */
 
 struct AnimationAndTransition: View {
@@ -39,5 +42,17 @@ struct AnimationAndTransition: View {
             rect
                 .frame(width: 100, height: 100)
         }
+        
+        //3. Explicit Transition
+        if flag {
+            rect
+                .frame(width: 200, height: 100)
+                .transition(.opacity)
+        } else {
+            rect
+                .frame(width: 100, height: 100)
+                .transition(.opacity)
+        }
+        
     }
 }
