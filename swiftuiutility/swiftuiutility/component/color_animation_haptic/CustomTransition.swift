@@ -28,7 +28,7 @@ extension AnyTransition {
     )
     
     static let myScale = AnyTransition.modifier(
-        active: MyScale(scale: 0.1),
+        active: MyScale(scale: 0),
         identity: MyScale(scale: 1)
     )
 }
