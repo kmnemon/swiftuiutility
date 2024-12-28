@@ -18,19 +18,18 @@ import SwiftUI
  when a view is removed: identity -> active .opacity(1)
  */
 
-struct AnimationAndTransition: View {
-    @State private var tag = false
+struct TransitionView: View {
     @State private var flag = false
     
     var body: some View {
         //1. Property Animation
         Rectangle()
-            .frame(width: tag ? 100 : 50, height: 50)
+            .frame(width: flag ? 100 : 50, height: 50)
             .onTapGesture {
-                withAnimation(.linear) { tag.toggle() }
+                withAnimation(.linear) { flag.toggle() }
             }
         
-        //2. Transition
+        //2.1 Transition With explict animation
         let rect = Rectangle().onTapGesture {
             withAnimation { flag.toggle() }
         }
@@ -43,15 +42,45 @@ struct AnimationAndTransition: View {
                 .frame(width: 100, height: 100)
         }
         
+        //2.2 Transition With implicit animation
+        Button("tap") {
+            flag.toggle()
+        }
+        .padding(60)
+        
+        VStack {
+            if flag {
+                Rectangle()
+                    .frame(width: 100, height: 100)
+                    .transition(.blur(radius: 5))
+            }
+        }
+        .animation(.default, value: flag)
+        
         //3. Explicit Transition
         if flag {
             rect
                 .frame(width: 200, height: 100)
                 .transition(.opacity)
-        } else {
+        }
+        
+        //4. build-in Transition
+        if flag {
             rect
-                .frame(width: 100, height: 100)
-                .transition(.opacity)
+                .frame(width: 200, height: 100)
+                .transition(.slide)
+        }
+        
+        if flag {
+            rect
+                .frame(width: 200, height: 100)
+                .transition(.scale)
+        }
+        
+        if flag {
+            rect
+                .frame(width: 200, height: 100)
+                .transition(.move(edge: .trailing))
         }
         
     }

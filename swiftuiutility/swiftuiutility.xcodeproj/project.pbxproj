@@ -81,6 +81,8 @@
 		8A5AC0E82CEAEC5B003CBC1A /* PrintTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */; };
 		8A5AC0EF2CED771D003CBC1A /* ViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0EE2CED7713003CBC1A /* ViewBuilderView.swift */; };
 		8A5AC0F12CED827D003CBC1A /* GroupViewWithException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AC0F02CED8274003CBC1A /* GroupViewWithException.swift */; };
+		8A5B3BF22D1F81ED002C6A28 /* AnimatableAndPhaseBasedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF12D1F81E6002C6A28 /* AnimatableAndPhaseBasedAnimation.swift */; };
+		8A5B3BF62D1F89EE002C6A28 /* PhaseAnimators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF52D1F89D9002C6A28 /* PhaseAnimators.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -157,6 +159,8 @@
 		8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */; };
 		8ABC07892D1D832F00EA8AA2 /* TimeCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */; };
 		8ABC078B2D1D83B900EA8AA2 /* AnimationAndTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */; };
+		8ABC078D2D1EEC3700EA8AA2 /* IDModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */; };
+		8ABC07912D1F6AF800EA8AA2 /* CombinedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC07902D1F6ADD00EA8AA2 /* CombinedTransition.swift */; };
 		8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */; };
 		8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */; };
 		8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */; };
@@ -203,7 +207,7 @@
 		8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */; };
 		8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7D2BB42E1800A5FAD5 /* Book.swift */; };
 		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
-		8AE4C4E92D1C07F500896872 /* AnimationAndTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */; };
+		8AE4C4E92D1C07F500896872 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4E82D1C07E200896872 /* TransitionView.swift */; };
 		8AE4C4EB2D1C127000896872 /* ImplicitAndExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */; };
 		8AE4C4ED2D1C186000896872 /* AnimationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4EC2D1C185300896872 /* AnimationException.swift */; };
 		8AE4C4F12D1E957000896872 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4F02D1E956500896872 /* CustomTransition.swift */; };
@@ -288,6 +292,8 @@
 		8A5AC0E72CEAEC54003CBC1A /* PrintTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTypeView.swift; sourceTree = "<group>"; };
 		8A5AC0EE2CED7713003CBC1A /* ViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderView.swift; sourceTree = "<group>"; };
 		8A5AC0F02CED8274003CBC1A /* GroupViewWithException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewWithException.swift; sourceTree = "<group>"; };
+		8A5B3BF12D1F81E6002C6A28 /* AnimatableAndPhaseBasedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableAndPhaseBasedAnimation.swift; sourceTree = "<group>"; };
+		8A5B3BF52D1F89D9002C6A28 /* PhaseAnimators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimators.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -364,6 +370,8 @@
 		8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModifier.swift; sourceTree = "<group>"; };
 		8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCurve.swift; sourceTree = "<group>"; };
 		8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAndTransaction.swift; sourceTree = "<group>"; };
+		8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDModifier.swift; sourceTree = "<group>"; };
+		8ABC07902D1F6ADD00EA8AA2 /* CombinedTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedTransition.swift; sourceTree = "<group>"; };
 		8ABDC0D02D0D9D0000012C01 /* LazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackView.swift; sourceTree = "<group>"; };
 		8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeys.swift; sourceTree = "<group>"; };
 		8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentStyles.swift; sourceTree = "<group>"; };
@@ -411,7 +419,7 @@
 		8AD26C7A2BB4141200A5FAD5 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		8AD26C7D2BB42E1800A5FAD5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
-		8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAndTransition.swift; sourceTree = "<group>"; };
+		8AE4C4E82D1C07E200896872 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAndExplicitAnimation.swift; sourceTree = "<group>"; };
 		8AE4C4EC2D1C185300896872 /* AnimationException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationException.swift; sourceTree = "<group>"; };
 		8AE4C4F02D1E956500896872 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
@@ -593,16 +601,9 @@
 		8A71E70B2B9B033100772A31 /* color_animation_haptic */ = {
 			isa = PBXGroup;
 			children = (
-				8AE4C4E82D1C07E200896872 /* AnimationAndTransition.swift */,
-				8AE4C4F02D1E956500896872 /* CustomTransition.swift */,
-				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
-				8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */,
-				8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */,
-				8AE4C4EC2D1C185300896872 /* AnimationException.swift */,
-				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
+				8ABC07942D1F722700EA8AA2 /* animation_transition */,
 				8A71E70E2B9C686400772A31 /* ColorView.swift */,
 				8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */,
-				8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */,
 				8AAB08862BA4118D0039A3FE /* ExplicitAnimationView.swift */,
 				8A71E7102B9C6D4500772A31 /* GradientView.swift */,
 				8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */,
@@ -686,6 +687,24 @@
 				8AB631E12CFAB387007E8541 /* PerformanceDiagnose.swift */,
 			);
 			path = Diagnose;
+			sourceTree = "<group>";
+		};
+		8ABC07942D1F722700EA8AA2 /* animation_transition */ = {
+			isa = PBXGroup;
+			children = (
+				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
+				8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */,
+				8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */,
+				8AE4C4EC2D1C185300896872 /* AnimationException.swift */,
+				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
+				8A5B3BF12D1F81E6002C6A28 /* AnimatableAndPhaseBasedAnimation.swift */,
+				8A5B3BF52D1F89D9002C6A28 /* PhaseAnimators.swift */,
+				8AE4C4E82D1C07E200896872 /* TransitionView.swift */,
+				8AE4C4F02D1E956500896872 /* CustomTransition.swift */,
+				8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */,
+				8ABC07902D1F6ADD00EA8AA2 /* CombinedTransition.swift */,
+			);
+			path = animation_transition;
 			sourceTree = "<group>";
 		};
 		8ABE51632D1BA29E006362FE /* style */ = {
@@ -824,6 +843,7 @@
 				8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
+				8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
@@ -946,7 +966,7 @@
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8A42FF202D18FD08004353D1 /* EnvironmentValue.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
-				8AE4C4E92D1C07F500896872 /* AnimationAndTransition.swift in Sources */,
+				8AE4C4E92D1C07F500896872 /* TransitionView.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
@@ -955,6 +975,7 @@
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
 				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
+				8A5B3BF62D1F89EE002C6A28 /* PhaseAnimators.swift in Sources */,
 				8A48FFBC2BC3487C00DCBD3E /* SpecificAccessibilityView.swift in Sources */,
 				8A21FF2A2CF5CFFC00E23806 /* AlignmentGuideExample.swift in Sources */,
 				8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */,
@@ -1059,6 +1080,7 @@
 				8AB081A52CDBB6AB0050C43E /* LocationFetcherView.swift in Sources */,
 				8AAB087F2BA3D5AD0039A3FE /* StringStruct.swift in Sources */,
 				8A8A82D52D06BE3400D88043 /* FixedSizeModifier.swift in Sources */,
+				8A5B3BF22D1F81ED002C6A28 /* AnimatableAndPhaseBasedAnimation.swift in Sources */,
 				8A5683612BBF778F00A88B07 /* FileReadWriteView.swift in Sources */,
 				8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */,
 				8A56836E2BBF957D00A88B07 /* MapKitTapView.swift in Sources */,
@@ -1067,6 +1089,7 @@
 				8A437C992CD51720000D5BB2 /* StateWrapperView.swift in Sources */,
 				8A21FF282CEECDEB00E23806 /* OnDisappearModifier.swift in Sources */,
 				8A41CADA2BEA600D00115EF6 /* FileImporterModifier.swift in Sources */,
+				8ABC078D2D1EEC3700EA8AA2 /* IDModifier.swift in Sources */,
 				8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */,
 				8A5683742BC1489700A88B07 /* VoiceOverView.swift in Sources */,
 				8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */,
@@ -1079,6 +1102,7 @@
 				8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */,
 				8AB631F62CFC1B28007E8541 /* LayoutDiagnose.swift in Sources */,
 				8AAE148E2BC21CFE009FA593 /* ContextMenuModifier.swift in Sources */,
+				8ABC07912D1F6AF800EA8AA2 /* CombinedTransition.swift in Sources */,
 				8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */,
 				8A48FFB82BC3410D00DCBD3E /* TimerView.swift in Sources */,
 				8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */,
