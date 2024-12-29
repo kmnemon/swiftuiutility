@@ -41,8 +41,8 @@ extension AnimatableAndPhaseBasedAnimation {
 
 struct AnimatableAndPhaseBasedAnimation: View {
     @State private var flag = false
-    
     @State private var shakes = 0
+    @State private var trigger = 0
     
     var body: some View {
         //1.
@@ -54,7 +54,7 @@ struct AnimatableAndPhaseBasedAnimation: View {
             .modifier(Shake(numberOfShakes: Double(shakes)))
             .animation(.default, value: shakes)
         
-        //3.iOS 17 shake
+        //3.iOS 17 shake - Phase-Based Animations
         //because we have a trigger value the shake will trigger once, when we don't have that the shake will loop
         Button("Shake") { shakes += 1 }
         .phaseAnimator([0, -20, 20], trigger: shakes) { content, offset in
@@ -66,5 +66,20 @@ struct AnimatableAndPhaseBasedAnimation: View {
         .phaseAnimator([0, -20, 20]) { content, offset in
             content.offset(x: offset)
         }
+        
+        //4.Keyframe-Based Animations
+        Button("Shake") {
+            trigger += 1
+        }
+        .keyframeAnimator(initialValue: 0, trigger: trigger) { content, offset in
+            content.offset(x: offset)
+        } keyframes: { value in
+            CubicKeyframe(-30, duration: 0.25)
+            CubicKeyframe(30, duration: 0.5)
+            CubicKeyframe(0, duration: 0.25)
+        }
+        
+        //PhaseAnimators
+        
     }
 }

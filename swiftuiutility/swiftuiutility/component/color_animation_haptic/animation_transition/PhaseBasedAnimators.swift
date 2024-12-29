@@ -15,7 +15,7 @@ import SwiftUI
  3. Optionally add a trigger to make the phase animator repeat its sequence from the beginning. Without this it will cycle constantly.
  */
 
-extension PhaseAnimators {
+extension PhaseBasedAnimators {
     enum AnimationPhase: Double, CaseIterable {
         case fadingIn = 0
         case middle = 1
@@ -47,7 +47,7 @@ extension PhaseAnimators {
     }
 }
 
-struct PhaseAnimators: View {
+struct PhaseBasedAnimators: View {
     @State private var animationStep = 0
     
     var body: some View {
