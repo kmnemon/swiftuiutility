@@ -13,6 +13,7 @@ extension Color {
     }
 }
 
+
 struct PerformanceDiagnose: View {
     var body: some View {
         //1.print in the body see which view is render
