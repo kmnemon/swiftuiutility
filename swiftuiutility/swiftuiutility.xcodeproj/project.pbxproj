@@ -84,6 +84,9 @@
 		8A5B3BF22D1F81ED002C6A28 /* AnimatableAndPhaseBasedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF12D1F81E6002C6A28 /* AnimatableAndPhaseBasedAnimation.swift */; };
 		8A5B3BF62D1F89EE002C6A28 /* PhaseBasedAnimators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF52D1F89D9002C6A28 /* PhaseBasedAnimators.swift */; };
 		8A5B3BF82D21F5FC002C6A28 /* KeyframeBasedAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF72D21F5E7002C6A28 /* KeyframeBasedAnimations.swift */; };
+		8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */; };
+		8A5B3BFC2D234A39002C6A28 /* GeometryReaderView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */; };
+		8A5B3BFE2D2351C2002C6A28 /* GeometryReaderWithPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -297,6 +300,9 @@
 		8A5B3BF12D1F81E6002C6A28 /* AnimatableAndPhaseBasedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableAndPhaseBasedAnimation.swift; sourceTree = "<group>"; };
 		8A5B3BF52D1F89D9002C6A28 /* PhaseBasedAnimators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseBasedAnimators.swift; sourceTree = "<group>"; };
 		8A5B3BF72D21F5E7002C6A28 /* KeyframeBasedAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeBasedAnimations.swift; sourceTree = "<group>"; };
+		8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView6.swift; sourceTree = "<group>"; };
+		8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView7.swift; sourceTree = "<group>"; };
+		8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderWithPreferences.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -515,6 +521,9 @@
 				8A48FFC82BC3F7DF00DCBD3E /* GeometryReaderView3.swift */,
 				8A48FFCA2BC3FFC200DCBD3E /* GeometryReaderView4.swift */,
 				8A48FFCC2BC402BD00DCBD3E /* GeometryReaderView5.swift */,
+				8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */,
+				8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */,
+				8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */,
 				8A88DED42BC6066800C792C5 /* GroupView.swift */,
 				8A5AC0F02CED8274003CBC1A /* GroupViewWithException.swift */,
 				8AC80B172CE41252000317A3 /* HorizontalSizeDynamicTypeView.swift */,
@@ -1052,6 +1061,7 @@
 				8A5683712BBF99B700A88B07 /* FaceIDTouchIDView.swift in Sources */,
 				8AE4C4F42D2286A700896872 /* LayoutProtocol.swift in Sources */,
 				8ABC07892D1D832F00EA8AA2 /* TimeCurve.swift in Sources */,
+				8A5B3BFC2D234A39002C6A28 /* GeometryReaderView7.swift in Sources */,
 				8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */,
 				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
 				8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */,
@@ -1155,6 +1165,7 @@
 				8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */,
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
 				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
+				8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */,
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */,
@@ -1174,6 +1185,7 @@
 				8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */,
 				8A48FFB62BC2EF6A00DCBD3E /* HitTestingView.swift in Sources */,
 				8AB7DC932BA5AB3800F97CE8 /* UserDefaultsStruct.swift in Sources */,
+				8A5B3BFE2D2351C2002C6A28 /* GeometryReaderWithPreferences.swift in Sources */,
 				8AE4C4EB2D1C127000896872 /* ImplicitAndExplicitAnimation.swift in Sources */,
 				8A4F98052BE5C669006DF411 /* GenericJsonView.swift in Sources */,
 				8AAB08912BA48E3D0039A3FE /* ClassView.swift in Sources */,
