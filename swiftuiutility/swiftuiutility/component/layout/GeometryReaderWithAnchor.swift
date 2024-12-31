@@ -7,6 +7,11 @@
 
 import SwiftUI
 /*
+ Anchors are built on top of geometry readers, preferences, and coordinate spaces. In
+ essence, an anchor is a wrapper around a geometry value (a CGRect, CGSize, or
+ CGPoint) measured in the global coordinate space. A geometry proxy has special
+ support for anchors and lets us automatically transform the geometry value into the
+ local coordinate space.
  anchors are most useful when we ﬁnd ourselves converting coordinates or sizes between diﬀerent coordinate spaces
  */
 
