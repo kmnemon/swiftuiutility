@@ -87,6 +87,7 @@
 		8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */; };
 		8A5B3BFC2D234A39002C6A28 /* GeometryReaderView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */; };
 		8A5B3BFE2D2351C2002C6A28 /* GeometryReaderWithPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */; };
+		8A5B3C002D236349002C6A28 /* FlowLayoutWithGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
 		8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */; };
 		8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71E70C2B9B055E00772A31 /* StackView.swift */; };
@@ -303,6 +304,7 @@
 		8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView6.swift; sourceTree = "<group>"; };
 		8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView7.swift; sourceTree = "<group>"; };
 		8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderWithPreferences.swift; sourceTree = "<group>"; };
+		8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutWithGeometryReader.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
 		8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
 		8A71E70C2B9B055E00772A31 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -906,6 +908,7 @@
 			isa = PBXGroup;
 			children = (
 				8AE4C4F32D22869A00896872 /* LayoutProtocol.swift */,
+				8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -1014,6 +1017,7 @@
 				8AD11F892C911C35002B5D41 /* ViewCompositionWithProperty.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationSplitViewWithiPad.swift in Sources */,
+				8A5B3C002D236349002C6A28 /* FlowLayoutWithGeometryReader.swift in Sources */,
 				8A48FFC72BC3F32700DCBD3E /* GeometryReaderView2.swift in Sources */,
 				8AD11F872C909AC5002B5D41 /* UnitStruct.swift in Sources */,
 				8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */,
