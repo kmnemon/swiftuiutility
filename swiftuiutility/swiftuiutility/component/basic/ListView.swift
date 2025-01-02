@@ -52,6 +52,13 @@ struct ListView: View {
                     }
                 }
             }
+            
+            // 5. list with header
+            List {
+                Section(content: {
+                    Text("hello world")
+                }, header: {Text("This is header")})
+            }
         }
     }
 }

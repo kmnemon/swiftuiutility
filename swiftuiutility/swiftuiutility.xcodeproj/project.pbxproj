@@ -221,6 +221,7 @@
 		8AE4C4FA2D23D48D00896872 /* GeometryReaderWithAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4F92D23D47300896872 /* GeometryReaderWithAnchor.swift */; };
 		8AE4C4FC2D23FC0300896872 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4FB2D23FBED00896872 /* MatchedGeometryEffect.swift */; };
 		8AE4C4FE2D23FC5C00896872 /* MatchedGeometryEffectWithTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4FD2D23FC5600896872 /* MatchedGeometryEffectWithTransition.swift */; };
+		8AE4C5002D26431200896872 /* ShowProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C4FF2D2642EF00896872 /* ShowProgressView.swift */; };
 		8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */; };
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
@@ -443,6 +444,7 @@
 		8AE4C4F92D23D47300896872 /* GeometryReaderWithAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderWithAnchor.swift; sourceTree = "<group>"; };
 		8AE4C4FB2D23FBED00896872 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		8AE4C4FD2D23FC5600896872 /* MatchedGeometryEffectWithTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectWithTransition.swift; sourceTree = "<group>"; };
+		8AE4C4FF2D2642EF00896872 /* ShowProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProgressView.swift; sourceTree = "<group>"; };
 		8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWithCloudKit.swift; sourceTree = "<group>"; };
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
@@ -827,6 +829,7 @@
 				8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */,
 				8A0C81312BA96ECA00B049A0 /* NavigationStackReturnView.swift */,
 				8A0C81332BA9A6C000B049A0 /* NavigationStackPathStoreView.swift */,
+				8AE4C4FF2D2642EF00896872 /* ShowProgressView.swift */,
 				8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */,
 				8A0C812F2BA93F0E00B049A0 /* ProgrammaticNavigationView.swift */,
 				8A0C812B2BA8381800B049A0 /* RectangleView.swift */,
@@ -1091,6 +1094,7 @@
 				8AE4C4F12D1E957000896872 /* CustomTransition.swift in Sources */,
 				8AAB08792BA020440039A3FE /* SleepCalculator.mlmodel in Sources */,
 				8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */,
+				8AE4C5002D26431200896872 /* ShowProgressView.swift in Sources */,
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
 				8AAE14882BC20E87009FA593 /* TabsView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,

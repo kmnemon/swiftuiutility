@@ -17,7 +17,7 @@ struct MatchedGeometryEffectWithTransition: View {
             if hero {
                 circle
                     .matchedGeometryEffect(id: "image", in: namespace)
-            } else {add
+            } else {
                 circle
                     .matchedGeometryEffect(id: "image", in: namespace)
                 .frame(width: 30, height: 30) }
