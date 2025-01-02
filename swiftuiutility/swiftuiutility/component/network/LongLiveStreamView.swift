@@ -6,6 +6,9 @@
 //
 // using the go service network/longlive.go
 import SwiftUI
+/*
+ Asynchronous sequences - The hook of asynchronous sequences is that you can iterate over their elements asynchronously as more and more elements become available over time.
+ */
 
 extension String: Error { }
 
