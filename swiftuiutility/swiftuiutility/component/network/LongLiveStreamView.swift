@@ -52,7 +52,8 @@ struct LongLiveStreamView: View {
     }
 }
 
-@Observable
+//using MainActor to make sure code can run on the mainthread, because the code value is used to update UI
+@Observable @MainActor
 class LongLiveViewModel {
     var stock: Stock = Stock(name: "default", value: 1.0)
 
