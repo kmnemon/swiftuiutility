@@ -231,6 +231,7 @@
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
 		8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */; };
+		8AFFF2462D39135E0083F276 /* MainActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2452D39135E0083F276 /* MainActorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -459,6 +460,7 @@
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
+		8AFFF2452D39135E0083F276 /* MainActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -490,6 +492,7 @@
 				8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */,
 				8A5683622BBF7A5F00A88B07 /* EnumsView.swift */,
 				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
+				8AFFF2452D39135E0083F276 /* MainActorView.swift */,
 				8A56837B2BC172B900A88B07 /* OperatorOverloadStruct.swift */,
 				8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */,
 				8A56837D2BC17E5400A88B07 /* PropertyWrapperStruct.swift */,
@@ -1134,6 +1137,7 @@
 				8A48FFCF2BC406A100DCBD3E /* VisualEffectView.swift in Sources */,
 				8A3E6F412BAACC0F009BCEEB /* AsyncImageView.swift in Sources */,
 				8A8A82DB2D06F31000D88043 /* ZStackDetailsView.swift in Sources */,
+				8AFFF2462D39135E0083F276 /* MainActorView.swift in Sources */,
 				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
 				8A56836C2BBF94B800A88B07 /* MapKitMarkerView.swift in Sources */,
 				8AAE14952BC28DCA009FA593 /* ToolbarItemView.swift in Sources */,
