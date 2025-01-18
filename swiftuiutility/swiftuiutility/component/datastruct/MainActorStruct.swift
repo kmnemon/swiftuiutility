@@ -1,8 +1,8 @@
 //
-//  MainActorView.swift
+//  MainActorStruct.swift
 //  swiftuiutility
 //
-//  Created by ke on 2025/1/16.
+//  Created by ke on 1/18/25.
 //
 
 import SwiftUI
@@ -19,7 +19,6 @@ class AccountViewModel {
     var username = "Anonymous"
     var isAuthenticated = false
 }
-
 
 
 //2. run on main actor
@@ -44,7 +43,6 @@ func couldBeAnywhere2() async {
 func applyRunOnMainActor() async {
     await couldBeAnywhere()
 }
-
 
 //3. If you wanted the work to be sent off to the main actor without waiting for its result to come back, you can place it in a new task like this:
 func couldBeAnywhere() {
