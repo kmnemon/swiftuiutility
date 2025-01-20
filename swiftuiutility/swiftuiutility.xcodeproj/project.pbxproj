@@ -238,6 +238,7 @@
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
 		8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */; };
+		8AFFF24D2D3DFCC20083F276 /* CustomModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -473,6 +474,7 @@
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
+		8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -926,16 +928,10 @@
 		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
 			isa = PBXGroup;
 			children = (
+				8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */,
+				8AFFF24B2D3DFC610083F276 /* car */,
+				8AFFF24A2D3DFC470083F276 /* book */,
 				8ADF4E6B2D3BF737009B5A7D /* itour */,
-				8AD26C7D2BB42E1800A5FAD5 /* Book.swift */,
-				8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */,
-				8ABA907B2BB6914E00D41B7A /* EditBookView.swift */,
-				8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */,
-				8ABA907F2BB6A90E00D41B7A /* EditBookPredicateContentView.swift */,
-				8ABBE44B2BB9477700D53F43 /* Car.swift */,
-				8ABBE44D2BB9764000D53F43 /* Tire.swift */,
-				8ABBE4432BB8EF5500D53F43 /* CarsView.swift */,
-				8ABBE4452BB8FA9500D53F43 /* CarsViewContentView.swift */,
 				8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */,
 			);
 			path = swiftdata;
@@ -970,6 +966,29 @@
 				8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */,
 			);
 			path = Advanced;
+			sourceTree = "<group>";
+		};
+		8AFFF24A2D3DFC470083F276 /* book */ = {
+			isa = PBXGroup;
+			children = (
+				8AD26C7D2BB42E1800A5FAD5 /* Book.swift */,
+				8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */,
+				8ABA907B2BB6914E00D41B7A /* EditBookView.swift */,
+				8ABA907D2BB699BE00D41B7A /* EditBookContentView.swift */,
+				8ABA907F2BB6A90E00D41B7A /* EditBookPredicateContentView.swift */,
+			);
+			path = book;
+			sourceTree = "<group>";
+		};
+		8AFFF24B2D3DFC610083F276 /* car */ = {
+			isa = PBXGroup;
+			children = (
+				8ABBE44B2BB9477700D53F43 /* Car.swift */,
+				8ABBE44D2BB9764000D53F43 /* Tire.swift */,
+				8ABBE4432BB8EF5500D53F43 /* CarsView.swift */,
+				8ABBE4452BB8FA9500D53F43 /* CarsViewContentView.swift */,
+			);
+			path = car;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1052,6 +1071,7 @@
 				8A42FF202D18FD08004353D1 /* EnvironmentValue.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
 				8AE4C4E92D1C07F500896872 /* TransitionView.swift in Sources */,
+				8AFFF24D2D3DFCC20083F276 /* CustomModelContainer.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
