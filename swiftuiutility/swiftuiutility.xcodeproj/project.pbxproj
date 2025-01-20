@@ -239,6 +239,7 @@
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
 		8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */; };
 		8AFFF24D2D3DFCC20083F276 /* CustomModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */; };
+		8AFFF2512D3E29640083F276 /* ModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2502D3E295D0083F276 /* ModelExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -475,6 +476,7 @@
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
 		8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelContainer.swift; sourceTree = "<group>"; };
+		8AFFF2502D3E295D0083F276 /* ModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -928,7 +930,8 @@
 		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
 			isa = PBXGroup;
 			children = (
-				8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */,
+				8AFFF24F2D3E29520083F276 /* Model */,
+				8AFFF24E2D3E29430083F276 /* ModelContainer */,
 				8AFFF24B2D3DFC610083F276 /* car */,
 				8AFFF24A2D3DFC470083F276 /* book */,
 				8ADF4E6B2D3BF737009B5A7D /* itour */,
@@ -989,6 +992,22 @@
 				8ABBE4452BB8FA9500D53F43 /* CarsViewContentView.swift */,
 			);
 			path = car;
+			sourceTree = "<group>";
+		};
+		8AFFF24E2D3E29430083F276 /* ModelContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */,
+			);
+			path = ModelContainer;
+			sourceTree = "<group>";
+		};
+		8AFFF24F2D3E29520083F276 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFF2502D3E295D0083F276 /* ModelExample.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1064,6 +1083,7 @@
 				8A8A82D72D06BF6500D88043 /* StackDetailsView.swift in Sources */,
 				8AAE14862BC20D1E009FA593 /* ListViewWithSelection.swift in Sources */,
 				8ACEF4E72B997EEF0028AA58 /* GridItemAndLazyVGridView.swift in Sources */,
+				8AFFF2512D3E29640083F276 /* ModelExample.swift in Sources */,
 				8A8A82D92D06C09000D88043 /* LayoutPriorityModifier.swift in Sources */,
 				8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */,
 				8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */,
