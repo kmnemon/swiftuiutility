@@ -241,6 +241,8 @@
 		8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */; };
 		8AFFF24D2D3DFCC20083F276 /* CustomModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */; };
 		8AFFF2512D3E29640083F276 /* ModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2502D3E295D0083F276 /* ModelExample.swift */; };
+		8AFFF2542D3F346D0083F276 /* RS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2532D3F34690083F276 /* RS.swift */; };
+		8AFFF2562D3F39140083F276 /* NToN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2552D3F38EE0083F276 /* NToN.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -479,6 +481,8 @@
 		8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
 		8AFFF24C2D3DFCB30083F276 /* CustomModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelContainer.swift; sourceTree = "<group>"; };
 		8AFFF2502D3E295D0083F276 /* ModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExample.swift; sourceTree = "<group>"; };
+		8AFFF2532D3F34690083F276 /* RS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RS.swift; sourceTree = "<group>"; };
+		8AFFF2552D3F38EE0083F276 /* NToN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NToN.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -932,6 +936,7 @@
 		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
 			isa = PBXGroup;
 			children = (
+				8AFFF2522D3F338F0083F276 /* RelationShip */,
 				8AFFF24F2D3E29520083F276 /* Model */,
 				8AFFF24E2D3E29430083F276 /* ModelContainer */,
 				8AFFF24B2D3DFC610083F276 /* car */,
@@ -1011,6 +1016,15 @@
 				8ADF4EB52D3E806B009B5A7D /* DerivedAttributes.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8AFFF2522D3F338F0083F276 /* RelationShip */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFF2552D3F38EE0083F276 /* NToN.swift */,
+				8AFFF2532D3F34690083F276 /* RS.swift */,
+			);
+			path = RelationShip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1164,6 +1178,7 @@
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8AE4C4F82D23913F00896872 /* GeometryReaderPrint.swift in Sources */,
 				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
+				8AFFF2542D3F346D0083F276 /* RS.swift in Sources */,
 				8A5AC08C2CE480C2003CBC1A /* DrawGroupView.swift in Sources */,
 				8A5AC0822CE447E0003CBC1A /* PathView.swift in Sources */,
 				8AAB08722B9FF04D0039A3FE /* DateComponentsStruct.swift in Sources */,
@@ -1292,6 +1307,7 @@
 				8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */,
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
+				8AFFF2562D3F39140083F276 /* NToN.swift in Sources */,
 				8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */,
 				8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */,
 				8A5683782BC14E4000A88B07 /* AccessibilityControlView.swift in Sources */,

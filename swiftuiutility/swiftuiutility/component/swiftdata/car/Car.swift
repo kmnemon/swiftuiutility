@@ -14,7 +14,7 @@ class Car {
     var name: String
     var type: String
     var joinDate: Date
-    //.cascade, which means deleting a Book should automaticllay delete all their Tire objects
+    //.cascade, which means deleting a Car should automaticllay delete all their Tire objects
     @Relationship(deleteRule: .cascade) var tires = [Tire]()
     
     init(id: UUID, name: String, type: String, joinDate: Date) {
