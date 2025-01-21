@@ -64,5 +64,5 @@ struct ContentViewData: View {
 }
 
 #Preview {
-    ContentView()
+    ContentViewData()
 }

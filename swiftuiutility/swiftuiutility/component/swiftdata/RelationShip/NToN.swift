@@ -69,6 +69,7 @@ extension OneToMany {
         //implicit
         var movies: [Movie]
         //explicit
+        //.nullify - when we delete a director we replace them(class Movie's director) with nil in any movie they directed
         //@Relationship(deleteRule: .nullify, inverse: \Movie.director) var movies: [Movie]
 
         init(name: String, movies: [Movie]) {
@@ -76,4 +77,69 @@ extension OneToMany {
             self.movies = movies
         }
     }
+}
+
+extension ManyToMany {
+    //swiftData will not infer many-to-many relationships
+    @Model
+    class Actor {
+        var name: String
+        var movies: [Movie]
+
+        init(name: String, movies: [Movie]) {
+            self.name = name
+            self.movies = movies
+        }
+    }
+
+    @Model
+    class Movie {
+        var name: String
+        var releaseYear: Int
+        @Relationship(inverse: \Actor.movies) var cast: [Actor]
+
+        init(name: String, releaseYear: Int, cast: [Actor]) {
+            self.name = name
+            self.releaseYear = releaseYear
+            self.cast = cast
+        }
+    }
+    
+    func applyManyToMany() {
+        let mi2 = Movie(name: "Mission: Impossible 2", releaseYear: 2000, cast: [])
+        
+        let cruise = Actor(name: "Tom Cruise", movies: [mi2])
+        let newton = Actor(name: "Thandiwe Newton", movies: [mi2])
+
+//        modelContext.insert(cruise)
+//        modelContext.insert(newton)
+    }
+    
+    func manipulateManyToMany2() {
+        let mi2 = Movie(name: "Mission: Impossible 2", releaseYear: 2000, cast: [])
+        let cruise = Actor(name: "Tom Cruise", movies: [])
+        let newton = Actor(name: "Thandiwe Newton", movies: [])
+
+//        modelContext.insert(mi2)
+//        modelContext.insert(cruise)
+//        modelContext.insert(newton)
+
+        mi2.cast.append(cruise)
+        mi2.cast.append(newton)
+    }
+    
+    func manipulateManyToMany3() {
+        let mi2 = Movie(name: "Mission: Impossible 2", releaseYear: 2000, cast: [])
+        let cruise = Actor(name: "Tom Cruise", movies: [])
+        let newton = Actor(name: "Thandiwe Newton", movies: [])
+
+//        modelContext.insert(mi2)
+//        modelContext.insert(cruise)
+//        modelContext.insert(newton)
+
+        cruise.movies.append(mi2)
+        newton.movies.append(mi2)
+    }
+    
+    
 }
