@@ -214,6 +214,8 @@
 		8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */; };
 		8ADD2A542D3F9E7500AA5087 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A532D3F9E6800AA5087 /* SaveData.swift */; };
 		8ADD2A562D3FB0B100AA5087 /* DeleteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A552D3FB0AA00AA5087 /* DeleteData.swift */; };
+		8ADD2A582D4085A100AA5087 /* FetchDescriptorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */; };
+		8ADD2A5A2D408BE500AA5087 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A592D408BE300AA5087 /* Filter.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -457,6 +459,8 @@
 		8AD26C7F2BB4360700A5FAD5 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 		8ADD2A532D3F9E6800AA5087 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 		8ADD2A552D3FB0AA00AA5087 /* DeleteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteData.swift; sourceTree = "<group>"; };
+		8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDescriptorExample.swift; sourceTree = "<group>"; };
+		8ADD2A592D408BE300AA5087 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -1037,6 +1041,8 @@
 		8AFFF2572D3F6E5E0083F276 /* WorkWithData */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A592D408BE300AA5087 /* Filter.swift */,
+				8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */,
 				8AFFF2582D3F6EAB0083F276 /* FindData.swift */,
 				8ADD2A532D3F9E6800AA5087 /* SaveData.swift */,
 				8ADD2A552D3FB0AA00AA5087 /* DeleteData.swift */,
@@ -1186,6 +1192,7 @@
 				8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
 				8AC80B1E2CE4E241000317A3 /* SpirographView.swift in Sources */,
+				8ADD2A582D4085A100AA5087 /* FetchDescriptorExample.swift in Sources */,
 				8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */,
 				8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */,
 				8ABBE4482BB9116200D53F43 /* TagModifier.swift in Sources */,
@@ -1237,6 +1244,7 @@
 				8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */,
 				8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */,
 				8ADF4E7F2D3BFB58009B5A7D /* DestinationListingView.swift in Sources */,
+				8ADD2A5A2D408BE500AA5087 /* Filter.swift in Sources */,
 				8ADF4E802D3BFB58009B5A7D /* Sight.swift in Sources */,
 				8ADF4E812D3BFB58009B5A7D /* EditDestinationView.swift in Sources */,
 				8ADF4E822D3BFB58009B5A7D /* Destination.swift in Sources */,
