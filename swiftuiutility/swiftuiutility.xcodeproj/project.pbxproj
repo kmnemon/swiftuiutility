@@ -216,6 +216,7 @@
 		8ADD2A562D3FB0B100AA5087 /* DeleteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A552D3FB0AA00AA5087 /* DeleteData.swift */; };
 		8ADD2A582D4085A100AA5087 /* FetchDescriptorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */; };
 		8ADD2A5A2D408BE500AA5087 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A592D408BE300AA5087 /* Filter.swift */; };
+		8ADD2A5C2D40D26300AA5087 /* SortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -461,6 +462,7 @@
 		8ADD2A552D3FB0AA00AA5087 /* DeleteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteData.swift; sourceTree = "<group>"; };
 		8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDescriptorExample.swift; sourceTree = "<group>"; };
 		8ADD2A592D408BE300AA5087 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortExample.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -1041,6 +1043,7 @@
 		8AFFF2572D3F6E5E0083F276 /* WorkWithData */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */,
 				8ADD2A592D408BE300AA5087 /* Filter.swift */,
 				8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */,
 				8AFFF2582D3F6EAB0083F276 /* FindData.swift */,
@@ -1184,6 +1187,7 @@
 				8ABE51692D1BD5D0006362FE /* StyleCustomView.swift in Sources */,
 				8A5683762BC14B8E00A88B07 /* AccessibilityDataView.swift in Sources */,
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
+				8ADD2A5C2D40D26300AA5087 /* SortExample.swift in Sources */,
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
 				8AE4C4FC2D23FC0300896872 /* MatchedGeometryEffect.swift in Sources */,
