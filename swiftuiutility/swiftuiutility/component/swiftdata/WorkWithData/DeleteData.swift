@@ -59,12 +59,7 @@ extension DeleteData {
         
         //example 4: Delete a subset of objects
         func deleteSubsetObjects() throws {
-            try modelContext.delete(model: Student.self, where: #Predicate { student in
-                student.name.isEmpty
-            })
+            try modelContext.delete(model: Student.self, where: #Predicate {$0.name.isEmpty})
         }
     }
-    
-    
-    
 }

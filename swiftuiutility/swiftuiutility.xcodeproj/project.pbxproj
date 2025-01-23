@@ -217,6 +217,9 @@
 		8ADD2A582D4085A100AA5087 /* FetchDescriptorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */; };
 		8ADD2A5A2D408BE500AA5087 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A592D408BE300AA5087 /* Filter.swift */; };
 		8ADD2A5C2D40D26300AA5087 /* SortExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */; };
+		8ADD2A5E2D40FE3600AA5087 /* CountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */; };
+		8ADD2A602D4100FD00AA5087 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A5F2D4100F000AA5087 /* Context.swift */; };
+		8ADD2A622D41E91000AA5087 /* UndoRedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A612D41E90600AA5087 /* UndoRedo.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -463,6 +466,9 @@
 		8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDescriptorExample.swift; sourceTree = "<group>"; };
 		8ADD2A592D408BE300AA5087 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortExample.swift; sourceTree = "<group>"; };
+		8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountData.swift; sourceTree = "<group>"; };
+		8ADD2A5F2D4100F000AA5087 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		8ADD2A612D41E90600AA5087 /* UndoRedo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedo.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -1043,6 +1049,9 @@
 		8AFFF2572D3F6E5E0083F276 /* WorkWithData */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A612D41E90600AA5087 /* UndoRedo.swift */,
+				8ADD2A5F2D4100F000AA5087 /* Context.swift */,
+				8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */,
 				8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */,
 				8ADD2A592D408BE300AA5087 /* Filter.swift */,
 				8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */,
@@ -1130,6 +1139,7 @@
 				8A8A82D92D06C09000D88043 /* LayoutPriorityModifier.swift in Sources */,
 				8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */,
 				8A48FFC12BC3C6E800DCBD3E /* CustomAlignmentView.swift in Sources */,
+				8ADD2A5E2D40FE3600AA5087 /* CountData.swift in Sources */,
 				8A37BE252B9D41130006E1D1 /* AlertModifier.swift in Sources */,
 				8A42FF202D18FD08004353D1 /* EnvironmentValue.swift in Sources */,
 				8ACEF4DF2B993D460028AA58 /* ImageView.swift in Sources */,
@@ -1140,6 +1150,7 @@
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
 				8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */,
+				8ADD2A622D41E91000AA5087 /* UndoRedo.swift in Sources */,
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
 				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
 				8AAB08852BA4087F0039A3FE /* AnimationBindingView.swift in Sources */,
@@ -1181,6 +1192,7 @@
 				8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */,
 				8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */,
 				8ABE51652D1BA2B9006362FE /* SomeButtonStylesExample.swift in Sources */,
+				8ADD2A602D4100FD00AA5087 /* Context.swift in Sources */,
 				8A8A82CE2D0061C700D88043 /* FramesModifier.swift in Sources */,
 				8A5683572BBE8F2700A88B07 /* UnavailableView.swift in Sources */,
 				8A5AC0592CE352F0003CBC1A /* PresentationDetentsModifier.swift in Sources */,

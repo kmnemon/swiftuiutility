@@ -56,6 +56,15 @@ struct SortExample {
         }
     }
     
+    @Model
+    class User {
+        var name: String
+        
+        init(name: String) {
+            self.name = name
+        }
+    }
+    
     //1. key path
     @Query(sort: \Movie.name) var movies1: [Movie]
     
@@ -73,6 +82,11 @@ struct SortExample {
         var descriptor = FetchDescriptor<Movie>(sortBy: [SortDescriptor(\.name)])
         let results = (try? modelContext.fetch(descriptor)) ?? []
     }
+    
+    //6. Sort Nature order
+    //User1 User10, User100, User11... to User1, User2, User3
+    @Query(sort: [SortDescriptor(\User.name, comparator: .localizedStandard)]) var users: [User]
+
 
     
 }
