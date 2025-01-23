@@ -15,7 +15,6 @@ import SwiftUI
 struct Rollback {
     @Environment(\.modelContext) var modelContext
 
-    
     @Model
     class User {
         var name: String
@@ -26,8 +25,6 @@ struct Rollback {
             self.luckyNumber = luckyNumber
         }
     }
-    
-    
     
     func rollbackExample() {
         Task {
@@ -48,5 +45,4 @@ struct Rollback {
             try? newContext.save()
         }
     }
-    
 }
