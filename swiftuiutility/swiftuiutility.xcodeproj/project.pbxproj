@@ -225,6 +225,8 @@
 		8ADD2A682D422CF800AA5087 /* BigThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A672D422CF000AA5087 /* BigThreeModel.swift */; };
 		8ADD2A6A2D42327300AA5087 /* SwiftDataCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A692D42325F00AA5087 /* SwiftDataCodable.swift */; };
 		8ADD2A6C2D423AFC00AA5087 /* Rollback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A6B2D423AF600AA5087 /* Rollback.swift */; };
+		8ADD2A6F2D424CF600AA5087 /* LightweightMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A6E2D424CE100AA5087 /* LightweightMigration.swift */; };
+		8ADD2A712D424F2700AA5087 /* ComplexMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A702D424F2000AA5087 /* ComplexMigration.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -479,6 +481,8 @@
 		8ADD2A672D422CF000AA5087 /* BigThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigThreeModel.swift; sourceTree = "<group>"; };
 		8ADD2A692D42325F00AA5087 /* SwiftDataCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataCodable.swift; sourceTree = "<group>"; };
 		8ADD2A6B2D423AF600AA5087 /* Rollback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rollback.swift; sourceTree = "<group>"; };
+		8ADD2A6E2D424CE100AA5087 /* LightweightMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightweightMigration.swift; sourceTree = "<group>"; };
+		8ADD2A702D424F2000AA5087 /* ComplexMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexMigration.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -964,6 +968,7 @@
 		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A6D2D424BFA00AA5087 /* DataMigration */,
 				8AFFF2572D3F6E5E0083F276 /* WorkWithData */,
 				8AFFF2522D3F338F0083F276 /* RelationShip */,
 				8AFFF24F2D3E29520083F276 /* Model */,
@@ -975,6 +980,15 @@
 				8ADD2A672D422CF000AA5087 /* BigThreeModel.swift */,
 			);
 			path = swiftdata;
+			sourceTree = "<group>";
+		};
+		8ADD2A6D2D424BFA00AA5087 /* DataMigration */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD2A6E2D424CE100AA5087 /* LightweightMigration.swift */,
+				8ADD2A702D424F2000AA5087 /* ComplexMigration.swift */,
+			);
+			path = DataMigration;
 			sourceTree = "<group>";
 		};
 		8ADF4E6B2D3BF737009B5A7D /* itour */ = {
@@ -1194,6 +1208,7 @@
 				8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */,
 				8ADD2A562D3FB0B100AA5087 /* DeleteData.swift in Sources */,
 				8A48FFC92BC3F7DF00DCBD3E /* GeometryReaderView3.swift in Sources */,
+				8ADD2A6F2D424CF600AA5087 /* LightweightMigration.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
 				8AB631FC2D032BFC007E8541 /* HighLightModifier.swift in Sources */,
 				8A486A402D15713500A50037 /* CustomAlignmentGuide.swift in Sources */,
@@ -1327,6 +1342,7 @@
 				8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */,
 				8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */,
 				8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */,
+				8ADD2A712D424F2700AA5087 /* ComplexMigration.swift in Sources */,
 				8AB631F62CFC1B28007E8541 /* LayoutDiagnose.swift in Sources */,
 				8AAE148E2BC21CFE009FA593 /* ContextMenuModifier.swift in Sources */,
 				8ABC07912D1F6AF800EA8AA2 /* CombinedTransition.swift in Sources */,
