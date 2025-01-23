@@ -220,6 +220,9 @@
 		8ADD2A5E2D40FE3600AA5087 /* CountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */; };
 		8ADD2A602D4100FD00AA5087 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A5F2D4100F000AA5087 /* Context.swift */; };
 		8ADD2A622D41E91000AA5087 /* UndoRedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A612D41E90600AA5087 /* UndoRedo.swift */; };
+		8ADD2A642D421BE300AA5087 /* Enumerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A632D421BD300AA5087 /* Enumerate.swift */; };
+		8ADD2A662D4227EC00AA5087 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A652D4227EA00AA5087 /* Merge.swift */; };
+		8ADD2A682D422CF800AA5087 /* BigThreeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A672D422CF000AA5087 /* BigThreeModel.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -469,6 +472,9 @@
 		8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountData.swift; sourceTree = "<group>"; };
 		8ADD2A5F2D4100F000AA5087 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		8ADD2A612D41E90600AA5087 /* UndoRedo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedo.swift; sourceTree = "<group>"; };
+		8ADD2A632D421BD300AA5087 /* Enumerate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerate.swift; sourceTree = "<group>"; };
+		8ADD2A652D4227EA00AA5087 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		8ADD2A672D422CF000AA5087 /* BigThreeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigThreeModel.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -962,6 +968,7 @@
 				8AFFF24A2D3DFC470083F276 /* book */,
 				8ADF4E6B2D3BF737009B5A7D /* itour */,
 				8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */,
+				8ADD2A672D422CF000AA5087 /* BigThreeModel.swift */,
 			);
 			path = swiftdata;
 			sourceTree = "<group>";
@@ -1049,9 +1056,11 @@
 		8AFFF2572D3F6E5E0083F276 /* WorkWithData */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A652D4227EA00AA5087 /* Merge.swift */,
 				8ADD2A612D41E90600AA5087 /* UndoRedo.swift */,
 				8ADD2A5F2D4100F000AA5087 /* Context.swift */,
 				8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */,
+				8ADD2A632D421BD300AA5087 /* Enumerate.swift */,
 				8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */,
 				8ADD2A592D408BE300AA5087 /* Filter.swift */,
 				8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */,
@@ -1212,10 +1221,12 @@
 				8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */,
 				8ABA90802BB6A90E00D41B7A /* EditBookPredicateContentView.swift in Sources */,
 				8ABBE4482BB9116200D53F43 /* TagModifier.swift in Sources */,
+				8ADD2A662D4227EC00AA5087 /* Merge.swift in Sources */,
 				8A5AC0E82CEAEC5B003CBC1A /* PrintView.swift in Sources */,
 				8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */,
 				8A5AC0642CE3686E003CBC1A /* EnvironmentView.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
+				8ADD2A642D421BE300AA5087 /* Enumerate.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8AE4C4F82D23913F00896872 /* GeometryReaderPrint.swift in Sources */,
 				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
@@ -1299,6 +1310,7 @@
 				8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */,
 				8A5683742BC1489700A88B07 /* VoiceOverView.swift in Sources */,
 				8A71E70D2B9B055E00772A31 /* StackView.swift in Sources */,
+				8ADD2A682D422CF800AA5087 /* BigThreeModel.swift in Sources */,
 				8ADF4E852D3BFB6E009B5A7D /* ContentViewData.swift in Sources */,
 				8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */,
 				8AAB08872BA4118E0039A3FE /* ExplicitAnimationView.swift in Sources */,

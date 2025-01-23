@@ -22,6 +22,22 @@ extension DeleteData {
         }
     }
     
+    @Model
+    class Country {
+        var name: String
+        init(name: String) {
+            self.name = name
+        }
+    }
+    
+    @Model
+    class City {
+        var name: String
+        init(name: String) {
+            self.name = name
+        }
+    }
+    
     struct ContentView: View {
         @Environment(\.modelContext) var modelContext
 
@@ -48,8 +64,8 @@ extension DeleteData {
             }
         }
         
-        //example 3: Delete all objects
-        func deleteAllObjects() {
+        //example 3: Delete all objects of the specific type
+        func deleteAllObjectsWithSpecificType() {
             do {
                 try modelContext.delete(model: Student.self)
             } catch {
@@ -60,6 +76,20 @@ extension DeleteData {
         //example 4: Delete a subset of objects
         func deleteSubsetObjects() throws {
             try modelContext.delete(model: Student.self, where: #Predicate {$0.name.isEmpty})
+        }
+        
+        //example 5: Delete all objects
+        /*
+         you need to call the delete(model:) method of your model context once for each model type you have.
+         This doesn’t strictly reset your model container completely, however: all the table definitions and other data will be intact, they’ll just be empty
+         */
+        func deleteAllObjects() {
+            do {
+                try modelContext.delete(model: Country.self)
+                try modelContext.delete(model: City.self)
+            } catch {
+                print("Failed to clear all Country and City data.")
+            }
         }
     }
 }
