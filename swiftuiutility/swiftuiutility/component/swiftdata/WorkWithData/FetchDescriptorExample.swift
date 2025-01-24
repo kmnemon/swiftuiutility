@@ -11,6 +11,16 @@ import SwiftUI
 struct FetchDescriptorExample {
     @Environment(\.modelContext) var modelContext
     
+    //9.using with SwiftUI
+    static var descriptor: FetchDescriptor<Movie> {
+        var descriptor = FetchDescriptor<Movie>(sortBy: [SortDescriptor(\.releaseDate, order: .reverse)])
+        descriptor.fetchLimit = 10
+        return descriptor
+    }
+    
+    @Query(descriptor) var latestMovies: [Movie]
+
+    
     @Model
     class Movie {
         var name: String
