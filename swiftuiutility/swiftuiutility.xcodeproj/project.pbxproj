@@ -227,6 +227,12 @@
 		8ADD2A6C2D423AFC00AA5087 /* Rollback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A6B2D423AF600AA5087 /* Rollback.swift */; };
 		8ADD2A6F2D424CF600AA5087 /* LightweightMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A6E2D424CE100AA5087 /* LightweightMigration.swift */; };
 		8ADD2A712D424F2700AA5087 /* ComplexMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A702D424F2000AA5087 /* ComplexMigration.swift */; };
+		8ADD2A732D4324FB00AA5087 /* DynamicSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A722D4324F300AA5087 /* DynamicSort.swift */; };
+		8ADD2A752D432EAC00AA5087 /* QueryAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A742D432EA300AA5087 /* QueryAnimate.swift */; };
+		8ADD2A772D43311500AA5087 /* WorkWithPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A762D43310800AA5087 /* WorkWithPreview.swift */; };
+		8ADD2A792D433BB400AA5087 /* DocumentBasedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A782D433BAA00AA5087 /* DocumentBasedData.swift */; };
+		8ADD2A7C2D43412D00AA5087 /* WithiCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A7B2D43412600AA5087 /* WithiCloud.swift */; };
+		8ADD2A7E2D43440000AA5087 /* WithWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A7D2D4343F500AA5087 /* WithWidget.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -483,6 +489,13 @@
 		8ADD2A6B2D423AF600AA5087 /* Rollback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rollback.swift; sourceTree = "<group>"; };
 		8ADD2A6E2D424CE100AA5087 /* LightweightMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightweightMigration.swift; sourceTree = "<group>"; };
 		8ADD2A702D424F2000AA5087 /* ComplexMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexMigration.swift; sourceTree = "<group>"; };
+		8ADD2A722D4324F300AA5087 /* DynamicSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSort.swift; sourceTree = "<group>"; };
+		8ADD2A742D432EA300AA5087 /* QueryAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryAnimate.swift; sourceTree = "<group>"; };
+		8ADD2A762D43310800AA5087 /* WorkWithPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithPreview.swift; sourceTree = "<group>"; };
+		8ADD2A782D433BAA00AA5087 /* DocumentBasedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBasedData.swift; sourceTree = "<group>"; };
+		8ADD2A7A2D433E5900AA5087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8ADD2A7B2D43412600AA5087 /* WithiCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithiCloud.swift; sourceTree = "<group>"; };
+		8ADD2A7D2D4343F500AA5087 /* WithWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithWidget.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -837,6 +850,7 @@
 		8ACEF4CB2B9935C20028AA58 /* swiftuiutility */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A7A2D433E5900AA5087 /* Info.plist */,
 				8ACEF4DB2B9937EB0028AA58 /* component */,
 				8ACEF4CC2B9935C20028AA58 /* swiftuiutilityApp.swift */,
 				8ACEF4CE2B9935C20028AA58 /* ContentView.swift */,
@@ -1074,6 +1088,11 @@
 		8AFFF2572D3F6E5E0083F276 /* WorkWithData */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A7D2D4343F500AA5087 /* WithWidget.swift */,
+				8ADD2A7B2D43412600AA5087 /* WithiCloud.swift */,
+				8ADD2A782D433BAA00AA5087 /* DocumentBasedData.swift */,
+				8ADD2A762D43310800AA5087 /* WorkWithPreview.swift */,
+				8ADD2A742D432EA300AA5087 /* QueryAnimate.swift */,
 				8ADD2A6B2D423AF600AA5087 /* Rollback.swift */,
 				8ADD2A692D42325F00AA5087 /* SwiftDataCodable.swift */,
 				8ADD2A652D4227EA00AA5087 /* Merge.swift */,
@@ -1082,6 +1101,7 @@
 				8ADD2A5D2D40FE2F00AA5087 /* CountData.swift */,
 				8ADD2A632D421BD300AA5087 /* Enumerate.swift */,
 				8ADD2A5B2D40D25E00AA5087 /* SortExample.swift */,
+				8ADD2A722D4324F300AA5087 /* DynamicSort.swift */,
 				8ADD2A592D408BE300AA5087 /* Filter.swift */,
 				8ADD2A572D40859400AA5087 /* FetchDescriptorExample.swift */,
 				8AFFF2582D3F6EAB0083F276 /* FindData.swift */,
@@ -1179,6 +1199,7 @@
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
 				8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */,
+				8ADD2A772D43311500AA5087 /* WorkWithPreview.swift in Sources */,
 				8ADD2A622D41E91000AA5087 /* UndoRedo.swift in Sources */,
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
 				8AD26C772BB3F03900A5FAD5 /* SendingReceivingDatatStruct2.swift in Sources */,
@@ -1196,6 +1217,7 @@
 				8A39300A2BC4C579002E4819 /* SheetOptionalModifier.swift in Sources */,
 				8A3E6F3E2BAAC6DC009BCEEB /* SendingReceivingDataStruct.swift in Sources */,
 				8A5AC0522CE30437003CBC1A /* OpacityView.swift in Sources */,
+				8ADD2A732D4324FB00AA5087 /* DynamicSort.swift in Sources */,
 				8AAB08812BA3E4E10039A3FE /* ErrorStruct.swift in Sources */,
 				8ABA907C2BB6914E00D41B7A /* EditBookView.swift in Sources */,
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
@@ -1219,6 +1241,7 @@
 				8A5AC0882CE47166003CBC1A /* FLowerShapeView.swift in Sources */,
 				8AAB81562BB4FD4C0047FD0C /* EmojiRatingView.swift in Sources */,
 				8A0C81302BA93F0E00B049A0 /* ProgrammaticNavigationView.swift in Sources */,
+				8ADD2A792D433BB400AA5087 /* DocumentBasedData.swift in Sources */,
 				8AD11F8B2C914576002B5D41 /* ViewCompositionWithStruct.swift in Sources */,
 				8AC80B182CE41255000317A3 /* HorizontalSizeDynamicTypeView.swift in Sources */,
 				8ADD2A6A2D42327300AA5087 /* SwiftDataCodable.swift in Sources */,
@@ -1265,6 +1288,7 @@
 				8AE4C4F42D2286A700896872 /* LayoutProtocol.swift in Sources */,
 				8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */,
 				8ABC07892D1D832F00EA8AA2 /* TimeCurve.swift in Sources */,
+				8ADD2A7E2D43440000AA5087 /* WithWidget.swift in Sources */,
 				8A5B3BFC2D234A39002C6A28 /* GeometryReaderView7.swift in Sources */,
 				8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */,
 				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
@@ -1364,8 +1388,10 @@
 				8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */,
 				8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */,
 				8A5AC05E2CE3643F003CBC1A /* ShareObjectView.swift in Sources */,
+				8ADD2A7C2D43412D00AA5087 /* WithiCloud.swift in Sources */,
 				8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */,
 				8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */,
+				8ADD2A752D432EAC00AA5087 /* QueryAnimate.swift in Sources */,
 				8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */,
 				8A0C81342BA9A6C000B049A0 /* NavigationStackPathStoreView.swift in Sources */,
 				8A56835D2BBEA1B600A88B07 /* RequestReviewView.swift in Sources */,
@@ -1548,6 +1574,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftuiutility/Info.plist;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "show the location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1555,6 +1582,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1586,6 +1614,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftuiutility/Info.plist;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "show the location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1593,6 +1622,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
