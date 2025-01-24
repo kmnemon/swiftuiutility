@@ -122,6 +122,12 @@ struct TransferContext {
         func research(_ topic: Topic) {
             let id = topic.id
 
+            /*
+             [researcher] is a shorthand for capturing researcher inside the closure.
+             It ensures that researcher is available for use in the closure, even if researcher was declared outside the closure.
+             You can control how it is captured (strong, weak, or unowned) based on the memory management needs.
+             [weak researcher],[unowned researcher]
+             */
             Task { [researcher] in
                 try await researcher.research(id)
             }
