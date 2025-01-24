@@ -233,6 +233,11 @@
 		8ADD2A792D433BB400AA5087 /* DocumentBasedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A782D433BAA00AA5087 /* DocumentBasedData.swift */; };
 		8ADD2A7C2D43412D00AA5087 /* WithiCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A7B2D43412600AA5087 /* WithiCloud.swift */; };
 		8ADD2A7E2D43440000AA5087 /* WithWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A7D2D4343F500AA5087 /* WithWidget.swift */; };
+		8ADD2A812D43632A00AA5087 /* WithMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A802D43630500AA5087 /* WithMVVM.swift */; };
+		8ADD2A832D43810500AA5087 /* DiscardChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A822D4380FF00AA5087 /* DiscardChange.swift */; };
+		8ADD2A852D43849B00AA5087 /* PrePopulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A842D43849600AA5087 /* PrePopulate.swift */; };
+		8ADD2A872D43888200AA5087 /* PreLoadJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A862D43887A00AA5087 /* PreLoadJSON.swift */; };
+		8ADD2A892D43903E00AA5087 /* TransferContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD2A882D43903600AA5087 /* TransferContext.swift */; };
 		8ADF4E5F2D387240009B5A7D /* TaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */; };
 		8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */; };
 		8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */; };
@@ -496,6 +501,11 @@
 		8ADD2A7A2D433E5900AA5087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8ADD2A7B2D43412600AA5087 /* WithiCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithiCloud.swift; sourceTree = "<group>"; };
 		8ADD2A7D2D4343F500AA5087 /* WithWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithWidget.swift; sourceTree = "<group>"; };
+		8ADD2A802D43630500AA5087 /* WithMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithMVVM.swift; sourceTree = "<group>"; };
+		8ADD2A822D4380FF00AA5087 /* DiscardChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscardChange.swift; sourceTree = "<group>"; };
+		8ADD2A842D43849600AA5087 /* PrePopulate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrePopulate.swift; sourceTree = "<group>"; };
+		8ADD2A862D43887A00AA5087 /* PreLoadJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoadJSON.swift; sourceTree = "<group>"; };
+		8ADD2A882D43903600AA5087 /* TransferContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferContext.swift; sourceTree = "<group>"; };
 		8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifier.swift; sourceTree = "<group>"; };
 		8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierWithIdentifyingValue.swift; sourceTree = "<group>"; };
 		8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierDetail.swift; sourceTree = "<group>"; };
@@ -982,6 +992,7 @@
 		8AD26C7C2BB42DFB00A5FAD5 /* swiftdata */ = {
 			isa = PBXGroup;
 			children = (
+				8ADD2A7F2D43627600AA5087 /* Architecture */,
 				8ADD2A6D2D424BFA00AA5087 /* DataMigration */,
 				8AFFF2572D3F6E5E0083F276 /* WorkWithData */,
 				8AFFF2522D3F338F0083F276 /* RelationShip */,
@@ -1003,6 +1014,18 @@
 				8ADD2A702D424F2000AA5087 /* ComplexMigration.swift */,
 			);
 			path = DataMigration;
+			sourceTree = "<group>";
+		};
+		8ADD2A7F2D43627600AA5087 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD2A882D43903600AA5087 /* TransferContext.swift */,
+				8ADD2A862D43887A00AA5087 /* PreLoadJSON.swift */,
+				8ADD2A842D43849600AA5087 /* PrePopulate.swift */,
+				8ADD2A822D4380FF00AA5087 /* DiscardChange.swift */,
+				8ADD2A802D43630500AA5087 /* WithMVVM.swift */,
+			);
+			path = Architecture;
 			sourceTree = "<group>";
 		};
 		8ADF4E6B2D3BF737009B5A7D /* itour */ = {
@@ -1199,6 +1222,7 @@
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
 				8A56835F2BBF6EDD00A88B07 /* ComparableStruct.swift in Sources */,
+				8ADD2A852D43849B00AA5087 /* PrePopulate.swift in Sources */,
 				8ADD2A772D43311500AA5087 /* WorkWithPreview.swift in Sources */,
 				8ADD2A622D41E91000AA5087 /* UndoRedo.swift in Sources */,
 				8AD26C702BB3CC5F00A5FAD5 /* BindableView2.swift in Sources */,
@@ -1257,6 +1281,7 @@
 				8ADD2A5C2D40D26300AA5087 /* SortExample.swift in Sources */,
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
+				8ADD2A872D43888200AA5087 /* PreLoadJSON.swift in Sources */,
 				8AE4C4FC2D23FC0300896872 /* MatchedGeometryEffect.swift in Sources */,
 				8A8A82D32D06BD9600D88043 /* BadgeView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
@@ -1345,7 +1370,9 @@
 				8A8A82D52D06BE3400D88043 /* FixedSizeModifier.swift in Sources */,
 				8ADD2A542D3F9E7500AA5087 /* SaveData.swift in Sources */,
 				8A5B3BF22D1F81ED002C6A28 /* AnimatableAndPhaseBasedAnimation.swift in Sources */,
+				8ADD2A832D43810500AA5087 /* DiscardChange.swift in Sources */,
 				8A5683612BBF778F00A88B07 /* FileReadWriteView.swift in Sources */,
+				8ADD2A812D43632A00AA5087 /* WithMVVM.swift in Sources */,
 				8ACEF4ED2B9996050028AA58 /* NavigationLinkView.swift in Sources */,
 				8A56836E2BBF957D00A88B07 /* MapKitTapView.swift in Sources */,
 				8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */,
@@ -1372,6 +1399,7 @@
 				8ABC07912D1F6AF800EA8AA2 /* CombinedTransition.swift in Sources */,
 				8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */,
 				8A48FFB82BC3410D00DCBD3E /* TimerView.swift in Sources */,
+				8ADD2A892D43903E00AA5087 /* TransferContext.swift in Sources */,
 				8AC80B1A2CE4CB4F000317A3 /* AnimatableDataView.swift in Sources */,
 				8AAB088D2BA444030039A3FE /* ShowHideView.swift in Sources */,
 				8ABBE44C2BB9477700D53F43 /* Car.swift in Sources */,
