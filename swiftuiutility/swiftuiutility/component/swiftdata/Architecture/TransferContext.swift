@@ -51,10 +51,16 @@ struct TransferContext {
      */
     actor TopicResearcher {
         let context: ModelContext
+        
+        /*
+         Tip: Remember, your object's persistent identifier is only temporary until it is saved for the first time. If you intend to make an actor do extensive work with its model context, it's much more efficient to create the context inside a method rather than accessing the actor's property.
+         */
+        var container: ModelContainer
 
         // Create a model context on this actor
         init(container: ModelContainer) {
-            context = ModelContext(container)
+            self.context = ModelContext(container)
+            self.container = container
         }
 
         // Convert an identifier to a topic using the local context
@@ -70,7 +76,7 @@ struct TransferContext {
         /*
          Tip: Remember, your object's persistent identifier is only temporary until it is saved for the first time. If you intend to make an actor do extensive work with its model context, it's much more efficient to create the context inside a method rather than accessing the actor's property.
          */
-        func research2(container: ModelContainer, _ identifier: PersistentIdentifier) async throws {
+        func research2(_ identifier: PersistentIdentifier) async throws {
             let context = ModelContext(container)
             guard let topic = context.model(for: identifier) as? Topic else {
                 return
