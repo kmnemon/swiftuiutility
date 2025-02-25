@@ -173,6 +173,7 @@
 		8ABE51652D1BA2B9006362FE /* SomeButtonStylesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE51642D1BA2B2006362FE /* SomeButtonStylesExample.swift */; };
 		8ABE51672D1BA529006362FE /* CustomButtonStyle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE51662D1BA51F006362FE /* CustomButtonStyle2.swift */; };
 		8ABE51692D1BD5D0006362FE /* StyleCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */; };
+		8AC163ED2D6DC21E00330EC9 /* BasicModifiedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
@@ -468,6 +469,7 @@
 		8ABE51642D1BA2B2006362FE /* SomeButtonStylesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeButtonStylesExample.swift; sourceTree = "<group>"; };
 		8ABE51662D1BA51F006362FE /* CustomButtonStyle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle2.swift; sourceTree = "<group>"; };
 		8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCustomView.swift; sourceTree = "<group>"; };
+		8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModifiedContent.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
@@ -1024,6 +1026,7 @@
 		8AD26C712BB3CFC900A5FAD5 /* modifier */ = {
 			isa = PBXGroup;
 			children = (
+				8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */,
 				8A8A82CF2D01438700D88043 /* layoutmodifier */,
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8A3930072BC4C423002E4819 /* AlertOptionalModifier.swift */,
@@ -1499,6 +1502,7 @@
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8A56837A2BC1630C00A88B07 /* VoiceInputView.swift in Sources */,
 				8ABBE4442BB8EF5500D53F43 /* CarsView.swift in Sources */,
+				8AC163ED2D6DC21E00330EC9 /* BasicModifiedContent.swift in Sources */,
 				8ABBE44E2BB9764000D53F43 /* Tire.swift in Sources */,
 				8ABBE4522BBE1B0000D53F43 /* SliderView.swift in Sources */,
 				8ADF4E7F2D3BFB58009B5A7D /* DestinationListingView.swift in Sources */,
