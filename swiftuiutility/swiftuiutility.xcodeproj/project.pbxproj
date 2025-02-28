@@ -200,6 +200,7 @@
 		8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */; };
 		8ACEF4F32B9A9BFE0028AA58 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */; };
 		8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF4F52B9AC2320028AA58 /* TextView.swift */; };
+		8ACFD9E42D718977008DA8E1 /* SixSizeValuesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACFD9E32D718958008DA8E1 /* SixSizeValuesExample.swift */; };
 		8AD11F872C909AC5002B5D41 /* UnitStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F862C909AC5002B5D41 /* UnitStruct.swift */; };
 		8AD11F892C911C35002B5D41 /* ViewCompositionWithProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F882C911C35002B5D41 /* ViewCompositionWithProperty.swift */; };
 		8AD11F8B2C914576002B5D41 /* ViewCompositionWithStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD11F8A2C914576002B5D41 /* ViewCompositionWithStruct.swift */; };
@@ -498,6 +499,7 @@
 		8ACEF4F02B9A9AD50028AA58 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		8ACEF4F22B9A9BFE0028AA58 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		8ACEF4F52B9AC2320028AA58 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		8ACFD9E32D718958008DA8E1 /* SixSizeValuesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixSizeValuesExample.swift; sourceTree = "<group>"; };
 		8AD11F862C909AC5002B5D41 /* UnitStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitStruct.swift; sourceTree = "<group>"; };
 		8AD11F882C911C35002B5D41 /* ViewCompositionWithProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompositionWithProperty.swift; sourceTree = "<group>"; };
 		8AD11F8A2C914576002B5D41 /* ViewCompositionWithStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompositionWithStruct.swift; sourceTree = "<group>"; };
@@ -1143,6 +1145,7 @@
 		8AE4C4F22D22868F00896872 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				8ACFD9E32D718958008DA8E1 /* SixSizeValuesExample.swift */,
 				8AE4C4F32D22869A00896872 /* LayoutProtocol.swift */,
 				8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */,
 			);
@@ -1447,6 +1450,7 @@
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
 				8ADD2A872D43888200AA5087 /* PreLoadJSON.swift in Sources */,
 				8AE4C4FC2D23FC0300896872 /* MatchedGeometryEffect.swift in Sources */,
+				8ACFD9E42D718977008DA8E1 /* SixSizeValuesExample.swift in Sources */,
 				8A8A82D32D06BD9600D88043 /* BadgeView.swift in Sources */,
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
 				8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */,
