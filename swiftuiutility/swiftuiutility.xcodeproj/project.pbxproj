@@ -107,6 +107,7 @@
 		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
 		8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */; };
 		8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D36FC2C8B595D00D56018 /* DividerView.swift */; };
+		8AA210B02D8133FF00397E0D /* IdentityExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210AF2D8133F600397E0D /* IdentityExample.swift */; };
 		8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */; };
 		8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08612B9E86280039A3FE /* CustomView.swift */; };
 		8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */; };
@@ -405,6 +406,7 @@
 		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
 		8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFileReadWrite.swift; sourceTree = "<group>"; };
 		8A9D36FC2C8B595D00D56018 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		8AA210AF2D8133F600397E0D /* IdentityExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityExample.swift; sourceTree = "<group>"; };
 		8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesStruct.swift; sourceTree = "<group>"; };
 		8AAB08612B9E86280039A3FE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
@@ -829,6 +831,14 @@
 			path = file;
 			sourceTree = "<group>";
 		};
+		8AA210AE2D8133E100397E0D /* advanced */ = {
+			isa = PBXGroup;
+			children = (
+				8AA210AF2D8133F600397E0D /* IdentityExample.swift */,
+			);
+			path = advanced;
+			sourceTree = "<group>";
+		};
 		8AAB08732B9FF1D70039A3FE /* ml */ = {
 			isa = PBXGroup;
 			children = (
@@ -973,6 +983,7 @@
 				8A3930042BC4BE16002E4819 /* ipad */,
 				8A5AC0802CE4474E003CBC1A /* shape */,
 				8AB631E22CFAB387007E8541 /* Diagnose */,
+				8AA210AE2D8133E100397E0D /* advanced */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -1381,6 +1392,7 @@
 				8AE4C4E92D1C07F500896872 /* TransitionView.swift in Sources */,
 				8AFFF24D2D3DFCC20083F276 /* CustomModelContainer.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
+				8AA210B02D8133FF00397E0D /* IdentityExample.swift in Sources */,
 				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
