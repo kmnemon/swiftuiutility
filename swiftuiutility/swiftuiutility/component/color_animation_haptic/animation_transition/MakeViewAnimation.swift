@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//example 1:
 struct CountingText: View, Animatable {
     var value: Double
     var fractionLength = 8
@@ -22,6 +23,7 @@ struct CountingText: View, Animatable {
     }
 }
 
+
 struct MakeViewAnimation: View {
     @State private var value = 0.0
     
@@ -34,3 +36,44 @@ struct MakeViewAnimation: View {
             }
     }
 }
+
+//example 2:
+struct TypewriterText: View, Animatable {
+    var string: String
+    var count = 0
+    
+    var animatableData: Double {
+        get { Double(count) }
+        set { count = Int(max(0, newValue)) }
+    }
+    
+    var body: some View {
+        let stringToShow = String(string.prefix(count))
+        Text(stringToShow)
+    }
+}
+
+struct MakeViewAnimation2: View {
+    @State private var value = 0
+    let message = "This is a very long piece of text"
+    
+    
+    var body: some View {
+        VStack {
+            TypewriterText(string: message, count: value)
+                .frame(width: 300, alignment: .leading)
+            
+            Button("Type!") {
+                withAnimation(.linear(duration: 2)) {
+                    value = message.count
+                }
+            }
+            
+            Button("Reset") {
+                value = 0
+            }
+        }
+    }
+}
+
+
