@@ -111,6 +111,7 @@
 		8AA210B22D84277F00397E0D /* IndexModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B12D84277700397E0D /* IndexModifier.swift */; };
 		8AA210B42D84410400397E0D /* Unanimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B32D8440EC00397E0D /* Unanimatable.swift */; };
 		8AA210B62D88290100397E0D /* MakeViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */; };
+		8AA210B82D8917D000397E0D /* CustomTimingCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */; };
 		8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */; };
 		8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08612B9E86280039A3FE /* CustomView.swift */; };
 		8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */; };
@@ -413,6 +414,7 @@
 		8AA210B12D84277700397E0D /* IndexModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexModifier.swift; sourceTree = "<group>"; };
 		8AA210B32D8440EC00397E0D /* Unanimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unanimatable.swift; sourceTree = "<group>"; };
 		8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewAnimation.swift; sourceTree = "<group>"; };
+		8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimingCurve.swift; sourceTree = "<group>"; };
 		8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesStruct.swift; sourceTree = "<group>"; };
 		8AAB08612B9E86280039A3FE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
@@ -912,6 +914,7 @@
 				8ABC07902D1F6ADD00EA8AA2 /* CombinedTransition.swift */,
 				8AA210B32D8440EC00397E0D /* Unanimatable.swift */,
 				8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */,
+				8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */,
 			);
 			path = animation_transition;
 			sourceTree = "<group>";
@@ -1557,6 +1560,7 @@
 				8A48FFC52BC3EF3300DCBD3E /* GeometryReaderView.swift in Sources */,
 				8ACEF4EF2B999A110028AA58 /* ButtonView.swift in Sources */,
 				8AC80B132CE37CE1000317A3 /* OnDeleteModifier.swift in Sources */,
+				8AA210B82D8917D000397E0D /* CustomTimingCurve.swift in Sources */,
 				8AE4C4FA2D23D48D00896872 /* GeometryReaderWithAnchor.swift in Sources */,
 				8AAB08892BA4333C0039A3FE /* ImplicitAnimationView2.swift in Sources */,
 				8A3930082BC4C423002E4819 /* AlertOptionalModifier.swift in Sources */,

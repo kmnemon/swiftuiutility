@@ -49,7 +49,15 @@ struct TypewriterText: View, Animatable {
     
     var body: some View {
         let stringToShow = String(string.prefix(count))
-        Text(stringToShow)
+        //Text(stringToShow)
+        ZStack {
+            Text(string)
+                .hidden()
+                .overlay(
+                    Text(stringToShow),
+                    alignment: .topLeading
+                )
+        }
     }
 }
 
