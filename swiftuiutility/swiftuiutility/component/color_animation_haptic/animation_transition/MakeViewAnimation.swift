@@ -42,21 +42,29 @@ struct TypewriterText: View, Animatable {
     var string: String
     var count = 0
     
+    @Environment(\.accessibilityVoiceOverEnabled) var accessibilityVoiceOverEnabled
+    @Environment(\.accessibilityReduceMotion) var accessibilityReduceMotion
+    
     var animatableData: Double {
         get { Double(count) }
         set { count = Int(max(0, newValue)) }
     }
     
     var body: some View {
-        let stringToShow = String(string.prefix(count))
-        //Text(stringToShow)
-        ZStack {
+        //using environment to judge if it will use animation
+        if accessibilityVoiceOverEnabled || accessibilityReduceMotion {
             Text(string)
-                .hidden()
-                .overlay(
-                    Text(stringToShow),
-                    alignment: .topLeading
-                )
+        } else {
+            let stringToShow = String(string.prefix(count))
+            //Text(stringToShow)
+            ZStack {
+                Text(string)
+                    .hidden()
+                    .overlay(
+                        Text(stringToShow),
+                        alignment: .topLeading
+                    )
+            }
         }
     }
 }
