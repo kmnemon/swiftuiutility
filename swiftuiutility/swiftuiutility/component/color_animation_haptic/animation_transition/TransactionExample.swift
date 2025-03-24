@@ -36,6 +36,7 @@ struct TransactionExample1: View {
 //example2: Disable implict animation and wrap in a function
 func withoutAnimation<Result>(_ body: () throws -> Result) rethrows -> Result {
     var transaction = Transaction()
+    //.disablesAnimations disable implicit animations
     transaction.disablesAnimations = true
     return try withTransaction(transaction, body)
 }
@@ -63,3 +64,22 @@ struct TransactionExample2: View {
 }
 
 //example 3: different animation
+func withHighPriorityAnimation<Result>(_ animation: Animation? = .default, _ body: () throws -> Result) rethrows -> Result {
+    var transaction = Transaction(animation: animation)
+    //.disablesAnimations disable implicit animations
+    transaction.disablesAnimations = true
+    return try withTransaction(transaction, body)
+}
+
+struct TransactionExample3: View {
+    @State var scale = 1.0
+    var body: some View {
+        Button("Tap Me") {
+            withHighPriorityAnimation(.linear(duration: 3)) {
+                scale += 1
+            }
+        }
+        .scaleEffect(scale)
+        .animation(.default, value: scale)
+    }
+}
