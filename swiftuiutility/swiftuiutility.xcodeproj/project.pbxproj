@@ -112,8 +112,7 @@
 		8AA210B42D84410400397E0D /* Unanimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B32D8440EC00397E0D /* Unanimatable.swift */; };
 		8AA210B62D88290100397E0D /* MakeViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */; };
 		8AA210B82D8917D000397E0D /* CustomTimingCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */; };
-		8AA210BA2D8D06B200397E0D /* MakeViewAnimationWithGlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210B92D8D06AC00397E0D /* MakeViewAnimationWithGlobalFunction.swift */; };
-		8AA210BC2D8D108400397E0D /* TransactionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210BB2D8D107C00397E0D /* TransactionExample.swift */; };
+		8AA210BC2D8D108400397E0D /* OverrideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210BB2D8D107C00397E0D /* OverrideAnimation.swift */; };
 		8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */; };
 		8AAB08622B9E86280039A3FE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08612B9E86280039A3FE /* CustomView.swift */; };
 		8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */; };
@@ -417,8 +416,7 @@
 		8AA210B32D8440EC00397E0D /* Unanimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unanimatable.swift; sourceTree = "<group>"; };
 		8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewAnimation.swift; sourceTree = "<group>"; };
 		8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimingCurve.swift; sourceTree = "<group>"; };
-		8AA210B92D8D06AC00397E0D /* MakeViewAnimationWithGlobalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewAnimationWithGlobalFunction.swift; sourceTree = "<group>"; };
-		8AA210BB2D8D107C00397E0D /* TransactionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionExample.swift; sourceTree = "<group>"; };
+		8AA210BB2D8D107C00397E0D /* OverrideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideAnimation.swift; sourceTree = "<group>"; };
 		8AAB085F2B9E845A0039A3FE /* PropertiesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesStruct.swift; sourceTree = "<group>"; };
 		8AAB08612B9E86280039A3FE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
@@ -907,7 +905,7 @@
 				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
 				8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */,
 				8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */,
-				8AA210BB2D8D107C00397E0D /* TransactionExample.swift */,
+				8AA210BB2D8D107C00397E0D /* OverrideAnimation.swift */,
 				8AE4C4EC2D1C185300896872 /* AnimationException.swift */,
 				8AAB08842BA4087F0039A3FE /* AnimationBindingView.swift */,
 				8A5B3BF12D1F81E6002C6A28 /* AnimatableAndPhaseBasedAnimation.swift */,
@@ -919,7 +917,6 @@
 				8ABC07902D1F6ADD00EA8AA2 /* CombinedTransition.swift */,
 				8AA210B32D8440EC00397E0D /* Unanimatable.swift */,
 				8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */,
-				8AA210B92D8D06AC00397E0D /* MakeViewAnimationWithGlobalFunction.swift */,
 				8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */,
 			);
 			path = animation_transition;
@@ -1531,7 +1528,6 @@
 				8AD26C7E2BB42E1800A5FAD5 /* Book.swift in Sources */,
 				8AE4C5002D26431200896872 /* ShowProgressView.swift in Sources */,
 				8A71E70F2B9C686400772A31 /* ColorView.swift in Sources */,
-				8AA210BA2D8D06B200397E0D /* MakeViewAnimationWithGlobalFunction.swift in Sources */,
 				8AAE14882BC20E87009FA593 /* TabsView.swift in Sources */,
 				8AE4C5022D277FE200896872 /* MainActorView.swift in Sources */,
 				8A71E7112B9C6D4500772A31 /* GradientView.swift in Sources */,
@@ -1633,7 +1629,7 @@
 				8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */,
 				8A0C81342BA9A6C000B049A0 /* NavigationStackPathStoreView.swift in Sources */,
 				8A56835D2BBEA1B600A88B07 /* RequestReviewView.swift in Sources */,
-				8AA210BC2D8D108400397E0D /* TransactionExample.swift in Sources */,
+				8AA210BC2D8D108400397E0D /* OverrideAnimation.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
 				8AE4C4FE2D23FC5C00896872 /* MatchedGeometryEffectWithTransition.swift in Sources */,
