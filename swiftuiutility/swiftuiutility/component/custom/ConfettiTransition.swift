@@ -84,7 +84,7 @@ extension AnyTransition {
     }
 }
 
-struct TransitionExample: View {
+struct ConfettiTransition: View {
     @State private var isFavorite = false
     
     var body: some View {
