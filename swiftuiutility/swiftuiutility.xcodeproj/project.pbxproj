@@ -295,6 +295,7 @@
 		8AFFF2542D3F346D0083F276 /* RS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2532D3F34690083F276 /* RS.swift */; };
 		8AFFF2562D3F39140083F276 /* NToN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2552D3F38EE0083F276 /* NToN.swift */; };
 		8AFFF2592D3F6EB20083F276 /* FindData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2582D3F6EAB0083F276 /* FindData.swift */; };
+		E30E9B882DA657B800D80ADB /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B872DA657AA00D80ADB /* TransitionExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -606,6 +607,7 @@
 		8AFFF2532D3F34690083F276 /* RS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RS.swift; sourceTree = "<group>"; };
 		8AFFF2552D3F38EE0083F276 /* NToN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NToN.swift; sourceTree = "<group>"; };
 		8AFFF2582D3F6EAB0083F276 /* FindData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindData.swift; sourceTree = "<group>"; };
+		E30E9B872DA657AA00D80ADB /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -932,6 +934,7 @@
 				8A5B3BF52D1F89D9002C6A28 /* PhaseBasedAnimators.swift */,
 				8A5B3BF72D21F5E7002C6A28 /* KeyframeBasedAnimations.swift */,
 				8AE4C4E82D1C07E200896872 /* TransitionView.swift */,
+				E30E9B872DA657AA00D80ADB /* TransitionExample.swift */,
 				8AE4C4F02D1E956500896872 /* CustomTransition.swift */,
 				8AAB088E2BA445990039A3FE /* CustomTransitionView.swift */,
 				8ABC07902D1F6ADD00EA8AA2 /* CombinedTransition.swift */,
@@ -1428,6 +1431,7 @@
 				8AFFF24D2D3DFCC20083F276 /* CustomModelContainer.swift in Sources */,
 				8A48FFC32BC3D45A00DCBD3E /* PositionView.swift in Sources */,
 				8AA210B02D8133FF00397E0D /* IdentityExample.swift in Sources */,
+				E30E9B882DA657B800D80ADB /* TransitionExample.swift in Sources */,
 				8AB631F82D01E659007E8541 /* OverlayModifier.swift in Sources */,
 				8A0C81322BA96ECA00B049A0 /* NavigationStackReturnView.swift in Sources */,
 				8A5ABFE32CDC6A64003CBC1A /* QRCodeView.swift in Sources */,
