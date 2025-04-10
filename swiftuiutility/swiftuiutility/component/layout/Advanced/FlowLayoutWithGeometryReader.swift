@@ -24,6 +24,7 @@ struct ZStackFlowLayout: View {
         let offsets = sizes.map {
             layout(sizes: $0, containerWidth: containerWidth).map { $0.origin }
         } ?? Array(repeating: .zero, count: subviewCount)
+        
         ZStack(alignment: .topLeading) {
             ForEach(0..<subviewCount) { ix in
                 subview(for: ix)
