@@ -10,7 +10,7 @@ import SwiftUI
  Environment is a SwiftUI built-in technique dependency injection
  */
 
-struct EnvironmentValue: View {
+struct EnvironmentInternalValue: View {
     var body: some View {
         /*
          1. .font modifier after Text is a enum value, absorb by the Text
