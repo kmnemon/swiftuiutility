@@ -300,6 +300,8 @@
 		E30E9B8C2DA76EC300D80ADB /* EnvironmentCustomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */; };
 		E30E9B8E2DA76F5000D80ADB /* EnvironmentCustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8D2DA76F4900D80ADB /* EnvironmentCustomObject.swift */; };
 		E30E9B902DA7836200D80ADB /* TransformEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */; };
+		E30E9B922DA79DC400D80ADB /* PreferencesValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */; };
+		E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -616,6 +618,8 @@
 		E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomValue.swift; sourceTree = "<group>"; };
 		E30E9B8D2DA76F4900D80ADB /* EnvironmentCustomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomObject.swift; sourceTree = "<group>"; };
 		E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEnvironment.swift; sourceTree = "<group>"; };
+		E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesValue.swift; sourceTree = "<group>"; };
+		E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -664,6 +668,7 @@
 				E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */,
 				8A5AC0632CE36866003CBC1A /* EnvironmentObject.swift */,
 				E30E9B8D2DA76F4900D80ADB /* EnvironmentCustomObject.swift */,
+				E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */,
 				8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */,
 				8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */,
 				E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */,
@@ -895,6 +900,7 @@
 		8AAB81502BB4EF770047FD0C /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */,
 				8A8A82D22D06BD8E00D88043 /* BadgeView.swift */,
 				E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */,
 				8AAB81552BB4FD4C0047FD0C /* EmojiRatingView.swift */,
@@ -1575,6 +1581,7 @@
 				8AB631E32CFAB387007E8541 /* PerformanceDiagnose.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
 				8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */,
+				E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
 				8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */,
 				8A5AC0EF2CED771D003CBC1A /* ViewBuilderView.swift in Sources */,
@@ -1667,6 +1674,7 @@
 				8ADD2A7C2D43412D00AA5087 /* WithiCloud.swift in Sources */,
 				8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */,
 				8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */,
+				E30E9B922DA79DC400D80ADB /* PreferencesValue.swift in Sources */,
 				8ADF4EFC2D44723C009B5A7D /* CommonSwiftDataError.swift in Sources */,
 				8ADD2A752D432EAC00AA5087 /* QueryAnimate.swift in Sources */,
 				8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */,
