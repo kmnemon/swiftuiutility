@@ -302,6 +302,7 @@
 		E30E9B902DA7836200D80ADB /* TransformEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */; };
 		E30E9B922DA79DC400D80ADB /* PreferencesValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */; };
 		E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */; };
+		E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -620,6 +621,7 @@
 		E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEnvironment.swift; sourceTree = "<group>"; };
 		E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesValue.swift; sourceTree = "<group>"; };
 		E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreference.swift; sourceTree = "<group>"; };
+		E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1212,6 +1214,7 @@
 		8AE4C4F22D22868F00896872 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */,
 				8ACFD9E32D718958008DA8E1 /* SixSizeValuesExample.swift */,
 				8AE4C4F32D22869A00896872 /* LayoutProtocol.swift */,
 				8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */,
@@ -1467,6 +1470,7 @@
 				8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */,
 				8ADD2A6C2D423AFC00AA5087 /* Rollback.swift in Sources */,
 				8AE4C5042D2781B200896872 /* DispatchQueueView.swift in Sources */,
+				E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */,
 				8A48FFBF2BC3924000DCBD3E /* AlignmentView.swift in Sources */,
 				8ABBE44A2BB9209800D53F43 /* MenuView.swift in Sources */,
 				8A56837E2BC17E5400A88B07 /* PropertyWrapperStruct.swift in Sources */,
