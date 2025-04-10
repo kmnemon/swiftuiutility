@@ -299,6 +299,7 @@
 		E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */; };
 		E30E9B8C2DA76EC300D80ADB /* EnvironmentCustomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */; };
 		E30E9B8E2DA76F5000D80ADB /* EnvironmentCustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8D2DA76F4900D80ADB /* EnvironmentCustomObject.swift */; };
+		E30E9B902DA7836200D80ADB /* TransformEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -614,6 +615,7 @@
 		E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentExample.swift; sourceTree = "<group>"; };
 		E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomValue.swift; sourceTree = "<group>"; };
 		E30E9B8D2DA76F4900D80ADB /* EnvironmentCustomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomObject.swift; sourceTree = "<group>"; };
+		E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -665,6 +667,7 @@
 				8ABE515A2D19643C006362FE /* CustomEnvironmentKeys.swift */,
 				8ABE515C2D1A60B4006362FE /* CustomComponentStyles.swift */,
 				E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */,
+				E30E9B8F2DA7834C00D80ADB /* TransformEnvironment.swift */,
 				8A5683622BBF7A5F00A88B07 /* EnumsView.swift */,
 				8AAB08672B9EE9EA0039A3FE /* ForEachView.swift */,
 				8ADF4E782D3BFADE009B5A7D /* MainActorStruct.swift */,
@@ -1471,6 +1474,7 @@
 				8AAB086E2B9F12C30039A3FE /* StepperView.swift in Sources */,
 				8AD11F892C911C35002B5D41 /* ViewCompositionWithProperty.swift in Sources */,
 				8ACEF4F12B9A9AD50028AA58 /* TextFieldView.swift in Sources */,
+				E30E9B902DA7836200D80ADB /* TransformEnvironment.swift in Sources */,
 				E30E9B8E2DA76F5000D80ADB /* EnvironmentCustomObject.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationSplitViewWithiPad.swift in Sources */,
 				8ADF4EF42D446EE6009B5A7D /* HasChange.swift in Sources */,
