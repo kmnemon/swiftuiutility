@@ -67,7 +67,7 @@ struct FlowLayout: Layout {
 //    }
 //}
 
-struct LayoutProtocol: View {
+struct LayoutProtocolFlow: View {
     
     var body: some View {
         FlowLayout {
