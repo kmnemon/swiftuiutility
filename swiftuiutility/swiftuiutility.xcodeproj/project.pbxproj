@@ -304,6 +304,7 @@
 		E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */; };
 		E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */; };
 		E3EE43A02DA8ACBA00F9F571 /* LayoutProtocolRadial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */; };
+		E3EE43A32DA941E500F9F571 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A22DA9418D00F9F571 /* Debounce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -624,6 +625,7 @@
 		E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreference.swift; sourceTree = "<group>"; };
 		E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample.swift; sourceTree = "<group>"; };
 		E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolRadial.swift; sourceTree = "<group>"; };
+		E3EE43A22DA9418D00F9F571 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1043,6 +1045,7 @@
 				8A5AC0802CE4474E003CBC1A /* shape */,
 				8AB631E22CFAB387007E8541 /* Diagnose */,
 				8AA210AE2D8133E100397E0D /* advanced */,
+				E3EE43A12DA9417000F9F571 /* performance */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -1298,6 +1301,14 @@
 				8ADD2A552D3FB0AA00AA5087 /* DeleteData.swift */,
 			);
 			path = WorkWithData;
+			sourceTree = "<group>";
+		};
+		E3EE43A12DA9417000F9F571 /* performance */ = {
+			isa = PBXGroup;
+			children = (
+				E3EE43A22DA9418D00F9F571 /* Debounce.swift */,
+			);
+			path = performance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1699,6 +1710,7 @@
 				8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A8A82CC2D005E5500D88043 /* PaddingModifier.swift in Sources */,
+				E3EE43A32DA941E500F9F571 /* Debounce.swift in Sources */,
 				8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */,
 				8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */,
 				8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */,
