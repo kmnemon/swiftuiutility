@@ -26,7 +26,7 @@ class Debouncer<T>: ObservableObject {
 
 
 
-struct Debounce: View {
+struct DebounceWithCombine: View {
     @StateObject private var text = Debouncer(initialValue: "", delay: 0.5)
     @StateObject private var slider = Debouncer(initialValue: 0.0, delay: 0.1)
     

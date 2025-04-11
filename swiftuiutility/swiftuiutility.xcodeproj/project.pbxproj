@@ -304,7 +304,10 @@
 		E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */; };
 		E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */; };
 		E3EE43A02DA8ACBA00F9F571 /* LayoutProtocolRadial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */; };
-		E3EE43A32DA941E500F9F571 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A22DA9418D00F9F571 /* Debounce.swift */; };
+		E3EE43A32DA941E500F9F571 /* DebounceWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */; };
+		E3EE43A52DA9462F00F9F571 /* DebounceWithoutCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */; };
+		E3EE43A72DA94FD400F9F571 /* RunOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A62DA94FCF00F9F571 /* RunOnce.swift */; };
+		E3EE43A92DA9526600F9F571 /* MultiplePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -625,7 +628,10 @@
 		E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreference.swift; sourceTree = "<group>"; };
 		E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample.swift; sourceTree = "<group>"; };
 		E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolRadial.swift; sourceTree = "<group>"; };
-		E3EE43A22DA9418D00F9F571 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
+		E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceWithCombine.swift; sourceTree = "<group>"; };
+		E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceWithoutCombine.swift; sourceTree = "<group>"; };
+		E3EE43A62DA94FCF00F9F571 /* RunOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunOnce.swift; sourceTree = "<group>"; };
+		E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePlatform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -936,14 +942,14 @@
 			path = gesture;
 			sourceTree = "<group>";
 		};
-		8AB631E22CFAB387007E8541 /* Diagnose */ = {
+		8AB631E22CFAB387007E8541 /* diagnose */ = {
 			isa = PBXGroup;
 			children = (
 				8A5AC0E72CEAEC54003CBC1A /* PrintView.swift */,
 				8AB631F52CFC1B22007E8541 /* LayoutDiagnose.swift */,
 				8AB631E12CFAB387007E8541 /* PerformanceDiagnose.swift */,
 			);
-			path = Diagnose;
+			path = diagnose;
 			sourceTree = "<group>";
 		};
 		8ABC07942D1F722700EA8AA2 /* animation_transition */ = {
@@ -1043,7 +1049,7 @@
 				8AAB08732B9FF1D70039A3FE /* ml */,
 				8A3930042BC4BE16002E4819 /* ipad */,
 				8A5AC0802CE4474E003CBC1A /* shape */,
-				8AB631E22CFAB387007E8541 /* Diagnose */,
+				8AB631E22CFAB387007E8541 /* diagnose */,
 				8AA210AE2D8133E100397E0D /* advanced */,
 				E3EE43A12DA9417000F9F571 /* performance */,
 			);
@@ -1306,7 +1312,10 @@
 		E3EE43A12DA9417000F9F571 /* performance */ = {
 			isa = PBXGroup;
 			children = (
-				E3EE43A22DA9418D00F9F571 /* Debounce.swift */,
+				E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */,
+				E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */,
+				E3EE43A62DA94FCF00F9F571 /* RunOnce.swift */,
+				E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */,
 			);
 			path = performance;
 			sourceTree = "<group>";
@@ -1539,6 +1548,7 @@
 				8AA210B42D84410400397E0D /* Unanimatable.swift in Sources */,
 				8ACEF4F62B9AC2320028AA58 /* TextView.swift in Sources */,
 				8ADD2A5C2D40D26300AA5087 /* SortExample.swift in Sources */,
+				E3EE43A92DA9526600F9F571 /* MultiplePlatform.swift in Sources */,
 				8AA210B62D88290100397E0D /* MakeViewAnimation.swift in Sources */,
 				8AD26C7B2BB4141200A5FAD5 /* TextEditorView.swift in Sources */,
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
@@ -1573,6 +1583,7 @@
 				8ADF4EB62D3E8076009B5A7D /* DerivedAttributes.swift in Sources */,
 				8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
+				E3EE43A72DA94FD400F9F571 /* RunOnce.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8A5683712BBF99B700A88B07 /* FaceIDTouchIDView.swift in Sources */,
 				8AE4C4F42D2286A700896872 /* LayoutProtocolFlow.swift in Sources */,
@@ -1600,6 +1611,7 @@
 				8AB631E32CFAB387007E8541 /* PerformanceDiagnose.swift in Sources */,
 				8ACEF4CD2B9935C20028AA58 /* swiftuiutilityApp.swift in Sources */,
 				8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */,
+				E3EE43A52DA9462F00F9F571 /* DebounceWithoutCombine.swift in Sources */,
 				E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
 				8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */,
@@ -1710,7 +1722,7 @@
 				8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A8A82CC2D005E5500D88043 /* PaddingModifier.swift in Sources */,
-				E3EE43A32DA941E500F9F571 /* Debounce.swift in Sources */,
+				E3EE43A32DA941E500F9F571 /* DebounceWithCombine.swift in Sources */,
 				8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */,
 				8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */,
 				8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */,
