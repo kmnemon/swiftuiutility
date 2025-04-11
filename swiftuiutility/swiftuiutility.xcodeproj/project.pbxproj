@@ -308,6 +308,8 @@
 		E3EE43A52DA9462F00F9F571 /* DebounceWithoutCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */; };
 		E3EE43A72DA94FD400F9F571 /* RunOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A62DA94FCF00F9F571 /* RunOnce.swift */; };
 		E3EE43A92DA9526600F9F571 /* MultiplePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */; };
+		E3EE43AB2DA9636D00F9F571 /* PrintChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43AA2DA9636900F9F571 /* PrintChange.swift */; };
+		E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43B02DA96BA900F9F571 /* Assert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -632,6 +634,8 @@
 		E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceWithoutCombine.swift; sourceTree = "<group>"; };
 		E3EE43A62DA94FCF00F9F571 /* RunOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunOnce.swift; sourceTree = "<group>"; };
 		E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePlatform.swift; sourceTree = "<group>"; };
+		E3EE43AA2DA9636900F9F571 /* PrintChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintChange.swift; sourceTree = "<group>"; };
+		E3EE43B02DA96BA900F9F571 /* Assert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -948,6 +952,8 @@
 				8A5AC0E72CEAEC54003CBC1A /* PrintView.swift */,
 				8AB631F52CFC1B22007E8541 /* LayoutDiagnose.swift */,
 				8AB631E12CFAB387007E8541 /* PerformanceDiagnose.swift */,
+				E3EE43AA2DA9636900F9F571 /* PrintChange.swift */,
+				E3EE43B02DA96BA900F9F571 /* Assert.swift */,
 			);
 			path = diagnose;
 			sourceTree = "<group>";
@@ -1560,6 +1566,7 @@
 				8AAB08702B9F13EC0039A3FE /* DatePickerView.swift in Sources */,
 				8A5ABFB32CDA2BC7003CBC1A /* PropertyWrapperAndUnderScoreName.swift in Sources */,
 				8ACEF4E32B99464F0028AA58 /* NavigationStackView.swift in Sources */,
+				E3EE43AB2DA9636D00F9F571 /* PrintChange.swift in Sources */,
 				8AC80B1E2CE4E241000317A3 /* SpirographView.swift in Sources */,
 				8ADD2A582D4085A100AA5087 /* FetchDescriptorExample.swift in Sources */,
 				8ABE515B2D19644A006362FE /* CustomEnvironmentKeys.swift in Sources */,
@@ -1572,6 +1579,7 @@
 				8A5AC0642CE3686E003CBC1A /* EnvironmentObject.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8ADD2A642D421BE300AA5087 /* Enumerate.swift in Sources */,
+				E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8AE4C4F82D23913F00896872 /* GeometryReaderPrint.swift in Sources */,
 				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
