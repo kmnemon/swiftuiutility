@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */; };
+		8A02D6D92D1111E100A0F7B5 /* LazyGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */; };
 		8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */; };
 		8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812B2BA8381800B049A0 /* RectangleView.swift */; };
 		8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */; };
@@ -287,6 +287,8 @@
 		8AE4C5022D277FE200896872 /* MainActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C5012D277FD700896872 /* MainActorView.swift */; };
 		8AE4C5042D2781B200896872 /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C5032D2781A700896872 /* DispatchQueueView.swift */; };
 		8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */; };
+		8AF25F4B2DC1C99C0012803D /* GridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */; };
+		8AF25F4D2DC1CDC70012803D /* GridTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */; };
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
 		8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */; };
@@ -330,7 +332,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewExample.swift; sourceTree = "<group>"; };
+		8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridViewExample.swift; sourceTree = "<group>"; };
 		8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeView.swift; sourceTree = "<group>"; };
 		8A0C812B2BA8381800B049A0 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
@@ -613,6 +615,8 @@
 		8AE4C5012D277FD700896872 /* MainActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorView.swift; sourceTree = "<group>"; };
 		8AE4C5032D2781A700896872 /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
 		8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWithCloudKit.swift; sourceTree = "<group>"; };
+		8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewExample.swift; sourceTree = "<group>"; };
+		8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTrainer.swift; sourceTree = "<group>"; };
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
@@ -738,7 +742,9 @@
 				8A83E8222D9E30AF000D08BF /* GeometryReader */,
 				8AE4C4F22D22868F00896872 /* Advanced */,
 				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
-				8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */,
+				8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */,
+				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
+				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */,
 				8A21FF292CF5CFEF00E23806 /* AlignmentGuideExample.swift */,
@@ -1591,6 +1597,7 @@
 				8ADF4EB62D3E8076009B5A7D /* DerivedAttributes.swift in Sources */,
 				8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
+				8AF25F4D2DC1CDC70012803D /* GridTrainer.swift in Sources */,
 				E3EE43A72DA94FD400F9F571 /* RunOnce.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8A5683712BBF99B700A88B07 /* FaceIDTouchIDView.swift in Sources */,
@@ -1707,6 +1714,7 @@
 				E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
 				8A48FFCB2BC3FFC200DCBD3E /* GeometryReaderView4.swift in Sources */,
+				8AF25F4B2DC1C99C0012803D /* GridViewExample.swift in Sources */,
 				8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */,
 				8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */,
 				8A5AC05E2CE3643F003CBC1A /* ShareObjectView.swift in Sources */,
@@ -1743,7 +1751,7 @@
 				8AFFF2562D3F39140083F276 /* NToN.swift in Sources */,
 				8ADF4EF82D4470E9009B5A7D /* DebugSwiftData.swift in Sources */,
 				8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */,
-				8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */,
+				8A02D6D92D1111E100A0F7B5 /* LazyGridViewExample.swift in Sources */,
 				8A5683782BC14E4000A88B07 /* AccessibilityControlView.swift in Sources */,
 				8A56836A2BBF936600A88B07 /* MapKitAnnotationView.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
@@ -1940,7 +1948,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1949,7 +1957,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -1980,7 +1989,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1989,7 +1998,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -2007,10 +2017,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2026,10 +2039,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2044,10 +2060,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2062,10 +2081,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

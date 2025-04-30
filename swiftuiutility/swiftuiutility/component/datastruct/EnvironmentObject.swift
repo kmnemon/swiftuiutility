@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-extension EnvironmentObject {
+extension EnvironmentExample {
     @Observable
     class Player {
         var name = "An"
@@ -31,7 +31,7 @@ extension EnvironmentObject {
     }
 }
 
-struct EnvironmentObject: View {
+struct EnvironmentExample: View {
     @State private var player = Player()
     
     var body: some View {

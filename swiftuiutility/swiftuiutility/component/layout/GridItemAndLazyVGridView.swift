@@ -43,7 +43,7 @@ struct GridItemAndLazyVGridView: View {
         
         Section("Flexible columns") {
             ScrollView {
-                LazyVGrid(columns:layout1, spacing: 10) {
+                LazyVGrid(columns:layout2, spacing: 10) {
                     ForEach(0..<1000){
                         Text("Item \($0)")
                     }
