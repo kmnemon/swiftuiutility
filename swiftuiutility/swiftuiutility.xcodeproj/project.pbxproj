@@ -186,6 +186,7 @@
 		8AC163ED2D6DC21E00330EC9 /* BasicModifiedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */; };
 		8AC163EF2D6EF23300330EC9 /* AlignmentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
+		8AC7C05A2DCF93FA003391BE /* ColSpanExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
@@ -511,6 +512,7 @@
 		8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModifiedContent.swift; sourceTree = "<group>"; };
 		8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentView2.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
+		8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColSpanExample1.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
@@ -739,12 +741,9 @@
 		8A48FFBD2BC3921D00DCBD3E /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				8AC7C0582DCF935F003391BE /* Grid */,
 				8A83E8222D9E30AF000D08BF /* GeometryReader */,
 				8AE4C4F22D22868F00896872 /* Advanced */,
-				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
-				8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */,
-				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
-				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */,
 				8A21FF292CF5CFEF00E23806 /* AlignmentGuideExample.swift */,
@@ -996,6 +995,26 @@
 				8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */,
 			);
 			path = style;
+			sourceTree = "<group>";
+		};
+		8AC7C0582DCF935F003391BE /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C05B2DCF93FE003391BE /* example */,
+				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
+				8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */,
+				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
+				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		8AC7C05B2DCF93FE003391BE /* example */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */,
+			);
+			path = example;
 			sourceTree = "<group>";
 		};
 		8ACEF4C02B9935C20028AA58 = {
@@ -1754,6 +1773,7 @@
 				8A02D6D92D1111E100A0F7B5 /* LazyGridViewExample.swift in Sources */,
 				8A5683782BC14E4000A88B07 /* AccessibilityControlView.swift in Sources */,
 				8A56836A2BBF936600A88B07 /* MapKitAnnotationView.swift in Sources */,
+				8AC7C05A2DCF93FA003391BE /* ColSpanExample1.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
 				8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
