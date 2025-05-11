@@ -188,6 +188,7 @@
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
 		8AC7C05A2DCF93FA003391BE /* ColSpanExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */; };
 		8AC7C05D2DD0EE2D003391BE /* HoneycombExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */; };
+		8AC7C05F2DD0FD32003391BE /* SectionHeaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
@@ -515,6 +516,7 @@
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
 		8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColSpanExample1.swift; sourceTree = "<group>"; };
 		8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombExample.swift; sourceTree = "<group>"; };
+		8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderExample.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
@@ -1014,6 +1016,7 @@
 		8AC7C05B2DCF93FE003391BE /* example */ = {
 			isa = PBXGroup;
 			children = (
+				8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */,
 				8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */,
 				8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */,
 			);
@@ -1605,6 +1608,7 @@
 				8ADF4EFA2D44716E009B5A7D /* ReadContentsInSqlite3.swift in Sources */,
 				8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */,
 				8A5AC0642CE3686E003CBC1A /* EnvironmentObject.swift in Sources */,
+				8AC7C05F2DD0FD32003391BE /* SectionHeaderExample.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8ADD2A642D421BE300AA5087 /* Enumerate.swift in Sources */,
 				E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */,
