@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+//https://swiftui-lab.com/impossible-grids/
 
 struct LazyGridViewExample: View {
     var body: some View {

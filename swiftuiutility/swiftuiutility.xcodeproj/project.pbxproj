@@ -189,6 +189,9 @@
 		8AC7C05A2DCF93FA003391BE /* ColSpanExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */; };
 		8AC7C05D2DD0EE2D003391BE /* HoneycombExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */; };
 		8AC7C05F2DD0FD32003391BE /* SectionHeaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */; };
+		8AC7C0632DD2E2CF003391BE /* GridAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0622DD2E2C4003391BE /* GridAlignment.swift */; };
+		8AC7C0652DD2E84B003391BE /* GridViewAdvancedExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0642DD2E83B003391BE /* GridViewAdvancedExample.swift */; };
+		8AC7C0682DD3124A003391BE /* HoneycombExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0672DD31240003391BE /* HoneycombExample2.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
@@ -517,6 +520,9 @@
 		8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColSpanExample1.swift; sourceTree = "<group>"; };
 		8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombExample.swift; sourceTree = "<group>"; };
 		8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderExample.swift; sourceTree = "<group>"; };
+		8AC7C0622DD2E2C4003391BE /* GridAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridAlignment.swift; sourceTree = "<group>"; };
+		8AC7C0642DD2E83B003391BE /* GridViewAdvancedExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewAdvancedExample.swift; sourceTree = "<group>"; };
+		8AC7C0672DD31240003391BE /* HoneycombExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombExample2.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
@@ -1004,7 +1010,7 @@
 		8AC7C0582DCF935F003391BE /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				8AC7C0612DD2D49B003391BE /* Grid */,
+				8AC7C0612DD2D49B003391BE /* EagerGrid */,
 				8AC7C0602DD2D489003391BE /* LazyGrid */,
 			);
 			path = Grid;
@@ -1030,13 +1036,24 @@
 			path = LazyGrid;
 			sourceTree = "<group>";
 		};
-		8AC7C0612DD2D49B003391BE /* Grid */ = {
+		8AC7C0612DD2D49B003391BE /* EagerGrid */ = {
 			isa = PBXGroup;
 			children = (
-				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
+				8AC7C0622DD2E2C4003391BE /* GridAlignment.swift */,
 				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
+				8AC7C0642DD2E83B003391BE /* GridViewAdvancedExample.swift */,
+				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
+				8AC7C0662DD31234003391BE /* example */,
 			);
-			path = Grid;
+			path = EagerGrid;
+			sourceTree = "<group>";
+		};
+		8AC7C0662DD31234003391BE /* example */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C0672DD31240003391BE /* HoneycombExample2.swift */,
+			);
+			path = example;
 			sourceTree = "<group>";
 		};
 		8ACEF4C02B9935C20028AA58 = {
@@ -1564,6 +1581,7 @@
 				E30E9B902DA7836200D80ADB /* TransformEnvironment.swift in Sources */,
 				E30E9B8E2DA76F5000D80ADB /* EnvironmentCustomObject.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationSplitViewWithiPad.swift in Sources */,
+				8AC7C0632DD2E2CF003391BE /* GridAlignment.swift in Sources */,
 				8ADF4EF42D446EE6009B5A7D /* HasChange.swift in Sources */,
 				8A5B3C002D236349002C6A28 /* FlowLayoutWithGeometryReader.swift in Sources */,
 				8ADF4EC32D43C7F1009B5A7D /* UITestWithSwiftData.swift in Sources */,
@@ -1576,6 +1594,7 @@
 				8ADD2A6F2D424CF600AA5087 /* LightweightMigration.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
 				8AB631FC2D032BFC007E8541 /* HighLightModifier.swift in Sources */,
+				8AC7C0682DD3124A003391BE /* HoneycombExample2.swift in Sources */,
 				8A486A402D15713500A50037 /* CustomAlignmentGuide.swift in Sources */,
 				8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */,
 				8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */,
@@ -1729,6 +1748,7 @@
 				8ADF4E852D3BFB6E009B5A7D /* ContentViewData.swift in Sources */,
 				8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */,
 				8AAB08872BA4118E0039A3FE /* ExplicitAnimationView.swift in Sources */,
+				8AC7C0652DD2E84B003391BE /* GridViewAdvancedExample.swift in Sources */,
 				8ACEF4E92B9994510028AA58 /* FormView.swift in Sources */,
 				8ABE51672D1BA529006362FE /* CustomButtonStyle2.swift in Sources */,
 				8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */,
