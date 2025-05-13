@@ -1004,11 +1004,8 @@
 		8AC7C0582DCF935F003391BE /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				8AC7C05B2DCF93FE003391BE /* example */,
-				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
-				8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */,
-				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
-				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
+				8AC7C0612DD2D49B003391BE /* Grid */,
+				8AC7C0602DD2D489003391BE /* LazyGrid */,
 			);
 			path = Grid;
 			sourceTree = "<group>";
@@ -1021,6 +1018,25 @@
 				8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */,
 			);
 			path = example;
+			sourceTree = "<group>";
+		};
+		8AC7C0602DD2D489003391BE /* LazyGrid */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
+				8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */,
+				8AC7C05B2DCF93FE003391BE /* example */,
+			);
+			path = LazyGrid;
+			sourceTree = "<group>";
+		};
+		8AC7C0612DD2D49B003391BE /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
+				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
+			);
+			path = Grid;
 			sourceTree = "<group>";
 		};
 		8ACEF4C02B9935C20028AA58 = {
