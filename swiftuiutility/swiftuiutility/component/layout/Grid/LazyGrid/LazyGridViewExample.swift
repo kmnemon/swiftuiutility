@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+//https://swiftui-lab.com/impossible-grids/
 
-struct GridViewExample: View {
+struct LazyGridViewExample: View {
     var body: some View {
         
         //1:Fixed and Adaptive Columns

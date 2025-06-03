@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */; };
+		8A02D6D92D1111E100A0F7B5 /* LazyGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */; };
 		8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */; };
 		8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812B2BA8381800B049A0 /* RectangleView.swift */; };
 		8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */; };
@@ -186,6 +186,12 @@
 		8AC163ED2D6DC21E00330EC9 /* BasicModifiedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */; };
 		8AC163EF2D6EF23300330EC9 /* AlignmentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */; };
 		8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */; };
+		8AC7C05A2DCF93FA003391BE /* ColSpanExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */; };
+		8AC7C05D2DD0EE2D003391BE /* HoneycombExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */; };
+		8AC7C05F2DD0FD32003391BE /* SectionHeaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */; };
+		8AC7C0632DD2E2CF003391BE /* GridAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0622DD2E2C4003391BE /* GridAlignment.swift */; };
+		8AC7C0652DD2E84B003391BE /* GridViewAdvancedExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0642DD2E83B003391BE /* GridViewAdvancedExample.swift */; };
+		8AC7C0682DD3124A003391BE /* HoneycombExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7C0672DD31240003391BE /* HoneycombExample2.swift */; };
 		8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AF92CDED50C000317A3 /* ShapeView.swift */; };
 		8AC80AFC2CDEE7D1000317A3 /* CustomModifierView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */; };
 		8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */; };
@@ -287,6 +293,8 @@
 		8AE4C5022D277FE200896872 /* MainActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C5012D277FD700896872 /* MainActorView.swift */; };
 		8AE4C5042D2781B200896872 /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4C5032D2781A700896872 /* DispatchQueueView.swift */; };
 		8AE84D252CCB16A000A3742C /* SwiftDataWithCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */; };
+		8AF25F4B2DC1C99C0012803D /* GridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */; };
+		8AF25F4D2DC1CDC70012803D /* GridTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */; };
 		8AF4B58F2C6A217F0087956A /* LongLiveStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */; };
 		8AF4B5962C6B66FE0087956A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4B5952C6B66FE0087956A /* SpacerView.swift */; };
 		8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */; };
@@ -331,7 +339,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewExample.swift; sourceTree = "<group>"; };
+		8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridViewExample.swift; sourceTree = "<group>"; };
 		8A0C81292BA7D74A00B049A0 /* ColorThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeView.swift; sourceTree = "<group>"; };
 		8A0C812B2BA8381800B049A0 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		8A0C812D2BA93A9600B049A0 /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
@@ -510,6 +518,12 @@
 		8AC163EC2D6DC21400330EC9 /* BasicModifiedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModifiedContent.swift; sourceTree = "<group>"; };
 		8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentView2.swift; sourceTree = "<group>"; };
 		8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarModifier.swift; sourceTree = "<group>"; };
+		8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColSpanExample1.swift; sourceTree = "<group>"; };
+		8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombExample.swift; sourceTree = "<group>"; };
+		8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderExample.swift; sourceTree = "<group>"; };
+		8AC7C0622DD2E2C4003391BE /* GridAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridAlignment.swift; sourceTree = "<group>"; };
+		8AC7C0642DD2E83B003391BE /* GridViewAdvancedExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewAdvancedExample.swift; sourceTree = "<group>"; };
+		8AC7C0672DD31240003391BE /* HoneycombExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombExample2.swift; sourceTree = "<group>"; };
 		8AC80AF92CDED50C000317A3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView2.swift; sourceTree = "<group>"; };
 		8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearModifier.swift; sourceTree = "<group>"; };
@@ -614,6 +628,8 @@
 		8AE4C5012D277FD700896872 /* MainActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorView.swift; sourceTree = "<group>"; };
 		8AE4C5032D2781A700896872 /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
 		8AE84D242CCB169800A3742C /* SwiftDataWithCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataWithCloudKit.swift; sourceTree = "<group>"; };
+		8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewExample.swift; sourceTree = "<group>"; };
+		8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTrainer.swift; sourceTree = "<group>"; };
 		8AF4B58E2C6A217E0087956A /* LongLiveStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLiveStreamView.swift; sourceTree = "<group>"; };
 		8AF4B5952C6B66FE0087956A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		8AF95FA82C9708A700C6D484 /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
@@ -737,10 +753,9 @@
 		8A48FFBD2BC3921D00DCBD3E /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				8AC7C0582DCF935F003391BE /* Grid */,
 				8A83E8222D9E30AF000D08BF /* GeometryReader */,
 				8AE4C4F22D22868F00896872 /* Advanced */,
-				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
-				8A02D6D82D1111D800A0F7B5 /* GridViewExample.swift */,
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */,
 				8A21FF292CF5CFEF00E23806 /* AlignmentGuideExample.swift */,
@@ -992,6 +1007,55 @@
 				8ABE51682D1BD5BC006362FE /* StyleCustomView.swift */,
 			);
 			path = style;
+			sourceTree = "<group>";
+		};
+		8AC7C0582DCF935F003391BE /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C0612DD2D49B003391BE /* EagerGrid */,
+				8AC7C0602DD2D489003391BE /* LazyGrid */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		8AC7C05B2DCF93FE003391BE /* example */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C05E2DD0FD09003391BE /* SectionHeaderExample.swift */,
+				8AC7C05C2DD0EE1A003391BE /* HoneycombExample.swift */,
+				8AC7C0592DCF93F6003391BE /* ColSpanExample1.swift */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		8AC7C0602DD2D489003391BE /* LazyGrid */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF4E62B997EEF0028AA58 /* GridItemAndLazyVGridView.swift */,
+				8A02D6D82D1111D800A0F7B5 /* LazyGridViewExample.swift */,
+				8AC7C05B2DCF93FE003391BE /* example */,
+			);
+			path = LazyGrid;
+			sourceTree = "<group>";
+		};
+		8AC7C0612DD2D49B003391BE /* EagerGrid */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C0622DD2E2C4003391BE /* GridAlignment.swift */,
+				8AF25F4A2DC1C98E0012803D /* GridViewExample.swift */,
+				8AC7C0642DD2E83B003391BE /* GridViewAdvancedExample.swift */,
+				8AF25F4C2DC1CDBD0012803D /* GridTrainer.swift */,
+				8AC7C0662DD31234003391BE /* example */,
+			);
+			path = EagerGrid;
+			sourceTree = "<group>";
+		};
+		8AC7C0662DD31234003391BE /* example */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7C0672DD31240003391BE /* HoneycombExample2.swift */,
+			);
+			path = example;
 			sourceTree = "<group>";
 		};
 		8ACEF4C02B9935C20028AA58 = {
@@ -1528,6 +1592,7 @@
 				E30E9B902DA7836200D80ADB /* TransformEnvironment.swift in Sources */,
 				E30E9B8E2DA76F5000D80ADB /* EnvironmentCustomObject.swift in Sources */,
 				8A3930062BC4BE47002E4819 /* NavigationSplitViewWithiPad.swift in Sources */,
+				8AC7C0632DD2E2CF003391BE /* GridAlignment.swift in Sources */,
 				8ADF4EF42D446EE6009B5A7D /* HasChange.swift in Sources */,
 				8A5B3C002D236349002C6A28 /* FlowLayoutWithGeometryReader.swift in Sources */,
 				8ADF4EC32D43C7F1009B5A7D /* UITestWithSwiftData.swift in Sources */,
@@ -1540,6 +1605,7 @@
 				8ADD2A6F2D424CF600AA5087 /* LightweightMigration.swift in Sources */,
 				8AAB81542BB4FC290047FD0C /* UsingRating.swift in Sources */,
 				8AB631FC2D032BFC007E8541 /* HighLightModifier.swift in Sources */,
+				8AC7C0682DD3124A003391BE /* HoneycombExample2.swift in Sources */,
 				8A486A402D15713500A50037 /* CustomAlignmentGuide.swift in Sources */,
 				8A56837C2BC172B900A88B07 /* OperatorOverloadStruct.swift in Sources */,
 				8ADF4E612D3872F5009B5A7D /* TaskModifierWithIdentifyingValue.swift in Sources */,
@@ -1588,6 +1654,7 @@
 				8ADF4EFA2D44716E009B5A7D /* ReadContentsInSqlite3.swift in Sources */,
 				8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */,
 				8A5AC0642CE3686E003CBC1A /* EnvironmentObject.swift in Sources */,
+				8AC7C05F2DD0FD32003391BE /* SectionHeaderExample.swift in Sources */,
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8ADD2A642D421BE300AA5087 /* Enumerate.swift in Sources */,
 				E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */,
@@ -1602,6 +1669,7 @@
 				8ADF4EB62D3E8076009B5A7D /* DerivedAttributes.swift in Sources */,
 				8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
+				8AF25F4D2DC1CDC70012803D /* GridTrainer.swift in Sources */,
 				E3EE43A72DA94FD400F9F571 /* RunOnce.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
 				8A5683712BBF99B700A88B07 /* FaceIDTouchIDView.swift in Sources */,
@@ -1692,6 +1760,7 @@
 				8ADF4E852D3BFB6E009B5A7D /* ContentViewData.swift in Sources */,
 				8AAB08642B9E86FE0039A3FE /* CustomModifierView.swift in Sources */,
 				8AAB08872BA4118E0039A3FE /* ExplicitAnimationView.swift in Sources */,
+				8AC7C0652DD2E84B003391BE /* GridViewAdvancedExample.swift in Sources */,
 				8ACEF4E92B9994510028AA58 /* FormView.swift in Sources */,
 				8ABE51672D1BA529006362FE /* CustomButtonStyle2.swift in Sources */,
 				8AAB086C2B9F0EAE0039A3FE /* ToggleView.swift in Sources */,
@@ -1719,6 +1788,7 @@
 				E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */,
 				8AAB087D2BA3D4530039A3FE /* BundleStruct.swift in Sources */,
 				8A48FFCB2BC3FFC200DCBD3E /* GeometryReaderView4.swift in Sources */,
+				8AF25F4B2DC1C99C0012803D /* GridViewExample.swift in Sources */,
 				8AC80AFA2CDED517000317A3 /* ShapeView.swift in Sources */,
 				8A5683552BBE87A400A88B07 /* CoreImageView.swift in Sources */,
 				8A5AC05E2CE3643F003CBC1A /* ShareObjectView.swift in Sources */,
@@ -1749,15 +1819,17 @@
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
 				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
 				8AFFF2592D3F6EB20083F276 /* FindData.swift in Sources */,
+				8AC7C05D2DD0EE2D003391BE /* HoneycombExample.swift in Sources */,
 				8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */,
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8AFFF2562D3F39140083F276 /* NToN.swift in Sources */,
 				8ADF4EF82D4470E9009B5A7D /* DebugSwiftData.swift in Sources */,
 				8A5AC08A2CE47CA7003CBC1A /* ImagePaintView.swift in Sources */,
-				8A02D6D92D1111E100A0F7B5 /* GridViewExample.swift in Sources */,
+				8A02D6D92D1111E100A0F7B5 /* LazyGridViewExample.swift in Sources */,
 				8A5683782BC14E4000A88B07 /* AccessibilityControlView.swift in Sources */,
 				8A56836A2BBF936600A88B07 /* MapKitAnnotationView.swift in Sources */,
+				8AC7C05A2DCF93FA003391BE /* ColSpanExample1.swift in Sources */,
 				8AD26C6E2BB3CC3300A5FAD5 /* BindableView1.swift in Sources */,
 				8A5683592BBE995B00A88B07 /* PhotosPickerView.swift in Sources */,
 				8AAB087B2BA2F8D80039A3FE /* MLView.swift in Sources */,
@@ -1952,7 +2024,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1993,7 +2065,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2021,10 +2093,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2040,10 +2115,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2058,10 +2136,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2076,10 +2157,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62DH2Z26V5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutilityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
