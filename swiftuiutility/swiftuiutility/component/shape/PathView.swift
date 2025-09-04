@@ -21,6 +21,11 @@ struct PathView: View {
             .stroke(.blue, lineWidth: 10)
         }
         
+        /*
+        StrokeStyle struct, which gives us control over
+        how every line should be connected to the line after it (line join) and how every line should be
+        drawn when it ends without a connection after it (line cap)
+         */
         Section("2") {
             Path { path in
                 path.move(to: CGPoint(x: 200, y: 100))
