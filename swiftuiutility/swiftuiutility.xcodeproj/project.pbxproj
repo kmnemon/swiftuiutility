@@ -305,6 +305,8 @@
 		8AFFF2592D3F6EB20083F276 /* FindData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2582D3F6EAB0083F276 /* FindData.swift */; };
 		E3000A202F3C265C00A2A91D /* AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A1F2F3C265600A2A91D /* AspectRatio.swift */; };
 		E3000A222F3C277F00A2A91D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A212F3C277700A2A91D /* Frame.swift */; };
+		E3000A242F3C2C4300A2A91D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A232F3C2C3D00A2A91D /* Background.swift */; };
+		E3000A262F3C2DF200A2A91D /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A252F3C2DEE00A2A91D /* Overlay.swift */; };
 		E30E9B882DA657B800D80ADB /* ConfettiTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */; };
 		E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */; };
 		E30E9B8C2DA76EC300D80ADB /* EnvironmentCustomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */; };
@@ -643,6 +645,8 @@
 		8AFFF2582D3F6EAB0083F276 /* FindData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindData.swift; sourceTree = "<group>"; };
 		E3000A1F2F3C265600A2A91D /* AspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatio.swift; sourceTree = "<group>"; };
 		E3000A212F3C277700A2A91D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		E3000A232F3C2C3D00A2A91D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		E3000A252F3C2DEE00A2A91D /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTransition.swift; sourceTree = "<group>"; };
 		E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentExample.swift; sourceTree = "<group>"; };
 		E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomValue.swift; sourceTree = "<group>"; };
@@ -1194,6 +1198,7 @@
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8A3930072BC4C423002E4819 /* AlertOptionalModifier.swift */,
 				E3000A1F2F3C265600A2A91D /* AspectRatio.swift */,
+				E3000A232F3C2C3D00A2A91D /* Background.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
@@ -1209,6 +1214,7 @@
 				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */,
+				E3000A252F3C2DEE00A2A91D /* Overlay.swift */,
 				8A5AC0582CE352EA003CBC1A /* PresentationDetentsModifier.swift */,
 				8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
@@ -1816,6 +1822,7 @@
 				8AD26C692BB3A22400A5FAD5 /* HapticEffects.swift in Sources */,
 				8AAB08932BA49F220039A3FE /* SheetModifier.swift in Sources */,
 				E30E9B922DA79DC400D80ADB /* PreferencesValue.swift in Sources */,
+				E3000A262F3C2DF200A2A91D /* Overlay.swift in Sources */,
 				8ADF4EFC2D44723C009B5A7D /* CommonSwiftDataError.swift in Sources */,
 				8ADD2A752D432EAC00AA5087 /* QueryAnimate.swift in Sources */,
 				8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */,
@@ -1836,6 +1843,7 @@
 				8A5AC08E2CE4A7C5003CBC1A /* SpecialEffectsBlurBlend.swift in Sources */,
 				8A48FFB42BC2D5E500DCBD3E /* GesturesView.swift in Sources */,
 				8AF95FA92C9708A700C6D484 /* TwoWayBinding.swift in Sources */,
+				E3000A242F3C2C4300A2A91D /* Background.swift in Sources */,
 				8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */,
 				8ABBE4562BBE2ECC00D53F43 /* ConfirmationModifier.swift in Sources */,
 				8AFFF2592D3F6EB20083F276 /* FindData.swift in Sources */,
