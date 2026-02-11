@@ -303,6 +303,8 @@
 		8AFFF2542D3F346D0083F276 /* RS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2532D3F34690083F276 /* RS.swift */; };
 		8AFFF2562D3F39140083F276 /* NToN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2552D3F38EE0083F276 /* NToN.swift */; };
 		8AFFF2592D3F6EB20083F276 /* FindData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFF2582D3F6EAB0083F276 /* FindData.swift */; };
+		E3000A202F3C265C00A2A91D /* AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A1F2F3C265600A2A91D /* AspectRatio.swift */; };
+		E3000A222F3C277F00A2A91D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A212F3C277700A2A91D /* Frame.swift */; };
 		E30E9B882DA657B800D80ADB /* ConfettiTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */; };
 		E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */; };
 		E30E9B8C2DA76EC300D80ADB /* EnvironmentCustomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */; };
@@ -639,6 +641,8 @@
 		8AFFF2532D3F34690083F276 /* RS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RS.swift; sourceTree = "<group>"; };
 		8AFFF2552D3F38EE0083F276 /* NToN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NToN.swift; sourceTree = "<group>"; };
 		8AFFF2582D3F6EAB0083F276 /* FindData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindData.swift; sourceTree = "<group>"; };
+		E3000A1F2F3C265600A2A91D /* AspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatio.swift; sourceTree = "<group>"; };
+		E3000A212F3C277700A2A91D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTransition.swift; sourceTree = "<group>"; };
 		E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentExample.swift; sourceTree = "<group>"; };
 		E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomValue.swift; sourceTree = "<group>"; };
@@ -1189,12 +1193,14 @@
 				8A8A82CF2D01438700D88043 /* layoutmodifier */,
 				8A37BE242B9D41130006E1D1 /* AlertModifier.swift */,
 				8A3930072BC4C423002E4819 /* AlertOptionalModifier.swift */,
+				E3000A1F2F3C265600A2A91D /* AspectRatio.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
 				8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
+				E3000A212F3C277700A2A91D /* Frame.swift */,
 				8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */,
 				8AA210B12D84277700397E0D /* IndexModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
@@ -1681,6 +1687,7 @@
 				8ADF4EB62D3E8076009B5A7D /* DerivedAttributes.swift in Sources */,
 				8A5683632BBF7A5F00A88B07 /* EnumsView.swift in Sources */,
 				8ACEF4CF2B9935C20028AA58 /* ContentView.swift in Sources */,
+				E3000A222F3C277F00A2A91D /* Frame.swift in Sources */,
 				8AF25F4D2DC1CDC70012803D /* GridTrainer.swift in Sources */,
 				E3EE43A72DA94FD400F9F571 /* RunOnce.swift in Sources */,
 				8AAB08662B9E89040039A3FE /* CustomContainersView.swift in Sources */,
@@ -1714,6 +1721,7 @@
 				E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */,
 				8AAB81522BB4EF9B0047FD0C /* RatingView.swift in Sources */,
 				8A56835B2BBE9EF200A88B07 /* ShareLinkView.swift in Sources */,
+				E3000A202F3C265C00A2A91D /* AspectRatio.swift in Sources */,
 				8A5AC0EF2CED771D003CBC1A /* ViewBuilderView.swift in Sources */,
 				8AAB08832BA3EA070039A3FE /* ImplicitAnimationView.swift in Sources */,
 				8A56837A2BC1630C00A88B07 /* VoiceInputView.swift in Sources */,

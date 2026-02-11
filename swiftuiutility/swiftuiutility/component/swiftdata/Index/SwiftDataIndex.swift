@@ -7,8 +7,9 @@
 import SwiftData
 import Foundation
 
-@Model final class Item {
-    #Index<Item>([\.name], [\.timestamp], [\.name, \.timestamp])
+@Model
+final class Item {
+  #Index<Item>([\.name], [\.timestamp], [\.name, \.timestamp])
     
   var name: String
   var timestamp: Date
