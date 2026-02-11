@@ -307,6 +307,8 @@
 		E3000A222F3C277F00A2A91D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A212F3C277700A2A91D /* Frame.swift */; };
 		E3000A242F3C2C4300A2A91D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A232F3C2C3D00A2A91D /* Background.swift */; };
 		E3000A262F3C2DF200A2A91D /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A252F3C2DEE00A2A91D /* Overlay.swift */; };
+		E3000A282F3C300E00A2A91D /* FixedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A272F3C300A00A2A91D /* FixedSize.swift */; };
+		E3000A2A2F3C308A00A2A91D /* Clipped.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A292F3C308800A2A91D /* Clipped.swift */; };
 		E30E9B882DA657B800D80ADB /* ConfettiTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */; };
 		E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */; };
 		E30E9B8C2DA76EC300D80ADB /* EnvironmentCustomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */; };
@@ -647,6 +649,8 @@
 		E3000A212F3C277700A2A91D /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		E3000A232F3C2C3D00A2A91D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		E3000A252F3C2DEE00A2A91D /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		E3000A272F3C300A00A2A91D /* FixedSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSize.swift; sourceTree = "<group>"; };
+		E3000A292F3C308800A2A91D /* Clipped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipped.swift; sourceTree = "<group>"; };
 		E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTransition.swift; sourceTree = "<group>"; };
 		E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentExample.swift; sourceTree = "<group>"; };
 		E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomValue.swift; sourceTree = "<group>"; };
@@ -1201,11 +1205,13 @@
 				E3000A232F3C2C3D00A2A91D /* Background.swift */,
 				8ABBE4552BBE2ECC00D53F43 /* ConfirmationModifier.swift */,
 				8AAE148D2BC21CFE009FA593 /* ContextMenuModifier.swift */,
+				E3000A292F3C308800A2A91D /* Clipped.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
 				8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
 				E3000A212F3C277700A2A91D /* Frame.swift */,
+				E3000A272F3C300A00A2A91D /* FixedSize.swift */,
 				8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */,
 				8AA210B12D84277700397E0D /* IndexModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
@@ -1597,6 +1603,7 @@
 				8A21FF2A2CF5CFFC00E23806 /* AlignmentGuideExample.swift in Sources */,
 				8AC80B022CDEF3AB000317A3 /* OnAppearModifier.swift in Sources */,
 				8ADD2A6C2D423AFC00AA5087 /* Rollback.swift in Sources */,
+				E3000A2A2F3C308A00A2A91D /* Clipped.swift in Sources */,
 				8AE4C5042D2781B200896872 /* DispatchQueueView.swift in Sources */,
 				E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */,
 				8A48FFBF2BC3924000DCBD3E /* AlignmentView.swift in Sources */,
@@ -1711,6 +1718,7 @@
 				8A0C812C2BA8381800B049A0 /* RectangleView.swift in Sources */,
 				8ADF4EBF2D43B7E9009B5A7D /* BatchInsert.swift in Sources */,
 				8A88DED72BC60C5100C792C5 /* SearchableModifier.swift in Sources */,
+				E3000A282F3C300E00A2A91D /* FixedSize.swift in Sources */,
 				8A71E70A2B9AFF0600772A31 /* KeyBoardView.swift in Sources */,
 				8AE4C4F12D1E957000896872 /* CustomTransition.swift in Sources */,
 				8AAB08792BA020440039A3FE /* SleepCalculator.mlmodel in Sources */,
