@@ -319,6 +319,7 @@
 		E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */; };
 		E33772D02DEFBFB40039A10C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33772CF2DEFBFA80039A10C /* SplitView.swift */; };
 		E33B49682E6D556B009F3FD3 /* SwiftDataIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */; };
+		E3DD9EE82F3CE4DC0047A650 /* LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */; };
 		E3EE43A02DA8ACBA00F9F571 /* LayoutProtocolRadial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */; };
 		E3EE43A32DA941E500F9F571 /* DebounceWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */; };
 		E3EE43A52DA9462F00F9F571 /* DebounceWithoutCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */; };
@@ -661,6 +662,7 @@
 		E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample.swift; sourceTree = "<group>"; };
 		E33772CF2DEFBFA80039A10C /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 		E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataIndex.swift; sourceTree = "<group>"; };
+		E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriority.swift; sourceTree = "<group>"; };
 		E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolRadial.swift; sourceTree = "<group>"; };
 		E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceWithCombine.swift; sourceTree = "<group>"; };
 		E3EE43A42DA9461D00F9F571 /* DebounceWithoutCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceWithoutCombine.swift; sourceTree = "<group>"; };
@@ -1215,6 +1217,7 @@
 				8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */,
 				8AA210B12D84277700397E0D /* IndexModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
+				E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
 				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
@@ -1748,6 +1751,7 @@
 				8ADD2A5A2D408BE500AA5087 /* Filter.swift in Sources */,
 				8ADF4E802D3BFB58009B5A7D /* Sight.swift in Sources */,
 				8ADF4E812D3BFB58009B5A7D /* EditDestinationView.swift in Sources */,
+				E3DD9EE82F3CE4DC0047A650 /* LayoutPriority.swift in Sources */,
 				8ADF4E822D3BFB58009B5A7D /* Destination.swift in Sources */,
 				8ADF4E832D3BFB58009B5A7D /* iTourApp.swift in Sources */,
 				8ACEF4E12B9941C10028AA58 /* ScrollListView.swift in Sources */,
