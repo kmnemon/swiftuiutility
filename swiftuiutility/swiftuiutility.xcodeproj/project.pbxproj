@@ -309,6 +309,7 @@
 		E3000A262F3C2DF200A2A91D /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A252F3C2DEE00A2A91D /* Overlay.swift */; };
 		E3000A282F3C300E00A2A91D /* FixedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A272F3C300A00A2A91D /* FixedSize.swift */; };
 		E3000A2A2F3C308A00A2A91D /* Clipped.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000A292F3C308800A2A91D /* Clipped.swift */; };
+		E30E0FBB2F3ED6D1001A6E5C /* AlignmentGuideExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E0FBA2F3ED6C6001A6E5C /* AlignmentGuideExample2.swift */; };
 		E30E9B882DA657B800D80ADB /* ConfettiTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */; };
 		E30E9B8A2DA68FF300D80ADB /* CustomEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */; };
 		E30E9B8C2DA76EC300D80ADB /* EnvironmentCustomValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */; };
@@ -652,6 +653,7 @@
 		E3000A252F3C2DEE00A2A91D /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		E3000A272F3C300A00A2A91D /* FixedSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSize.swift; sourceTree = "<group>"; };
 		E3000A292F3C308800A2A91D /* Clipped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipped.swift; sourceTree = "<group>"; };
+		E30E0FBA2F3ED6C6001A6E5C /* AlignmentGuideExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideExample2.swift; sourceTree = "<group>"; };
 		E30E9B872DA657AA00D80ADB /* ConfettiTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTransition.swift; sourceTree = "<group>"; };
 		E30E9B892DA68FEA00D80ADB /* CustomEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentExample.swift; sourceTree = "<group>"; };
 		E30E9B8B2DA76EB300D80ADB /* EnvironmentCustomValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCustomValue.swift; sourceTree = "<group>"; };
@@ -775,6 +777,7 @@
 				8A48FFBE2BC3924000DCBD3E /* AlignmentView.swift */,
 				8AC163EE2D6EF22300330EC9 /* AlignmentView2.swift */,
 				8A21FF292CF5CFEF00E23806 /* AlignmentGuideExample.swift */,
+				E30E0FBA2F3ED6C6001A6E5C /* AlignmentGuideExample2.swift */,
 				8A486A3F2D15712D00A50037 /* CustomAlignmentGuide.swift */,
 				8A48FFC02BC3C6E700DCBD3E /* CustomAlignmentView.swift */,
 				8AE4C4FB2D23FBED00896872 /* MatchedGeometryEffect.swift */,
@@ -1847,6 +1850,7 @@
 				8ADF4EEF2D445DAE009B5A7D /* Performance.swift in Sources */,
 				8A48FFCD2BC402BD00DCBD3E /* GeometryReaderView5.swift in Sources */,
 				8AD26C752BB3D4C100A5FAD5 /* DecimalView.swift in Sources */,
+				E30E0FBB2F3ED6D1001A6E5C /* AlignmentGuideExample2.swift in Sources */,
 				8AC80B1C2CE4D91C000317A3 /* AnimatablePairView.swift in Sources */,
 				8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
