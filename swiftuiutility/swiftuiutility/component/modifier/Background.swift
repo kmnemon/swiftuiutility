@@ -18,7 +18,7 @@ struct Background: View {
 }
 
 extension View {
-    func highlight(enabled: Bool = true) -> some View {
+    func highlight1(enabled: Bool = true) -> some View {
         background {
             if enabled {
                 Color.orange
