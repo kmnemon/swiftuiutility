@@ -85,7 +85,7 @@
 		8A5B3BF62D1F89EE002C6A28 /* PhaseBasedAnimators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF52D1F89D9002C6A28 /* PhaseBasedAnimators.swift */; };
 		8A5B3BF82D21F5FC002C6A28 /* KeyframeBasedAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF72D21F5E7002C6A28 /* KeyframeBasedAnimations.swift */; };
 		8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */; };
-		8A5B3BFC2D234A39002C6A28 /* GeometryReaderView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */; };
+		8A5B3BFC2D234A39002C6A28 /* GeometryReaderViewWithAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFB2D234A36002C6A28 /* GeometryReaderViewWithAncestor.swift */; };
 		8A5B3BFE2D2351C2002C6A28 /* GeometryReaderWithPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */; };
 		8A5B3C002D236349002C6A28 /* FlowLayoutWithGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */; };
 		8A71AE1E2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */; };
@@ -426,7 +426,7 @@
 		8A5B3BF52D1F89D9002C6A28 /* PhaseBasedAnimators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseBasedAnimators.swift; sourceTree = "<group>"; };
 		8A5B3BF72D21F5E7002C6A28 /* KeyframeBasedAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeBasedAnimations.swift; sourceTree = "<group>"; };
 		8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView6.swift; sourceTree = "<group>"; };
-		8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView7.swift; sourceTree = "<group>"; };
+		8A5B3BFB2D234A36002C6A28 /* GeometryReaderViewWithAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderViewWithAncestor.swift; sourceTree = "<group>"; };
 		8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderWithPreferences.swift; sourceTree = "<group>"; };
 		8A5B3BFF2D236322002C6A28 /* FlowLayoutWithGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutWithGeometryReader.swift; sourceTree = "<group>"; };
 		8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackCustomizeView.swift; sourceTree = "<group>"; };
@@ -898,7 +898,7 @@
 				8A48FFCA2BC3FFC200DCBD3E /* GeometryReaderView4.swift */,
 				8A48FFCC2BC402BD00DCBD3E /* GeometryReaderView5.swift */,
 				8A5B3BF92D2345E5002C6A28 /* GeometryReaderView6.swift */,
-				8A5B3BFB2D234A36002C6A28 /* GeometryReaderView7.swift */,
+				8A5B3BFB2D234A36002C6A28 /* GeometryReaderViewWithAncestor.swift */,
 				8A5B3BFD2D2351AB002C6A28 /* GeometryReaderWithPreferences.swift */,
 				8AE4C4F92D23D47300896872 /* GeometryReaderWithAnchor.swift */,
 				8A83E8232D9E30DE000D08BF /* GeometryReaderDetail.swift */,
@@ -1715,7 +1715,7 @@
 				8ADF4E632D38734D009B5A7D /* TaskModifierDetail.swift in Sources */,
 				8ABC07892D1D832F00EA8AA2 /* TimeCurve.swift in Sources */,
 				8ADD2A7E2D43440000AA5087 /* WithWidget.swift in Sources */,
-				8A5B3BFC2D234A39002C6A28 /* GeometryReaderView7.swift in Sources */,
+				8A5B3BFC2D234A39002C6A28 /* GeometryReaderViewWithAncestor.swift in Sources */,
 				8ABDC0D12D0D9D0700012C01 /* LazyStackView.swift in Sources */,
 				8AD26C802BB4360700A5FAD5 /* SwiftDataView.swift in Sources */,
 				8ABA907E2BB699BE00D41B7A /* EditBookContentView.swift in Sources */,

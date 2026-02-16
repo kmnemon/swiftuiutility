@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//example 1:
 struct AlignmentGuideExample2: View {
     var body: some View {
         let image = Image(systemName: "pencil.circle.fill")
@@ -24,4 +25,25 @@ struct AlignmentGuideExample2: View {
                 .border(.blue)
         }
     }
+}
+
+//example2:
+struct AlignmentGuideExample3: View {
+    var body: some View {
+        let image = Image(systemName: "pencil.circle.fill")
+            .alignmentGuide(.top, computeValue: {
+                $0[VerticalAlignment.bottom]
+            })
+        
+        HStack(alignment: .top) {
+            Text("Large")
+                    .font(.largeTitle)
+                    .border(.red)
+            image
+                .border(.white)
+            Text("Pencil")
+                .border(.blue)
+        }
+    }
+    
 }
