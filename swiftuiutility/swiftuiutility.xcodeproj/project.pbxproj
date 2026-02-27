@@ -318,6 +318,8 @@
 		E30E9B922DA79DC400D80ADB /* PreferencesValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */; };
 		E30E9B942DA7B0C100D80ADB /* AnchorPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */; };
 		E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */; };
+		E32C16352F5136D800B64EFE /* LabeledContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C16342F5136D000B64EFE /* LabeledContentView.swift */; };
+		E32C163D2F513B0900B64EFE /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C163C2F513B0700B64EFE /* LinkView.swift */; };
 		E33772D02DEFBFB40039A10C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33772CF2DEFBFA80039A10C /* SplitView.swift */; };
 		E33B49682E6D556B009F3FD3 /* SwiftDataIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */; };
 		E3DD9EE82F3CE4DC0047A650 /* LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */; };
@@ -662,6 +664,8 @@
 		E30E9B912DA79DA700D80ADB /* PreferencesValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesValue.swift; sourceTree = "<group>"; };
 		E30E9B932DA7B0A000D80ADB /* AnchorPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreference.swift; sourceTree = "<group>"; };
 		E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample.swift; sourceTree = "<group>"; };
+		E32C16342F5136D000B64EFE /* LabeledContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentView.swift; sourceTree = "<group>"; };
+		E32C163C2F513B0700B64EFE /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		E33772CF2DEFBFA80039A10C /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 		E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataIndex.swift; sourceTree = "<group>"; };
 		E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriority.swift; sourceTree = "<group>"; };
@@ -1156,8 +1160,10 @@
 				8A9D36FC2C8B595D00D56018 /* DividerView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
 				8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */,
+				E32C16342F5136D000B64EFE /* LabeledContentView.swift */,
 				8ACEF4DC2B9938140028AA58 /* ListView.swift */,
 				8AAE14852BC20D1E009FA593 /* ListViewWithSelection.swift */,
+				E32C163C2F513B0700B64EFE /* LinkView.swift */,
 				8ABBE4492BB9209800D53F43 /* MenuView.swift */,
 				8ACEF4E22B99464F0028AA58 /* NavigationStackView.swift */,
 				8A71AE1D2BA9D7D10076BE49 /* NavigationStackCustomizeView.swift */,
@@ -1689,6 +1695,7 @@
 				8ADD2A662D4227EC00AA5087 /* Merge.swift in Sources */,
 				8A5AC0E82CEAEC5B003CBC1A /* PrintView.swift in Sources */,
 				8ADF4EFA2D44716E009B5A7D /* ReadContentsInSqlite3.swift in Sources */,
+				E32C16352F5136D800B64EFE /* LabeledContentView.swift in Sources */,
 				8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */,
 				8A5AC0642CE3686E003CBC1A /* EnvironmentObject.swift in Sources */,
 				8AC7C05F2DD0FD32003391BE /* SectionHeaderExample.swift in Sources */,
@@ -1754,6 +1761,7 @@
 				8ADD2A5A2D408BE500AA5087 /* Filter.swift in Sources */,
 				8ADF4E802D3BFB58009B5A7D /* Sight.swift in Sources */,
 				8ADF4E812D3BFB58009B5A7D /* EditDestinationView.swift in Sources */,
+				E32C163D2F513B0900B64EFE /* LinkView.swift in Sources */,
 				E3DD9EE82F3CE4DC0047A650 /* LayoutPriority.swift in Sources */,
 				8ADF4E822D3BFB58009B5A7D /* Destination.swift in Sources */,
 				8ADF4E832D3BFB58009B5A7D /* iTourApp.swift in Sources */,

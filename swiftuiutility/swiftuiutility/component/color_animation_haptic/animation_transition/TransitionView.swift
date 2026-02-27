@@ -83,5 +83,15 @@ struct TransitionView: View {
                 .transition(.move(edge: .trailing))
         }
         
+        if flag {
+            rect
+                .frame(width: 200, height: 100)
+                .transition(
+                    AsymmetricTransition(insertion: .slide, removal: .scale) //iOS 17 new API
+//                    .asymmetric(insertion: .slide, removal: .scale) //before iOS 17
+                    .combined(with: .opacity)
+                )
+        }
+        
     }
 }
