@@ -6,7 +6,18 @@
 //
 
 import SwiftUI
-
+/*
+ Under the hood, both implicit and explicit animations use the same construct:
+ transactions. Each view update (triggered by a state change) is wrapped in a
+ transaction, which carries the information about the animation to be applied. By
+ default, a transaction’s animation is nil.
+ 
+ Animation completion handlers are part of the transaction as well, and they’re
+ available as of iOS 17. We can set completion handlers directly when using the explicit
+ withAnimation API, or we can add them to a transaction
+ using .addAnimationCompletion within the closure of a .transaction modifier.
+ Generally, these work as expected, but let’s look at some cases that aren’t entire
+ */
 struct AnimationAndTransaction: View {
     @State private var flag: Bool = false
     
@@ -22,7 +33,7 @@ struct AnimationAndTransaction: View {
         Rectangle()
             .frame(width: flag ? 100 : 50, height: 50)
             .onTapGesture {
-                var t = Transaction(animation: .default)
+                let t = Transaction(animation: .default)
                 withTransaction(t) { flag.toggle() }
             }
         

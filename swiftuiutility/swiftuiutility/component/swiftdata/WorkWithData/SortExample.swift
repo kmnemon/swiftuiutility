@@ -79,7 +79,7 @@ struct SortExample {
     
     //5.FetchDescriptor
     func fetchDescriptorWithSort() {
-        var descriptor = FetchDescriptor<Movie>(sortBy: [SortDescriptor(\.name)])
+        let descriptor = FetchDescriptor<Movie>(sortBy: [SortDescriptor(\.name)])
         let results = (try? modelContext.fetch(descriptor)) ?? []
     }
     
