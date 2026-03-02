@@ -395,9 +395,6 @@ struct ContentView: View {
                         NavigationLink("BindableView"){
                             BindableView1()
                         }
-                        NavigationLink("EnvironmentView"){
-                            EnvironmentObject()
-                        }
                         NavigationLink("ClassView"){
                             ClassView()
                         }

@@ -320,8 +320,11 @@
 		E30E9B962DA7D6ED00D80ADB /* AnyLayoutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */; };
 		E32C16352F5136D800B64EFE /* LabeledContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C16342F5136D000B64EFE /* LabeledContentView.swift */; };
 		E32C163D2F513B0900B64EFE /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C163C2F513B0700B64EFE /* LinkView.swift */; };
+		E32C163F2F5171A000B64EFE /* ListRowSeparatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C163E2F51719000B64EFE /* ListRowSeparatorModifier.swift */; };
+		E32C16412F51787100B64EFE /* HeaderProminenceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C16402F51786000B64EFE /* HeaderProminenceModifier.swift */; };
 		E33772D02DEFBFB40039A10C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33772CF2DEFBFA80039A10C /* SplitView.swift */; };
 		E33B49682E6D556B009F3FD3 /* SwiftDataIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */; };
+		E3BF15932F5528210004F49E /* SymbolVariantModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */; };
 		E3DD9EE82F3CE4DC0047A650 /* LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */; };
 		E3EE43A02DA8ACBA00F9F571 /* LayoutProtocolRadial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */; };
 		E3EE43A32DA941E500F9F571 /* DebounceWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */; };
@@ -666,8 +669,11 @@
 		E30E9B952DA7D6E400D80ADB /* AnyLayoutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample.swift; sourceTree = "<group>"; };
 		E32C16342F5136D000B64EFE /* LabeledContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentView.swift; sourceTree = "<group>"; };
 		E32C163C2F513B0700B64EFE /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		E32C163E2F51719000B64EFE /* ListRowSeparatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowSeparatorModifier.swift; sourceTree = "<group>"; };
+		E32C16402F51786000B64EFE /* HeaderProminenceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProminenceModifier.swift; sourceTree = "<group>"; };
 		E33772CF2DEFBFA80039A10C /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 		E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataIndex.swift; sourceTree = "<group>"; };
+		E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariantModifier.swift; sourceTree = "<group>"; };
 		E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriority.swift; sourceTree = "<group>"; };
 		E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolRadial.swift; sourceTree = "<group>"; };
 		E3EE43A22DA9418D00F9F571 /* DebounceWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceWithCombine.swift; sourceTree = "<group>"; };
@@ -1223,10 +1229,12 @@
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
 				E3000A212F3C277700A2A91D /* Frame.swift */,
 				E3000A272F3C300A00A2A91D /* FixedSize.swift */,
+				E32C16402F51786000B64EFE /* HeaderProminenceModifier.swift */,
 				8ABC078C2D1EEC3100EA8AA2 /* IDModifier.swift */,
 				8AA210B12D84277700397E0D /* IndexModifier.swift */,
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
 				E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */,
+				E32C163E2F51719000B64EFE /* ListRowSeparatorModifier.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
 				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
@@ -1238,6 +1246,7 @@
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
 				8A3930092BC4C579002E4819 /* SheetOptionalModifier.swift */,
 				8AAE148F2BC21F57009FA593 /* SwipeActionsModifier.swift */,
+				E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */,
 				8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */,
 				8ADF4E602D3872DF009B5A7D /* TaskModifierWithIdentifyingValue.swift */,
 				8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */,
@@ -1773,6 +1782,7 @@
 				8AD26C792BB410C500A5FAD5 /* BindingView.swift in Sources */,
 				8A56836C2BBF94B800A88B07 /* MapKitMarkerView.swift in Sources */,
 				8AAE14952BC28DCA009FA593 /* ToolbarItemView.swift in Sources */,
+				E32C163F2F5171A000B64EFE /* ListRowSeparatorModifier.swift in Sources */,
 				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8ADF4EBD2D43B699009B5A7D /* WithConcurrency.swift in Sources */,
 				8A5B3BF82D21F5FC002C6A28 /* KeyframeBasedAnimations.swift in Sources */,
@@ -1852,6 +1862,7 @@
 				8A0C81342BA9A6C000B049A0 /* NavigationStackPathStoreView.swift in Sources */,
 				8A56835D2BBEA1B600A88B07 /* RequestReviewView.swift in Sources */,
 				8AA210BC2D8D108400397E0D /* OverrideAnimation.swift in Sources */,
+				E32C16412F51787100B64EFE /* HeaderProminenceModifier.swift in Sources */,
 				8ACEF4DD2B9938150028AA58 /* ListView.swift in Sources */,
 				8A37BE272B9D4D180006E1D1 /* RandomStruct.swift in Sources */,
 				8AE4C4FE2D23FC5C00896872 /* MatchedGeometryEffectWithTransition.swift in Sources */,
@@ -1890,6 +1901,7 @@
 				8A5AC0842CE44C42003CBC1A /* ShapeProtocalView.swift in Sources */,
 				8AAB088B2BA43DC80039A3FE /* DragGestureView.swift in Sources */,
 				8AC6E0A32BB47371000BA606 /* ToolbarModifier.swift in Sources */,
+				E3BF15932F5528210004F49E /* SymbolVariantModifier.swift in Sources */,
 				8AAB08682B9EE9EA0039A3FE /* ForEachView.swift in Sources */,
 				8A0C812A2BA7D74A00B049A0 /* ColorThemeView.swift in Sources */,
 				8ABE515D2D1A60CF006362FE /* CustomComponentStyles.swift in Sources */,
@@ -2076,11 +2088,12 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2117,11 +2130,12 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ke.swiftuiutility;
 				PRODUCT_NAME = "$(TARGET_NAME)";

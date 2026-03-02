@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Person {
+struct PersonHoney {
     let name: String
     let image: String
     var color: Color = .accentColor
@@ -16,39 +16,39 @@ struct Person {
 
 @Observable
 class DataModel {
-    static let people: [Person] = [
-        Person(name: "Peter", image: "tony-1"),
-        Person(name: "Carlos", image: "tony-2"),
-        Person(name: "Jennifer", image: "tony-3"),
-        Person(name: "Paul", image: "tony-4"),
-        Person(name: "Charlotte", image: "tony-5"),
-        Person(name: "Thomas", image: "tony-6"),
-        Person(name: "Sophia", image: "tony-7"),
-        Person(name: "Isabella", image: "tony-1"),
-        Person(name: "Ivan", image: "tony-2"),
-        Person(name: "Laura", image: "tony-3"),
-        Person(name: "Scott", image: "tony-4"),
-        Person(name: "Henry", image: "tony-5"),
-        Person(name: "Laura", image: "tony-6"),
-        Person(name: "Abigail", image: "tony-7"),
-        Person(name: "James", image: "tony-1"),
-        Person(name: "Amelia", image: "tony-2"),
+    static let people: [PersonHoney] = [
+        PersonHoney(name: "Peter", image: "tony-1"),
+        PersonHoney(name: "Carlos", image: "tony-2"),
+        PersonHoney(name: "Jennifer", image: "tony-3"),
+        PersonHoney(name: "Paul", image: "tony-4"),
+        PersonHoney(name: "Charlotte", image: "tony-5"),
+        PersonHoney(name: "Thomas", image: "tony-6"),
+        PersonHoney(name: "Sophia", image: "tony-7"),
+        PersonHoney(name: "Isabella", image: "tony-1"),
+        PersonHoney(name: "Ivan", image: "tony-2"),
+        PersonHoney(name: "Laura", image: "tony-3"),
+        PersonHoney(name: "Scott", image: "tony-4"),
+        PersonHoney(name: "Henry", image: "tony-5"),
+        PersonHoney(name: "Laura", image: "tony-6"),
+        PersonHoney(name: "Abigail", image: "tony-7"),
+        PersonHoney(name: "James", image: "tony-1"),
+        PersonHoney(name: "Amelia", image: "tony-2"),
     ]
     
     static let colors: [Color] = [.yellow, .orange, .red, .purple, .blue, .pink, .green, .indigo]
     
-    var rows: [[Person]] = DataModel.buildDemoCells()
+    var rows: [[PersonHoney]] = DataModel.buildDemoCells()
     
     var columns: Int { rows.first?.count ?? 0 }
     var colCount: CGFloat { CGFloat(columns) }
     var rowCount: CGFloat { CGFloat(rows.count) }
     
-    static func buildDemoCells() -> [[Person]] {
-        var array = [[Person]]()
+    static func buildDemoCells() -> [[PersonHoney]] {
+        var array = [[PersonHoney]]()
         
         // Add 15 rows
         for r in 0..<15 {
-            var a = [Person]()
+            var a = [PersonHoney]()
             
             // Add 6 cells per row
             for c in 0..<6 {
@@ -65,7 +65,7 @@ class DataModel {
     }
 }
 
-struct ContentView: View {
+struct HoneyCombContentView: View {
     @State private var model = DataModel()
     @State private var spacing: CGFloat = 8 // step #7: same spacing for vertical and horizontal inter cell spacing
     
@@ -118,7 +118,7 @@ struct ContentView: View {
 
 struct HoneyCombView: View, Animatable {
     // View parameters
-    var person: Person
+    var person: PersonHoney
     let width: CGFloat // we only provide the width, the view will calculate appropriate height
     var flip: Double // 0.0: shows full image, 0.5: flip is mid-way, 1.0: shows person name with color background
     
@@ -190,5 +190,5 @@ struct HoneyCombView: View, Animatable {
 }
 
 #Preview {
-    ContentView()
+    HoneyCombContentView()
 }
