@@ -333,6 +333,9 @@
 		E3EE43A92DA9526600F9F571 /* MultiplePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */; };
 		E3EE43AB2DA9636D00F9F571 /* PrintChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43AA2DA9636900F9F571 /* PrintChange.swift */; };
 		E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43B02DA96BA900F9F571 /* Assert.swift */; };
+		E3FBEA402F580D4600E9BA5B /* StrikethroughModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBEA3F2F580D3900E9BA5B /* StrikethroughModifier.swift */; };
+		E3FBEA582F581E3200E9BA5B /* TintModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBEA572F581E2A00E9BA5B /* TintModifier.swift */; };
+		E3FBEA5A2F581F2D00E9BA5B /* DatePickerStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBEA592F581F2300E9BA5B /* DatePickerStyleModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -682,6 +685,9 @@
 		E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePlatform.swift; sourceTree = "<group>"; };
 		E3EE43AA2DA9636900F9F571 /* PrintChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintChange.swift; sourceTree = "<group>"; };
 		E3EE43B02DA96BA900F9F571 /* Assert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assert.swift; sourceTree = "<group>"; };
+		E3FBEA3F2F580D3900E9BA5B /* StrikethroughModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikethroughModifier.swift; sourceTree = "<group>"; };
+		E3FBEA572F581E2A00E9BA5B /* TintModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintModifier.swift; sourceTree = "<group>"; };
+		E3FBEA592F581F2300E9BA5B /* DatePickerStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyleModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1225,6 +1231,7 @@
 				E3000A292F3C308800A2A91D /* Clipped.swift */,
 				8AAB08632B9E86FE0039A3FE /* CustomModifierView.swift */,
 				8AC80AFB2CDEE7BF000317A3 /* CustomModifierView2.swift */,
+				E3FBEA592F581F2300E9BA5B /* DatePickerStyleModifier.swift */,
 				8AD26C722BB3CFFB00A5FAD5 /* DisabledModifier.swift */,
 				8A41CAD92BEA600D00115EF6 /* FileImporterModifier.swift */,
 				E3000A212F3C277700A2A91D /* Frame.swift */,
@@ -1245,6 +1252,7 @@
 				8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */,
 				8AAB08922BA49F220039A3FE /* SheetModifier.swift */,
 				8A3930092BC4C579002E4819 /* SheetOptionalModifier.swift */,
+				E3FBEA3F2F580D3900E9BA5B /* StrikethroughModifier.swift */,
 				8AAE148F2BC21F57009FA593 /* SwipeActionsModifier.swift */,
 				E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */,
 				8ADF4E5E2D387238009B5A7D /* TaskModifier.swift */,
@@ -1252,6 +1260,7 @@
 				8ADF4E622D387346009B5A7D /* TaskModifierDetail.swift */,
 				8ABBE4472BB9116200D53F43 /* TagModifier.swift */,
 				8AC6E0A22BB47371000BA606 /* ToolbarModifier.swift */,
+				E3FBEA572F581E2A00E9BA5B /* TintModifier.swift */,
 			);
 			path = modifier;
 			sourceTree = "<group>";
@@ -1689,6 +1698,7 @@
 				8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */,
 				8ADD2A872D43888200AA5087 /* PreLoadJSON.swift in Sources */,
 				8AE4C4FC2D23FC0300896872 /* MatchedGeometryEffect.swift in Sources */,
+				E3FBEA582F581E3200E9BA5B /* TintModifier.swift in Sources */,
 				8ACFD9E42D718977008DA8E1 /* SixSizeValuesExample.swift in Sources */,
 				8A8A82D32D06BD9600D88043 /* BadgeView.swift in Sources */,
 				8AA210B22D84277F00397E0D /* IndexModifier.swift in Sources */,
@@ -1704,6 +1714,7 @@
 				8ADD2A662D4227EC00AA5087 /* Merge.swift in Sources */,
 				8A5AC0E82CEAEC5B003CBC1A /* PrintView.swift in Sources */,
 				8ADF4EFA2D44716E009B5A7D /* ReadContentsInSqlite3.swift in Sources */,
+				E3FBEA5A2F581F2D00E9BA5B /* DatePickerStyleModifier.swift in Sources */,
 				E32C16352F5136D800B64EFE /* LabeledContentView.swift in Sources */,
 				8A48FFBA2BC3459C00DCBD3E /* ScenePhaseView.swift in Sources */,
 				8A5AC0642CE3686E003CBC1A /* EnvironmentObject.swift in Sources */,
@@ -1783,6 +1794,7 @@
 				8A56836C2BBF94B800A88B07 /* MapKitMarkerView.swift in Sources */,
 				8AAE14952BC28DCA009FA593 /* ToolbarItemView.swift in Sources */,
 				E32C163F2F5171A000B64EFE /* ListRowSeparatorModifier.swift in Sources */,
+				E3FBEA402F580D4600E9BA5B /* StrikethroughModifier.swift in Sources */,
 				8AD26C6C2BB3CBAB00A5FAD5 /* Order.swift in Sources */,
 				8ADF4EBD2D43B699009B5A7D /* WithConcurrency.swift in Sources */,
 				8A5B3BF82D21F5FC002C6A28 /* KeyframeBasedAnimations.swift in Sources */,
