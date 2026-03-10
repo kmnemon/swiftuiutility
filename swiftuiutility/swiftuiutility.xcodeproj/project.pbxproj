@@ -324,6 +324,7 @@
 		E32C16412F51787100B64EFE /* HeaderProminenceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C16402F51786000B64EFE /* HeaderProminenceModifier.swift */; };
 		E33772D02DEFBFB40039A10C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33772CF2DEFBFA80039A10C /* SplitView.swift */; };
 		E33B49682E6D556B009F3FD3 /* SwiftDataIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */; };
+		E3B9CE8B2F5D89AA009E3A89 /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */; };
 		E3BF15932F5528210004F49E /* SymbolVariantModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */; };
 		E3DD9EE82F3CE4DC0047A650 /* LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */; };
 		E3EE43A02DA8ACBA00F9F571 /* LayoutProtocolRadial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */; };
@@ -676,6 +677,7 @@
 		E32C16402F51786000B64EFE /* HeaderProminenceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProminenceModifier.swift; sourceTree = "<group>"; };
 		E33772CF2DEFBFA80039A10C /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 		E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataIndex.swift; sourceTree = "<group>"; };
+		E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
 		E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariantModifier.swift; sourceTree = "<group>"; };
 		E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriority.swift; sourceTree = "<group>"; };
 		E3EE439F2DA8ACB200F9F571 /* LayoutProtocolRadial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProtocolRadial.swift; sourceTree = "<group>"; };
@@ -1171,6 +1173,7 @@
 				8AAB086F2B9F13EC0039A3FE /* DatePickerView.swift */,
 				8A9D36FC2C8B595D00D56018 /* DividerView.swift */,
 				8ACEF4E82B9994510028AA58 /* FormView.swift */,
+				E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */,
 				8A71E7092B9AFF0600772A31 /* KeyBoardView.swift */,
 				E32C16342F5136D000B64EFE /* LabeledContentView.swift */,
 				8ACEF4DC2B9938140028AA58 /* ListView.swift */,
@@ -1722,6 +1725,7 @@
 				8A37BE2A2B9DE8540006E1D1 /* ModifierView.swift in Sources */,
 				8ADD2A642D421BE300AA5087 /* Enumerate.swift in Sources */,
 				E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */,
+				E3B9CE8B2F5D89AA009E3A89 /* GroupBoxView.swift in Sources */,
 				8A0C812E2BA93A9600B049A0 /* NavigationDestinationView.swift in Sources */,
 				8AE4C4F82D23913F00896872 /* GeometryReaderPrint.swift in Sources */,
 				8ABBE4542BBE28A200D53F43 /* OnChangeModifier.swift in Sources */,
