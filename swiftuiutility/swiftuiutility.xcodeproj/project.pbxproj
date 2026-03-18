@@ -336,6 +336,7 @@
 		E3EE43A92DA9526600F9F571 /* MultiplePlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */; };
 		E3EE43AB2DA9636D00F9F571 /* PrintChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43AA2DA9636900F9F571 /* PrintChange.swift */; };
 		E3EE43B12DA96BAF00F9F571 /* Assert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE43B02DA96BA900F9F571 /* Assert.swift */; };
+		E3FB607C2F6932C00068501F /* ListRowBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB607B2F6932B60068501F /* ListRowBackgroundModifier.swift */; };
 		E3FBEA402F580D4600E9BA5B /* StrikethroughModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBEA3F2F580D3900E9BA5B /* StrikethroughModifier.swift */; };
 		E3FBEA582F581E3200E9BA5B /* TintModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBEA572F581E2A00E9BA5B /* TintModifier.swift */; };
 		E3FBEA5A2F581F2D00E9BA5B /* DatePickerStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBEA592F581F2300E9BA5B /* DatePickerStyleModifier.swift */; };
@@ -691,6 +692,7 @@
 		E3EE43A82DA9524E00F9F571 /* MultiplePlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePlatform.swift; sourceTree = "<group>"; };
 		E3EE43AA2DA9636900F9F571 /* PrintChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintChange.swift; sourceTree = "<group>"; };
 		E3EE43B02DA96BA900F9F571 /* Assert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assert.swift; sourceTree = "<group>"; };
+		E3FB607B2F6932B60068501F /* ListRowBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackgroundModifier.swift; sourceTree = "<group>"; };
 		E3FBEA3F2F580D3900E9BA5B /* StrikethroughModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikethroughModifier.swift; sourceTree = "<group>"; };
 		E3FBEA572F581E2A00E9BA5B /* TintModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintModifier.swift; sourceTree = "<group>"; };
 		E3FBEA592F581F2300E9BA5B /* DatePickerStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyleModifier.swift; sourceTree = "<group>"; };
@@ -1251,6 +1253,7 @@
 				8A4821BF2C8EAC5E003A1832 /* KeyboardModifier.swift */,
 				E3DD9EE72F3CE4CF0047A650 /* LayoutPriority.swift */,
 				E32C163E2F51719000B64EFE /* ListRowSeparatorModifier.swift */,
+				E3FB607B2F6932B60068501F /* ListRowBackgroundModifier.swift */,
 				8A37BE292B9DE8540006E1D1 /* ModifierView.swift */,
 				8AC80B012CDEF3AB000317A3 /* OnAppearModifier.swift */,
 				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
@@ -1850,6 +1853,7 @@
 				8AAB086A2B9F0CEC0039A3FE /* CustomBindingView.swift in Sources */,
 				8ADD2A712D424F2700AA5087 /* ComplexMigration.swift in Sources */,
 				8AB631F62CFC1B28007E8541 /* LayoutDiagnose.swift in Sources */,
+				E3FB607C2F6932C00068501F /* ListRowBackgroundModifier.swift in Sources */,
 				8AAE148E2BC21CFE009FA593 /* ContextMenuModifier.swift in Sources */,
 				8ABC07912D1F6AF800EA8AA2 /* CombinedTransition.swift in Sources */,
 				8AAB088F2BA445990039A3FE /* CustomTransitionView.swift in Sources */,
