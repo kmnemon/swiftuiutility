@@ -332,6 +332,7 @@
 		E35FE0712F6F05560052FAA7 /* BooksOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0642F6F05560052FAA7 /* BooksOO.swift */; };
 		E35FE0722F6F05560052FAA7 /* MaintainabilityViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE06B2F6F05560052FAA7 /* MaintainabilityViewBuilder.swift */; };
 		E35FE0732F6F05560052FAA7 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0632F6F05560052FAA7 /* BooksView.swift */; };
+		E35FE0832F6F06070052FAA7 /* OnSubmitModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0822F6F05F90052FAA7 /* OnSubmitModifier.swift */; };
 		E3B9CE8B2F5D89AA009E3A89 /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */; };
 		E3BC78EA2F644DBE00EEDEFE /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC78E92F644DB700EEDEFE /* LabelView.swift */; };
 		E3BF15932F5528210004F49E /* SymbolVariantModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */; };
@@ -695,6 +696,7 @@
 		E35FE0682F6F05560052FAA7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E35FE06A2F6F05560052FAA7 /* Maintainability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintainability.swift; sourceTree = "<group>"; };
 		E35FE06B2F6F05560052FAA7 /* MaintainabilityViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintainabilityViewBuilder.swift; sourceTree = "<group>"; };
+		E35FE0822F6F05F90052FAA7 /* OnSubmitModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmitModifier.swift; sourceTree = "<group>"; };
 		E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
 		E3BC78E92F644DB700EEDEFE /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariantModifier.swift; sourceTree = "<group>"; };
@@ -1274,6 +1276,7 @@
 				8A21FF272CEECDDD00E23806 /* OnDisappearModifier.swift */,
 				8ABBE4532BBE28A200D53F43 /* OnChangeModifier.swift */,
 				8AC80B122CE37CE1000317A3 /* OnDeleteModifier.swift */,
+				E35FE0822F6F05F90052FAA7 /* OnSubmitModifier.swift */,
 				E3000A252F3C2DEE00A2A91D /* Overlay.swift */,
 				8A5AC0582CE352EA003CBC1A /* PresentationDetentsModifier.swift */,
 				8A88DED62BC60C5100C792C5 /* SearchableModifier.swift */,
@@ -1668,6 +1671,7 @@
 				8A8A82D72D06BF6500D88043 /* StackDetailsView.swift in Sources */,
 				8AAE14862BC20D1E009FA593 /* ListViewWithSelection.swift in Sources */,
 				8ACEF4E72B997EEF0028AA58 /* GridItemAndLazyVGridView.swift in Sources */,
+				E35FE0832F6F06070052FAA7 /* OnSubmitModifier.swift in Sources */,
 				8AFFF2512D3E29640083F276 /* ModelExample.swift in Sources */,
 				8A8A82D92D06C09000D88043 /* LayoutPriorityModifier.swift in Sources */,
 				8A88DED52BC6066800C792C5 /* GroupView.swift in Sources */,
