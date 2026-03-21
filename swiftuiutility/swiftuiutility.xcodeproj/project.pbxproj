@@ -325,6 +325,13 @@
 		E332414D2F6847F3004E8037 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332414C2F6847F2004E8037 /* OutlineGroupView.swift */; };
 		E33772D02DEFBFB40039A10C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33772CF2DEFBFA80039A10C /* SplitView.swift */; };
 		E33B49682E6D556B009F3FD3 /* SwiftDataIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */; };
+		E35FE06D2F6F05560052FAA7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0682F6F05560052FAA7 /* CardView.swift */; };
+		E35FE06E2F6F05560052FAA7 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0672F6F05560052FAA7 /* BookRowView.swift */; };
+		E35FE06F2F6F05560052FAA7 /* Maintainability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE06A2F6F05560052FAA7 /* Maintainability.swift */; };
+		E35FE0702F6F05560052FAA7 /* BooksDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0652F6F05560052FAA7 /* BooksDO.swift */; };
+		E35FE0712F6F05560052FAA7 /* BooksOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0642F6F05560052FAA7 /* BooksOO.swift */; };
+		E35FE0722F6F05560052FAA7 /* MaintainabilityViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE06B2F6F05560052FAA7 /* MaintainabilityViewBuilder.swift */; };
+		E35FE0732F6F05560052FAA7 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FE0632F6F05560052FAA7 /* BooksView.swift */; };
 		E3B9CE8B2F5D89AA009E3A89 /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */; };
 		E3BC78EA2F644DBE00EEDEFE /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC78E92F644DB700EEDEFE /* LabelView.swift */; };
 		E3BF15932F5528210004F49E /* SymbolVariantModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */; };
@@ -681,6 +688,13 @@
 		E332414C2F6847F2004E8037 /* OutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupView.swift; sourceTree = "<group>"; };
 		E33772CF2DEFBFA80039A10C /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
 		E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataIndex.swift; sourceTree = "<group>"; };
+		E35FE0632F6F05560052FAA7 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		E35FE0642F6F05560052FAA7 /* BooksOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksOO.swift; sourceTree = "<group>"; };
+		E35FE0652F6F05560052FAA7 /* BooksDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDO.swift; sourceTree = "<group>"; };
+		E35FE0672F6F05560052FAA7 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		E35FE0682F6F05560052FAA7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E35FE06A2F6F05560052FAA7 /* Maintainability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintainability.swift; sourceTree = "<group>"; };
+		E35FE06B2F6F05560052FAA7 /* MaintainabilityViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintainabilityViewBuilder.swift; sourceTree = "<group>"; };
 		E3B9CE8A2F5D89A5009E3A89 /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
 		E3BC78E92F644DB700EEDEFE /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		E3BF15922F5528150004F49E /* SymbolVariantModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolVariantModifier.swift; sourceTree = "<group>"; };
@@ -1145,6 +1159,7 @@
 		8ACEF4DB2B9937EB0028AA58 /* component */ = {
 			isa = PBXGroup;
 			children = (
+				E35FE0622F6F053B0052FAA7 /* architecture */,
 				8ACEF4F42B9A9E2E0028AA58 /* basic */,
 				8AD26C712BB3CFC900A5FAD5 /* modifier */,
 				8ABE51632D1BA29E006362FE /* style */,
@@ -1459,6 +1474,44 @@
 				E33B49672E6D5566009F3FD3 /* SwiftDataIndex.swift */,
 			);
 			path = Index;
+			sourceTree = "<group>";
+		};
+		E35FE0622F6F053B0052FAA7 /* architecture */ = {
+			isa = PBXGroup;
+			children = (
+				E35FE0662F6F05560052FAA7 /* VOODO */,
+				E35FE06C2F6F05560052FAA7 /* UIMaintainability */,
+			);
+			path = architecture;
+			sourceTree = "<group>";
+		};
+		E35FE0662F6F05560052FAA7 /* VOODO */ = {
+			isa = PBXGroup;
+			children = (
+				E35FE0632F6F05560052FAA7 /* BooksView.swift */,
+				E35FE0642F6F05560052FAA7 /* BooksOO.swift */,
+				E35FE0652F6F05560052FAA7 /* BooksDO.swift */,
+			);
+			path = VOODO;
+			sourceTree = "<group>";
+		};
+		E35FE0692F6F05560052FAA7 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				E35FE0672F6F05560052FAA7 /* BookRowView.swift */,
+				E35FE0682F6F05560052FAA7 /* CardView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		E35FE06C2F6F05560052FAA7 /* UIMaintainability */ = {
+			isa = PBXGroup;
+			children = (
+				E35FE0692F6F05560052FAA7 /* CommonViews */,
+				E35FE06A2F6F05560052FAA7 /* Maintainability.swift */,
+				E35FE06B2F6F05560052FAA7 /* MaintainabilityViewBuilder.swift */,
+			);
+			path = UIMaintainability;
 			sourceTree = "<group>";
 		};
 		E3EE43A12DA9417000F9F571 /* performance */ = {
@@ -1899,6 +1952,13 @@
 				E30E0FBB2F3ED6D1001A6E5C /* AlignmentGuideExample2.swift in Sources */,
 				8AC80B1C2CE4D91C000317A3 /* AnimatablePairView.swift in Sources */,
 				8A8A82D12D0143DD00D88043 /* AspectRatioModifier.swift in Sources */,
+				E35FE06D2F6F05560052FAA7 /* CardView.swift in Sources */,
+				E35FE06E2F6F05560052FAA7 /* BookRowView.swift in Sources */,
+				E35FE06F2F6F05560052FAA7 /* Maintainability.swift in Sources */,
+				E35FE0702F6F05560052FAA7 /* BooksDO.swift in Sources */,
+				E35FE0712F6F05560052FAA7 /* BooksOO.swift in Sources */,
+				E35FE0722F6F05560052FAA7 /* MaintainabilityViewBuilder.swift in Sources */,
+				E35FE0732F6F05560052FAA7 /* BooksView.swift in Sources */,
 				8AD26C732BB3CFFB00A5FAD5 /* DisabledModifier.swift in Sources */,
 				8A8A82CC2D005E5500D88043 /* PaddingModifier.swift in Sources */,
 				E3EE43A32DA941E500F9F571 /* DebounceWithCombine.swift in Sources */,

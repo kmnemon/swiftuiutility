@@ -25,6 +25,9 @@ struct UserDefaultsStruct: View {
     //3. Store Complex Object - using Json and userdefaults
     @State private var user = User(firstName: "ui", lastName: "swift")
     
+    //4. Store data when app is in memory
+    @SceneStorage("textInput") var textInput = "data in memory"
+    
     var body: some View {
         Button("Tap Count: \(tapCount)"){
             tapCount += 1
@@ -41,6 +44,8 @@ struct UserDefaultsStruct: View {
                 UserDefaults.standard.set(data, forKey: "UserData")
             }
         }
+        
+        TextEditor(text: $textInput)
     }
 }
 
