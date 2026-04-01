@@ -109,6 +109,7 @@
 		8A8A82DB2D06F31000D88043 /* ZStackDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A82DA2D06F30A00D88043 /* ZStackDetailsView.swift */; };
 		8A91DDE22CC85D7300F3BAB3 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */; };
 		8A91DDE42CC85F9600F3BAB3 /* UsingPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */; };
+		8A97F35C2F7D723200D41033 /* MatchdGeometryEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97F35B2F7D722200D41033 /* MatchdGeometryEffectModifier.swift */; };
 		8A9C5FA92CD89CFB000E8566 /* GenericFileReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */; };
 		8A9D36FD2C8B595D00D56018 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D36FC2C8B595D00D56018 /* DividerView.swift */; };
 		8AA210B02D8133FF00397E0D /* IdentityExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA210AF2D8133F600397E0D /* IdentityExample.swift */; };
@@ -470,6 +471,7 @@
 		8A8A82DA2D06F30A00D88043 /* ZStackDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackDetailsView.swift; sourceTree = "<group>"; };
 		8A91DDE12CC85D6D00F3BAB3 /* PushButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		8A91DDE32CC85F8F00F3BAB3 /* UsingPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingPushButton.swift; sourceTree = "<group>"; };
+		8A97F35B2F7D722200D41033 /* MatchdGeometryEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchdGeometryEffectModifier.swift; sourceTree = "<group>"; };
 		8A9C5FA82CD89CED000E8566 /* GenericFileReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFileReadWrite.swift; sourceTree = "<group>"; };
 		8A9D36FC2C8B595D00D56018 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		8AA210AF2D8133F600397E0D /* IdentityExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityExample.swift; sourceTree = "<group>"; };
@@ -920,8 +922,6 @@
 				8AAB08862BA4118D0039A3FE /* ExplicitAnimationView.swift */,
 				8A71E7102B9C6D4500772A31 /* GradientView.swift */,
 				8AD26C682BB3A22300A5FAD5 /* HapticEffects.swift */,
-				8AAB08822BA3EA070039A3FE /* ImplicitAnimationView.swift */,
-				8AAB08882BA4333C0039A3FE /* ImplicitAnimationView2.swift */,
 				8A5AC0512CE30431003CBC1A /* OpacityView.swift */,
 				8AAB088C2BA444030039A3FE /* ShowHideView.swift */,
 			);
@@ -1037,6 +1037,8 @@
 		8ABC07942D1F722700EA8AA2 /* animation_transition */ = {
 			isa = PBXGroup;
 			children = (
+				8AAB08822BA3EA070039A3FE /* ImplicitAnimationView.swift */,
+				8AAB08882BA4333C0039A3FE /* ImplicitAnimationView2.swift */,
 				8AE4C4EA2D1C125D00896872 /* ImplicitAndExplicitAnimation.swift */,
 				8ABC07882D1D832700EA8AA2 /* TimeCurve.swift */,
 				8ABC078A2D1D83AB00EA8AA2 /* AnimationAndTransaction.swift */,
@@ -1053,6 +1055,7 @@
 				8AA210B32D8440EC00397E0D /* Unanimatable.swift */,
 				8AA210B52D8828E600397E0D /* MakeViewAnimation.swift */,
 				8AA210B72D8917BE00397E0D /* CustomTimingCurve.swift */,
+				8A97F35B2F7D722200D41033 /* MatchdGeometryEffectModifier.swift */,
 			);
 			path = animation_transition;
 			sourceTree = "<group>";
@@ -1976,6 +1979,7 @@
 				8AC7C05D2DD0EE2D003391BE /* HoneycombExample.swift in Sources */,
 				8A5B3BFA2D2345FF002C6A28 /* GeometryReaderView6.swift in Sources */,
 				8A5683662BBF7C9300A88B07 /* MapKitView.swift in Sources */,
+				8A97F35C2F7D723200D41033 /* MatchdGeometryEffectModifier.swift in Sources */,
 				8AAB08602B9E845A0039A3FE /* PropertiesStruct.swift in Sources */,
 				8AFFF2562D3F39140083F276 /* NToN.swift in Sources */,
 				8ADF4EF82D4470E9009B5A7D /* DebugSwiftData.swift in Sources */,
