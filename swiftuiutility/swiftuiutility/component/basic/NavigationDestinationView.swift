@@ -23,15 +23,16 @@ struct NavigationDestinationView: View {
                     ForEach(0..<3){ i in
                         NavigationLink("Select Number: \(i)", value: i)
                     }
+                    
                     ForEach(0..<3){ i in
                         NavigationLink("Select String: \(i)", value: String(i))
                     }
-                    .navigationDestination(for: Int.self){ selection in
-                        Text("you selected \(selection)")
-                    }
-                    .navigationDestination(for: String.self){ selection in
-                        Text("you selected string \(selection)")
-                    }
+                }
+                .navigationDestination(for: Int.self){ selection in
+                    Text("you selected \(selection)")
+                }
+                .navigationDestination(for: String.self){ selection in
+                    Text("you selected string \(selection)")
                 }
             }
         }
